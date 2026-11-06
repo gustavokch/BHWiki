@@ -26,7 +26,7 @@ test("the timeline retains cited prose and requires elapsed semantics for a char
   const caffeine = substances.find((substance) => substance.slug === "caffeine")!;
   const fallback = renderToStaticMarkup(createElement(DurationTimeline, {
     accent: caffeine.accent,
-    kinetics: caffeine.kinetics,
+    kinetics: { ...caffeine.kinetics, timeline: undefined },
     citationFor: () => createElement("span", null, "source"),
   }));
   assert.match(fallback, /Oral caffeine is rapidly absorbed/);
@@ -52,6 +52,8 @@ test("the timeline retains cited prose and requires elapsed semantics for a char
   assert.match(timed, /Time basis not assessed/);
   assert.match(timed, /20–40 min/);
   assert.match(timed, /3–6 h/);
+  assert.match(timed, /Oral caffeine is rapidly absorbed/);
+  assert.doesNotMatch(timed, /Not established as a numeric timeline/);
 });
 
 test("a duration route must cite a reference on the article", () => {
