@@ -98,7 +98,10 @@ test('Reddit PK gaps omit unknown context instead of rendering placeholders',()=
 test('a measured outcome cannot masquerade as a subjective effect',()=>{const b=structuredClone(bundle);b.substances[0].effects[0].conceptId='attention';assert.throws(()=>validateContent(b),/must be a effect/);});
 test('roles cannot disappear from a contextual relationship',()=>{const b=structuredClone(bundle);delete b.hyperedges[0].memberRoles[b.hyperedges[0].members[0]];assert.throws(()=>validateContent(b),/role/);});
 test('caffeine smoking is a metabolic context and psilocin is the modeled analyte',()=>{
- const c=substances.find(s=>s.slug==='caffeine')!;assert.ok(c.modifiers.some(m=>m.factorType==='smoking'));assert.ok(c.doses.filter(d=>d.sourceId!=='psychonautwiki').every(d=>!/smok/i.test(d.route??'')));
+ const c=substances.find(s=>s.slug==='caffeine')!;assert.ok(c.modifiers.some(m=>m.factorType==='smoking'));
+ // PsychonautWiki lists smoking caffeine itself as a community-reported route; tobacco smoke stays a metabolic modifier.
+ assert.ok(c.doses.filter(d=>d.sourceCategory!=='community').every(d=>!/smok/i.test(d.route??'')));
+ assert.ok(c.doses.filter(d=>/smok/i.test(d.route??'')).every(d=>d.sourceId==='psychonautwiki'&&d.sourceCategory==='community'&&d.ingredient==='Caffeine'));
  const edge=hyperedges.find(h=>h.members.includes('tag:tobacco-smoke'))!;assert.ok(edge.members.includes('substance:caffeine'));assert.ok(edge.members.includes('tag:cyp1a2'));
  const p=substances.find(s=>s.slug==='psilocybin')!;const pk=p.pkObservations.find(o=>o.id===p.halfLife.observationId)!;assert.match(pk.analyte,/psilocin/i);assert.equal(pk.statistic,'reported-range');
 });

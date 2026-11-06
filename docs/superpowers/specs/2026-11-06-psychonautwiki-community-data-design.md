@@ -117,6 +117,7 @@ No database migration: article documents are JSONB, timelines live in the docume
 
 - The importer does not add PsychonautWiki links. The approved design added one when absent. Dropping it keeps invariant 1 exact (stripping restores the original record), which lets the launch-collection hash guard stay meaningful; same-substance articles still link the page through their `psychonautwiki` reference. The crosswalk's `link-only` relation became `preparation`.
 - The `DurationTimeline` change was discovered while mapping data and is required to avoid hiding research timing.
+- PsychonautWiki lists a smoked route for caffeine itself. It is imported as community records; the caffeine regression test now requires that only PsychonautWiki community records use a smoke route, and tobacco smoke remains a metabolic modifier, never a caffeine route.
 
 ## Out of scope
 
