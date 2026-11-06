@@ -6,7 +6,7 @@ import { formatSpan, elapsedPhases } from "../src/lib/duration";
 import { DurationTimeline } from "../src/components/duration-timeline";
 import { validateSubstance } from "../src/lib/validate-content";
 import { substances } from "../src/lib/content";
-import type { DurationPhase, Substance } from "../src/lib/types";
+import type { DurationPhase, DurationRoute, Substance } from "../src/lib/types";
 
 const phases: DurationPhase[] = [
   { name: "onset", min: 20, max: 40, unit: "minutes" },
@@ -65,4 +65,28 @@ test("a duration route must cite a reference on the article", () => {
     phases: [],
   }];
   assert.throws(() => validateSubstance(article), /unknown source/);
+});
+
+test("sub-minute phases keep seconds and convert only for elapsed positions", () => {
+  assert.equal(formatSpan({ min: 5, max: 20, unit: "seconds" }), "5–20 s");
+  const route: DurationRoute = {
+    route: "Smoked",
+    population: "Fixture",
+    sourceId: "source",
+    note: "Fixture",
+    total: null,
+    phases: [
+      { name: "onset", basis: "elapsed-since-exposure", min: 30, max: 90, unit: "seconds" },
+      { name: "peak", basis: "elapsed-since-exposure", min: 5, max: 10, unit: "minutes" },
+    ],
+  };
+  assert.deepEqual(elapsedPhases(route), [
+    { name: "onset", min: 0.5, max: 1.5 },
+    { name: "peak", min: 5, max: 10 },
+  ]);
+  const article = structuredClone(substances[0]) as Substance;
+  article.kinetics.timeline = [{ ...route, sourceId: article.references[0].id }];
+  validateSubstance(article);
+  article.kinetics.timeline![0].phases[0].unit = "days" as never;
+  assert.throws(() => validateSubstance(article), /unit: invalid category/);
 });
