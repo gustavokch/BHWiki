@@ -3,19 +3,19 @@ slug: choline-bitartrate
 name: Choline bitartrate
 subtitle: Water-soluble choline/L-tartrate salt studied as a nutrient supplement.
 aliases:
-- Choline tartrate
-- Choline hydrogen tartrate
-- Choline bitartrate, anhydrous
-- (2-Hydroxyethyl)trimethylammonium-L-(+)-tartrate salt (1:1)
+  - Choline tartrate
+  - Choline hydrogen tartrate
+  - Choline bitartrate, anhydrous
+  - (2-Hydroxyethyl)trimethylammonium-L-(+)-tartrate salt (1:1)
 formula: C9H19NO7
 molecularWeight: 253.25 g/mol
 pubchemCid: 6900
 smiles: C[N+](C)(C)CCO.[C@@H]([C@H](C(=O)[O-])O)(C(=O)O)O
 category: Nootropic
 tags:
-- nootropic-research
-- choline-precursor
-accent: '#a9b993'
+  - nootropic-research
+  - choline-precursor
+accent: "#a9b993"
 reviewedAt: 2026-10-10
 editorialStatus: sourced-draft
 halfLife:
@@ -33,37 +33,37 @@ kinetics:
   metabolism: Released choline can enter phosphatidylcholine and acetylcholine pathways, be oxidized to betaine, or undergo gut-microbial conversion to trimethylamine followed by hepatic oxidation to trimethylamine N-oxide.
   sourceId: boeckmann-2022
 x-shape:
-- slug
-- name
-- subtitle
-- summary
-- description
-- aliases
-- formula
-- molecularWeight
-- pubchemCid
-- smiles
-- category
-- tags
-- accent
-- evidenceNote
-- reviewedAt
-- editorialStatus
-- halfLife
-- pkObservations
-- kinetics
-- modifiers
-- doses
-- effects
-- outcomes
-- claims
-- mechanisms
-- cautions
-- interactions
-- experienceLinks
-- references
-- legal
-- externalWikiLinks
+  - slug
+  - name
+  - subtitle
+  - summary
+  - description
+  - aliases
+  - formula
+  - molecularWeight
+  - pubchemCid
+  - smiles
+  - category
+  - tags
+  - accent
+  - evidenceNote
+  - reviewedAt
+  - editorialStatus
+  - halfLife
+  - pkObservations
+  - kinetics
+  - modifiers
+  - doses
+  - effects
+  - outcomes
+  - claims
+  - mechanisms
+  - cautions
+  - interactions
+  - experienceLinks
+  - references
+  - legal
+  - externalWikiLinks
 x-order: 162
 ---
 
@@ -173,6 +173,81 @@ Reddit index corpus import (2 linked source records; 1 PubMed abstract and 1 non
   sourceCategory: research
   note: Dose extracted from the PubMed abstract; verify the full text for formulation and protocol details.
   sourceId: reddit-pmid-27341028
+- label: Threshold dose
+  amount: 50 mg
+  quantity: 50
+  quantityMax: null
+  unit: mg
+  ingredient: Choline bitartrate
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 100–250 mg
+  quantity: 100
+  quantityMax: 250
+  unit: mg
+  ingredient: Choline bitartrate
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 250–1000 mg
+  quantity: 250
+  quantityMax: 1000
+  unit: mg
+  ingredient: Choline bitartrate
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 1000–2000 mg
+  quantity: 1000
+  quantityMax: 2000
+  unit: mg
+  ingredient: Choline bitartrate
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (2000 mg and above)
+  amount: 2000 mg and above
+  quantity: 2000
+  quantityMax: null
+  unit: mg
+  ingredient: Choline bitartrate
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -252,11 +327,11 @@ Reddit index corpus import (2 linked source records; 1 PubMed abstract and 1 non
     max: 6
     unit: hours
   phases:
-  - name: peak
-    basis: elapsed-since-exposure
-    min: 1
-    max: 1
-    unit: hours
+    - name: peak
+      basis: elapsed-since-exposure
+      min: 1
+      max: 1
+      unit: hours
 - id: boeckmann-2022-plasma-window
   formulation: 1336 mg choline bitartrate supplying 550 mg choline
   measurement: plasma
@@ -270,6 +345,42 @@ Reddit index corpus import (2 linked source records; 1 PubMed abstract and 1 non
     max: 24
     unit: hours
   phases: []
+- id: psychonautwiki-oral
+  measurement: subjective
+  route: Oral
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 4
+    max: 8
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 45
+      max: 75
+      unit: minutes
+    - name: comeup
+      basis: phase-duration
+      min: 15
+      max: 30
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 2
+      max: 4
+      unit: hours
+    - name: offset
+      basis: phase-duration
+      min: 1
+      max: 2
+      unit: hours
+    - name: after-effects
+      basis: phase-duration
+      min: 2
+      max: 8
+      unit: hours
 ```
 
 ## Modifiers
@@ -294,7 +405,7 @@ Reddit index corpus import (2 linked source records; 1 PubMed abstract and 1 non
   magnitude: More central hits with slower responses
   reportType: measured-assessment
   conflictingSourceIds:
-  - lippelt-2016
+    - lippelt-2016
 ```
 
 ## Outcomes
@@ -306,7 +417,7 @@ Reddit index corpus import (2 linked source records; 1 PubMed abstract and 1 non
     design: Three double-blind placebo-controlled crossover experiments
     sampleSize: 56
     populationLabels:
-    - Healthy young adults
+      - Healthy young adults
     comparator: Placebo
     route: Oral
     formulation: Choline bitartrate
@@ -323,7 +434,7 @@ Reddit index corpus import (2 linked source records; 1 PubMed abstract and 1 non
   magnitude: No reliable between-condition benefit
   reportType: measured-assessment
   conflictingSourceIds:
-  - naber-2015
+    - naber-2015
 - id: choline-bitartrate-exercise-fatigue
   conceptId: exercise
   name: Cycling work and fatigue time
@@ -350,7 +461,7 @@ Reddit index corpus import (2 linked source records; 1 PubMed abstract and 1 non
   magnitude: Approximately threefold six-hour AUC versus control in the reported comparison
   reportType: measured-assessment
   conflictingSourceIds:
-  - laskaridou-2026
+    - laskaridou-2026
 - id: choline-bitartrate-fasd-memory
   conceptId: episodic-memory
   name: Short-delay sequential memory in FASD
@@ -414,13 +525,13 @@ Reddit index corpus import (2 linked source records; 1 PubMed abstract and 1 non
   assertion: Acute 2.0–2.5 g choline bitartrate did not improve the tested visuospatial, declarative, or verbal memory outcomes in healthy young adults.
   relation: did-not-improve
   participants:
-  - entityId: substance:choline-bitartrate
-    role: intervention
-  - entityId: tag:cognitive-task-performance
-    role: measured-outcome
+    - entityId: substance:choline-bitartrate
+      role: intervention
+    - entityId: tag:cognitive-task-performance
+      role: measured-outcome
   context: Three placebo-controlled crossover experiments tested memory approximately 60 minutes after oral administration.
   sourceIds:
-  - lippelt-2016
+    - lippelt-2016
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: These acute studies do not exclude effects in deficient, diseased, developmental, older, or chronically supplemented populations.
@@ -428,15 +539,15 @@ Reddit index corpus import (2 linked source records; 1 PubMed abstract and 1 non
   assertion: A 2 g acute choline-bitartrate dose shifted healthy participants toward greater visuomotor aiming precision with slower responses rather than improving overall task score.
   relation: altered
   participants:
-  - entityId: substance:choline-bitartrate
-    role: intervention
-  - entityId: tag:visuomotor-accuracy
-    role: measured-outcome
-  - entityId: tag:reaction-time
-    role: measured-outcome
+    - entityId: substance:choline-bitartrate
+      role: intervention
+    - entityId: tag:visuomotor-accuracy
+      role: measured-outcome
+    - entityId: tag:reaction-time
+      role: measured-outcome
   context: Double-blind placebo-controlled crossover study of 28 healthy young adults assessed approximately 70 minutes after administration.
   sourceIds:
-  - naber-2015
+    - naber-2015
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Small single-center study; total task score was unchanged and the finding is not evidence of general cognitive enhancement.
@@ -444,16 +555,16 @@ Reddit index corpus import (2 linked source records; 1 PubMed abstract and 1 non
   assertion: Oral choline bitartrate commonly increases circulating TMAO in human intervention studies, with substantial interindividual variation and formulation dependence.
   relation: increases
   participants:
-  - entityId: substance:choline-bitartrate
-    role: choline-source
-  - entityId: tag:trimethylamine-n-oxide
-    role: measured-metabolite
+    - entityId: substance:choline-bitartrate
+      role: choline-source
+    - entityId: tag:trimethylamine-n-oxide
+      role: measured-metabolite
   context: Supported by acute feeding, four-week supplementation, and randomized crossover studies in generally healthy adults.
   sourceIds:
-  - cho-2020
-  - boeckmann-2022
-  - wilcox-2021
-  - laskaridou-2026
+    - cho-2020
+    - boeckmann-2022
+    - wilcox-2021
+    - laskaridou-2026
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: TMAO magnitude is heterogeneous, and biomarker elevation alone does not establish downstream clinical cardiovascular or metabolic harm.
@@ -461,13 +572,13 @@ Reddit index corpus import (2 linked source records; 1 PubMed abstract and 1 non
   assertion: Choline bitartrate is associated with the reported episodic memory finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:choline-bitartrate
-    role: intervention or exposure
-  - entityId: tag:episodic-memory
-    role: reported endpoint
+    - entityId: substance:choline-bitartrate
+      role: intervention or exposure
+    - entityId: tag:episodic-memory
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-27341028
+    - reddit-pmid-27341028
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -491,7 +602,7 @@ Reddit index corpus import (2 linked source records; 1 PubMed abstract and 1 non
 
 ```yaml
 - id: pubchem
-  title: 'Choline bitartrate: compound identity and structure'
+  title: "Choline bitartrate: compound identity and structure"
   authors: NCBI PubChem
   year: 2026
   url: https://pubchem.ncbi.nlm.nih.gov/compound/6900
@@ -548,7 +659,7 @@ Reddit index corpus import (2 linked source records; 1 PubMed abstract and 1 non
   kind: Human randomized placebo-controlled crossover study
   insight: Choline is a dietary component and precursor of acetylcholine, a crucial neurotransmitter for memory-related brain functions.
   limitation: PubMed abstract and linked PMC full text inspected; funding and conflicts were not assessed in this pass.
-  pmid: '27341028'
+  pmid: "27341028"
   doi: 10.1371/journal.pone.0157714
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -563,7 +674,7 @@ Reddit index corpus import (2 linked source records; 1 PubMed abstract and 1 non
   kind: Human randomized placebo-controlled crossover study
   insight: Two grams of choline bitartrate increased aiming precision but slowed responses, indicating a speed–accuracy shift; pupil diameter also decreased.
   limitation: Only 28 healthy young adults were studied; overall task score was unchanged and no general cognitive benefit was demonstrated.
-  pmid: '26271904'
+  pmid: "26271904"
   doi: 10.1038/srep13188
   funding: Research support included a Netherlands Organisation for Scientific Research Vidi grant to Lorenza Colzato.
   sponsorshipStatus: non-industry-funded
@@ -578,21 +689,21 @@ Reddit index corpus import (2 linked source records; 1 PubMed abstract and 1 non
   kind: Human double-blind crossover exercise study
   insight: Acute 2.43 g choline bitartrate increased circulating choline but did not improve brief or prolonged cycling fatigue-performance measures.
   limitation: Small male-athlete sample and abstract-access evidence; full funding and conflict declarations were not inspected.
-  pmid: '7674870'
+  pmid: "7674870"
   doi: 10.1249/00005768-199505000-00008
   funding: Not assessed.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed.
   conflictOfInterestStatus: not-assessed
 - id: wallace-2012
-  title: 'Choline supplementation and measures of choline and betaine status: a randomised, controlled trial in postmenopausal women'
+  title: "Choline supplementation and measures of choline and betaine status: a randomised, controlled trial in postmenopausal women"
   authors: Julie M. W. Wallace, Jacqueline M. McCormack, Helene McNulty, Paula M. Walsh, Paula J. Robson, Maxine P. Bonham, Maresa E. Duffy, Mary Ward, Anne M. Molloy, John M. Scott, Per M. Ueland, J. J. Strain
   year: 2012
   url: https://pubmed.ncbi.nlm.nih.gov/22172554/
   kind: Human randomized placebo-controlled trial
   insight: One gram choline/day as bitartrate for 12 weeks increased plasma free choline and betaine; lipids were unchanged and homocysteine reduction was borderline at week 6.
   limitation: Biomarker study in 42 postmenopausal women; it did not test cognitive enhancement or clinical outcomes.
-  pmid: '22172554'
+  pmid: "22172554"
   doi: 10.1017/S000711451100674X
   funding: Noncommercial research support was reported; Akzo Nobel supplied study supplements and placebo in kind.
   sponsorshipStatus: non-industry-funded
@@ -607,7 +718,7 @@ Reddit index corpus import (2 linked source records; 1 PubMed abstract and 1 non
   kind: Human randomized double-blind crossover feeding study
   insight: Six hundred milligrams choline as bitartrate produced markedly greater TMAO exposure than no-choline or phosphatidylcholine meals, with very large interindividual variation.
   limitation: Acute six-hour study of 37 healthy men; TMAO was a metabolic biomarker, not a clinical cardiovascular endpoint.
-  pmid: '32722424'
+  pmid: "32722424"
   doi: 10.3390/nu12082220
   funding: Supported by the Utah Agricultural Experiment Station Seed Grants Program; Balchem Corporation supplied choline bitartrate as a gift.
   sponsorshipStatus: non-industry-funded
@@ -622,7 +733,7 @@ Reddit index corpus import (2 linked source records; 1 PubMed abstract and 1 non
   kind: Human randomized crossover pharmacokinetic study
   insight: A 550 mg choline-equivalent dose from bitartrate, chloride, GPC, or egg phosphatidylcholine produced similar choline AUCs; water-soluble forms rapidly increased TMAO.
   limitation: Only six healthy men participated; concentration-time sampling did not establish an elimination half-life for choline bitartrate.
-  pmid: '34287673'
+  pmid: "34287673"
   doi: 10.1007/s00394-021-02637-6
   funding: The study reported partial research-grant support from HiPP GmbH & Co. Vertrieb KG; open-access funding was supported through Projekt DEAL.
   sponsorshipStatus: industry-funded
@@ -630,14 +741,14 @@ Reddit index corpus import (2 linked source records; 1 PubMed abstract and 1 non
   conflictOfInterestStatus: none-declared
   disclosureUrl: https://pmc.ncbi.nlm.nih.gov/articles/PMC8783899/
 - id: wilcox-2021
-  title: 'Dietary Choline Supplements, but Not Eggs, Raise Fasting TMAO Levels in Participants with Normal Renal Function: A Randomized Clinical Trial'
+  title: "Dietary Choline Supplements, but Not Eggs, Raise Fasting TMAO Levels in Participants with Normal Renal Function: A Randomized Clinical Trial"
   authors: Jennifer Wilcox, Sarah M Skye, Brett Graham, Allyson Zabell, Xinmin S Li, Lin Li, Shamanthika Shelkay, Xiaoming Fu, Sarah Neale, Cathy O'Laughlin, Kimberly Peterson, Stanley L Hazen, W H Wilson Tang
   year: 2021
   url: https://pubmed.ncbi.nlm.nih.gov/33872583/
   kind: Randomized clinical trial
   insight: Four-week choline-bitartrate arms markedly increased fasting TMAO and platelet responsiveness, whereas egg-only and phosphatidylcholine-only arms did not.
   limitation: Biomarkers were measured rather than cardiovascular events; intervention arms were modest and differed in dietary matrix.
-  pmid: '33872583'
+  pmid: "33872583"
   doi: 10.1016/j.amjmed.2021.03.016
   funding: Public and foundation support was disclosed, together with support for analytical infrastructure including a Shimadzu Center of Excellence award.
   sponsorshipStatus: mixed-funding
@@ -645,14 +756,14 @@ Reddit index corpus import (2 linked source records; 1 PubMed abstract and 1 non
   conflictOfInterestStatus: declared
   disclosureUrl: https://pmc.ncbi.nlm.nih.gov/articles/PMC8410632/
 - id: wozniak-2025
-  title: 'Choline enhances elicited imitation memory performance in preschool children with prenatal alcohol exposure: a cumulative report of 3 randomized controlled trials'
+  title: "Choline enhances elicited imitation memory performance in preschool children with prenatal alcohol exposure: a cumulative report of 3 randomized controlled trials"
   authors: Jeffrey R. Wozniak, Judith K. Eckerle, Blake A. Gimbel, Abigail M. Ernst, Mary E. Anthony, Kent A. Tuominen, Erik de Water, Steven H. Zeisel, Michael K. Georgieff
   year: 2025
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12002193/
   kind: Cumulative report of human randomized placebo-controlled trials
   insight: Nine-month choline treatment improved an elicited-imitation sequential-memory measure in young children with prenatal alcohol exposure, but not executive function or IQ.
   limitation: Disease-risk developmental population and pooled three-trial analysis; findings cannot be transferred to healthy-adult cognitive enhancement.
-  pmid: '39956364'
+  pmid: "39956364"
   doi: 10.1016/j.ajcnut.2025.02.009
   funding: NIH-supported research was reported for the underlying trials.
   sponsorshipStatus: non-industry-funded
@@ -660,14 +771,14 @@ Reddit index corpus import (2 linked source records; 1 PubMed abstract and 1 non
   conflictOfInterestStatus: declared
   disclosureUrl: https://pmc.ncbi.nlm.nih.gov/articles/PMC12002193/
 - id: dumas-2026
-  title: 'Oral Choline Reduced Working Memory-Related Brain Activation in Postmenopausal Women: A Pilot Study'
+  title: "Oral Choline Reduced Working Memory-Related Brain Activation in Postmenopausal Women: A Pilot Study"
   authors: Julie A. Dumas, Abigail Testo, Anna Senft Miller, Angeles Ozahl, Callum Potts, Jiming Zhang, Marwa Aboukhatwa, James Boyd
   year: 2026
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12899796/
   kind: Human randomized placebo-controlled crossover pilot study
   insight: Acute choline bitartrate altered working-memory-related fMRI activation and connectivity but did not significantly improve working-memory performance.
   limitation: Small pilot, retrospectively registered, single dose; its statement that 1650 mg bitartrate delivers 1650 mg choline cation conflicts with molecular composition.
-  pmid: '41683281'
+  pmid: "41683281"
   doi: 10.3390/nu18030459
   funding: The study reported an investigator-initiated grant from Balchem Corporation; the authors stated that the funder had no role in study conduct or reporting.
   sponsorshipStatus: industry-funded
@@ -682,7 +793,7 @@ Reddit index corpus import (2 linked source records; 1 PubMed abstract and 1 non
   kind: Human randomized double-blind placebo-controlled crossover studies
   insight: Acute and four-week choline bitartrate markedly raised TMAO without materially worsening primary measures of insulin sensitivity or glucose tolerance.
   limitation: Small, mostly young healthy population; treatment lasted at most four weeks and TMAO responses were highly heterogeneous.
-  pmid: '42314769'
+  pmid: "42314769"
   doi: 10.1152/ajpendo.00160.2026
   funding: Supported by U.S. National Institute on Aging NIH grants R21 AG058931 and R21 AG067380.
   sponsorshipStatus: non-industry-funded
@@ -733,13 +844,21 @@ Reddit index corpus import (2 linked source records; 1 PubMed abstract and 1 non
   kind: Human randomized placebo-controlled crossover study
   insight: Choline is a dietary component and precursor of acetylcholine, a crucial neurotransmitter for memory-related brain functions.
   limitation: PubMed abstract and linked PMC full text inspected; funding and conflicts were not assessed in this pass.
-  pmid: '27341028'
+  pmid: "27341028"
   doi: 10.1371/journal.pone.0157714
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
   pmcUrl: https://pmc.ncbi.nlm.nih.gov/articles/PMC4920398/
+- id: psychonautwiki
+  title: "Choline bitartrate: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/Choline_bitartrate
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal
@@ -756,3 +875,4 @@ Reddit index corpus import (2 linked source records; 1 PubMed abstract and 1 non
   sourceUrl: https://eur-lex.europa.eu/eli/reg/2013/609/2017-07-11/eng
   asOf: 2026-10-10
 ```
+

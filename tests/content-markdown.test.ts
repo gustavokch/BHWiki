@@ -5,6 +5,7 @@ import test from "node:test";
 import { hyperedges, substances, tags } from "../src/lib/content";
 import { ContentFormatError, contentDirectory, parseContentSource, serializeContent } from "../src/lib/content-markdown";
 import { contentHash } from "../src/lib/publication-metadata";
+import { withoutPsychonautWiki } from "../scripts/psychonautwiki-data";
 import type { Substance, TagKind } from "../src/lib/types";
 
 const curatedSlugs = ["caffeine", "l-theanine", "creatine", "melatonin", "nicotine", "psilocybin", "modafinil", "methylphenidate", "diphenhydramine", "citicoline"];
@@ -22,7 +23,11 @@ const curatedHashes = [
 ];
 
 test("markdown files preserve the curated records", () => {
-  const curated = curatedSlugs.map((slug) => substances.find((substance) => substance.slug === slug));
+  // PsychonautWiki community records are additive; the launch curation underneath must stay unchanged.
+  const curated = curatedSlugs.map((slug) => {
+    const substance = substances.find((candidate) => candidate.slug === slug);
+    return substance && withoutPsychonautWiki(substance);
+  });
   assert.deepEqual(curated.map((substance) => substance?.slug), curatedSlugs);
   assert.deepEqual(curated.map((substance) => substance && contentHash(substance)), curatedHashes);
   assert.ok(substances.length >= curatedSlugs.length);

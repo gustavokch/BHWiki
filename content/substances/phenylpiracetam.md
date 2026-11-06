@@ -3,20 +3,20 @@ slug: phenylpiracetam
 name: Phenylpiracetam
 subtitle: Source-linked research profile.
 aliases:
-- Fonturacetam
-- Phenotropil
-- Фенотропил
-- 4-Phenylpiracetam
-- Carphedon
-- Actitropil
+  - Fonturacetam
+  - Phenotropil
+  - Фенотропил
+  - 4-Phenylpiracetam
+  - Carphedon
+  - Actitropil
 formula: C12H14N2O2
 molecularWeight: 218.25 g/mol
 pubchemCid: 132441
 smiles: C1C(CN(C1=O)CC(=O)N)C2=CC=CC=C2
 category: Nootropic
 tags:
-- nootropic-research
-accent: '#a9b993'
+  - nootropic-research
+accent: "#a9b993"
 reviewedAt: 2026-10-11
 editorialStatus: sourced-draft
 halfLife:
@@ -34,37 +34,37 @@ kinetics:
   metabolism: Not established; label-provenance claims require the professional SmPC
   sourceId: dr-phenylpiracetam-s20
 x-shape:
-- slug
-- name
-- subtitle
-- summary
-- description
-- aliases
-- formula
-- molecularWeight
-- pubchemCid
-- smiles
-- category
-- tags
-- accent
-- evidenceNote
-- reviewedAt
-- editorialStatus
-- halfLife
-- pkObservations
-- kinetics
-- modifiers
-- doses
-- effects
-- outcomes
-- claims
-- mechanisms
-- cautions
-- interactions
-- experienceLinks
-- references
-- legal
-- externalWikiLinks
+  - slug
+  - name
+  - subtitle
+  - summary
+  - description
+  - aliases
+  - formula
+  - molecularWeight
+  - pubchemCid
+  - smiles
+  - category
+  - tags
+  - accent
+  - evidenceNote
+  - reviewedAt
+  - editorialStatus
+  - halfLife
+  - pkObservations
+  - kinetics
+  - modifiers
+  - doses
+  - effects
+  - outcomes
+  - claims
+  - mechanisms
+  - cautions
+  - interactions
+  - experienceLinks
+  - references
+  - legal
+  - externalWikiLinks
 x-order: 246
 ---
 
@@ -98,7 +98,7 @@ Reviewed PubMed abstracts for PMID(s) 6403074. No rights-eligible PMC full text 
   population: Adults covered by the Russian label
   purpose: Approved-label context
   sourceCategory: approved-label
-  note: "Take after food; avoid after 15:00 because of insomnia risk. These are label instructions, not healthy-athlete efficacy evidence."
+  note: Take after food; avoid after 15:00 because of insomnia risk. These are label instructions, not healthy-athlete efficacy evidence.
   sourceId: dr-phenylpiracetam-s20
 - label: Stroke rehabilitation study
   amount: 400 mg/day
@@ -160,6 +160,81 @@ Reviewed PubMed abstracts for PMID(s) 6403074. No rights-eligible PMC full text 
   sourceCategory: research
   note: Add-on evidence does not justify replacing established antiseizure treatment.
   sourceId: dr-phenylpiracetam-s7
+- label: Threshold dose
+  amount: 50 mg
+  quantity: 50
+  quantityMax: null
+  unit: mg
+  ingredient: Phenylpiracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 50–100 mg
+  quantity: 50
+  quantityMax: 100
+  unit: mg
+  ingredient: Phenylpiracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 100–200 mg
+  quantity: 100
+  quantityMax: 200
+  unit: mg
+  ingredient: Phenylpiracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 200–400 mg
+  quantity: 200
+  quantityMax: 400
+  unit: mg
+  ingredient: Phenylpiracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (400 mg and above)
+  amount: 400 mg and above
+  quantity: 400
+  quantityMax: null
+  unit: mg
+  ingredient: Phenylpiracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -181,6 +256,27 @@ Reviewed PubMed abstracts for PMID(s) 6403074. No rights-eligible PMC full text 
   modelEligible: false
 ```
 
+## Duration
+
+```yaml
+- id: psychonautwiki-oral
+  measurement: subjective
+  route: Oral
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 2
+    max: 3
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 30
+      max: 60
+      unit: minutes
+```
+
 ## Modifiers
 
 ```yaml
@@ -193,7 +289,7 @@ Reviewed PubMed abstracts for PMID(s) 6403074. No rights-eligible PMC full text 
   direction: variable
 - label: Administration time
   effect: Late dosing may worsen insomnia
-  detail: "The current label discourages administration after 15:00."
+  detail: The current label discourages administration after 15:00.
   sourceId: dr-phenylpiracetam-s20
   observationId: phenylpiracetam-pk-1
   factorType: other
@@ -330,15 +426,15 @@ Reviewed PubMed abstracts for PMID(s) 6403074. No rights-eligible PMC full text 
   assertion: Phenylpiracetam is a proven healthy cognitive or athletic enhancer.
   relation: evidence-boundary
   participants:
-  - entityId: substance:phenylpiracetam
-    role: intervention
-  - entityId: tag:cognitive-task-performance
-    role: reported-context
+    - entityId: substance:phenylpiracetam
+      role: intervention
+    - entityId: tag:cognitive-task-performance
+      role: reported-context
   context: No published primary human healthy-volunteer efficacy trial and no posted results from the 2026 registry were identified.
   sourceIds:
-  - dr-phenylpiracetam-s20
-  - nct07852130
-  - dr-phenylpiracetam-s22
+    - dr-phenylpiracetam-s20
+    - nct07852130
+    - dr-phenylpiracetam-s22
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Russian label language and anti-doping classification do not establish controlled efficacy.
@@ -346,30 +442,30 @@ Reviewed PubMed abstracts for PMID(s) 6403074. No rights-eligible PMC full text 
   assertion: R-phenylpiracetam/MRZ-9547 clinical evidence can be inferred from racemic Phenotropil.
   relation: evidence-boundary
   participants:
-  - entityId: substance:phenylpiracetam
-    role: intervention
-  - entityId: tag:cognitive-task-performance
-    role: reported-context
+    - entityId: substance:phenylpiracetam
+      role: intervention
+    - entityId: tag:cognitive-task-performance
+      role: reported-context
   context: The R/S literature in the eligible set is preclinical and chemically distinct from racemic clinical products.
   sourceIds:
-  - dr-phenylpiracetam-s12
-  - dr-phenylpiracetam-s14
-  - dr-phenylpiracetam-s16
-  - dr-phenylpiracetam-s18
+    - dr-phenylpiracetam-s12
+    - dr-phenylpiracetam-s14
+    - dr-phenylpiracetam-s16
+    - dr-phenylpiracetam-s18
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Do not merge enantiomer and racemate evidence.
 - id: reddit-claim-phenylpiracetam-6403074-0
-  assertion: 'PMID 6403074 reported: 4-Phenylpyracetam was found to activate the operant behavior more powerfully, to remove psychodepressant effects of diazepam, to inhibit post-rotational nystagmus, and to prevent the development of retrograde amnesia.'
+  assertion: "PMID 6403074 reported: 4-Phenylpyracetam was found to activate the operant behavior more powerfully, to remove psychodepressant effects of diazepam, to inhibit post-rotational nystagmus, and to prevent the development of retrograde amnesia."
   relation: evidence-boundary
   participants:
-  - entityId: substance:phenylpiracetam
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: preclinical outcome
+    - entityId: substance:phenylpiracetam
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: preclinical outcome
   context: Source-specific result from PMID 6403074; applies to the population and design described in that abstract.
   sourceIds:
-  - reddit-pmid-6403074
+    - reddit-pmid-6403074
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Abstract result from PMID 6403074; this single study does not establish general efficacy or safety.
@@ -409,22 +505,11 @@ Reviewed PubMed abstracts for PMID(s) 6403074. No rights-eligible PMC full text 
   publisher: PsychonautWiki
 ```
 
-## External wiki links
-
-```yaml
-- service: Wikipedia
-  url: https://en.wikipedia.org/wiki/Phenylpiracetam
-  title: Wikipedia
-- service: Examine
-  url: https://examine.com/supplements/Phenylpiracetam
-  title: Examine
-```
-
 ## References
 
 ```yaml
 - id: molekul-profile
-  title: 'Phenotropil: Molekul research profile'
+  title: "Phenotropil: Molekul research profile"
   authors: Molekul
   year: 2026
   url: https://molekul.io/compounds/phenotropil
@@ -436,7 +521,7 @@ Reviewed PubMed abstracts for PMID(s) 6403074. No rights-eligible PMC full text 
   conflictsOfInterest: Not assessed in this import.
   conflictOfInterestStatus: not-assessed
 - id: dr-phenylpiracetam-s1
-  title: 'Posttraumatic stress disorder and climate change: A meta-analysis of prospective, acute predictors of PTSD following extreme weather events.'
+  title: "Posttraumatic stress disorder and climate change: A meta-analysis of prospective, acute predictors of PTSD following extreme weather events."
   authors: Gabrielle M Gauthier, Shivani Pandey, Victoria Sanchez, Savanna E Stromberg, Lori A Zoellner
   year: 2025
   url: https://pubmed.ncbi.nlm.nih.gov/41086540/
@@ -447,7 +532,7 @@ Reviewed PubMed abstracts for PMID(s) 6403074. No rights-eligible PMC full text 
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in the returned source metadata.
   conflictOfInterestStatus: not-assessed
-  pmid: '41086540'
+  pmid: "41086540"
 - id: dr-phenylpiracetam-s3
   title: Abdominal obesity, metabolic syndrome in type 1 diabetic children and adolescents.
   authors: Agnieszka Szadkowska, Iwona Pietrzak, Joanna Szlawska, Anna Kozera, Anna Gadzicka, Wojciech Młynarski
@@ -460,9 +545,9 @@ Reviewed PubMed abstracts for PMID(s) 6403074. No rights-eligible PMC full text 
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in the returned source metadata.
   conflictOfInterestStatus: not-assessed
-  pmid: '20455417'
+  pmid: "20455417"
 - id: dr-phenylpiracetam-s4
-  title: 'Tuberculous parotitis: case report and literature review.'
+  title: "Tuberculous parotitis: case report and literature review."
   authors: Ing-Kit Lee, Jien-Wei Liu
   year: 2005
   url: https://pubmed.ncbi.nlm.nih.gov/16134352/
@@ -473,9 +558,9 @@ Reviewed PubMed abstracts for PMID(s) 6403074. No rights-eligible PMC full text 
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in the returned source metadata.
   conflictOfInterestStatus: not-assessed
-  pmid: '16134352'
+  pmid: "16134352"
 - id: dr-phenylpiracetam-s5
-  title: 'Estimating transitions between symptom severity states over time in schizophrenia: a Bayesian meta-analytic approach.'
+  title: "Estimating transitions between symptom severity states over time in schizophrenia: a Bayesian meta-analytic approach."
   authors: Anirban Basu, Herbert Y Meltzer, Vanja Dukic
   year: 2006
   url: https://pubmed.ncbi.nlm.nih.gov/16220519/
@@ -486,7 +571,7 @@ Reviewed PubMed abstracts for PMID(s) 6403074. No rights-eligible PMC full text 
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in the returned source metadata.
   conflictOfInterestStatus: not-assessed
-  pmid: '16220519'
+  pmid: "16220519"
 - id: dr-phenylpiracetam-s6
   title: A review of acupuncture clinical trials indexed during 2005.
   authors: Adrian White, Elizabeth Tough, Mike Cummings
@@ -499,7 +584,7 @@ Reviewed PubMed abstracts for PMID(s) 6403074. No rights-eligible PMC full text 
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in the returned source metadata.
   conflictOfInterestStatus: not-assessed
-  pmid: '16909516'
+  pmid: "16909516"
 - id: dr-phenylpiracetam-s7
   title: Preface to Forum on materials for theranostics.
   authors: Chunhai Fan, Kirk Schanze
@@ -512,9 +597,9 @@ Reviewed PubMed abstracts for PMID(s) 6403074. No rights-eligible PMC full text 
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in the returned source metadata.
   conflictOfInterestStatus: not-assessed
-  pmid: '25536874'
+  pmid: "25536874"
 - id: dr-phenylpiracetam-s8
-  title: 'Tumescent anesthesia: evolution and current uses.'
+  title: "Tumescent anesthesia: evolution and current uses."
   authors: Daihung Vu Do, Larisa C Kelley
   year: 2007
   url: https://pubmed.ncbi.nlm.nih.gov/18159894/
@@ -525,7 +610,7 @@ Reviewed PubMed abstracts for PMID(s) 6403074. No rights-eligible PMC full text 
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in the returned source metadata.
   conflictOfInterestStatus: not-assessed
-  pmid: '18159894'
+  pmid: "18159894"
 - id: dr-phenylpiracetam-s9
   title: Abi is required for modulation and stability but not localization or activation of the SCAR/WAVE complex.
   authors: Andrew J Davidson, Seiji Ura, Peter A Thomason, Gabriela Kalna, Robert H Insall
@@ -538,7 +623,7 @@ Reviewed PubMed abstracts for PMID(s) 6403074. No rights-eligible PMC full text 
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in the returned source metadata.
   conflictOfInterestStatus: not-assessed
-  pmid: '24036345'
+  pmid: "24036345"
 - id: dr-phenylpiracetam-s10
   title: Combined potentiating action of phytochemical(s) from Cinnamomum tamala and Aloe vera for their anti-diabetic and insulinomimetic effect using in vivo rat and in vitro NIH/3T3 cell culture system.
   authors: Vineeta Singh, S P Singh, Manoj Singh, Atul Kumar Gupta, Anil Kumar
@@ -551,7 +636,7 @@ Reviewed PubMed abstracts for PMID(s) 6403074. No rights-eligible PMC full text 
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in the returned source metadata.
   conflictOfInterestStatus: not-assessed
-  pmid: '25536877'
+  pmid: "25536877"
 - id: dr-phenylpiracetam-s11
   title: Microbial degradation of chitin waste for production of chitosanase and food related bioactive compounds.
   authors: S Sinha, S Chand, P Tripathi
@@ -564,7 +649,7 @@ Reviewed PubMed abstracts for PMID(s) 6403074. No rights-eligible PMC full text 
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in the returned source metadata.
   conflictOfInterestStatus: not-assessed
-  pmid: '25272731'
+  pmid: "25272731"
 - id: dr-phenylpiracetam-s12
   title: Functional outcomes after fibula locking nail for fragility fractures of the ankle.
   authors: Aysha Rajeev, Shanaka Senevirathna, Sarkhell Radha, N S Kashayap
@@ -577,7 +662,7 @@ Reviewed PubMed abstracts for PMID(s) 6403074. No rights-eligible PMC full text 
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in the returned source metadata.
   conflictOfInterestStatus: not-assessed
-  pmid: '21636293'
+  pmid: "21636293"
 - id: dr-phenylpiracetam-s14
   title: The dopamine reuptake inhibitor MRZ-9547 increases progressive ratio responding in rats.
   authors: Sommer S, Danysz W, Russ H, Valastro B, Flik G, Hauber W.
@@ -585,12 +670,12 @@ Reviewed PubMed abstracts for PMID(s) 6403074. No rights-eligible PMC full text 
   url: https://pubmed.ncbi.nlm.nih.gov/25057732/
   kind: PubMed link (retrieval gap)
   insight: PubMed PMID 25057732 could not be retrieved in this pass; the linked title was not treated as verified.
-  limitation: 'Retrieval gap: retain URL as an unverified lead and do not infer phenylpiracetam efficacy.'
+  limitation: "Retrieval gap: retain URL as an unverified lead and do not infer phenylpiracetam efficacy."
   funding: Not assessed in the returned source metadata.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in the returned source metadata.
   conflictOfInterestStatus: not-assessed
-  pmid: '25057732'
+  pmid: "25057732"
 - id: dr-phenylpiracetam-s16
   title: Revisiting the crystal ball--high content single cells analysis as predictor of recovery.
   authors: Attila Tárnok
@@ -603,7 +688,7 @@ Reviewed PubMed abstracts for PMID(s) 6403074. No rights-eligible PMC full text 
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in the returned source metadata.
   conflictOfInterestStatus: not-assessed
-  pmid: '25614362'
+  pmid: "25614362"
 - id: dr-phenylpiracetam-s18
   title: Bactericidal effect of photocatalytically-active nanostructured TiO2 surfaces on biofilms of the early oral colonizer, Streptococcus oralis.
   authors: Emma Westas, Mariko Hayashi, Francesca Cecchinato, Ann Wennerberg, Martin Andersson, Ryo Jimbo, Julia R Davies
@@ -616,7 +701,7 @@ Reviewed PubMed abstracts for PMID(s) 6403074. No rights-eligible PMC full text 
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in the returned source metadata.
   conflictOfInterestStatus: not-assessed
-  pmid: '28380676'
+  pmid: "28380676"
 - id: dr-phenylpiracetam-s20
   title: Fonturacetam-Akrikhin 100 mg
   authors: AO Akrikhin.
@@ -726,18 +811,26 @@ Reviewed PubMed abstracts for PMID(s) 6403074. No rights-eligible PMC full text 
   conflictsOfInterest: Not assessed.
   conflictOfInterestStatus: not-assessed
 - id: reddit-pmid-6403074
-  title: '[Pharmacological characteristics of a new phenyl analog of piracetam--4-phenylpiracetam].'
+  title: "[Pharmacological characteristics of a new phenyl analog of piracetam--4-phenylpiracetam]."
   authors: Iu G Bobkov, I S Morozov, O M Glozman, L N Nerobkova, L A Zhmurenko
   year: 1983
   url: https://pubmed.ncbi.nlm.nih.gov/6403074/
   kind: PubMed publication (metadata verified)
   insight: 4-Phenylpyracetam was found to activate the operant behavior more powerfully, to remove psychodepressant effects of diazepam, to inhibit post-rotational nystagmus, and to prevent the development of retrograde amnesia.
   limitation: PubMed abstract for PMID 6403074 was reviewed; no rights-eligible PMC full text was available in this pass.
-  pmid: '6403074'
+  pmid: "6403074"
   funding: Not assessed in this pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this pass.
   conflictOfInterestStatus: not-assessed
+- id: psychonautwiki
+  title: "Phenylpiracetam: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/Phenylpiracetam
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal
@@ -754,3 +847,15 @@ Reviewed PubMed abstracts for PMID(s) 6403074. No rights-eligible PMC full text 
   sourceUrl: https://www.wada-ama.org/en/resources/world-anti-doping-program/prohibited-list
   asOf: 2026-10-11
 ```
+
+## External wiki links
+
+```yaml
+- service: Wikipedia
+  url: https://en.wikipedia.org/wiki/Phenylpiracetam
+  title: Wikipedia
+- service: Examine
+  url: https://examine.com/supplements/Phenylpiracetam
+  title: Examine
+```
+

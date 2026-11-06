@@ -78,7 +78,81 @@ The review covers several anesthetic gases. Nothing in the text used here is a n
 ## Doses
 
 ```yaml
-[]
+- label: Threshold dose
+  amount: 4 g
+  quantity: 4
+  quantityMax: null
+  unit: g
+  ingredient: Nitrous oxide
+  formulation: Not established
+  route: Inhaled
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 4–8 g
+  quantity: 4
+  quantityMax: 8
+  unit: g
+  ingredient: Nitrous oxide
+  formulation: Not established
+  route: Inhaled
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 8–16 g
+  quantity: 8
+  quantityMax: 16
+  unit: g
+  ingredient: Nitrous oxide
+  formulation: Not established
+  route: Inhaled
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 16–40 g
+  quantity: 16
+  quantityMax: 40
+  unit: g
+  ingredient: Nitrous oxide
+  formulation: Not established
+  route: Inhaled
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (40 g and above)
+  amount: 40 g and above
+  quantity: 40
+  quantityMax: null
+  unit: g
+  ingredient: Nitrous oxide
+  formulation: Not established
+  route: Inhaled
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -98,6 +172,47 @@ The review covers several anesthetic gases. Nothing in the text used here is a n
   context: No elimination half-life or MAC is stated in the text used for this draft.
   sourceId: miller2023
   modelEligible: false
+```
+
+## Duration
+
+```yaml
+- id: psychonautwiki-inhaled
+  measurement: subjective
+  route: Inhaled
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 1
+    max: 5
+    unit: minutes
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 5
+      max: 10
+      unit: seconds
+    - name: comeup
+      basis: phase-duration
+      min: 5
+      max: 10
+      unit: seconds
+    - name: peak
+      basis: phase-duration
+      min: 15
+      max: 30
+      unit: seconds
+    - name: offset
+      basis: phase-duration
+      min: 1
+      max: 5
+      unit: minutes
+    - name: after-effects
+      basis: phase-duration
+      min: 15
+      max: 30
+      unit: minutes
 ```
 
 ## Modifiers
@@ -159,14 +274,14 @@ The review covers several anesthetic gases. Nothing in the text used here is a n
   title: Inhalational Anesthetic
   authors: Miller et al.
   year: 2023
-  pmid: '32119427'
+  pmid: "32119427"
   url: https://pubmed.ncbi.nlm.nih.gov/32119427/
   kind: Review
   insight: Surveys inhaled anesthetics used for induction and maintenance of general anesthesia, including nitrous oxide.
   limitation: Not a nitrous-only study. No MAC, half-life, or interaction specific to nitrous oxide was extracted.
   funding: Not assessed in this draft.
 - id: pubchem
-  title: 'Nitrous oxide: compound identity and structure'
+  title: "Nitrous oxide: compound identity and structure"
   authors: NCBI PubChem
   year: 2026
   url: https://pubchem.ncbi.nlm.nih.gov/compound/948
@@ -174,6 +289,14 @@ The review covers several anesthetic gases. Nothing in the text used here is a n
   insight: Source of the displayed formula, molecular weight, structure, and connectivity SMILES.
   limitation: Connectivity SMILES do not encode every stereochemical distinction. The parent record is distinct from salts, formulations, and commercial product quality.
   funding: US National Library of Medicine.
+- id: psychonautwiki
+  title: "Nitrous: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/Nitrous
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal

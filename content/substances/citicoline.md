@@ -3,21 +3,21 @@ slug: citicoline
 name: Citicoline
 subtitle: A precursor, with outcome-specific evidence.
 aliases:
-- CDP-choline
-- Cytidine diphosphate choline
-- Cytidine 5′-diphosphocholine
-- Citicoline sodium
-- Cognizin
+  - CDP-choline
+  - Cytidine diphosphate choline
+  - Cytidine 5′-diphosphocholine
+  - Citicoline sodium
+  - Cognizin
 formula: C14H26N4O11P2
 molecularWeight: 488.32 g/mol
 pubchemCid: 13804
 smiles: C[N+](C)(C)CCOP(=O)([O-])OP(=O)(O)OCC1C(C(C(O1)N2C=CC(=NC2=O)N)O)O
 category: Choline precursor
 tags:
-- choline-precursor
-- episodic-memory
-- stroke-recovery
-accent: '#a9b993'
+  - choline-precursor
+  - episodic-memory
+  - stroke-recovery
+accent: "#a9b993"
 reviewedAt: 2026-10-10
 editorialStatus: sourced-draft
 halfLife:
@@ -35,56 +35,56 @@ kinetics:
   metabolism: The radiolabel study supports extensive gut-wall and hepatic metabolism, with parent-derived material entering biosynthetic, tissue-metabolic and excretory pathways
   sourceId: dinsdale1983
   markers:
-  - id: citicoline-radiolabel-early-peak
-    label: Early plasma radioactivity peak
-    analyte: Total plasma radiolabel
-    population: Six adults
-    measurement: plasma
-    at: 1
-    unit: hours
-    note: Oral radiolabel-derived plasma radioactivity showed a peak near 1 hour; this is not a parent-specific citicoline Cmax.
-    sourceId: dinsdale1983
-  - id: citicoline-radiolabel-late-peak
-    label: Later plasma radioactivity peak
-    analyte: Total plasma radiolabel
-    population: Six adults
-    measurement: plasma
-    at: 24
-    unit: hours
-    note: A later radiolabel-derived plasma peak appeared near 24 hours; labeled metabolites and excretion cannot be treated as parent-citicoline elimination.
-    sourceId: dinsdale1983
+    - id: citicoline-radiolabel-early-peak
+      label: Early plasma radioactivity peak
+      analyte: Total plasma radiolabel
+      population: Six adults
+      measurement: plasma
+      at: 1
+      unit: hours
+      note: Oral radiolabel-derived plasma radioactivity showed a peak near 1 hour; this is not a parent-specific citicoline Cmax.
+      sourceId: dinsdale1983
+    - id: citicoline-radiolabel-late-peak
+      label: Later plasma radioactivity peak
+      analyte: Total plasma radiolabel
+      population: Six adults
+      measurement: plasma
+      at: 24
+      unit: hours
+      note: A later radiolabel-derived plasma peak appeared near 24 hours; labeled metabolites and excretion cannot be treated as parent-citicoline elimination.
+      sourceId: dinsdale1983
 x-shape:
-- slug
-- name
-- subtitle
-- summary
-- description
-- aliases
-- formula
-- molecularWeight
-- pubchemCid
-- smiles
-- category
-- tags
-- accent
-- evidenceNote
-- reviewedAt
-- editorialStatus
-- halfLife
-- pkObservations
-- kinetics
-- modifiers
-- doses
-- effects
-- outcomes
-- claims
-- mechanisms
-- cautions
-- references
-- legal
-- interactions
-- experienceLinks
-- externalWikiLinks
+  - slug
+  - name
+  - subtitle
+  - summary
+  - description
+  - aliases
+  - formula
+  - molecularWeight
+  - pubchemCid
+  - smiles
+  - category
+  - tags
+  - accent
+  - evidenceNote
+  - reviewedAt
+  - editorialStatus
+  - halfLife
+  - pkObservations
+  - kinetics
+  - modifiers
+  - doses
+  - effects
+  - outcomes
+  - claims
+  - mechanisms
+  - cautions
+  - references
+  - legal
+  - interactions
+  - experienceLinks
+  - externalWikiLinks
 x-order: 9
 ---
 
@@ -252,6 +252,81 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   sourceCategory: research
   note: Dose extracted from the PubMed abstract; verify the full text for formulation and protocol details.
   sourceId: reddit-pmid-25315828
+- label: Threshold dose
+  amount: 50 mg
+  quantity: 50
+  quantityMax: null
+  unit: mg
+  ingredient: Citicoline
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 100–250 mg
+  quantity: 100
+  quantityMax: 250
+  unit: mg
+  ingredient: Citicoline
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 250–1000 mg
+  quantity: 250
+  quantityMax: 1000
+  unit: mg
+  ingredient: Citicoline
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 1000–2000 mg
+  quantity: 1000
+  quantityMax: 2000
+  unit: mg
+  ingredient: Citicoline
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (2000 mg and above)
+  amount: 2000 mg and above
+  quantity: 2000
+  quantityMax: null
+  unit: mg
+  ingredient: Citicoline
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -287,6 +362,47 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   modelEligible: false
 ```
 
+## Duration
+
+```yaml
+- id: psychonautwiki-oral
+  measurement: subjective
+  route: Oral
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 58
+    max: 74
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 1
+      max: 2
+      unit: hours
+    - name: comeup
+      basis: phase-duration
+      min: 2
+      max: 3
+      unit: hours
+    - name: peak
+      basis: phase-duration
+      min: 2.5
+      max: 3.5
+      unit: hours
+    - name: offset
+      basis: phase-duration
+      min: 30
+      max: 40
+      unit: hours
+    - name: after-effects
+      basis: phase-duration
+      min: 40
+      max: 60
+      unit: hours
+```
+
 ## Modifiers
 
 ```yaml
@@ -309,7 +425,7 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   magnitude: Not established
   reportType: measured-assessment
   conflictingSourceIds:
-  - efsa2024
+    - efsa2024
 ```
 
 ## Outcomes
@@ -321,7 +437,7 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
     design: Randomized double-blind placebo-controlled parallel trial
     sampleSize: 100
     populationLabels:
-    - Adults aged 50–85 with age-associated memory impairment
+      - Adults aged 50–85 with age-associated memory impairment
     comparator: Placebo
     route: Oral
     formulation: Cognizin capsules
@@ -337,21 +453,21 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   population: Healthy adults aged 50–85 with age-associated memory impairment
   exposure: 500 mg/day oral Cognizin for 12 weeks
   instrument: Cambridge Brain Sciences Spatial Span
-  magnitude: 'Primary endpoint: no significant between-group difference; Bonferroni-adjusted alpha 0.00625.'
+  magnitude: "Primary endpoint: no significant between-group difference; Bonferroni-adjusted alpha 0.00625."
 - id: nakazaki-paired-associate-secondary
   study:
     id: nct03369925
     design: Randomized double-blind placebo-controlled parallel trial
     sampleSize: 100
     populationLabels:
-    - Adults aged 50–85 with age-associated memory impairment
+      - Adults aged 50–85 with age-associated memory impairment
     comparator: Placebo
     route: Oral
     formulation: Cognizin capsules
     durationDays: 84
     assessmentTime: Week 12
   conflictingSourceIds:
-  - spiers1996
+    - spiers1996
   conceptId: episodic-memory
   name: Paired-associate episodic memory
   direction: Increased
@@ -368,14 +484,14 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
     design: Randomized double-blind placebo-controlled parallel trial with post hoc subgroup and subsequent crossover study
     sampleSize: 95
     populationLabels:
-    - Volunteers aged 50–85 screened for dementia and neurological disorders
+      - Volunteers aged 50–85 screened for dementia and neurological disorders
     comparator: Placebo
     route: Oral
     formulation: Citicoline
     durationDays: 90
     assessmentTime: Month 3
   conflictingSourceIds:
-  - nakazaki2021
+    - nakazaki2021
   conceptId: episodic-memory
   name: Verbal logical memory
   direction: Variable
@@ -392,7 +508,7 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
     design: Randomized placebo-controlled trial
     sampleSize: 75
     populationLabels:
-    - Healthy adolescent males aged 13–18
+      - Healthy adolescent males aged 13–18
     comparator: Placebo
     route: Oral
     formulation: Cognizin
@@ -415,7 +531,7 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
     design: International randomized multicenter placebo-controlled sequential trial
     sampleSize: 2298
     populationLabels:
-    - Moderate-to-severe acute ischemic stroke
+      - Moderate-to-severe acute ischemic stroke
     comparator: Placebo
     route: Intravenous then oral
     formulation: 1000 mg IV every 12 hours for 3 days then 1000 mg oral every 12 hours
@@ -449,7 +565,7 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
     id: cochrane-citicoline-stroke-2020
     design: Systematic review and meta-analysis of randomized controlled trials
     populationLabels:
-    - Acute ischemic stroke
+      - Acute ischemic stroke
     comparator: Placebo or standard care
     route: Oral, intravenous or combined
     formulation: Citicoline across included trials
@@ -483,9 +599,9 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
     design: Phase 3 double-blind randomized placebo-controlled multicenter trial
     sampleSize: 1213
     populationLabels:
-    - Complicated mild traumatic brain injury
-    - Moderate traumatic brain injury
-    - Severe traumatic brain injury
+      - Complicated mild traumatic brain injury
+      - Moderate traumatic brain injury
+      - Severe traumatic brain injury
     comparator: Placebo
     route: Oral or enteral
     formulation: Citicoline
@@ -531,7 +647,7 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   description: ICTUS found no significant recovery advantage over placebo and was stopped for futility.
   sourceId: davalos2012
   population: Adults with moderate-to-severe acute ischemic stroke
-  exposure: 'Hospital trial: intravenous followed by oral citicoline'
+  exposure: "Hospital trial: intravenous followed by oral citicoline"
   instrument: Global endpoint combining NIHSS, modified Rankin Scale and Barthel Index at 90 days
   magnitude: Odds ratio 1.03; 95% CI 0.86–1.25
 - id: cohen-vascular-dementia
@@ -540,7 +656,7 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
     design: Double-blind randomized placebo-controlled trial
     sampleSize: 30
     populationLabels:
-    - Vascular dementia
+      - Vascular dementia
     comparator: Placebo
     route: Oral
     formulation: Citicoline
@@ -563,14 +679,14 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
     design: Open nonrandomized controlled study
     sampleSize: 349
     populationLabels:
-    - Mild vascular cognitive impairment
+      - Mild vascular cognitive impairment
     comparator: Usual care control
     route: Oral
     formulation: Citicoline
     durationDays: 270
     assessmentTime: 9 months
   conflictingSourceIds:
-  - cohen2003
+    - cohen2003
   conceptId: cognitive-performance
   name: Screening cognition in mild vascular cognitive impairment
   direction: Increased
@@ -587,14 +703,14 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
     design: Open randomized usual-care comparison
     sampleSize: 347
     populationLabels:
-    - Post-stroke vascular cognitive impairment
+      - Post-stroke vascular cognitive impairment
     comparator: Usual care
     route: Oral
     formulation: Citicoline
     durationDays: 365
     assessmentTime: 12 months
   conflictingSourceIds:
-  - davalos2012
+    - davalos2012
   conceptId: stroke-recovery
   name: Cognitive and functional outcomes after stroke
   direction: Variable
@@ -604,21 +720,21 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   population: 347 participants beginning treatment six weeks after ischemic stroke; 199 had one-year neuropsychological follow-up
   exposure: 1000 mg/day for 12 months
   instrument: Neuropsychological domains and modified Rankin Scale
-  magnitude: 'mRS ≤2: 57.3% versus 48.7%, P=0.186; domain-level signals remain vulnerable to attrition and open treatment.'
+  magnitude: "mRS ≤2: 57.3% versus 48.7%, P=0.186; domain-level signals remain vulnerable to attrition and open treatment."
 - id: shakeri-2026-tbi-pilot
   study:
     id: shakeri-bavali-oleyayi-tbi-2026
     design: Single-center triple-blind randomized placebo-controlled pilot
     sampleSize: 60
     populationLabels:
-    - Mild-to-moderate traumatic brain injury
+      - Mild-to-moderate traumatic brain injury
     comparator: Placebo
     route: Oral
     formulation: Citicoline
     durationDays: 90
     assessmentTime: Day 90
   conflictingSourceIds:
-  - zafonte2012
+    - zafonte2012
   conceptId: traumatic-brain-injury-recovery
   name: Cognitive and functional recovery after mild-to-moderate traumatic brain injury
   direction: Increased
@@ -635,7 +751,7 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
     design: Double-blind placebo-controlled crossover pilot
     sampleSize: 27
     populationLabels:
-    - Children aged 7–12 with ADHD
+      - Children aged 7–12 with ADHD
     comparator: Placebo
     route: Oral
     formulation: Citicoline
@@ -681,10 +797,10 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   name: Attention
   direction: Increased
   evidence: Human research
-  description: 'OBJECTIVE: This study assessed the effects of citicoline, a nutraceutical, on attention, psychomotor function, and impulsivity in healthy adolescent males.'
+  description: "OBJECTIVE: This study assessed the effects of citicoline, a nutraceutical, on attention, psychomotor function, and impulsivity in healthy adolescent males."
   sourceId: mcglade2019
   population: Population described in the PubMed abstract
-  exposure: 'OBJECTIVE: This study assessed the effects of citicoline, a nutraceutical, on attention, psychomotor function, and impulsivity in healthy adolescent males.'
+  exposure: "OBJECTIVE: This study assessed the effects of citicoline, a nutraceutical, on attention, psychomotor function, and impulsivity in healthy adolescent males."
   instrument: null
   magnitude: null
   reportType: measured-assessment
@@ -753,7 +869,7 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   description: Novel pharmacological treatments targeting alpha 7 nicotinic acetylcholine receptor (α7 nAChR) hypofunction in schizophrenia have shown mixed success in ameliorating cognitive impairments associated with this disorder.
   sourceId: reddit-pmid-25681529
 - title: Source-specific finding from PMID 1839138
-  description: '1.'
+  description: "1."
   sourceId: reddit-pmid-1839138
 - title: Source-specific finding from PMID 15482372
   description: In the present study, we investigated the effect of intracerebroventricular (i.c.v.) administration of cytidine-5'-diphosphate (CDP) choline on plasma adrenocorticotropin (ACTH), serum growth hormone (GH), thyroid stimulating hormone (TSH), follicle stimulating hormone (FSH) and luteinizing hormone (LH) levels in conscious rats.
@@ -790,14 +906,14 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   assertion: Citicoline is a phosphatidylcholine-pathway precursor that generates choline and pyrimidine metabolites.
   relation: precursor-of
   participants:
-  - entityId: substance:citicoline
-    role: precursor
-  - entityId: tag:choline-precursor
-    role: metabolic-product
+    - entityId: substance:citicoline
+      role: precursor
+    - entityId: tag:choline-precursor
+      role: metabolic-product
   context: Human ADME studies support metabolite availability, but not intact parent BBB passage or general cognitive benefit.
   sourceIds:
-  - dinsdale1983
-  - wurtman2000
+    - dinsdale1983
+    - wurtman2000
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Metabolite exposure is not a clinical outcome.
@@ -805,29 +921,29 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   assertion: Large citicoline stroke and TBI trials did not improve prespecified global recovery outcomes.
   relation: tested-with-null-result
   participants:
-  - entityId: substance:citicoline
-    role: intervention
-  - entityId: tag:stroke-recovery
-    role: outcome
+    - entityId: substance:citicoline
+      role: intervention
+    - entityId: tag:stroke-recovery
+      role: outcome
   context: ICTUS and COBRIT were stopped for futility on their primary global endpoints.
   sourceIds:
-  - davalos2012
-  - zafonte2012
+    - davalos2012
+    - zafonte2012
   conflictingSourceIds:
-  - shakeri2026
+    - shakeri2026
   assessment: not-formally-assessed
   limitation: A newer small TBI pilot is preliminary and not a replication of either large trial.
 - id: reddit-claim-citicoline-25681529-0
   assertion: Citicoline is associated with the reported episodic memory finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:citicoline
-    role: intervention or exposure
-  - entityId: tag:episodic-memory
-    role: reported endpoint
+    - entityId: substance:citicoline
+      role: intervention or exposure
+    - entityId: tag:episodic-memory
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-25681529
+    - reddit-pmid-25681529
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -835,13 +951,13 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   assertion: Citicoline is associated with the reported attention finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:citicoline
-    role: intervention or exposure
-  - entityId: tag:attention
-    role: reported endpoint
+    - entityId: substance:citicoline
+      role: intervention or exposure
+    - entityId: tag:attention
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - mcglade2019
+    - mcglade2019
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -849,13 +965,13 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   assertion: Citicoline is associated with the reported attention finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:citicoline
-    role: intervention or exposure
-  - entityId: tag:attention
-    role: reported endpoint
+    - entityId: substance:citicoline
+      role: intervention or exposure
+    - entityId: tag:attention
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-1839138
+    - reddit-pmid-1839138
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -863,13 +979,13 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   assertion: Citicoline is associated with the reported attention finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:citicoline
-    role: intervention or exposure
-  - entityId: tag:attention
-    role: reported endpoint
+    - entityId: substance:citicoline
+      role: intervention or exposure
+    - entityId: tag:attention
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-15482372
+    - reddit-pmid-15482372
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -877,13 +993,13 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   assertion: Citicoline is associated with the reported attention finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:citicoline
-    role: intervention or exposure
-  - entityId: tag:attention
-    role: reported endpoint
+    - entityId: substance:citicoline
+      role: intervention or exposure
+    - entityId: tag:attention
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - wurtman2000
+    - wurtman2000
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -891,13 +1007,13 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   assertion: Citicoline is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:citicoline
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:citicoline
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-25315828
+    - reddit-pmid-25315828
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -905,13 +1021,13 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   assertion: Citicoline is associated with the reported episodic memory finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:citicoline
-    role: intervention or exposure
-  - entityId: tag:episodic-memory
-    role: reported endpoint
+    - entityId: substance:citicoline
+      role: intervention or exposure
+    - entityId: tag:episodic-memory
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-25046515
+    - reddit-pmid-25046515
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -942,22 +1058,11 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
 []
 ```
 
-## External wiki links
-
-```yaml
-- service: Wikipedia
-  url: https://en.wikipedia.org/wiki/CDP-Choline
-  title: Wikipedia
-- service: Examine
-  url: https://examine.com/supplements/CDP-choline
-  title: Examine
-```
-
 ## References
 
 ```yaml
 - id: pubchem
-  title: 'Citicoline: compound identity and structure'
+  title: "Citicoline: compound identity and structure"
   authors: NCBI PubChem
   year: 2026
   url: https://pubchem.ncbi.nlm.nih.gov/compound/13804
@@ -972,7 +1077,7 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   title: Pharmacokinetics of 14C CDP-choline
   authors: Dinsdale et al.
   year: 1983
-  pmid: '6412727'
+  pmid: "6412727"
   url: https://pubmed.ncbi.nlm.nih.gov/6412727/
   kind: Human radiolabel-disposition study
   insight: Six adults showed near-complete absorption of radiolabel, biphasic plasma radioactivity and elimination through respiratory CO2 and urine.
@@ -985,7 +1090,7 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   title: Metabolism of cytidine (5′)-diphosphocholine (CDP-choline) following oral and intravenous administration to the human and the rat
   authors: López-Coviella et al.
   year: 1987
-  pmid: '20501174'
+  pmid: "20501174"
   doi: 10.1016/0197-0186(87)90049-0
   url: https://pubmed.ncbi.nlm.nih.gov/20501174/
   kind: Human and animal metabolism study
@@ -999,7 +1104,7 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   title: Effect of oral CDP-choline on plasma choline and uridine levels in humans
   authors: Wurtman et al.
   year: 2000
-  pmid: '10974208'
+  pmid: "10974208"
   doi: 10.1016/S0006-2952(00)00436-6
   url: https://pubmed.ncbi.nlm.nih.gov/10974208/
   kind: Randomized human pharmacokinetic/metabolism study
@@ -1010,10 +1115,10 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   conflictsOfInterest: Not assessed from an inspected full conflict declaration.
   conflictOfInterestStatus: not-assessed
 - id: nakazaki2021
-  title: 'Citicoline and Memory Function in Healthy Older Adults: A Randomized, Double-Blind, Placebo-Controlled Clinical Trial'
+  title: "Citicoline and Memory Function in Healthy Older Adults: A Randomized, Double-Blind, Placebo-Controlled Clinical Trial"
   authors: Nakazaki et al.
   year: 2021
-  pmid: '33978188'
+  pmid: "33978188"
   doi: 10.1093/jn/nxab119
   url: https://pubmed.ncbi.nlm.nih.gov/33978188/
   kind: Randomized placebo-controlled trial
@@ -1028,7 +1133,7 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   title: Citicoline improves verbal memory in aging
   authors: Spiers et al.
   year: 1996
-  pmid: '8624220'
+  pmid: "8624220"
   doi: 10.1001/archneur.1996.00550050071026
   url: https://pubmed.ncbi.nlm.nih.gov/8624220/
   kind: Randomized placebo-controlled trial with subsequent crossover study
@@ -1042,7 +1147,7 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   title: The Effect of Citicoline Supplementation on Motor Speed and Attention in Adolescent Males
   authors: McGlade et al.
   year: 2019
-  pmid: '26179181'
+  pmid: "26179181"
   doi: 10.1177/1087054715593633
   url: https://pubmed.ncbi.nlm.nih.gov/26179181/
   kind: Randomized placebo-controlled trial
@@ -1053,10 +1158,10 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   conflictsOfInterest: Not assessed; corporate author affiliations do not by themselves establish a declared conflict.
   conflictOfInterestStatus: not-assessed
 - id: davalos2012
-  title: 'Citicoline in the treatment of acute ischaemic stroke: an international, randomised, multicentre, placebo-controlled study (ICTUS trial)'
+  title: "Citicoline in the treatment of acute ischaemic stroke: an international, randomised, multicentre, placebo-controlled study (ICTUS trial)"
   authors: Dávalos et al.
   year: 2012
-  pmid: '22691567'
+  pmid: "22691567"
   doi: 10.1016/S0140-6736(12)60813-7
   url: https://pubmed.ncbi.nlm.nih.gov/22691567/
   kind: Multicentre randomized placebo-controlled trial
@@ -1067,10 +1172,10 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   conflictsOfInterest: Not assessed from an inspected full conflict declaration.
   conflictOfInterestStatus: not-assessed
 - id: zafonte2012
-  title: 'Effect of citicoline on functional and cognitive status among patients with traumatic brain injury: Citicoline Brain Injury Treatment Trial (COBRIT)'
+  title: "Effect of citicoline on functional and cognitive status among patients with traumatic brain injury: Citicoline Brain Injury Treatment Trial (COBRIT)"
   authors: Zafonte et al.
   year: 2012
-  pmid: '23168823'
+  pmid: "23168823"
   doi: 10.1001/jama.2012.13256
   url: https://pubmed.ncbi.nlm.nih.gov/23168823/
   kind: Phase 3 multicenter randomized placebo-controlled trial
@@ -1085,7 +1190,7 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   title: Citicoline for treating people with acute ischemic stroke
   authors: Martí-Carvajal et al.
   year: 2020
-  pmid: '32860632'
+  pmid: "32860632"
   doi: 10.1002/14651858.CD013066.pub2
   url: https://pubmed.ncbi.nlm.nih.gov/32860632/
   kind: Cochrane systematic review and meta-analysis
@@ -1097,7 +1202,7 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   conflictOfInterestStatus: none-declared
   disclosureUrl: https://pmc.ncbi.nlm.nih.gov/articles/PMC8406786/
 - id: efsa2024
-  title: '‘Citicoline’ and support of the memory function: Evaluation of a health claim pursuant to Article 13(5) of Regulation (EC) No 1924/2006'
+  title: "‘Citicoline’ and support of the memory function: Evaluation of a health claim pursuant to Article 13(5) of Regulation (EC) No 1924/2006"
   authors: EFSA Panel on Nutrition, Novel Foods and Food Allergens
   year: 2024
   doi: 10.2903/j.efsa.2024.8861
@@ -1183,10 +1288,10 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   conflictsOfInterest: Not applicable to a clinical-publication COI assessment; not assessed.
   conflictOfInterestStatus: not-assessed
 - id: cohen2003
-  title: 'Long-term citicoline (cytidine diphosphate choline) use in patients with vascular dementia: neuroimaging and neuropsychological outcomes'
+  title: "Long-term citicoline (cytidine diphosphate choline) use in patients with vascular dementia: neuroimaging and neuropsychological outcomes"
   authors: Cohen et al.
   year: 2003
-  pmid: '12865605'
+  pmid: "12865605"
   doi: 10.1159/000071116
   url: https://pubmed.ncbi.nlm.nih.gov/12865605/
   kind: Double-blind randomized placebo-controlled trial
@@ -1197,10 +1302,10 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   conflictsOfInterest: Not assessed from an inspected full conflict declaration.
   conflictOfInterestStatus: not-assessed
 - id: cotroneo2013
-  title: 'Effectiveness and safety of citicoline in mild vascular cognitive impairment: the IDEALE study'
+  title: "Effectiveness and safety of citicoline in mild vascular cognitive impairment: the IDEALE study"
   authors: Cotroneo et al.
   year: 2013
-  pmid: '23403474'
+  pmid: "23403474"
   doi: 10.2147/CIA.S38420
   url: https://pubmed.ncbi.nlm.nih.gov/23403474/
   kind: Open nonrandomized controlled study
@@ -1214,7 +1319,7 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   title: Long-term treatment with citicoline may improve poststroke vascular cognitive impairment
   authors: Alvarez-Sabín et al.
   year: 2013
-  pmid: '23406981'
+  pmid: "23406981"
   doi: 10.1159/000346602
   url: https://pubmed.ncbi.nlm.nih.gov/23406981/
   kind: Open randomized usual-care comparison
@@ -1225,10 +1330,10 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   conflictsOfInterest: Not assessed from an inspected full conflict declaration.
   conflictOfInterestStatus: not-assessed
 - id: shakeri2026
-  title: 'Effect of citicoline on cognitive function and functional recovery in patients with mild-to-moderate traumatic brain injury: a randomized placebo-controlled trial'
+  title: "Effect of citicoline on cognitive function and functional recovery in patients with mild-to-moderate traumatic brain injury: a randomized placebo-controlled trial"
   authors: Shakeri Bavali Oleyayi et al.
   year: 2026
-  pmid: '42679920'
+  pmid: "42679920"
   doi: 10.1016/j.neuroscience.2026.08.058
   url: https://pubmed.ncbi.nlm.nih.gov/42679920/
   kind: Single-center triple-blind randomized placebo-controlled pilot
@@ -1239,10 +1344,10 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   conflictsOfInterest: Not assessed from an inspected full conflict declaration.
   conflictOfInterestStatus: not-assessed
 - id: hubner2024
-  title: 'Use of Citicoline in Attention-Deficit/Hyperactivity Disorder: A Pilot Study'
+  title: "Use of Citicoline in Attention-Deficit/Hyperactivity Disorder: A Pilot Study"
   authors: Hübner et al.
   year: 2024
-  pmid: '38976279'
+  pmid: "38976279"
   doi: 10.1097/WNF.0000000000000602
   url: https://pubmed.ncbi.nlm.nih.gov/38976279/
   kind: Double-blind placebo-controlled crossover pilot
@@ -1289,7 +1394,7 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   conflictsOfInterest: Commercial assignee is identified by the patent record; clinical-publication COI status is not applicable.
   conflictOfInterestStatus: not-assessed
 - id: reddit-pmid-33613880
-  title: 'Citicoline Improves Human Vigilance and Visual Working Memory: The Role of Neuronal Activation and Oxidative Stress'
+  title: "Citicoline Improves Human Vigilance and Visual Working Memory: The Role of Neuronal Activation and Oxidative Stress"
   authors: Not established
   year: 2026
   url: https://pubmed.ncbi.nlm.nih.gov/33613880/
@@ -1320,7 +1425,7 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   kind: Randomized controlled trial of citicoline
   insight: Novel pharmacological treatments targeting alpha 7 nicotinic acetylcholine receptor (α7 nAChR) hypofunction in schizophrenia have shown mixed success in ameliorating cognitive impairments associated with this disorder.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '25681529'
+  pmid: "25681529"
   doi: 10.1016/j.pbb.2015.02.004
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -1332,37 +1437,37 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   year: 1991
   url: https://pubmed.ncbi.nlm.nih.gov/1839138/
   kind: PubMed publication
-  insight: '1.'
+  insight: "1."
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '1839138'
+  pmid: "1839138"
   doi: 10.1111/j.1476-5381.1991.tb12471.x
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
 - id: reddit-pmid-15482372
-  title: 'CDP-choline increases plasma ACTH and potentiates the stimulated release of GH, TSH and LH: the cholinergic involvement.'
+  title: "CDP-choline increases plasma ACTH and potentiates the stimulated release of GH, TSH and LH: the cholinergic involvement."
   authors: Sinan Cavun, Vahide Savci
   year: 2004
   url: https://pubmed.ncbi.nlm.nih.gov/15482372/
   kind: PubMed publication
   insight: In the present study, we investigated the effect of intracerebroventricular (i.c.v.) administration of cytidine-5'-diphosphate (CDP) choline on plasma adrenocorticotropin (ACTH), serum growth hormone (GH), thyroid stimulating hormone (TSH), follicle stimulating hormone (FSH) and luteinizing hormone (LH) levels in conscious rats.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '15482372'
+  pmid: "15482372"
   doi: 10.1111/j.1472-8206.2004.00272.x
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
 - id: reddit-pmid-25315828
-  title: 'CDP-choline: effects of the procholine supplement on sensory gating and executive function in healthy volunteers stratified for low, medium and high P50 suppression.'
+  title: "CDP-choline: effects of the procholine supplement on sensory gating and executive function in healthy volunteers stratified for low, medium and high P50 suppression."
   authors: Verner Knott, Dylan Smith, Sara de la Salle, Danielle Impey, Joelle Choueiry, Elise Beaudry, Meaghan Smith, Salman Saghir, Vadim Ilivitsky, Alain Labelle
   year: 2014
   url: https://pubmed.ncbi.nlm.nih.gov/25315828/
   kind: PubMed publication
   insight: Diminished auditory sensory gating and associated neurocognitive deficits in schizophrenia have been linked to altered expression and function of the alpha-7 nicotinic acetycholinergic receptor (α7 nAChR), the targeting of which may have treatment potential.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '25315828'
+  pmid: "25315828"
   doi: 10.1177/0269881114553254
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -1376,12 +1481,20 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   kind: PubMed publication
   insight: This study examined the neurocognitive and electrophysiological effects of a citicoline-caffeine-based beverage in 60 healthy adult participants enrolled in a randomized, double-blind, placebo-controlled trial.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '25046515'
+  pmid: "25046515"
   doi: 10.3109/09637486.2014.940286
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
+- id: psychonautwiki
+  title: "Citicoline: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/Citicoline
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal
@@ -1403,3 +1516,15 @@ Reddit index corpus import (9 linked source records; 7 PubMed abstracts). Full-t
   sourceUrl: https://www.fda.gov/food/dietary-supplements
   asOf: 2026-10-10
 ```
+
+## External wiki links
+
+```yaml
+- service: Wikipedia
+  url: https://en.wikipedia.org/wiki/CDP-Choline
+  title: Wikipedia
+- service: Examine
+  url: https://examine.com/supplements/CDP-choline
+  title: Examine
+```
+

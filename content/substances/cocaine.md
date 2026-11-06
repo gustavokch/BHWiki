@@ -193,6 +193,306 @@ For `jeffcoat1989`, `smith2001`, `foltin2004`, `mittleman1999`, `majlesi2010`, `
   sourceCategory: research
   note: The abstract reports a 1.1-minute absorption half-time but does not provide the smoked dose; that missing detail is preserved rather than inferred.
   sourceId: jeffcoat1989
+- label: Threshold dose
+  amount: 5 mg
+  quantity: 5
+  quantityMax: null
+  unit: mg
+  ingredient: Cocaine
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 10–30 mg
+  quantity: 10
+  quantityMax: 30
+  unit: mg
+  ingredient: Cocaine
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 30–60 mg
+  quantity: 30
+  quantityMax: 60
+  unit: mg
+  ingredient: Cocaine
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 60–90 mg
+  quantity: 60
+  quantityMax: 90
+  unit: mg
+  ingredient: Cocaine
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (90 mg and above)
+  amount: 90 mg and above
+  quantity: 90
+  quantityMax: null
+  unit: mg
+  ingredient: Cocaine
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Threshold dose
+  amount: 2 mg
+  quantity: 2
+  quantityMax: null
+  unit: mg
+  ingredient: Cocaine
+  formulation: Not established
+  route: Intravenous
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 2–5 mg
+  quantity: 2
+  quantityMax: 5
+  unit: mg
+  ingredient: Cocaine
+  formulation: Not established
+  route: Intravenous
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 5–10 mg
+  quantity: 5
+  quantityMax: 10
+  unit: mg
+  ingredient: Cocaine
+  formulation: Not established
+  route: Intravenous
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 10–15 mg
+  quantity: 10
+  quantityMax: 15
+  unit: mg
+  ingredient: Cocaine
+  formulation: Not established
+  route: Intravenous
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (15 mg and above)
+  amount: 15 mg and above
+  quantity: 15
+  quantityMax: null
+  unit: mg
+  ingredient: Cocaine
+  formulation: Not established
+  route: Intravenous
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Threshold dose
+  amount: 13 mg
+  quantity: 13
+  quantityMax: null
+  unit: mg
+  ingredient: Cocaine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 13–75 mg
+  quantity: 13
+  quantityMax: 75
+  unit: mg
+  ingredient: Cocaine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 75–150 mg
+  quantity: 75
+  quantityMax: 150
+  unit: mg
+  ingredient: Cocaine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 150–225 mg
+  quantity: 150
+  quantityMax: 225
+  unit: mg
+  ingredient: Cocaine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (225 mg and above)
+  amount: 225 mg and above
+  quantity: 225
+  quantityMax: null
+  unit: mg
+  ingredient: Cocaine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Threshold dose
+  amount: 2.5 mg
+  quantity: 2.5
+  quantityMax: null
+  unit: mg
+  ingredient: Cocaine
+  formulation: Not established
+  route: Smoked
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 5–15 mg
+  quantity: 5
+  quantityMax: 15
+  unit: mg
+  ingredient: Cocaine
+  formulation: Not established
+  route: Smoked
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 15–30 mg
+  quantity: 15
+  quantityMax: 30
+  unit: mg
+  ingredient: Cocaine
+  formulation: Not established
+  route: Smoked
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 30–45 mg
+  quantity: 30
+  quantityMax: 45
+  unit: mg
+  ingredient: Cocaine
+  formulation: Not established
+  route: Smoked
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (45 mg and above)
+  amount: 45 mg and above
+  quantity: 45
+  quantityMax: null
+  unit: mg
+  ingredient: Cocaine
+  formulation: Not established
+  route: Smoked
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -254,6 +554,135 @@ For `jeffcoat1989`, `smith2001`, `foltin2004`, `mittleman1999`, `majlesi2010`, `
   context: After 160 mg cocaine hydrochloride applied for 20 minutes, estimated systemic absorption was 23.44%, mean Cmax 142.68 ng/mL, median Tmax 30 minutes from pledget insertion, and apparent elimination half-life 1.54 hours.
   sourceId: numbrino-label
   modelEligible: true
+```
+
+## Duration
+
+```yaml
+- id: psychonautwiki-insufflated
+  measurement: subjective
+  route: Intranasal (insufflated)
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 10
+    max: 90
+    unit: minutes
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 3
+      max: 10
+      unit: minutes
+    - name: comeup
+      basis: phase-duration
+      min: 5
+      max: 12
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 7.5
+      max: 16
+      unit: minutes
+    - name: offset
+      basis: phase-duration
+      min: 10
+      max: 25
+      unit: minutes
+- id: psychonautwiki-intravenous
+  measurement: subjective
+  route: Intravenous
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 5
+    max: 15
+    unit: minutes
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 3
+      max: 5
+      unit: seconds
+    - name: comeup
+      basis: phase-duration
+      min: 1
+      max: 2
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 2
+      max: 10
+      unit: minutes
+    - name: offset
+      basis: phase-duration
+      min: 1
+      max: 5
+      unit: minutes
+- id: psychonautwiki-oral
+  measurement: subjective
+  route: Oral
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 120
+    max: 240
+    unit: minutes
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 30
+      max: 40
+      unit: minutes
+    - name: comeup
+      basis: phase-duration
+      min: 40
+      max: 50
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 60
+      max: 180
+      unit: minutes
+    - name: offset
+      basis: phase-duration
+      min: 10
+      max: 25
+      unit: minutes
+- id: psychonautwiki-smoked
+  measurement: subjective
+  route: Smoked
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 5
+    max: 15
+    unit: minutes
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 3
+      max: 5
+      unit: seconds
+    - name: comeup
+      basis: phase-duration
+      min: 1
+      max: 2
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 2
+      max: 10
+      unit: minutes
+    - name: offset
+      basis: phase-duration
+      min: 1
+      max: 5
+      unit: minutes
 ```
 
 ## Modifiers
@@ -555,7 +984,7 @@ For `jeffcoat1989`, `smith2001`, `foltin2004`, `mittleman1999`, `majlesi2010`, `
   conflictOfInterestStatus: not-assessed
   disclosureUrl: https://pubchem.ncbi.nlm.nih.gov/compound/446220
 - id: numbrino-label
-  title: 'These highlights do not include all the information needed to use NUMBRINO safely and effectively. See full prescribing information for NUMBRINO. NUMBRINO (cocaine hydrochloride) nasal solution, CII Initial U.S. Approval: 2017'
+  title: "These highlights do not include all the information needed to use NUMBRINO safely and effectively. See full prescribing information for NUMBRINO. NUMBRINO (cocaine hydrochloride) nasal solution, CII Initial U.S. Approval: 2017"
   authors: Omnivium Pharmaceuticals LLC.
   year: 2026
   url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d724b5b4-6654-4bf5-9eed-e2c7943084ed
@@ -571,7 +1000,7 @@ For `jeffcoat1989`, `smith2001`, `foltin2004`, `mittleman1999`, `majlesi2010`, `
   title: Cocaine disposition in humans after intravenous injection, nasal insufflation (snorting), or smoking.
   authors: A R Jeffcoat; M Perez-Reyes; J M Hill; B M Sadler; C E Cook
   year: 1989
-  pmid: '2565204'
+  pmid: "2565204"
   url: https://pubmed.ncbi.nlm.nih.gov/2565204/
   kind: Human comparative pharmacokinetic study
   insight: Reports smoked and intranasal absorption rates, intranasal bioavailability, IV distribution and elimination, pooled elimination half-life, and major urinary metabolites.
@@ -585,7 +1014,7 @@ For `jeffcoat1989`, `smith2001`, `foltin2004`, `mittleman1999`, `majlesi2010`, `
   title: Bioavailability and Pharmacokinetics of Oral Cocaine in Humans.
   authors: Marion A Coe; Rebecca A Jufer Phipps; Edward J Cone; Sharon L Walsh
   year: 2018
-  pmid: '29462364'
+  pmid: "29462364"
   doi: 10.1093/jat/bky007
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5952935/
   kind: Within-subject human pharmacokinetic study
@@ -600,7 +1029,7 @@ For `jeffcoat1989`, `smith2001`, `foltin2004`, `mittleman1999`, `majlesi2010`, `
   title: Physiological, subjective and reinforcing effects of oral and intravenous cocaine in humans.
   authors: B J Smith; H E Jones; R R Griffiths
   year: 2001
-  pmid: '11498721'
+  pmid: "11498721"
   doi: 10.1007/s002130100740
   url: https://pubmed.ncbi.nlm.nih.gov/11498721/
   kind: Double-blind within-subject human laboratory study
@@ -612,10 +1041,10 @@ For `jeffcoat1989`, `smith2001`, `foltin2004`, `mittleman1999`, `majlesi2010`, `
   conflictOfInterestStatus: not-reported
   disclosureUrl: https://pubmed.ncbi.nlm.nih.gov/11498721/
 - id: foltin2004
-  title: 'Intranasal cocaine in humans: acute tolerance, cardiovascular and subjective effects.'
+  title: "Intranasal cocaine in humans: acute tolerance, cardiovascular and subjective effects."
   authors: Richard W Foltin; Margaret Haney
   year: 2004
-  pmid: '15159138'
+  pmid: "15159138"
   doi: 10.1016/j.pbb.2004.02.018
   url: https://pubmed.ncbi.nlm.nih.gov/15159138/
   kind: Human repeated-dose laboratory study
@@ -630,7 +1059,7 @@ For `jeffcoat1989`, `smith2001`, `foltin2004`, `mittleman1999`, `majlesi2010`, `
   title: Relationship between subjective effects of cocaine and dopamine transporter occupancy.
   authors: N D Volkow; G J Wang; M W Fischman; R W Foltin; J S Fowler; N N Abumrad; S Vitkun; J Logan; S J Gatley; N Pappas; R Hitzemann; C E Shea
   year: 1997
-  pmid: '9126740'
+  pmid: "9126740"
   doi: 10.1038/386827a0
   url: https://pubmed.ncbi.nlm.nih.gov/9126740/
   kind: Human PET pharmacology study
@@ -645,7 +1074,7 @@ For `jeffcoat1989`, `smith2001`, `foltin2004`, `mittleman1999`, `majlesi2010`, `
   title: Triggering of myocardial infarction by cocaine.
   authors: M A Mittleman; D Mintzer; M Maclure; G H Tofler; J B Sherwood; J E Muller
   year: 1999
-  pmid: '10351966'
+  pmid: "10351966"
   doi: 10.1161/01.CIR.99.21.2737
   url: https://pubmed.ncbi.nlm.nih.gov/10351966/
   kind: Case-crossover observational study
@@ -660,7 +1089,7 @@ For `jeffcoat1989`, `smith2001`, `foltin2004`, `mittleman1999`, `majlesi2010`, `
   title: Cocaine Use and Risk of Ischemic Stroke in Young Adults.
   authors: Yu-Ching Cheng; Kathleen A Ryan; Saad A Qadwai; Jay Shah; Mary J Sparks; Marcella A Wozniak; Barney J Stern; Michael S Phipps; Carolyn A Cronin; Laurence S Magder; John W Cole; Steven J Kittner
   year: 2016
-  pmid: '26965853'
+  pmid: "26965853"
   doi: 10.1161/STROKEAHA.115.011417
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6128285/
   kind: Population-based case-control study
@@ -675,7 +1104,7 @@ For `jeffcoat1989`, `smith2001`, `foltin2004`, `mittleman1999`, `majlesi2010`, `
   title: Cocaine-associated seizures and incidence of status epilepticus.
   authors: Nima Majlesi; Richard Shih; Frederick W Fiesseler; Oliver Hung; Renato Debellonio
   year: 2010
-  pmid: '20823966'
+  pmid: "20823966"
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2908651/
   kind: Multicenter retrospective observational study
   insight: Describes 43 cocaine-associated seizure presentations, most of which were single tonic-clonic seizures.
@@ -686,10 +1115,10 @@ For `jeffcoat1989`, `smith2001`, `foltin2004`, `mittleman1999`, `majlesi2010`, `
   conflictOfInterestStatus: not-reported
   disclosureUrl: https://pmc.ncbi.nlm.nih.gov/articles/PMC2908651/
 - id: coffey2000
-  title: 'Acute and protracted cocaine abstinence in an outpatient population: a prospective study of mood, sleep and withdrawal symptoms.'
+  title: "Acute and protracted cocaine abstinence in an outpatient population: a prospective study of mood, sleep and withdrawal symptoms."
   authors: S F Coffey; B S Dansky; M H Carrigan; K T Brady
   year: 2000
-  pmid: '10812287'
+  pmid: "10812287"
   doi: 10.1016/S0376-8716(99)00126-X
   url: https://pubmed.ncbi.nlm.nih.gov/10812287/
   kind: Prospective abstinence study
@@ -701,10 +1130,10 @@ For `jeffcoat1989`, `smith2001`, `foltin2004`, `mittleman1999`, `majlesi2010`, `
   conflictOfInterestStatus: not-reported
   disclosureUrl: https://pubmed.ncbi.nlm.nih.gov/10812287/
 - id: bandstra2001
-  title: 'Intrauterine growth of full-term infants: impact of prenatal cocaine exposure.'
+  title: "Intrauterine growth of full-term infants: impact of prenatal cocaine exposure."
   authors: E S Bandstra; C E Morrow; J C Anthony; S S Churchill; D C Chitwood; B W Steele; A Y Ofir; L Xue
   year: 2001
-  pmid: '11731653'
+  pmid: "11731653"
   doi: 10.1542/peds.108.6.1309
   url: https://pubmed.ncbi.nlm.nih.gov/11731653/
   kind: Prospective pregnancy cohort
@@ -716,10 +1145,10 @@ For `jeffcoat1989`, `smith2001`, `foltin2004`, `mittleman1999`, `majlesi2010`, `
   conflictOfInterestStatus: not-reported
   disclosureUrl: https://pubmed.ncbi.nlm.nih.gov/11731653/
 - id: farre1997
-  title: 'Cocaine and alcohol interactions in humans: neuroendocrine effects and cocaethylene metabolism.'
+  title: "Cocaine and alcohol interactions in humans: neuroendocrine effects and cocaethylene metabolism."
   authors: M Farré; R de la Torre; M L González; M T Terán; P N Roset; E Menoyo; J Camí
   year: 1997
-  pmid: '9336321'
+  pmid: "9336321"
   url: https://pubmed.ncbi.nlm.nih.gov/9336321/
   kind: Randomized crossover human interaction study
   insight: Shows greater cardiovascular and pleasurable subjective effects with alcohol plus intranasal cocaine and documents cocaethylene formation.
@@ -742,6 +1171,14 @@ For `jeffcoat1989`, `smith2001`, `foltin2004`, `mittleman1999`, `majlesi2010`, `
   conflictsOfInterest: Not applicable to a codified federal regulation.
   conflictOfInterestStatus: not-assessed
   disclosureUrl: https://www.ecfr.gov/current/title-21/chapter-II/part-1308/subject-group-ECFRf62f8e189108c4d/section-1308.12
+- id: psychonautwiki
+  title: "Cocaine: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/Cocaine
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal

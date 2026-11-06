@@ -9,10 +9,10 @@ pubchemCid: 3007
 smiles: CC(CC1=CC=CC=C1)N
 category: Stimulant
 tags:
-- stimulant
-- phenethylamine
-accent: '#bea17c'
-reviewedAt: '2026-10-15'
+  - stimulant
+  - phenethylamine
+accent: "#bea17c"
+reviewedAt: 2026-10-15
 editorialStatus: sourced-draft
 halfLife:
   label: Not established here
@@ -29,37 +29,37 @@ kinetics:
   metabolism: Not assessed
   sourceId: pubchem
 x-shape:
-- slug
-- name
-- subtitle
-- summary
-- description
-- aliases
-- formula
-- molecularWeight
-- pubchemCid
-- smiles
-- category
-- tags
-- accent
-- evidenceNote
-- reviewedAt
-- editorialStatus
-- halfLife
-- pkObservations
-- kinetics
-- modifiers
-- doses
-- effects
-- outcomes
-- claims
-- mechanisms
-- cautions
-- interactions
-- experienceLinks
-- references
-- legal
-- externalWikiLinks
+  - slug
+  - name
+  - subtitle
+  - summary
+  - description
+  - aliases
+  - formula
+  - molecularWeight
+  - pubchemCid
+  - smiles
+  - category
+  - tags
+  - accent
+  - evidenceNote
+  - reviewedAt
+  - editorialStatus
+  - halfLife
+  - pkObservations
+  - kinetics
+  - modifiers
+  - doses
+  - effects
+  - outcomes
+  - claims
+  - mechanisms
+  - cautions
+  - interactions
+  - experienceLinks
+  - references
+  - legal
+  - externalWikiLinks
 x-order: 151
 ---
 
@@ -104,8 +104,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   quantityMax: null
   unit: not established
   ingredient: amphetamine
-  formulation: Evekeo conventional immediate-release tablets; 1:1 racemic amphetamine
-    sulfate
+  formulation: Evekeo conventional immediate-release tablets; 1:1 racemic amphetamine sulfate
   route: oral
   frequency: Not established
   duration: Not established
@@ -138,8 +137,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   formulation: Evekeo; 1:1 racemic sulfate
   route: Not established
   frequency: Not established
-  duration: Eight-week open-label optimization followed by two one-week randomized
-    crossover periods.
+  duration: Eight-week open-label optimization followed by two one-week randomized crossover periods.
   population: Children aged 6–12 with ADHD
   purpose: Research exposure; not a dosing recommendation.
   sourceCategory: research
@@ -166,8 +164,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   quantityMax: null
   unit: not established
   ingredient: amphetamine
-  formulation: Dyanavel XR oral suspension or extended-release tablets; d:l ratio
-    3.2:1
+  formulation: Dyanavel XR oral suspension or extended-release tablets; d:l ratio 3.2:1
   route: Not established
   frequency: Not established
   duration: Not established
@@ -311,6 +308,231 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   sourceCategory: research
   note: Compared with modafinil 300 mg and placebo.
   sourceId: reddit-pmid-9377538
+- label: Threshold dose
+  amount: 4 mg
+  quantity: 4
+  quantityMax: null
+  unit: mg
+  ingredient: Amphetamine
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 6–15 mg
+  quantity: 6
+  quantityMax: 15
+  unit: mg
+  ingredient: Amphetamine
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 15–30 mg
+  quantity: 15
+  quantityMax: 30
+  unit: mg
+  ingredient: Amphetamine
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 30–50 mg
+  quantity: 30
+  quantityMax: 50
+  unit: mg
+  ingredient: Amphetamine
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (50 mg and above)
+  amount: 50 mg and above
+  quantity: 50
+  quantityMax: null
+  unit: mg
+  ingredient: Amphetamine
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Threshold dose
+  amount: 4 mg
+  quantity: 4
+  quantityMax: null
+  unit: mg
+  ingredient: Amphetamine
+  formulation: Not established
+  route: Intravenous
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 6–15 mg
+  quantity: 6
+  quantityMax: 15
+  unit: mg
+  ingredient: Amphetamine
+  formulation: Not established
+  route: Intravenous
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 15–30 mg
+  quantity: 15
+  quantityMax: 30
+  unit: mg
+  ingredient: Amphetamine
+  formulation: Not established
+  route: Intravenous
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 30–50 mg
+  quantity: 30
+  quantityMax: 50
+  unit: mg
+  ingredient: Amphetamine
+  formulation: Not established
+  route: Intravenous
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (50 mg and above)
+  amount: 50 mg and above
+  quantity: 50
+  quantityMax: null
+  unit: mg
+  ingredient: Amphetamine
+  formulation: Not established
+  route: Intravenous
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Threshold dose
+  amount: 2.5 mg
+  quantity: 2.5
+  quantityMax: null
+  unit: mg
+  ingredient: Amphetamine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 5–10 mg
+  quantity: 5
+  quantityMax: 10
+  unit: mg
+  ingredient: Amphetamine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 10–25 mg
+  quantity: 10
+  quantityMax: 25
+  unit: mg
+  ingredient: Amphetamine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 25–50 mg
+  quantity: 25
+  quantityMax: 50
+  unit: mg
+  ingredient: Amphetamine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (50 mg and above)
+  amount: 50 mg and above
+  quantity: 50
+  quantityMax: null
+  unit: mg
+  ingredient: Amphetamine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -402,46 +624,141 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   modelEligible: false
 ```
 
+## Duration
+
+```yaml
+- id: psychonautwiki-insufflated
+  measurement: subjective
+  route: Intranasal (insufflated)
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 3
+    max: 6
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 1
+      max: 5
+      unit: minutes
+    - name: comeup
+      basis: phase-duration
+      min: 30
+      max: 90
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 1
+      max: 2
+      unit: hours
+    - name: offset
+      basis: phase-duration
+      min: 1.5
+      max: 3
+      unit: hours
+    - name: after-effects
+      basis: phase-duration
+      min: 2
+      max: 4
+      unit: hours
+- id: psychonautwiki-intravenous
+  measurement: subjective
+  route: Intravenous
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 3
+    max: 6
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 2
+      max: 10
+      unit: seconds
+    - name: comeup
+      basis: phase-duration
+      min: 2
+      max: 10
+      unit: seconds
+    - name: peak
+      basis: phase-duration
+      min: 2
+      max: 4
+      unit: hours
+    - name: offset
+      basis: phase-duration
+      min: 1
+      max: 2
+      unit: hours
+- id: psychonautwiki-oral
+  measurement: subjective
+  route: Oral
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 6
+    max: 8
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 30
+      max: 45
+      unit: minutes
+    - name: comeup
+      basis: phase-duration
+      min: 30
+      max: 135
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 2.5
+      max: 4
+      unit: hours
+    - name: offset
+      basis: phase-duration
+      min: 2
+      max: 3
+      unit: hours
+    - name: after-effects
+      basis: phase-duration
+      min: 3
+      max: 6
+      unit: hours
+```
+
 ## Modifiers
 
 ```yaml
 - label: Modifier 1
   effect: Variable
-  detail: '{"modifier":"Population and treatment selection","finding":"The pediatric
-    racemate study excluded important psychiatric and medical comorbidities and randomized
-    participants after dose optimization.","implication":"Its efficacy and adverse-event
-    frequencies may not represent unselected patients beginning treatment.","sourceId":"childress-2015"}'
+  detail: '{"modifier":"Population and treatment selection","finding":"The pediatric racemate study excluded important psychiatric and medical comorbidities and randomized participants after dose optimization.","implication":"Its efficacy and adverse-event frequencies may not represent unselected patients beginning treatment.","sourceId":"childress-2015"}'
   sourceId: dr-amphetamine-s1
   observationId: dr-amphetamine-amphetamine-pk-1
   factorType: other
   direction: variable
 - label: Modifier 2
   effect: Variable
-  detail: '{"modifier":"Age","formulation":"Dyanavel XR","finding":"Children younger
-    than 6 had higher exposure and more adverse reactions at the same dosage; the
-    current indication begins at age 6.","limitation":"This product-specific age restriction
-    must not replace the separate conventional Evekeo label.","sourceId":"dyanavel-label"}'
+  detail: '{"modifier":"Age","formulation":"Dyanavel XR","finding":"Children younger than 6 had higher exposure and more adverse reactions at the same dosage; the current indication begins at age 6.","limitation":"This product-specific age restriction must not replace the separate conventional Evekeo label.","sourceId":"dyanavel-label"}'
   sourceId: dr-amphetamine-s1
   observationId: dr-amphetamine-amphetamine-pk-1
   factorType: other
   direction: variable
 - label: Modifier 3
   effect: Variable
-  detail: '{"modifier":"Renal function, hepatic function, urinary pH, and metabolic
-    variation","finding":"These can alter amphetamine exposure. CYP2D6 polymorphism
-    is a possible contributor to variability.","limitation":"The label does not establish
-    a validated genotype-based method for predicting an individual''s cognitive response.","sourceId":"dyanavel-label"}'
+  detail: "{\"modifier\":\"Renal function, hepatic function, urinary pH, and metabolic variation\",\"finding\":\"These can alter amphetamine exposure. CYP2D6 polymorphism is a possible contributor to variability.\",\"limitation\":\"The label does not establish a validated genotype-based method for predicting an individual's cognitive response.\",\"sourceId\":\"dyanavel-label\"}"
   sourceId: dr-amphetamine-s1
   observationId: dr-amphetamine-amphetamine-pk-1
   factorType: other
   direction: variable
 - label: Modifier 4
   effect: Variable
-  detail: '{"modifier":"Baseline cognitive ability","formulation":"Mixed amphetamine
-    salts, not racemic sulfate","finding":"Exploratory analyses suggested benefits
-    in lower-performing participants on a minority of tasks despite no general group-level
-    enhancement.","limitation":"Subgroup findings do not establish a dependable method
-    for selecting healthy cognitive-enhancement responders.","sourceId":"ilieva-2013"}'
+  detail: '{"modifier":"Baseline cognitive ability","formulation":"Mixed amphetamine salts, not racemic sulfate","finding":"Exploratory analyses suggested benefits in lower-performing participants on a minority of tasks despite no general group-level enhancement.","limitation":"Subgroup findings do not establish a dependable method for selecting healthy cognitive-enhancement responders.","sourceId":"ilieva-2013"}'
   sourceId: dr-amphetamine-s1
   observationId: dr-amphetamine-amphetamine-pk-1
   factorType: other
@@ -458,8 +775,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   name: amphetamine effect
   direction: Variable
   evidence: Human research
-  description: Behavior ratings and laboratory mathematics performance improved relative
-    to placebo.
+  description: Behavior ratings and laboratory mathematics performance improved relative to placebo.
   sourceId: dr-amphetamine-s1
   population: Not established
   exposure: Not established
@@ -472,9 +788,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   name: amphetamine effect
   direction: Variable
   evidence: Human research
-  description: During open-label optimization, decreased appetite occurred in 27.6%
-    and upper abdominal pain in 14.3%. In the randomized phase, any treatment-emergent
-    adverse event occurred in 21.6% on active treatment versus 14.4% on placebo.
+  description: During open-label optimization, decreased appetite occurred in 27.6% and upper abdominal pain in 14.3%. In the randomized phase, any treatment-emergent adverse event occurred in 21.6% on active treatment versus 14.4% on placebo.
   sourceId: dr-amphetamine-s1
   population: Not established
   exposure: Not established
@@ -487,8 +801,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   name: amphetamine effect
   direction: Variable
   evidence: Human research
-  description: Mean increases cited for CNS stimulants are approximately 2–4 mmHg
-    in blood pressure and 3–6 beats/minute in heart rate.
+  description: Mean increases cited for CNS stimulants are approximately 2–4 mmHg in blood pressure and 3–6 beats/minute in heart rate.
   sourceId: dr-amphetamine-s1
   population: Not established
   exposure: Not established
@@ -501,8 +814,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   name: amphetamine effect
   direction: Variable
   evidence: Human research
-  description: Healthy participants perceived enhanced performance despite largely
-    absent objective cognitive enhancement.
+  description: Healthy participants perceived enhanced performance despite largely absent objective cognitive enhancement.
   sourceId: dr-amphetamine-s1
   population: Not established
   exposure: Not established
@@ -513,8 +825,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   name: Subjective sleepiness
   direction: Decreased
   evidence: Human research
-  description: Both d-amphetamine and modafinil reduced ratings of feeling sleepy
-    in healthy adults.
+  description: Both d-amphetamine and modafinil reduced ratings of feeling sleepy in healthy adults.
   sourceId: reddit-pmid-17469936
   population: 11 healthy adults
   exposure: 0.035–0.140 mg/kg d-amphetamine
@@ -526,8 +837,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   name: Activated mood and autonomic response
   direction: Increased
   evidence: Human research
-  description: Thirty-milligram Adderall produced substantial autonomic and subjective
-    drug effects but only small mixed cognitive effects in 13 healthy students.
+  description: Thirty-milligram Adderall produced substantial autonomic and subjective drug effects but only small mixed cognitive effects in 13 healthy students.
   sourceId: reddit-pmid-29954141
   population: 13 healthy college students without ADHD
   exposure: 30 mg Adderall
@@ -539,8 +849,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   name: Aversive emotional response
   direction: Decreased
   evidence: Human research
-  description: Five- and 10-mg d-amphetamine abolished startle potentiation to unpleasant
-    images in this between-subjects study.
+  description: Five- and 10-mg d-amphetamine abolished startle potentiation to unpleasant images in this between-subjects study.
   sourceId: reddit-pmid-22864946
   population: Healthy adults
   exposure: 5 or 10 mg
@@ -556,7 +865,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   study:
     id: amphetamine-outcomes-1
     populationLabels:
-    - 107 children aged 6–12 enrolled; 97 randomized
+      - 107 children aged 6–12 enrolled; 97 randomized
     comparator: placebo
     formulation: Evekeo immediate-release racemic sulfate, d:l 1:1
   conflictingSourceIds: []
@@ -575,7 +884,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   study:
     id: amphetamine-outcomes-2
     populationLabels:
-    - 320 adults aged 18–55 received randomized treatment
+      - 320 adults aged 18–55 received randomized treatment
     comparator: placebo
     formulation: AR19 investigational racemic amphetamine sulfate
   conflictingSourceIds: []
@@ -594,7 +903,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   study:
     id: amphetamine-outcomes-3
     populationLabels:
-    - 108 children aged 6–12 entered the study
+      - 108 children aged 6–12 entered the study
     comparator: placebo
     formulation: Dyanavel XR suspension, d:l 3.2:1
   conflictingSourceIds: []
@@ -613,7 +922,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   study:
     id: amphetamine-outcomes-4
     populationLabels:
-    - 44 adults across the two diagnoses
+      - 44 adults across the two diagnoses
     comparator: Modafinil up to 200 mg twice daily
     formulation: Amphetamine-dextroamphetamine mixed salts, not the 1:1 racemate
   conflictingSourceIds: []
@@ -632,7 +941,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   study:
     id: amphetamine-outcomes-5
     populationLabels:
-    - Healthy young adults
+      - Healthy young adults
     comparator: placebo
     formulation: Mixed amphetamine salts
   conflictingSourceIds: []
@@ -651,7 +960,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   study:
     id: amphetamine-outcomes-6
     populationLabels:
-    - '71 healthy adults: placebo n=29, 10 mg n=17, 20 mg n=25'
+      - "71 healthy adults: placebo n=29, 10 mg n=17, 20 mg n=25"
     comparator: placebo
     formulation: Pure dextroamphetamine; not racemic amphetamine
   conflictingSourceIds: []
@@ -662,7 +971,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   evidence: Human research
   description: Source-specific outcome evidence is preserved in the cited reference.
   sourceId: dr-amphetamine-s1
-  population: '71 healthy adults: placebo n=29, 10 mg n=17, 20 mg n=25'
+  population: "71 healthy adults: placebo n=29, 10 mg n=17, 20 mg n=25"
   exposure: Single oral administration
   instrument: null
   magnitude: null
@@ -670,7 +979,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   study:
     id: amphetamine-outcomes-7
     populationLabels:
-    - 1,374 cases and 2,748 controls, ages 16–35
+      - 1,374 cases and 2,748 controls, ages 16–35
     comparator: No prescription amphetamine exposure
     formulation: Prescription amphetamines grouped across products
   conflictingSourceIds: []
@@ -689,7 +998,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   study:
     id: amphetamine-outcomes-8
     populationLabels:
-    - 436 veterans aged at least 50
+      - 436 veterans aged at least 50
     comparator: methylphenidate
     formulation: Amphetamine-dextroamphetamine, not isolated racemic sulfate
   conflictingSourceIds: []
@@ -709,9 +1018,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   name: Attention and cognitive performance during sleep loss
   direction: Increased
   evidence: Human research
-  description: During 64 hours of sustained work and sleep loss, 20 mg d-amphetamine
-    maintained or improved reaction time, logical reasoning and short-term memory
-    versus placebo.
+  description: During 64 hours of sustained work and sleep loss, 20 mg d-amphetamine maintained or improved reaction time, logical reasoning and short-term memory versus placebo.
   sourceId: reddit-pmid-10607161
   population: 41 military subjects
   exposure: 20 mg d-amphetamine during sleep deprivation
@@ -723,9 +1030,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   name: Attention and psychomotor performance
   direction: Increased
   evidence: Human research
-  description: A 0.42 mg/kg oral d-amphetamine dose improved several attention measures
-    and some psychomotor/perceptual-speed tasks, but movement estimation became less
-    conservative.
+  description: A 0.42 mg/kg oral d-amphetamine dose improved several attention measures and some psychomotor/perceptual-speed tasks, but movement estimation became less conservative.
   sourceId: reddit-pmid-16761129
   population: 60 healthy adults across three experiments
   exposure: 0.42 mg/kg
@@ -737,9 +1042,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   name: MCCB cognitive performance
   direction: Variable
   evidence: Human research
-  description: Twenty milligrams did not change mean MCCB scores overall; lower-performing
-    participants improved while higher-performing participants were impaired, with
-    regression to the mean not fully excluded.
+  description: Twenty milligrams did not change mean MCCB scores overall; lower-performing participants improved while higher-performing participants were impaired, with regression to the mean not fully excluded.
   sourceId: reddit-pmid-23314393
   population: 60 healthy adults
   exposure: 20 mg amphetamine
@@ -751,9 +1054,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   name: Vigilance and processing speed
   direction: Increased
   evidence: Human research
-  description: Forty milligrams d-amphetamine increased stop-signal go accuracy and
-    vigilance; lisdexamfetamine increased processing speed, while neither affected
-    digit span.
+  description: Forty milligrams d-amphetamine increased stop-signal go accuracy and vigilance; lisdexamfetamine increased processing speed, while neither affected digit span.
   sourceId: reddit-pmid-29511807
   population: 24 healthy volunteers
   exposure: 40 mg d-amphetamine or 100 mg lisdexamfetamine
@@ -765,9 +1066,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   name: Convergent creative performance
   direction: Variable
   evidence: Human research
-  description: 'Adderall effects on convergent creativity depended on baseline ability:
-    lower performers improved, whereas higher performers were unaffected or impaired;
-    divergent-task effects were inconclusive.'
+  description: "Adderall effects on convergent creativity depended on baseline ability: lower performers improved, whereas higher performers were unaffected or impaired; divergent-task effects were inconclusive."
   sourceId: reddit-pmid-19011838
   population: 16 healthy young adults
   exposure: Adderall; dose not stated in abstract
@@ -779,9 +1078,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   name: Recovery sleep
   direction: Variable
   evidence: Human research
-  description: After 64-hour sleep deprivation, amphetamine delayed sleep and reduced
-    total sleep, efficiency and REM sleep, with REM rebound delayed to the second
-    recovery night.
+  description: After 64-hour sleep deprivation, amphetamine delayed sleep and reduced total sleep, efficiency and REM sleep, with REM rebound delayed to the second recovery night.
   sourceId: reddit-pmid-10607162
   population: 37 volunteers
   exposure: 20 mg d-amphetamine during sleep deprivation
@@ -793,9 +1090,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   name: Self-monitoring accuracy
   direction: Variable
   evidence: Human research
-  description: D-amphetamine preserved self-monitoring during sleep deprivation, whereas
-    modafinil caused overconfidence; this does not show amphetamine is safe or beneficial
-    overall.
+  description: D-amphetamine preserved self-monitoring during sleep deprivation, whereas modafinil caused overconfidence; this does not show amphetamine is safe or beneficial overall.
   sourceId: reddit-pmid-9377538
   population: Healthy volunteers
   exposure: 20 mg d-amphetamine during 64 h sleep deprivation
@@ -843,20 +1138,16 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   description: Source-specific evidence is preserved in the cited source.
   sourceId: dr-amphetamine-s1
 - title: Baseline-dependent impairment
-  description: MCCB and creativity studies found improvement in lower performers but
-    impairment or no benefit in higher performers.
+  description: MCCB and creativity studies found improvement in lower performers but impairment or no benefit in higher performers.
   sourceId: reddit-pmid-23314393
 - title: Sleep and recovery disruption
-  description: Amphetamine delayed sleep, reduced total sleep/REM and altered recovery
-    after prolonged wakefulness.
+  description: Amphetamine delayed sleep, reduced total sleep/REM and altered recovery after prolonged wakefulness.
   sourceId: reddit-pmid-10607162
 - title: Autonomic and subjective effects
-  description: Adderall produced large autonomic and subjective effects despite minimal
-    mixed neurocognitive benefit in a small healthy-student pilot.
+  description: Adderall produced large autonomic and subjective effects despite minimal mixed neurocognitive benefit in a small healthy-student pilot.
   sourceId: reddit-pmid-29954141
 - title: Driving-relevant risk
-  description: The 0.42 mg/kg study found less conservative movement estimation despite
-    low-level attention enhancement.
+  description: The 0.42 mg/kg study found less conservative movement estimation despite low-level attention enhancement.
   sourceId: reddit-pmid-16761129
 ```
 
@@ -867,147 +1158,133 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   assertion: All products called amphetamine are racemic and interchangeable.
   relation: evidence-boundary
   participants:
-  - entityId: substance:amphetamine
-    role: intervention
-  - entityId: tag:metacognition
-    role: reported-outcome-context
+    - entityId: substance:amphetamine
+      role: intervention
+    - entityId: tag:metacognition
+      role: reported-outcome-context
   context: Source-specific research report
   sourceIds:
-  - dr-amphetamine-s1
+    - dr-amphetamine-s1
   conflictingSourceIds:
-  - dr-amphetamine-s1
+    - dr-amphetamine-s1
   assessment: not-formally-assessed
   limitation: Source-specific limitation preserved in the returned report.
 - id: dr-amphetamine-amphetamine-claim-2
-  assertion: A ten-hour laboratory effect proves racemic amphetamine lasts longer
-    or works better than mixed salts.
+  assertion: A ten-hour laboratory effect proves racemic amphetamine lasts longer or works better than mixed salts.
   relation: evidence-boundary
   participants:
-  - entityId: substance:amphetamine
-    role: intervention
-  - entityId: tag:metacognition
-    role: reported-outcome-context
+    - entityId: substance:amphetamine
+      role: intervention
+    - entityId: tag:metacognition
+      role: reported-outcome-context
   context: Source-specific research report
   sourceIds:
-  - dr-amphetamine-s1
+    - dr-amphetamine-s1
   conflictingSourceIds:
-  - dr-amphetamine-s1
+    - dr-amphetamine-s1
   assessment: not-formally-assessed
   limitation: Source-specific limitation preserved in the returned report.
 - id: dr-amphetamine-amphetamine-claim-3
   assertion: Feeling cognitively enhanced demonstrates improved cognitive ability.
   relation: evidence-boundary
   participants:
-  - entityId: substance:amphetamine
-    role: intervention
-  - entityId: tag:metacognition
-    role: reported-outcome-context
+    - entityId: substance:amphetamine
+      role: intervention
+    - entityId: tag:metacognition
+      role: reported-outcome-context
   context: Source-specific research report
   sourceIds:
-  - dr-amphetamine-s1
+    - dr-amphetamine-s1
   conflictingSourceIds:
-  - dr-amphetamine-s1
+    - dr-amphetamine-s1
   assessment: not-formally-assessed
   limitation: Source-specific limitation preserved in the returned report.
 - id: dr-amphetamine-amphetamine-claim-4
-  assertion: AR19 manipulation resistance demonstrates reduced addiction or makes
-    amphetamine nonaddictive.
+  assertion: AR19 manipulation resistance demonstrates reduced addiction or makes amphetamine nonaddictive.
   relation: evidence-boundary
   participants:
-  - entityId: substance:amphetamine
-    role: intervention
-  - entityId: tag:metacognition
-    role: reported-outcome-context
+    - entityId: substance:amphetamine
+      role: intervention
+    - entityId: tag:metacognition
+      role: reported-outcome-context
   context: Source-specific research report
   sourceIds:
-  - dr-amphetamine-s1
+    - dr-amphetamine-s1
   conflictingSourceIds:
-  - dr-amphetamine-s1
+    - dr-amphetamine-s1
   assessment: not-formally-assessed
   limitation: Source-specific limitation preserved in the returned report.
 - id: dr-amphetamine-amphetamine-claim-5
-  assertion: The recent hypersomnolence trial established mixed salts as noninferior
-    to modafinil.
+  assertion: The recent hypersomnolence trial established mixed salts as noninferior to modafinil.
   relation: evidence-boundary
   participants:
-  - entityId: substance:amphetamine
-    role: intervention
-  - entityId: tag:metacognition
-    role: reported-outcome-context
+    - entityId: substance:amphetamine
+      role: intervention
+    - entityId: tag:metacognition
+      role: reported-outcome-context
   context: Source-specific research report
   sourceIds:
-  - dr-amphetamine-s1
+    - dr-amphetamine-s1
   conflictingSourceIds:
-  - dr-amphetamine-s1
+    - dr-amphetamine-s1
   assessment: not-formally-assessed
   limitation: Source-specific limitation preserved in the returned report.
 - id: reddit-claim-amphetamine-10607161-0
-  assertion: Amphetamine can improve selected attention or vigilance tasks during
-    sleep loss, but effects are task- and context-specific.
+  assertion: Amphetamine can improve selected attention or vigilance tasks during sleep loss, but effects are task- and context-specific.
   relation: associated-with
   participants:
-  - entityId: substance:amphetamine
-    role: intervention or exposure
-  - entityId: tag:attention
-    role: reported endpoint
-  context: Publication abstract and/or retrieved PMC text; this is not a pooled efficacy
-    estimate.
+    - entityId: substance:amphetamine
+      role: intervention or exposure
+    - entityId: tag:attention
+      role: reported endpoint
+  context: Publication abstract and/or retrieved PMC text; this is not a pooled efficacy estimate.
   sourceIds:
-  - reddit-pmid-10607161
+    - reddit-pmid-10607161
   conflictingSourceIds: []
   assessment: not-formally-assessed
-  limitation: Publication-level association; direction and generalizability depend
-    on the cited study.
+  limitation: Publication-level association; direction and generalizability depend on the cited study.
 - id: reddit-claim-amphetamine-23314393-1
-  assertion: Amphetamine effects on MCCB performance vary inversely with baseline
-    ability.
+  assertion: Amphetamine effects on MCCB performance vary inversely with baseline ability.
   relation: associated-with
   participants:
-  - entityId: substance:amphetamine
-    role: intervention or exposure
-  - entityId: tag:metacognition
-    role: reported endpoint
-  context: Publication abstract and/or retrieved PMC text; this is not a pooled efficacy
-    estimate.
+    - entityId: substance:amphetamine
+      role: intervention or exposure
+    - entityId: tag:metacognition
+      role: reported endpoint
+  context: Publication abstract and/or retrieved PMC text; this is not a pooled efficacy estimate.
   sourceIds:
-  - reddit-pmid-23314393
+    - reddit-pmid-23314393
   conflictingSourceIds: []
   assessment: not-formally-assessed
-  limitation: Publication-level association; direction and generalizability depend
-    on the cited study.
+  limitation: Publication-level association; direction and generalizability depend on the cited study.
 - id: reddit-claim-amphetamine-29954141-2
-  assertion: Adderall has large autonomic/subjective effects with minimal mixed neurocognitive
-    benefit in healthy students.
+  assertion: Adderall has large autonomic/subjective effects with minimal mixed neurocognitive benefit in healthy students.
   relation: associated-with
   participants:
-  - entityId: substance:amphetamine
-    role: intervention or exposure
-  - entityId: tag:arousal
-    role: reported endpoint
-  context: Publication abstract and/or retrieved PMC text; this is not a pooled efficacy
-    estimate.
+    - entityId: substance:amphetamine
+      role: intervention or exposure
+    - entityId: tag:arousal
+      role: reported endpoint
+  context: Publication abstract and/or retrieved PMC text; this is not a pooled efficacy estimate.
   sourceIds:
-  - reddit-pmid-29954141
+    - reddit-pmid-29954141
   conflictingSourceIds: []
   assessment: not-formally-assessed
-  limitation: Publication-level association; direction and generalizability depend
-    on the cited study.
+  limitation: Publication-level association; direction and generalizability depend on the cited study.
 - id: reddit-claim-amphetamine-10607162-3
   assertion: Amphetamine disrupts recovery sleep after prolonged wakefulness.
   relation: associated-with
   participants:
-  - entityId: substance:amphetamine
-    role: intervention or exposure
-  - entityId: tag:sleep
-    role: reported endpoint
-  context: Publication abstract and/or retrieved PMC text; this is not a pooled efficacy
-    estimate.
+    - entityId: substance:amphetamine
+      role: intervention or exposure
+    - entityId: tag:sleep
+      role: reported endpoint
+  context: Publication abstract and/or retrieved PMC text; this is not a pooled efficacy estimate.
   sourceIds:
-  - reddit-pmid-10607162
+    - reddit-pmid-10607162
   conflictingSourceIds: []
   assessment: not-formally-assessed
-  limitation: Publication-level association; direction and generalizability depend
-    on the cited study.
+  limitation: Publication-level association; direction and generalizability depend on the cited study.
 ```
 
 ## Interactions
@@ -1020,7 +1297,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   sourceId: dr-amphetamine-s1
   context: Evidence context preserved from Deep Research
   conflictingSourceIds:
-  - dr-amphetamine-s1
+    - dr-amphetamine-s1
 - id: dr-amphetamine-interaction-2
   name: Documented or hypothesized coexposure
   otherSlug: null
@@ -1028,7 +1305,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   sourceId: dr-amphetamine-s1
   context: Evidence context preserved from Deep Research
   conflictingSourceIds:
-  - dr-amphetamine-s1
+    - dr-amphetamine-s1
 - id: dr-amphetamine-interaction-3
   name: Documented or hypothesized coexposure
   otherSlug: null
@@ -1036,7 +1313,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   sourceId: dr-amphetamine-s1
   context: Evidence context preserved from Deep Research
   conflictingSourceIds:
-  - dr-amphetamine-s1
+    - dr-amphetamine-s1
 - id: dr-amphetamine-interaction-4
   name: Documented or hypothesized coexposure
   otherSlug: null
@@ -1044,7 +1321,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   sourceId: dr-amphetamine-s1
   context: Evidence context preserved from Deep Research
   conflictingSourceIds:
-  - dr-amphetamine-s1
+    - dr-amphetamine-s1
 - id: dr-amphetamine-interaction-5
   name: Documented or hypothesized coexposure
   otherSlug: null
@@ -1052,7 +1329,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   sourceId: dr-amphetamine-s1
   context: Evidence context preserved from Deep Research
   conflictingSourceIds:
-  - dr-amphetamine-s1
+    - dr-amphetamine-s1
 - id: dr-amphetamine-interaction-6
   name: Documented or hypothesized coexposure
   otherSlug: null
@@ -1060,7 +1337,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   sourceId: dr-amphetamine-s1
   context: Evidence context preserved from Deep Research
   conflictingSourceIds:
-  - dr-amphetamine-s1
+    - dr-amphetamine-s1
 ```
 
 ## Experience links
@@ -1075,7 +1352,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
 
 ```yaml
 - id: pubchem
-  title: 'Amphetamine: compound identity and structure'
+  title: "Amphetamine: compound identity and structure"
   authors: NCBI PubChem
   year: 2026
   url: https://pubchem.ncbi.nlm.nih.gov/compound/3007
@@ -1108,7 +1385,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   conflictsOfInterest: Commercial product interest.
   conflictOfInterestStatus: not-assessed
 - id: dr-amphetamine-s3
-  title: 'The Efficacy and Safety of Evekeo, Racemic Amphetamine Sulfate, for Treatment of Attention-Deficit/Hyperactivity Disorder Symptoms: A Multicenter, Dose-Optimized, Double-Blind, Randomized, Placebo-Controlled Crossover Laboratory Classroom Study.'
+  title: "The Efficacy and Safety of Evekeo, Racemic Amphetamine Sulfate, for Treatment of Attention-Deficit/Hyperactivity Disorder Symptoms: A Multicenter, Dose-Optimized, Double-Blind, Randomized, Placebo-Controlled Crossover Laboratory Classroom Study."
   authors: Ann C Childress, Matthew Brams, Andrew J Cutler, Scott H Kollins, Jo Northcutt, Americo Padilla, John M Turnbow
   year: 2015
   url: https://pubmed.ncbi.nlm.nih.gov/25692608/
@@ -1156,7 +1433,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   conflictsOfInterest: Industry sponsor and sponsor-affiliated study director.
   conflictOfInterestStatus: not-assessed
 - id: dr-amphetamine-s7
-  title: 'Pharmacokinetics of AR19, an Immediate-Release Amphetamine Sulfate Formulation Designed to Deter Manipulation for Administration Via Nonoral Routes: Bioequivalence to Reference Racemic Amphetamine Sulfate, Dose Proportionality, and Food Effect.'
+  title: "Pharmacokinetics of AR19, an Immediate-Release Amphetamine Sulfate Formulation Designed to Deter Manipulation for Administration Via Nonoral Routes: Bioequivalence to Reference Racemic Amphetamine Sulfate, Dose Proportionality, and Food Effect."
   authors: Steven Caras, Terrilyn Sharpe
   year: 2020
   url: https://pubmed.ncbi.nlm.nih.gov/31809216/
@@ -1168,7 +1445,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   conflictsOfInterest: Both authors affiliated with Arbor Clinical Development; complete declaration text was not assessed.
   conflictOfInterestStatus: not-assessed
 - id: dr-amphetamine-s12
-  title: 'Modafinil Versus Amphetamine-Dextroamphetamine For Idiopathic Hypersomnia and Narcolepsy Type 2: A Randomized, Blinded, Non-inferiority Trial.'
+  title: "Modafinil Versus Amphetamine-Dextroamphetamine For Idiopathic Hypersomnia and Narcolepsy Type 2: A Randomized, Blinded, Non-inferiority Trial."
   authors: Lynn Marie Trotti, Tyler Blake, Romy Hoque, David B Rye, Surina Sharma, Donald L Bliwise
   year: 2024
   url: https://pubmed.ncbi.nlm.nih.gov/39306601/
@@ -1240,7 +1517,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   conflictsOfInterest: Declaration not available in the retrieved abstract.
   conflictOfInterestStatus: not-assessed
 - id: dr-amphetamine-s18
-  title: 'Association Between Methylphenidate and Amphetamine Use in Pregnancy and Risk of Congenital Malformations: A Cohort Study From the International Pregnancy Safety Study Consortium.'
+  title: "Association Between Methylphenidate and Amphetamine Use in Pregnancy and Risk of Congenital Malformations: A Cohort Study From the International Pregnancy Safety Study Consortium."
   authors: Krista F Huybrechts, Gabriella Bröms, Lotte Brix Christensen, Kristjana Einarsdóttir, Anders Engeland, Kari Furu, Mika Gissler, Sonia Hernandez-Diaz, Pär Karlsson, Øystein Karlstad, Helle Kieler, Anna-Maria Lahesmaa-Korpinen, Helen Mogun, Mette Nørgaard, Johan Reutfors, Henrik Toft Sørensen, Helga Zoega, Brian T Bateman
   year: 2018
   url: https://pubmed.ncbi.nlm.nih.gov/29238795/
@@ -1252,14 +1529,14 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   conflictsOfInterest: Complete declaration not retrieved.
   conflictOfInterestStatus: not-assessed
 - id: reddit-pmid-29954141
-  title: 'Neurocognitive, Autonomic, and Mood Effects of Adderall: A Pilot Study of Healthy College Students.'
+  title: "Neurocognitive, Autonomic, and Mood Effects of Adderall: A Pilot Study of Healthy College Students."
   authors: Lisa L Weyandt, Tara L White, Bergljot Gyda Gudmundsdottir, Adam Z Nitenson, Emma S Rathkey, Kelvin A De Leon, Stephanie A Bjorn
   year: 2018
   url: https://pubmed.ncbi.nlm.nih.gov/29954141/
   kind: PubMed publication
   insight: 30 mg Adderall in 13 healthy students produced large autonomic/subjective effects but small mixed cognitive effects.
   limitation: Abstract reviewed; PMC full text was retrieved where rights allowed.
-  pmid: '29954141'
+  pmid: "29954141"
   doi: 10.3390/pharmacy6030058
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -1274,7 +1551,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   kind: PubMed publication
   insight: 40 mg d-amphetamine and 100 mg lisdexamfetamine improved selected vigilance/processing-speed outcomes but not digit span.
   limitation: Abstract reviewed; rights-eligible PMC full text was unavailable for this publication.
-  pmid: '29511807'
+  pmid: "29511807"
   doi: 10.1007/s00213-018-4849-0
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -1288,7 +1565,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   kind: PubMed publication
   insight: 20 mg amphetamine had no overall MCCB benefit; lower performers improved and higher performers worsened.
   limitation: Abstract reviewed; PMC full text was retrieved where rights allowed.
-  pmid: '23314393'
+  pmid: "23314393"
   doi: 10.1007/s00213-012-2948-x
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -1303,7 +1580,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   kind: PubMed publication
   insight: Adderall effects on convergent creativity depended on baseline ability; higher performers could be impaired.
   limitation: Abstract reviewed; rights-eligible PMC full text was unavailable for this publication.
-  pmid: '19011838'
+  pmid: "19011838"
   doi: 10.1007/s00213-008-1369-3
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -1317,7 +1594,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   kind: PubMed publication
   insight: D-amphetamine 0.035–0.140 mg/kg reduced sleepiness and sustained some task performance while producing subjective stimulation.
   limitation: Abstract reviewed; rights-eligible PMC full text was unavailable for this publication.
-  pmid: '17469936'
+  pmid: "17469936"
   doi: 10.1037/1064-1297.15.2.123
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -1331,7 +1608,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   kind: PubMed publication
   insight: 0.42 mg/kg d-amphetamine improved several attention measures but made movement estimation less conservative.
   limitation: Abstract reviewed; rights-eligible PMC full text was unavailable for this publication.
-  pmid: '16761129'
+  pmid: "16761129"
   doi: 10.1007/s00213-006-0410-7
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -1345,35 +1622,35 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   kind: PubMed publication
   insight: During 64 h sustained work, 20 mg d-amphetamine maintained/improved reaction time, reasoning and short-term memory versus placebo.
   limitation: Abstract reviewed; rights-eligible PMC full text was unavailable for this publication.
-  pmid: '10607161'
+  pmid: "10607161"
   doi: 10.1111/j.1365-2869.1995.tb00172.x
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
 - id: reddit-pmid-22864946
-  title: 'Effect of D-amphetamine on emotion-potentiated startle in healthy humans: implications for psychopathy and antisocial behaviour.'
+  title: "Effect of D-amphetamine on emotion-potentiated startle in healthy humans: implications for psychopathy and antisocial behaviour."
   authors: Philip J Corr, Veena Kumari
   year: 2013
   url: https://pubmed.ncbi.nlm.nih.gov/22864946/
   kind: PubMed publication
   insight: 5–10 mg d-amphetamine reduced aversive emotion-potentiated startle.
   limitation: Abstract reviewed; rights-eligible PMC full text was unavailable for this publication.
-  pmid: '22864946'
+  pmid: "22864946"
   doi: 10.1007/s00213-012-2824-8
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
 - id: reddit-pmid-9377538
-  title: 'Self-monitoring cognitive performance during sleep deprivation: effects of modafinil, d-amphetamine and placebo.'
+  title: "Self-monitoring cognitive performance during sleep deprivation: effects of modafinil, d-amphetamine and placebo."
   authors: J V Baranski, R A Pigeau
   year: 1997
   url: https://pubmed.ncbi.nlm.nih.gov/9377538/
   kind: PubMed publication
   insight: 20 mg d-amphetamine preserved self-monitoring during 64 h sleep deprivation; modafinil caused overconfidence.
   limitation: Abstract reviewed; rights-eligible PMC full text was unavailable for this publication.
-  pmid: '9377538'
+  pmid: "9377538"
   doi: 10.1111/j.1365-2869.1997.00032.x
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -1387,7 +1664,7 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   kind: PubMed publication
   insight: Amphetamine delayed sleep and reduced total sleep/efficiency/REM during recovery after 64 h sleep deprivation.
   limitation: Abstract reviewed; rights-eligible PMC full text was unavailable for this publication.
-  pmid: '10607162'
+  pmid: "10607162"
   doi: 10.1111/j.1365-2869.1995.tb00173.x
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -1401,27 +1678,33 @@ Reddit index source review: Ten PubMed abstracts were retrieved; PMC full text w
   kind: Community index
   insight: Reddit index discovery link; it does not establish efficacy, dose or safety.
   limitation: Community index used as a discovery aid; publication evidence is evaluated in the linked records.
+- id: psychonautwiki
+  title: "Amphetamine: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/Amphetamine
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal
 
 ```yaml
 - jurisdiction: United States, federal
-  activity: 21 CFR 1308.12(d)(1) covers amphetamine, its salts, optical isomers, and
-    salts of its optical isomers.
+  activity: 21 CFR 1308.12(d)(1) covers amphetamine, its salts, optical isomers, and salts of its optical isomers.
   status: Schedule II controlled substance
   sourceUrl: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f469fb38-0380-4621-9db3-a4f429126156
   asOf: 2026-10-10
 - jurisdiction: United States, product labeling
   activity: Not established
-  status: Prescription product labeled for narcolepsy, ADHD, and a short-term adjunctive
-    role in refractory exogenous obesity.
+  status: Prescription product labeled for narcolepsy, ADHD, and a short-term adjunctive role in refractory exogenous obesity.
   sourceUrl: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f469fb38-0380-4621-9db3-a4f429126156
   asOf: 2026-10-10
 - jurisdiction: United States, product distinction
   activity: Not established
-  status: Vyvanse is labeled for ADHD in adults and children aged 6 years and older,
-    and moderate-to-severe binge eating disorder in adults.
+  status: Vyvanse is labeled for ADHD in adults and children aged 6 years and older, and moderate-to-severe binge eating disorder in adults.
   sourceUrl: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f469fb38-0380-4621-9db3-a4f429126156
   asOf: 2026-10-10
 ```
+

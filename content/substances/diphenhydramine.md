@@ -204,6 +204,81 @@ Class-level antihistamine findings were not substituted for diphenhydramine-spec
   sourceCategory: research
   note: Diphenhydramine was not significantly better than placebo at the 15-minute comparison in this small study.
   sourceId: rubio2011
+- label: Threshold dose
+  amount: 25 mg
+  quantity: 25
+  quantityMax: null
+  unit: mg
+  ingredient: Diphenhydramine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 100–200 mg
+  quantity: 100
+  quantityMax: 200
+  unit: mg
+  ingredient: Diphenhydramine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 200–400 mg
+  quantity: 200
+  quantityMax: 400
+  unit: mg
+  ingredient: Diphenhydramine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 400–700 mg
+  quantity: 400
+  quantityMax: 700
+  unit: mg
+  ingredient: Diphenhydramine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (700 mg and above)
+  amount: 700 mg and above
+  quantity: 700
+  quantityMax: null
+  unit: mg
+  ingredient: Diphenhydramine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -265,6 +340,47 @@ Class-level antihistamine findings were not substituted for diphenhydramine-spec
   context: After a single 25 mg exposure, age and sex did not significantly influence Cmax, Tmax, half-life, AUC or clearance in this experiment; the abstract does not provide an alternative universal half-life estimate suitable for encoding here.
   sourceId: scavone1998
   modelEligible: false
+```
+
+## Duration
+
+```yaml
+- id: psychonautwiki-oral
+  measurement: subjective
+  route: Oral
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 3
+    max: 10
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 30
+      max: 90
+      unit: minutes
+    - name: comeup
+      basis: phase-duration
+      min: 45
+      max: 90
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 1
+      max: 4
+      unit: hours
+    - name: offset
+      basis: phase-duration
+      min: 2
+      max: 6
+      unit: hours
+    - name: after-effects
+      basis: phase-duration
+      min: null
+      max: 24
+      unit: hours
 ```
 
 ## Modifiers
@@ -812,10 +928,10 @@ Class-level antihistamine findings were not substituted for diphenhydramine-spec
   conflictOfInterestStatus: not-assessed
   disclosureUrl: https://pubchem.ncbi.nlm.nih.gov/compound/3100
 - id: simons1990
-  title: 'Diphenhydramine: pharmacokinetics and pharmacodynamics in elderly adults, young adults, and children'
+  title: "Diphenhydramine: pharmacokinetics and pharmacodynamics in elderly adults, young adults, and children"
   authors: K J Simons; W T Watson; T J Martin; X Y Chen; F E Simons
   year: 1990
-  pmid: '2391399'
+  pmid: "2391399"
   doi: 10.1002/j.1552-4604.1990.tb01871.x
   url: https://pubmed.ncbi.nlm.nih.gov/2391399/
   kind: Human pharmacokinetic and pharmacodynamic study
@@ -829,7 +945,7 @@ Class-level antihistamine findings were not substituted for diphenhydramine-spec
   title: Pharmacokinetics and pharmacodynamics of diphenhydramine 25 mg in young and elderly volunteers
   authors: J M Scavone; D J Greenblatt; J S Harmatz; N Engelhardt; R I Shader
   year: 1998
-  pmid: '9702844'
+  pmid: "9702844"
   doi: 10.1002/j.1552-4604.1998.tb04466.x
   url: https://pubmed.ncbi.nlm.nih.gov/9702844/
   kind: Randomized placebo-controlled crossover study
@@ -843,7 +959,7 @@ Class-level antihistamine findings were not substituted for diphenhydramine-spec
   title: Efficacy of diphenhydramine vs desloratadine and placebo in patients with moderate-to-severe seasonal allergic rhinitis
   authors: Gordon D Raphael; James T Angello; Mei-Miau Wu; Howard M Druce
   year: 2006
-  pmid: '16680933'
+  pmid: "16680933"
   doi: 10.1016/S1081-1206(10)63557-0
   url: https://pubmed.ncbi.nlm.nih.gov/16680933/
   kind: Randomized double-blind double-dummy placebo-controlled patient trial
@@ -854,10 +970,10 @@ Class-level antihistamine findings were not substituted for diphenhydramine-spec
   conflictsOfInterest: Full-text conflict-of-interest declaration was not inspected.
   conflictOfInterestStatus: not-assessed
 - id: morin2005
-  title: 'Valerian-hops combination and diphenhydramine for treating insomnia: a randomized placebo-controlled clinical trial'
+  title: "Valerian-hops combination and diphenhydramine for treating insomnia: a randomized placebo-controlled clinical trial"
   authors: Charles M Morin; Uwe Koetter; Célyne Bastien; J Catesby Ware; Virgil Wooten
   year: 2005
-  pmid: '16335333'
+  pmid: "16335333"
   doi: 10.1093/sleep/28.11.1465
   url: https://pubmed.ncbi.nlm.nih.gov/16335333/
   kind: Multicenter randomized placebo-controlled insomnia trial
@@ -869,10 +985,10 @@ Class-level antihistamine findings were not substituted for diphenhydramine-spec
   conflictOfInterestStatus: declared
   disclosureUrl: https://www.researchgate.net/publication/7434996_Valerian-Hops_Combination_and_Diphenhydramine_for_Treating_Insomnia_A_Randomized_Placebo-Controlled_Clinical_Trial
 - id: glass2008
-  title: 'Effects of 2-week treatment with temazepam and diphenhydramine in elderly insomniacs: a randomized, placebo-controlled trial'
+  title: "Effects of 2-week treatment with temazepam and diphenhydramine in elderly insomniacs: a randomized, placebo-controlled trial"
   authors: Jennifer R Glass; Beth A Sproule; Nathan Herrmann; Usoa E Busto
   year: 2008
-  pmid: '18344728'
+  pmid: "18344728"
   doi: 10.1097/JCP.0b013e31816a9e4f
   url: https://pubmed.ncbi.nlm.nih.gov/18344728/
   kind: Randomized placebo-controlled crossover insomnia trial
@@ -886,7 +1002,7 @@ Class-level antihistamine findings were not substituted for diphenhydramine-spec
   title: Tolerance to daytime sedative effects of H1 antihistamines
   authors: Gary S Richardson; Timothy A Roehrs; Leon Rosenthal; Gail Koshorek; Thomas Roth
   year: 2002
-  pmid: '12352276'
+  pmid: "12352276"
   doi: 10.1097/00004714-200210000-00012
   url: https://pubmed.ncbi.nlm.nih.gov/12352276/
   kind: Randomized double-blind placebo-controlled crossover study
@@ -900,7 +1016,7 @@ Class-level antihistamine findings were not substituted for diphenhydramine-spec
   title: Effects of desloratadine, diphenhydramine, and placebo on driving performance and psychomotor performance measurements
   authors: E F P M Vuurman; G H Rikken; N D Muntjewerff; F de Halleux; J G Ramaekers
   year: 2004
-  pmid: '15168099'
+  pmid: "15168099"
   doi: 10.1007/s00228-004-0757-9
   url: https://pubmed.ncbi.nlm.nih.gov/15168099/
   kind: Randomized double-blind crossover driving study
@@ -911,10 +1027,10 @@ Class-level antihistamine findings were not substituted for diphenhydramine-spec
   conflictsOfInterest: Full-text conflict-of-interest declaration was not inspected.
   conflictOfInterestStatus: not-assessed
 - id: kay2016
-  title: 'Next-day residual effects of gabapentin, diphenhydramine, and triazolam on simulated driving performance in healthy volunteers: a phase 3, randomized, double-blind, placebo-controlled, crossover trial.'
+  title: "Next-day residual effects of gabapentin, diphenhydramine, and triazolam on simulated driving performance in healthy volunteers: a phase 3, randomized, double-blind, placebo-controlled, crossover trial."
   authors: Gary G. Kay; Howard I. Schwartz; Mark A. Wingertzahn; Shyamalie Jayawardena; Russell P. Rosenberg
   year: 2016
-  pmid: '27018419'
+  pmid: "27018419"
   doi: 10.1002/hup.2530
   url: https://pubmed.ncbi.nlm.nih.gov/27018419/
   kind: Randomized double-blind placebo- and active-controlled crossover trial
@@ -929,7 +1045,7 @@ Class-level antihistamine findings were not substituted for diphenhydramine-spec
   title: Effects of fexofenadine, diphenhydramine, and alcohol on driving performance. A randomized, placebo-controlled trial in the Iowa driving simulator
   authors: J M Weiler; J R Bloomfield; G G Woodworth; A R Grant; T A Layton; T L Brown; D R McKenzie; T W Baker; G S Watson
   year: 2000
-  pmid: '10691585'
+  pmid: "10691585"
   doi: 10.7326/0003-4819-132-5-200003070-00004
   url: https://pubmed.ncbi.nlm.nih.gov/10691585/
   kind: Randomized double-blind double-dummy crossover driving study
@@ -943,7 +1059,7 @@ Class-level antihistamine findings were not substituted for diphenhydramine-spec
   title: Brain histamine H1 receptor occupancy of orally administered antihistamines, bepotastine and diphenhydramine, measured by PET with 11C-doxepin
   authors: Manabu Tashiro; Xudong Duan; Motohisa Kato; Masayasu Miyake; Shoichi Watanuki; Yoichi Ishikawa; Yoshihito Funaki; Ren Iwata; Masatoshi Itoh; Kazuhiko Yanai
   year: 2008
-  pmid: '18410464'
+  pmid: "18410464"
   doi: 10.1111/j.1365-2125.2008.03143.x
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2485223/
   kind: Placebo-controlled crossover PET receptor-occupancy study
@@ -958,7 +1074,7 @@ Class-level antihistamine findings were not substituted for diphenhydramine-spec
   title: Effects of first and second generation antihistamines on muscarinic induced mucus gland cell ion transport
   authors: Huiling Liu; Jerry M Farley
   year: 2005
-  pmid: '15790419'
+  pmid: "15790419"
   doi: 10.1186/1471-2210-5-8
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC1079883/
   kind: Preclinical receptor-function experiment
@@ -973,7 +1089,7 @@ Class-level antihistamine findings were not substituted for diphenhydramine-spec
   title: Significant interaction between the nonprescription antihistamine diphenhydramine and the CYP2D6 substrate metoprolol in healthy men with high or low CYP2D6 activity
   authors: B A Hamelin; A Bouayad; J Méthot; J Jobin; P Desgagnés; P Poirier; J Allaire; J Dumesnil; J Turgeon
   year: 2000
-  pmid: '10824625'
+  pmid: "10824625"
   doi: 10.1067/mcp.2000.106464
   url: https://pubmed.ncbi.nlm.nih.gov/10824625/
   kind: Randomized human drug-interaction study with in-vitro CYP2D6 experiments
@@ -984,10 +1100,10 @@ Class-level antihistamine findings were not substituted for diphenhydramine-spec
   conflictsOfInterest: Full-text conflict-of-interest declaration was not inspected.
   conflictOfInterestStatus: not-assessed
 - id: rubio2011
-  title: 'Motion sickness: comparison of metoclopramide and diphenhydramine to placebo'
+  title: "Motion sickness: comparison of metoclopramide and diphenhydramine to placebo"
   authors: Stephanie Rubio; Lori Weichenthal; Jim Andrews
   year: 2011
-  pmid: '22008228'
+  pmid: "22008228"
   doi: 10.1017/S1049023X11006431
   url: https://pubmed.ncbi.nlm.nih.gov/22008228/
   kind: Prospective randomized double-blind placebo-controlled patient trial
@@ -998,10 +1114,10 @@ Class-level antihistamine findings were not substituted for diphenhydramine-spec
   conflictsOfInterest: Complete full-text conflict-of-interest disclosure was not inspected.
   conflictOfInterestStatus: not-assessed
 - id: botch-jones2014
-  title: 'Diphenhydramine''s role in death investigations: an examination of diphenhydramine prevalence in 2 US geographical areas'
+  title: "Diphenhydramine's role in death investigations: an examination of diphenhydramine prevalence in 2 US geographical areas"
   authors: Sabra Ruvera Botch-Jones; Robert Johnson; Kurt Kleinschmidt; Samantha Bashaw; Jhonny Ordonez
   year: 2014
-  pmid: '25051196'
+  pmid: "25051196"
   doi: 10.1097/PAF.0000000000000106
   url: https://pubmed.ncbi.nlm.nih.gov/25051196/
   kind: Forensic case series
@@ -1036,6 +1152,14 @@ Class-level antihistamine findings were not substituted for diphenhydramine-spec
   conflictsOfInterest: ClinicalTrials.gov does not provide a publication-style author conflict-of-interest declaration for this record.
   conflictOfInterestStatus: not-assessed
   disclosureUrl: https://clinicaltrials.gov/study/NCT01411124
+- id: psychonautwiki
+  title: "Diphenhydramine: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/Diphenhydramine
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal

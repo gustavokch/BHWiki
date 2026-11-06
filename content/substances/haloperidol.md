@@ -9,7 +9,7 @@ pubchemCid: null
 smiles: Not established
 category: Identity record
 tags: []
-accent: '#a9b993'
+accent: "#a9b993"
 reviewedAt: 2026-10-27
 editorialStatus: sourced-draft
 halfLife:
@@ -27,37 +27,37 @@ kinetics:
   metabolism: Not established
   sourceId: optihealth-substance-01a08b04-2f44-7ddd-b846-639067824d62
 x-shape:
-- slug
-- name
-- subtitle
-- summary
-- description
-- aliases
-- formula
-- molecularWeight
-- pubchemCid
-- smiles
-- category
-- tags
-- accent
-- evidenceNote
-- reviewedAt
-- editorialStatus
-- halfLife
-- pkObservations
-- kinetics
-- modifiers
-- doses
-- effects
-- outcomes
-- claims
-- mechanisms
-- cautions
-- interactions
-- experienceLinks
-- references
-- legal
-- externalWikiLinks
+  - slug
+  - name
+  - subtitle
+  - summary
+  - description
+  - aliases
+  - formula
+  - molecularWeight
+  - pubchemCid
+  - smiles
+  - category
+  - tags
+  - accent
+  - evidenceNote
+  - reviewedAt
+  - editorialStatus
+  - halfLife
+  - pkObservations
+  - kinetics
+  - modifiers
+  - doses
+  - effects
+  - outcomes
+  - claims
+  - mechanisms
+  - cautions
+  - interactions
+  - experienceLinks
+  - references
+  - legal
+  - externalWikiLinks
 x-order: 1528
 ---
 
@@ -96,6 +96,81 @@ PubMed MCP abstract review covered 2 PMID-linked records for this Reddit-index e
   sourceCategory: research
   note: Dose extracted from the PubMed abstract; verify the full text for formulation and protocol details.
   sourceId: reddit-pmid-23131890
+- label: Threshold dose
+  amount: 0.25 mg
+  quantity: 0.25
+  quantityMax: null
+  unit: mg
+  ingredient: Haloperidol
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 0.25–1 mg
+  quantity: 0.25
+  quantityMax: 1
+  unit: mg
+  ingredient: Haloperidol
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 1–5 mg
+  quantity: 1
+  quantityMax: 5
+  unit: mg
+  ingredient: Haloperidol
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 5–10 mg
+  quantity: 5
+  quantityMax: 10
+  unit: mg
+  ingredient: Haloperidol
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (10 mg and above)
+  amount: 10 mg and above
+  quantity: 10
+  quantityMax: null
+  unit: mg
+  ingredient: Haloperidol
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -115,6 +190,27 @@ PubMed MCP abstract review covered 2 PMID-linked records for this Reddit-index e
   context: This identity import does not establish a pharmacokinetic observation.
   sourceId: optihealth-substance-01a08b04-2f44-7ddd-b846-639067824d62
   modelEligible: false
+```
+
+## Duration
+
+```yaml
+- id: psychonautwiki-oral
+  measurement: subjective
+  route: Oral
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 12
+    max: 36
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 30
+      max: 60
+      unit: minutes
 ```
 
 ## Modifiers
@@ -137,10 +233,10 @@ PubMed MCP abstract review covered 2 PMID-linked records for this Reddit-index e
   name: Attention
   direction: Increased
   evidence: Human research
-  description: 'The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol. The model suggests that DA dynamically modulates the balance of Go and No-Go basal ganglia pathways during cognitive learning and performance.'
+  description: The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol. The model suggests that DA dynamically modulates the balance of Go and No-Go basal ganglia pathways during cognitive learning and performance.
   sourceId: reddit-pmid-16768602
-  population: 'The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol.'
-  exposure: 'The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol. The model suggests that DA dynamically modulates the balance of Go and No-Go basal ganglia pathways during cognitive learning and performance.'
+  population: The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol.
+  exposure: The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol. The model suggests that DA dynamically modulates the balance of Go and No-Go basal ganglia pathways during cognitive learning and performance.
   instrument: null
   magnitude: null
   reportType: measured-assessment
@@ -149,10 +245,10 @@ PubMed MCP abstract review covered 2 PMID-linked records for this Reddit-index e
   name: Cognitive Performance
   direction: Increased
   evidence: Human research
-  description: 'The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol. The model suggests that DA dynamically modulates the balance of Go and No-Go basal ganglia pathways during cognitive learning and performance.'
+  description: The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol. The model suggests that DA dynamically modulates the balance of Go and No-Go basal ganglia pathways during cognitive learning and performance.
   sourceId: reddit-pmid-16768602
-  population: 'The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol.'
-  exposure: 'The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol. The model suggests that DA dynamically modulates the balance of Go and No-Go basal ganglia pathways during cognitive learning and performance.'
+  population: The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol.
+  exposure: The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol. The model suggests that DA dynamically modulates the balance of Go and No-Go basal ganglia pathways during cognitive learning and performance.
   instrument: null
   magnitude: null
   reportType: measured-assessment
@@ -161,10 +257,10 @@ PubMed MCP abstract review covered 2 PMID-linked records for this Reddit-index e
   name: Episodic Memory
   direction: Increased
   evidence: Human research
-  description: 'The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol. The model suggests that DA dynamically modulates the balance of Go and No-Go basal ganglia pathways during cognitive learning and performance.'
+  description: The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol. The model suggests that DA dynamically modulates the balance of Go and No-Go basal ganglia pathways during cognitive learning and performance.
   sourceId: reddit-pmid-16768602
-  population: 'The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol.'
-  exposure: 'The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol. The model suggests that DA dynamically modulates the balance of Go and No-Go basal ganglia pathways during cognitive learning and performance.'
+  population: The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol.
+  exposure: The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol. The model suggests that DA dynamically modulates the balance of Go and No-Go basal ganglia pathways during cognitive learning and performance.
   instrument: null
   magnitude: null
   reportType: measured-assessment
@@ -173,10 +269,10 @@ PubMed MCP abstract review covered 2 PMID-linked records for this Reddit-index e
   name: Cognitive Performance
   direction: Increased
   evidence: Human research
-  description: 'Cognitive dysfunction in patients with schizophrenia is a strong correlate of poor outcome than any other symptom domain. To have greater knowledge about the effects of antipsychotics on cognitive function, subjects of this study were healthy volunteers who had no confounding variables typically found in patients with schizophrenia.'
+  description: Cognitive dysfunction in patients with schizophrenia is a strong correlate of poor outcome than any other symptom domain. To have greater knowledge about the effects of antipsychotics on cognitive function, subjects of this study were healthy volunteers who had no confounding variables typically found in patients with schizophrenia.
   sourceId: reddit-pmid-23131890
   population: this study were healthy volunteers who had no confounding variables typically found in patients with schizophrenia
-  exposure: 'Cognitive dysfunction in patients with schizophrenia is a strong correlate of poor outcome than any other symptom domain. To have greater knowledge about the effects of antipsychotics on cognitive function, subjects of this study were healthy volunteers who had no confounding variables typically found in patients with schizophrenia.'
+  exposure: Cognitive dysfunction in patients with schizophrenia is a strong correlate of poor outcome than any other symptom domain. To have greater knowledge about the effects of antipsychotics on cognitive function, subjects of this study were healthy volunteers who had no confounding variables typically found in patients with schizophrenia.
   instrument: null
   magnitude: null
   reportType: measured-assessment
@@ -186,7 +282,7 @@ PubMed MCP abstract review covered 2 PMID-linked records for this Reddit-index e
 
 ```yaml
 - title: Source-specific finding from PMID 16768602
-  description: 'The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol. The model suggests that DA dynamically modulates the balance of Go and No-Go basal ganglia pathways during cognitive learning and performance.'
+  description: The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol. The model suggests that DA dynamically modulates the balance of Go and No-Go basal ganglia pathways during cognitive learning and performance.
   sourceId: reddit-pmid-16768602
 ```
 
@@ -194,7 +290,7 @@ PubMed MCP abstract review covered 2 PMID-linked records for this Reddit-index e
 
 ```yaml
 - title: Source-specific finding from PMID 16768602
-  description: 'The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol. The model suggests that DA dynamically modulates the balance of Go and No-Go basal ganglia pathways during cognitive learning and performance.'
+  description: The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol. The model suggests that DA dynamically modulates the balance of Go and No-Go basal ganglia pathways during cognitive learning and performance.
   sourceId: reddit-pmid-16768602
 ```
 
@@ -202,30 +298,30 @@ PubMed MCP abstract review covered 2 PMID-linked records for this Reddit-index e
 
 ```yaml
 - id: reddit-claim-haloperidol-16768602-0
-  assertion: 'PMID 16768602 reports: The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol. The model suggests that DA dynamically modulates the balance of Go and No-Go basal ganglia pathways during cognitive learning and performance.'
+  assertion: "PMID 16768602 reports: The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol. The model suggests that DA dynamically modulates the balance of Go and No-Go basal ganglia pathways during cognitive learning and performance."
   relation: associated-with
   participants:
-  - entityId: substance:haloperidol
-    role: intervention or exposure
-  - entityId: tag:episodic-memory
-    role: reported endpoint
+    - entityId: substance:haloperidol
+      role: intervention or exposure
+    - entityId: tag:episodic-memory
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-16768602
+    - reddit-pmid-16768602
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
 - id: reddit-claim-haloperidol-23131890-1
-  assertion: 'PMID 23131890 reports: Cognitive dysfunction in patients with schizophrenia is a strong correlate of poor outcome than any other symptom domain. To have greater knowledge about the effects of antipsychotics on cognitive function, subjects of this study were healthy volunteers who had no confounding variables typically found in patients with schizophrenia.'
+  assertion: "PMID 23131890 reports: Cognitive dysfunction in patients with schizophrenia is a strong correlate of poor outcome than any other symptom domain. To have greater knowledge about the effects of antipsychotics on cognitive function, subjects of this study were healthy volunteers who had no confounding variables typically found in patients with schizophrenia."
   relation: associated-with
   participants:
-  - entityId: substance:haloperidol
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:haloperidol
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-23131890
+    - reddit-pmid-23131890
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -255,14 +351,14 @@ PubMed MCP abstract review covered 2 PMID-linked records for this Reddit-index e
   insight: The OptiHealth canonical catalog records this substance identity label.
   limitation: This catalog snapshot is not an independent evidence review and does not establish structure, dose, safety, or efficacy.
 - id: reddit-pmid-16768602
-  title: 'A mechanistic account of striatal dopamine function in human cognition: psychopharmacological studies with cabergoline and haloperidol.'
+  title: "A mechanistic account of striatal dopamine function in human cognition: psychopharmacological studies with cabergoline and haloperidol."
   authors: Michael J Frank, Randall C O'Reilly
   year: 2006
   url: https://pubmed.ncbi.nlm.nih.gov/16768602/
   kind: PubMed publication
   insight: The authors test a neurocomputational model of dopamine function in cognition by administering to healthy participants low doses of D2 agents cabergoline and haloperidol. The model suggests that DA dynamically modulates the balance of Go and No-Go basal ganglia pathways during cognitive learning and performance.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '16768602'
+  pmid: "16768602"
   doi: 10.1037/0735-7044.120.3.497
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -276,12 +372,20 @@ PubMed MCP abstract review covered 2 PMID-linked records for this Reddit-index e
   kind: PubMed publication
   insight: Cognitive dysfunction in patients with schizophrenia is a strong correlate of poor outcome than any other symptom domain. To have greater knowledge about the effects of antipsychotics on cognitive function, subjects of this study were healthy volunteers who had no confounding variables typically found in patients with schizophrenia.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '23131890'
+  pmid: "23131890"
   doi: 10.1097/JCP.0b013e318272d10c
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
+- id: psychonautwiki
+  title: "Haloperidol: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/Haloperidol
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal
@@ -289,3 +393,4 @@ PubMed MCP abstract review covered 2 PMID-linked records for this Reddit-index e
 ```yaml
 []
 ```
+

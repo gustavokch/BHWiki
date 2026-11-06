@@ -9,7 +9,7 @@ pubchemCid: null
 smiles: Not established
 category: Identity record
 tags: []
-accent: '#a9b993'
+accent: "#a9b993"
 reviewedAt: 2026-10-27
 editorialStatus: sourced-draft
 halfLife:
@@ -27,37 +27,37 @@ kinetics:
   metabolism: Not established
   sourceId: optihealth-substance-019fe218-440d-7c5d-8a4d-f4ed477f1098
 x-shape:
-- slug
-- name
-- subtitle
-- summary
-- description
-- aliases
-- formula
-- molecularWeight
-- pubchemCid
-- smiles
-- category
-- tags
-- accent
-- evidenceNote
-- reviewedAt
-- editorialStatus
-- halfLife
-- pkObservations
-- kinetics
-- modifiers
-- doses
-- effects
-- outcomes
-- claims
-- mechanisms
-- cautions
-- interactions
-- experienceLinks
-- references
-- legal
-- externalWikiLinks
+  - slug
+  - name
+  - subtitle
+  - summary
+  - description
+  - aliases
+  - formula
+  - molecularWeight
+  - pubchemCid
+  - smiles
+  - category
+  - tags
+  - accent
+  - evidenceNote
+  - reviewedAt
+  - editorialStatus
+  - halfLife
+  - pkObservations
+  - kinetics
+  - modifiers
+  - doses
+  - effects
+  - outcomes
+  - claims
+  - mechanisms
+  - cautions
+  - interactions
+  - experienceLinks
+  - references
+  - legal
+  - externalWikiLinks
 x-order: 1119
 ---
 
@@ -72,7 +72,6 @@ This page records the source-backed identity label Memantine. The import preserv
 ## Evidence note
 
 PubMed abstracts for the 10 linked PMIDs were retrieved. Full text was not linked for these citations; records retain human, animal, and in-vitro populations separately and avoid treating the uncontrolled bipolar study as a randomized efficacy result.
-
 
 ## Doses
 
@@ -137,6 +136,81 @@ PubMed abstracts for the 10 linked PMIDs were retrieved. Full text was not linke
   sourceCategory: research
   note: Open, uncontrolled study; cannot establish efficacy.
   sourceId: reddit-pmid-22030128
+- label: Threshold dose
+  amount: 10 mg
+  quantity: 10
+  quantityMax: null
+  unit: mg
+  ingredient: Memantine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 30–70 mg
+  quantity: 30
+  quantityMax: 70
+  unit: mg
+  ingredient: Memantine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 70–110 mg
+  quantity: 70
+  quantityMax: 110
+  unit: mg
+  ingredient: Memantine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 110–170 mg
+  quantity: 110
+  quantityMax: 170
+  unit: mg
+  ingredient: Memantine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (170 mg and above)
+  amount: 170 mg and above
+  quantity: 170
+  quantityMax: null
+  unit: mg
+  ingredient: Memantine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -156,6 +230,47 @@ PubMed abstracts for the 10 linked PMIDs were retrieved. Full text was not linke
   context: The linked abstracts report acute dosing but do not provide a validated human half-life estimate for these exposures.
   sourceId: reddit-pmid-16423331
   modelEligible: false
+```
+
+## Duration
+
+```yaml
+- id: psychonautwiki-oral
+  measurement: subjective
+  route: Oral
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 18
+    max: 36
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 30
+      max: 180
+      unit: minutes
+    - name: comeup
+      basis: phase-duration
+      min: 2
+      max: 3
+      unit: hours
+    - name: peak
+      basis: phase-duration
+      min: 3
+      max: 12
+      unit: hours
+    - name: offset
+      basis: phase-duration
+      min: 5
+      max: 24
+      unit: hours
+    - name: after-effects
+      basis: phase-duration
+      min: 8
+      max: 24
+      unit: hours
 ```
 
 ## Modifiers
@@ -239,16 +354,13 @@ PubMed abstracts for the 10 linked PMIDs were retrieved. Full text was not linke
 
 ```yaml
 - title: NMDA receptor antagonism
-  description: Human experiments used memantine as a noncompetitive NMDA antagonist and observed memory-system- and timing-specific
-    effects.
+  description: Human experiments used memantine as a noncompetitive NMDA antagonist and observed memory-system- and timing-specific effects.
   sourceId: reddit-pmid-16423331
 - title: Hippocampal theta modulation in mice
-  description: A low memantine dose potentiated elicited hippocampal theta oscillations in anesthetized mice, whereas a high
-    dose was disruptive.
+  description: A low memantine dose potentiated elicited hippocampal theta oscillations in anesthetized mice, whereas a high dose was disruptive.
   sourceId: reddit-pmid-22300835
 - title: BDNF and corticosterone changes in stressed rats
-  description: In a chronic mild-stress rat model, 20 mg/kg memantine reversed anhedonia, normalized corticosterone, and increased
-    prefrontal BDNF.
+  description: In a chronic mild-stress rat model, 20 mg/kg memantine reversed anhedonia, normalized corticosterone, and increased prefrontal BDNF.
   sourceId: reddit-pmid-22327556
 ```
 
@@ -256,8 +368,7 @@ PubMed abstracts for the 10 linked PMIDs were retrieved. Full text was not linke
 
 ```yaml
 - title: Acute cognitive and arousal effects
-  description: Single-dose human studies reported impaired seconds-range timing, delayed eyeblink conditioning, lowered arousal,
-    and stimulant-like subjective effects in combination studies.
+  description: Single-dose human studies reported impaired seconds-range timing, delayed eyeblink conditioning, lowered arousal, and stimulant-like subjective effects in combination studies.
   sourceId: reddit-pmid-16423331
 - title: Evidence quality for bipolar use
   description: The 12-month bipolar study was open and naturalistic; apparent improvement is not a controlled efficacy estimate.
@@ -271,13 +382,13 @@ PubMed abstracts for the 10 linked PMIDs were retrieved. Full text was not linke
   assertion: A single 30 mg memantine dose impaired seconds-range temporal processing while sparing millisecond timing in healthy men.
   relation: supported-by
   participants:
-  - entityId: substance:memantine-019fe218
-    role: intervention
-  - entityId: tag:cognitive-performance
-    role: outcome
+    - entityId: substance:memantine-019fe218
+      role: intervention
+    - entityId: tag:cognitive-performance
+      role: outcome
   context: Double-blind crossover study of 32 healthy men.
   sourceIds:
-  - reddit-pmid-16423331
+    - reddit-pmid-16423331
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Acute laboratory outcome; not a general cognitive effect.
@@ -285,13 +396,13 @@ PubMed abstracts for the 10 linked PMIDs were retrieved. Full text was not linke
   assertion: Adjunctive memantine was associated with improvement ratings in an uncontrolled 12-month bipolar study.
   relation: associated-with
   participants:
-  - entityId: substance:memantine-019fe218
-    role: intervention
-  - entityId: tag:mood
-    role: outcome
+    - entityId: substance:memantine-019fe218
+      role: intervention
+    - entityId: tag:mood
+      role: outcome
   context: 40 treatment-resistant bipolar patients received 10–30 mg/day in naturalistic follow-up.
   sourceIds:
-  - reddit-pmid-22030128
+    - reddit-pmid-22030128
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: No randomized placebo control; concomitant treatment was unchanged.
@@ -309,14 +420,6 @@ PubMed abstracts for the 10 linked PMIDs were retrieved. Full text was not linke
 []
 ```
 
-## External wiki links
-
-```yaml
-- service: Wikipedia
-  url: https://en.wikipedia.org/wiki/Memantine
-  title: Wikipedia
-```
-
 ## References
 
 ```yaml
@@ -329,14 +432,14 @@ PubMed abstracts for the 10 linked PMIDs were retrieved. Full text was not linke
   insight: The OptiHealth canonical catalog records this substance identity label.
   limitation: This catalog snapshot is not an independent evidence review and does not establish structure, dose, safety, or efficacy.
 - id: reddit-pmid-20193764
-  title: 'Acetylcholinesterase inhibitors and memantine for neuroenhancement in healthy individuals: a systematic review.'
+  title: "Acetylcholinesterase inhibitors and memantine for neuroenhancement in healthy individuals: a systematic review."
   authors: Dimitris Repantis, Oona Laisney, Isabella Heuser
   year: 2010
   url: https://pubmed.ncbi.nlm.nih.gov/20193764/
   kind: PubMed publication
   insight: The term neuroenhancement refers to improvement in the cognitive, emotional and motivational functions of healthy individuals through, inter alia, the use of drugs.
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '20193764'
+  pmid: "20193764"
   doi: 10.1016/j.phrs.2010.02.009
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
@@ -362,7 +465,7 @@ PubMed abstracts for the 10 linked PMIDs were retrieved. Full text was not linke
   kind: PubMed publication
   insight: Unlike processing of time intervals in the range of seconds or more, processing of brief durations in the subsecond range appears to be beyond cognitive control and based on subcortical mechanisms located in the basal ganglia.
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '16423331'
+  pmid: "16423331"
   doi: 10.1016/j.brainres.2005.12.019
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
@@ -388,7 +491,7 @@ PubMed abstracts for the 10 linked PMIDs were retrieved. Full text was not linke
   kind: PubMed publication
   insight: Mismatch negativity (MMN) and its magnetic counterpart (MMNm) have been shown to be altered in patients with various psychiatric and neurological disorders, e.g.
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '17452287'
+  pmid: "17452287"
   doi: 10.1016/j.brainresbull.2007.01.007
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
@@ -402,21 +505,21 @@ PubMed abstracts for the 10 linked PMIDs were retrieved. Full text was not linke
   kind: PubMed publication
   insight: The present study investigated the effects of a single oral dose (30 mg) of the non-competitive N-methyl-D-aspartate (NMDA) receptor antagonist memantine on memory and learning in human subjects.
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '9132691'
+  pmid: "9132691"
   doi: 10.1016/s0304-3940(97)13452-8
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not reported in the retrieved PubMed record.
   conflictOfInterestStatus: not-assessed
 - id: reddit-pmid-22030128
-  title: 'The sustained mood-stabilizing effect of memantine in the management of treatment resistant bipolar disorders: findings from a 12-month naturalistic trial.'
+  title: "The sustained mood-stabilizing effect of memantine in the management of treatment resistant bipolar disorders: findings from a 12-month naturalistic trial."
   authors: Athanasios Koukopoulos, Giulia Serra, Alexia E Koukopoulos, Daniela Reginaldi, Gino Serra
   year: 2012
   url: https://pubmed.ncbi.nlm.nih.gov/22030128/
   kind: PubMed publication
-  insight: 'BACKGROUND: We have recently provided preliminary clinical observations indicating that memantine, as augmenting agent, was associated with a meaningful antimanic and mood-stabilizing effect in treatment-resistant bipolar disorders.'
+  insight: "BACKGROUND: We have recently provided preliminary clinical observations indicating that memantine, as augmenting agent, was associated with a meaningful antimanic and mood-stabilizing effect in treatment-resistant bipolar disorders."
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '22030128'
+  pmid: "22030128"
   doi: 10.1016/j.jad.2011.09.040
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
@@ -430,7 +533,7 @@ PubMed abstracts for the 10 linked PMIDs were retrieved. Full text was not linke
   kind: PubMed publication
   insight: The tail-flick test was used to investigate the effects of chronic administration of the N-methyl-D-aspartate (NMDA) receptor antagonists, dextromethorphan, memantine and MRZ 2/579, on the development and reversal of morphine tolerance in mice in three separate experiments.
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '10763858'
+  pmid: "10763858"
   doi: 10.1007/s002109900205
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
@@ -444,7 +547,7 @@ PubMed abstracts for the 10 linked PMIDs were retrieved. Full text was not linke
   kind: PubMed publication
   insight: Acamprosate (calcium acetylhomotaurinate) is a glutamatergic neuromodulator efficacious at reducing relapse in alcoholic patients.
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '16914955'
+  pmid: "16914955"
   doi: 10.1097/01.fbp.0000224384.01863.5f
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
@@ -456,23 +559,23 @@ PubMed abstracts for the 10 linked PMIDs were retrieved. Full text was not linke
   year: 2002
   url: https://pubmed.ncbi.nlm.nih.gov/12457267/
   kind: PubMed publication
-  insight: 'RATIONALE: The discriminative stimulus effects of N-methyl- D-aspartate (NMDA) antagonists have been assessed in laboratory animals.'
+  insight: "RATIONALE: The discriminative stimulus effects of N-methyl- D-aspartate (NMDA) antagonists have been assessed in laboratory animals."
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '12457267'
+  pmid: "12457267"
   doi: 10.1007/s00213-002-1225-9
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not reported in the retrieved PubMed record.
   conflictOfInterestStatus: not-assessed
 - id: reddit-pmid-22300835
-  title: 'Memantine potentiates hippocampal θ oscillations at a therapeutic dose in anesthetized mice: a mechanistic link to its cognitive-enhancing properties.'
+  title: "Memantine potentiates hippocampal θ oscillations at a therapeutic dose in anesthetized mice: a mechanistic link to its cognitive-enhancing properties."
   authors: Simone Guadagna, Christoffer Bundgaard, Nanna Hovelsø, Christiane Volbracht, Paul T Francis, Jan Egebjerg, Florence Sotty
   year: 2012
   url: https://pubmed.ncbi.nlm.nih.gov/22300835/
   kind: PubMed publication
   insight: Memantine is an uncompetitive, low-affinity NMDA receptor antagonist clinically used for the treatment of cognitive deficits in moderate to severe Alzheimer's disease.
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '22300835'
+  pmid: "22300835"
   doi: 10.1016/j.neuropharm.2012.01.014
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
@@ -486,12 +589,20 @@ PubMed abstracts for the 10 linked PMIDs were retrieved. Full text was not linke
   kind: PubMed publication
   insight: Memantine is a N-methyl-D-aspartate (NMDA) receptor antagonist and several studies have pointed to the NMDA receptor antagonists as a potential therapeutic target for the treatment of depression.
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '22327556'
+  pmid: "22327556"
   doi: 10.1007/s11011-012-9281-2
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not reported in the retrieved PubMed record.
   conflictOfInterestStatus: not-assessed
+- id: psychonautwiki
+  title: "Memantine: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/Memantine
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal
@@ -499,3 +610,12 @@ PubMed abstracts for the 10 linked PMIDs were retrieved. Full text was not linke
 ```yaml
 []
 ```
+
+## External wiki links
+
+```yaml
+- service: Wikipedia
+  url: https://en.wikipedia.org/wiki/Memantine
+  title: Wikipedia
+```
+

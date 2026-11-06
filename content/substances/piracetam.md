@@ -3,15 +3,15 @@ slug: piracetam
 name: Piracetam
 subtitle: Source-linked research profile.
 aliases:
-- Пирацетам
+  - Пирацетам
 formula: C6H10N2O2
 molecularWeight: 142.16 g/mol
 pubchemCid: 4843
 smiles: C1CC(=O)N(C1)CC(=O)N
 category: Nootropic
 tags:
-- nootropic-research
-accent: '#a9b993'
+  - nootropic-research
+accent: "#a9b993"
 reviewedAt: 2026-10-04
 editorialStatus: sourced-draft
 halfLife:
@@ -29,37 +29,37 @@ kinetics:
   metabolism: Not assessed
   sourceId: pubchem
 x-shape:
-- slug
-- name
-- subtitle
-- summary
-- description
-- aliases
-- formula
-- molecularWeight
-- pubchemCid
-- smiles
-- category
-- tags
-- accent
-- evidenceNote
-- reviewedAt
-- editorialStatus
-- halfLife
-- pkObservations
-- kinetics
-- modifiers
-- doses
-- effects
-- outcomes
-- claims
-- mechanisms
-- cautions
-- interactions
-- experienceLinks
-- references
-- legal
-- externalWikiLinks
+  - slug
+  - name
+  - subtitle
+  - summary
+  - description
+  - aliases
+  - formula
+  - molecularWeight
+  - pubchemCid
+  - smiles
+  - category
+  - tags
+  - accent
+  - evidenceNote
+  - reviewedAt
+  - editorialStatus
+  - halfLife
+  - pkObservations
+  - kinetics
+  - modifiers
+  - doses
+  - effects
+  - outcomes
+  - claims
+  - mechanisms
+  - cautions
+  - interactions
+  - experienceLinks
+  - references
+  - legal
+  - externalWikiLinks
 x-order: 248
 ---
 
@@ -98,7 +98,7 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   route: oral or as stated in abstract
   frequency: Study schedule not stated in abstract
   duration: Not stated in abstract
-  population: 'This LC-MS-MS procedure was used to assess the bioavailability of two piracetam formulations: piracetam + l-carnitine (Piracar®; 270/330 mg tablet) and piracetam (Nootropil®; 800 mg tablet) in healthy volunteers of both sexes.'
+  population: "This LC-MS-MS procedure was used to assess the bioavailability of two piracetam formulations: piracetam + l-carnitine (Piracar®; 270/330 mg tablet) and piracetam (Nootropil®; 800 mg tablet) in healthy volunteers of both sexes."
   purpose: Research exposure
   sourceCategory: research
   note: Dose and schedule transcribed from PMID 26248695 abstract; formulation and population are source-specific to this study.
@@ -173,7 +173,7 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   route: preclinical model
   frequency: single administration
   duration: Not stated in abstract
-  population: 'The effects of two acute doses (1600 mg, 2400 mg) of 2-oxo-pyrrolidine-1-acetamide (piracetam, Normabraïn) on hypoxia resistance were screened vs placebo in a randomized, double-blind 3-way change-over design in 9 healthy male volunteers (mean age: 26.4 +/- 3.5 years; mean body weight: 74.9 +/- 8.4 kg).'
+  population: "The effects of two acute doses (1600 mg, 2400 mg) of 2-oxo-pyrrolidine-1-acetamide (piracetam, Normabraïn) on hypoxia resistance were screened vs placebo in a randomized, double-blind 3-way change-over design in 9 healthy male volunteers (mean age: 26.4 +/- 3.5 years; mean body weight: 74.9 +/- 8.4 kg)."
   purpose: Research exposure
   sourceCategory: research
   note: Dose and schedule transcribed from PMID 3370078 abstract; formulation and population are source-specific to this study.
@@ -238,6 +238,81 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   sourceCategory: research
   note: Dose and schedule transcribed from PMID 8272204 abstract; formulation and population are source-specific to this study.
   sourceId: reddit-pmid-8272204
+- label: Threshold dose
+  amount: 0.25 g
+  quantity: 0.25
+  quantityMax: null
+  unit: g
+  ingredient: Piracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 0.5–2 g
+  quantity: 0.5
+  quantityMax: 2
+  unit: g
+  ingredient: Piracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 2–3 g
+  quantity: 2
+  quantityMax: 3
+  unit: g
+  ingredient: Piracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 3–5 g
+  quantity: 3
+  quantityMax: 5
+  unit: g
+  ingredient: Piracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (5 g and above)
+  amount: 5 g and above
+  quantity: 5
+  quantityMax: null
+  unit: g
+  ingredient: Piracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -285,6 +360,27 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   context: The latter was induced by a fixed gas combination of 9.8% oxygen (O2) and 90.2% nitrogen (N2, found in 6,000 m altitude), which was inhaled for 23 minutes under normobraic conditions by 18 healthy volunteers.
   sourceId: reddit-pmid-7655763
   modelEligible: false
+```
+
+## Duration
+
+```yaml
+- id: psychonautwiki-oral
+  measurement: subjective
+  route: Oral
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 4
+    max: 8
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 30
+      max: 90
+      unit: minutes
 ```
 
 ## Modifiers
@@ -443,100 +539,100 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
 
 ```yaml
 - id: reddit-claim-piracetam-2149831-0
-  assertion: 'PMID 2149831 reported: The blockade of the memory-enhancing effects of piracetam resulting from adrenalectomy can be abolished by substitution with either corticosterone or aldosterone.'
+  assertion: "PMID 2149831 reported: The blockade of the memory-enhancing effects of piracetam resulting from adrenalectomy can be abolished by substitution with either corticosterone or aldosterone."
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:episodic-memory
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:episodic-memory
+      role: reported endpoint
   context: Source-specific result from PMID 2149831; applies to the population and design described in that abstract.
   sourceIds:
-  - reddit-pmid-2149831
+    - reddit-pmid-2149831
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Abstract result from PMID 2149831; this single study does not establish general efficacy or safety.
 - id: reddit-claim-piracetam-8234409-1
-  assertion: 'PMID 8234409 reported: for 14 days) elevates N-methyl-D-aspartate (NMDA) receptor density by about 20% and normalizes the enhanced affinity of L-glutamate for the NMDA receptor.'
+  assertion: "PMID 8234409 reported: for 14 days) elevates N-methyl-D-aspartate (NMDA) receptor density by about 20% and normalizes the enhanced affinity of L-glutamate for the NMDA receptor."
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Source-specific result from PMID 8234409; applies to the population and design described in that abstract.
   sourceIds:
-  - reddit-pmid-8234409
+    - reddit-pmid-8234409
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Abstract result from PMID 8234409; this single study does not establish general efficacy or safety.
 - id: reddit-claim-piracetam-10338103-2
-  assertion: 'PMID 10338103 reported: In order to test the hypothesis that piracetam improves cognitive functions by restoring biochemical deficits of the aging brain, we investigated the effects of piracetam treatment (300 mg/kg daily for 6 weeks) on the active avoidance performance of young and aged rats.'
+  assertion: "PMID 10338103 reported: In order to test the hypothesis that piracetam improves cognitive functions by restoring biochemical deficits of the aging brain, we investigated the effects of piracetam treatment (300 mg/kg daily for 6 weeks) on the active avoidance performance of young and aged rats."
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Source-specific result from PMID 10338103; applies to the population and design described in that abstract.
   sourceIds:
-  - reddit-pmid-10338103
+    - reddit-pmid-10338103
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Abstract result from PMID 10338103; this single study does not establish general efficacy or safety.
 - id: reddit-claim-piracetam-870885-3
-  assertion: 'PMID 870885 reported: The stimulating effect of piracetam on the respiration and glycolysis was observed in rat brain cortex slices incubated under oxygen atmosphere.'
+  assertion: "PMID 870885 reported: The stimulating effect of piracetam on the respiration and glycolysis was observed in rat brain cortex slices incubated under oxygen atmosphere."
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Source-specific result from PMID 870885; applies to the population and design described in that abstract.
   sourceIds:
-  - reddit-pmid-870885
+    - reddit-pmid-870885
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Abstract result from PMID 870885; this single study does not establish general efficacy or safety.
 - id: reddit-claim-piracetam-6535371-4
-  assertion: 'PMID 6535371 reported: When the animals were killed one hour after the administration of the drugs, piracetam significantly increased the DA level in the cerebral cortex and in the striatum, as well as the 5-HT level in the cortex, reducing the 5-HT level in the striatum, brain stem and hypothalamus.'
+  assertion: "PMID 6535371 reported: When the animals were killed one hour after the administration of the drugs, piracetam significantly increased the DA level in the cerebral cortex and in the striatum, as well as the 5-HT level in the cortex, reducing the 5-HT level in the striatum, brain stem and hypothalamus."
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Source-specific result from PMID 6535371; applies to the population and design described in that abstract.
   sourceIds:
-  - reddit-pmid-6535371
+    - reddit-pmid-6535371
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Abstract result from PMID 6535371; this single study does not establish general efficacy or safety.
 - id: reddit-claim-piracetam-8457235-5
-  assertion: 'PMID 8457235 reported: The effect on platelet aggregation occurs through inhibition of thromboxane synthetase or anti-thromboxane A2 activity together with a reduction in the plasma level of von Willebrand''s factor (F.VIIIR:vW).'
+  assertion: "PMID 8457235 reported: The effect on platelet aggregation occurs through inhibition of thromboxane synthetase or anti-thromboxane A2 activity together with a reduction in the plasma level of von Willebrand's factor (F.VIIIR:vW)."
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Source-specific result from PMID 8457235; applies to the population and design described in that abstract.
   sourceIds:
-  - reddit-pmid-8457235
+    - reddit-pmid-8457235
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Abstract result from PMID 8457235; this single study does not establish general efficacy or safety.
 - id: reddit-claim-piracetam-6311225-6
-  assertion: 'PMID 6311225 reported: The animals treated 16 days with piracetam showed an increase of cAMP in the frontal brain of 134% compared with untreated animals.'
+  assertion: "PMID 6311225 reported: The animals treated 16 days with piracetam showed an increase of cAMP in the frontal brain of 134% compared with untreated animals."
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Source-specific result from PMID 6311225; applies to the population and design described in that abstract.
   sourceIds:
-  - reddit-pmid-6311225
+    - reddit-pmid-6311225
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Abstract result from PMID 6311225; this single study does not establish general efficacy or safety.
@@ -544,27 +640,27 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   assertion: Piracetam is associated with the reported episodic memory finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:episodic-memory
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:episodic-memory
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - molekul-link-216
+    - molekul-link-216
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
 - id: reddit-claim-piracetam-116285-8
-  assertion: 'PMID 116285 reported: It was found, using a double-blind cross-over technique, that dyslexics significantly increased their verbal learning by 15.0% and students by 8.6% (over and above their placebo increase).'
+  assertion: "PMID 116285 reported: It was found, using a double-blind cross-over technique, that dyslexics significantly increased their verbal learning by 15.0% and students by 8.6% (over and above their placebo increase)."
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:episodic-memory
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:episodic-memory
+      role: reported endpoint
   context: Source-specific result from PMID 116285; applies to the population and design described in that abstract.
   sourceIds:
-  - reddit-pmid-116285
+    - reddit-pmid-116285
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Abstract result from PMID 116285; this single study does not establish general efficacy or safety.
@@ -572,13 +668,13 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   assertion: Piracetam is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - molekul-link-219
+    - molekul-link-219
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -586,13 +682,13 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   assertion: Piracetam is associated with the reported episodic memory finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:episodic-memory
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:episodic-memory
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - molekul-link-219
+    - molekul-link-219
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -600,13 +696,13 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   assertion: Piracetam is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - molekul-link-217
+    - molekul-link-217
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -614,97 +710,97 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   assertion: Piracetam is associated with the reported episodic memory finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:episodic-memory
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:episodic-memory
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - molekul-link-217
+    - molekul-link-217
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
 - id: reddit-claim-piracetam-11405971-13
-  assertion: 'PMID 11405971 reported: The trials were identified from a search of the Specialized Register of the Cochrane Dementia and Cognitive Improvement Group on 10 November 2000 using the term spiracetam, nootropic and 2-Oxo-1-pyrrolidine.'
+  assertion: "PMID 11405971 reported: The trials were identified from a search of the Specialized Register of the Cochrane Dementia and Cognitive Improvement Group on 10 November 2000 using the term spiracetam, nootropic and 2-Oxo-1-pyrrolidine."
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Source-specific result from PMID 11405971; applies to the population and design described in that abstract.
   sourceIds:
-  - reddit-pmid-11405971
+    - reddit-pmid-11405971
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Abstract result from PMID 11405971; this single study does not establish general efficacy or safety.
 - id: reddit-claim-piracetam-11405971-14
-  assertion: 'PMID 11405971 reported: The trials were identified from a search of the Specialized Register of the Cochrane Dementia and Cognitive Improvement Group on 10 November 2000 using the term spiracetam, nootropic and 2-Oxo-1-pyrrolidine.'
+  assertion: "PMID 11405971 reported: The trials were identified from a search of the Specialized Register of the Cochrane Dementia and Cognitive Improvement Group on 10 November 2000 using the term spiracetam, nootropic and 2-Oxo-1-pyrrolidine."
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Source-specific result from PMID 11405971; applies to the population and design described in that abstract.
   sourceIds:
-  - reddit-pmid-11405971
+    - reddit-pmid-11405971
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Abstract result from PMID 11405971; this single study does not establish general efficacy or safety.
 - id: reddit-claim-piracetam-1755517-15
-  assertion: 'PMID 1755517 reported: There is a growing body of evidence indicating that chronic alcohol consumption induces morphological changes in the central nervous system (CNS) similar to those observed during brain senescence, including an increased formation of lipofuscin.'
+  assertion: "PMID 1755517 reported: There is a growing body of evidence indicating that chronic alcohol consumption induces morphological changes in the central nervous system (CNS) similar to those observed during brain senescence, including an increased formation of lipofuscin."
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Source-specific result from PMID 1755517; applies to the population and design described in that abstract.
   sourceIds:
-  - reddit-pmid-1755517
+    - reddit-pmid-1755517
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Abstract result from PMID 1755517; this single study does not establish general efficacy or safety.
 - id: reddit-claim-piracetam-1755517-16
-  assertion: 'PMID 1755517 reported: There is a growing body of evidence indicating that chronic alcohol consumption induces morphological changes in the central nervous system (CNS) similar to those observed during brain senescence, including an increased formation of lipofuscin.'
+  assertion: "PMID 1755517 reported: There is a growing body of evidence indicating that chronic alcohol consumption induces morphological changes in the central nervous system (CNS) similar to those observed during brain senescence, including an increased formation of lipofuscin."
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Source-specific result from PMID 1755517; applies to the population and design described in that abstract.
   sourceIds:
-  - reddit-pmid-1755517
+    - reddit-pmid-1755517
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Abstract result from PMID 1755517; this single study does not establish general efficacy or safety.
 - id: reddit-claim-piracetam-3370078-17
-  assertion: 'PMID 3370078 reported: The effects of two acute doses (1600 mg, 2400 mg) of 2-oxo-pyrrolidine-1-acetamide (piracetam, Normabraïn) on hypoxia resistance were screened vs placebo in a randomized, double-blind 3-way change-over design in 9 healthy male volunteers (mean age: 26.4 +/- 3.5 years; mean body weight: 74.9 +/- 8.4 kg).'
+  assertion: "PMID 3370078 reported: The effects of two acute doses (1600 mg, 2400 mg) of 2-oxo-pyrrolidine-1-acetamide (piracetam, Normabraïn) on hypoxia resistance were screened vs placebo in a randomized, double-blind 3-way change-over design in 9 healthy male volunteers (mean age: 26.4 +/- 3.5 years; mean body weight: 74.9 +/- 8.4 kg)."
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Source-specific result from PMID 3370078; applies to the population and design described in that abstract.
   sourceIds:
-  - reddit-pmid-3370078
+    - reddit-pmid-3370078
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Abstract result from PMID 3370078; this single study does not establish general efficacy or safety.
 - id: reddit-claim-piracetam-3370078-18
-  assertion: 'PMID 3370078 reported: The effects of two acute doses (1600 mg, 2400 mg) of 2-oxo-pyrrolidine-1-acetamide (piracetam, Normabraïn) on hypoxia resistance were screened vs placebo in a randomized, double-blind 3-way change-over design in 9 healthy male volunteers (mean age: 26.4 +/- 3.5 years; mean body weight: 74.9 +/- 8.4 kg).'
+  assertion: "PMID 3370078 reported: The effects of two acute doses (1600 mg, 2400 mg) of 2-oxo-pyrrolidine-1-acetamide (piracetam, Normabraïn) on hypoxia resistance were screened vs placebo in a randomized, double-blind 3-way change-over design in 9 healthy male volunteers (mean age: 26.4 +/- 3.5 years; mean body weight: 74.9 +/- 8.4 kg)."
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Source-specific result from PMID 3370078; applies to the population and design described in that abstract.
   sourceIds:
-  - reddit-pmid-3370078
+    - reddit-pmid-3370078
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Abstract result from PMID 3370078; this single study does not establish general efficacy or safety.
@@ -712,13 +808,13 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   assertion: Piracetam is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - molekul-link-220
+    - molekul-link-220
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -726,125 +822,125 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   assertion: Piracetam is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - molekul-link-220
+    - molekul-link-220
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
 - id: reddit-claim-piracetam-7655763-21
-  assertion: 'PMID 7655763 reported: The latter was induced by a fixed gas combination of 9.8% oxygen (O2) and 90.2% nitrogen (N2, found in 6,000 m altitude), which was inhaled for 23 minutes under normobraic conditions by 18 healthy volunteers.'
+  assertion: "PMID 7655763 reported: The latter was induced by a fixed gas combination of 9.8% oxygen (O2) and 90.2% nitrogen (N2, found in 6,000 m altitude), which was inhaled for 23 minutes under normobraic conditions by 18 healthy volunteers."
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Source-specific result from PMID 7655763; applies to the population and design described in that abstract.
   sourceIds:
-  - reddit-pmid-7655763
+    - reddit-pmid-7655763
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Abstract result from PMID 7655763; this single study does not establish general efficacy or safety.
 - id: reddit-claim-piracetam-7655763-22
-  assertion: 'PMID 7655763 reported: The latter was induced by a fixed gas combination of 9.8% oxygen (O2) and 90.2% nitrogen (N2, found in 6,000 m altitude), which was inhaled for 23 minutes under normobraic conditions by 18 healthy volunteers.'
+  assertion: "PMID 7655763 reported: The latter was induced by a fixed gas combination of 9.8% oxygen (O2) and 90.2% nitrogen (N2, found in 6,000 m altitude), which was inhaled for 23 minutes under normobraic conditions by 18 healthy volunteers."
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Source-specific result from PMID 7655763; applies to the population and design described in that abstract.
   sourceIds:
-  - reddit-pmid-7655763
+    - reddit-pmid-7655763
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Abstract result from PMID 7655763; this single study does not establish general efficacy or safety.
 - id: reddit-claim-piracetam-12006732-23
-  assertion: 'PMID 12006732 reported: These studies had as common outcome measure a clinical global impression of change, a measure of clinically meaningful improvement.'
+  assertion: "PMID 12006732 reported: These studies had as common outcome measure a clinical global impression of change, a measure of clinically meaningful improvement."
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Source-specific result from PMID 12006732; applies to the population and design described in that abstract.
   sourceIds:
-  - reddit-pmid-12006732
+    - reddit-pmid-12006732
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Abstract result from PMID 12006732; this single study does not establish general efficacy or safety.
 - id: reddit-claim-piracetam-12006732-24
-  assertion: 'PMID 12006732 reported: These studies had as common outcome measure a clinical global impression of change, a measure of clinically meaningful improvement.'
+  assertion: "PMID 12006732 reported: These studies had as common outcome measure a clinical global impression of change, a measure of clinically meaningful improvement."
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Source-specific result from PMID 12006732; applies to the population and design described in that abstract.
   sourceIds:
-  - reddit-pmid-12006732
+    - reddit-pmid-12006732
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Abstract result from PMID 12006732; this single study does not establish general efficacy or safety.
 - id: reddit-claim-piracetam-7680995-25
-  assertion: 'PMID 7680995 reported: The dimensionality decreased from placebo (median = 5.89) to low dose (median = 5.72) to high dose (median = 5.59), significant in a Friedman ANOVA at P < 0.02, with significant differences between placebo vs.'
+  assertion: "PMID 7680995 reported: The dimensionality decreased from placebo (median = 5.89) to low dose (median = 5.72) to high dose (median = 5.59), significant in a Friedman ANOVA at P < 0.02, with significant differences between placebo vs."
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Source-specific result from PMID 7680995; applies to the population and design described in that abstract.
   sourceIds:
-  - reddit-pmid-7680995
+    - reddit-pmid-7680995
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Abstract result from PMID 7680995; this single study does not establish general efficacy or safety.
 - id: reddit-claim-piracetam-7680995-26
-  assertion: 'PMID 7680995 reported: The dimensionality decreased from placebo (median = 5.89) to low dose (median = 5.72) to high dose (median = 5.59), significant in a Friedman ANOVA at P < 0.02, with significant differences between placebo vs.'
+  assertion: "PMID 7680995 reported: The dimensionality decreased from placebo (median = 5.89) to low dose (median = 5.72) to high dose (median = 5.59), significant in a Friedman ANOVA at P < 0.02, with significant differences between placebo vs."
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Source-specific result from PMID 7680995; applies to the population and design described in that abstract.
   sourceIds:
-  - reddit-pmid-7680995
+    - reddit-pmid-7680995
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Abstract result from PMID 7680995; this single study does not establish general efficacy or safety.
 - id: reddit-claim-piracetam-8272204-27
-  assertion: 'PMID 8272204 reported: Nineteen time segments were found.'
+  assertion: "PMID 8272204 reported: Nineteen time segments were found."
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Source-specific result from PMID 8272204; applies to the population and design described in that abstract.
   sourceIds:
-  - reddit-pmid-8272204
+    - reddit-pmid-8272204
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Abstract result from PMID 8272204; this single study does not establish general efficacy or safety.
 - id: reddit-claim-piracetam-8272204-28
-  assertion: 'PMID 8272204 reported: Nineteen time segments were found.'
+  assertion: "PMID 8272204 reported: Nineteen time segments were found."
   relation: associated-with
   participants:
-  - entityId: substance:piracetam
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:piracetam
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Source-specific result from PMID 8272204; applies to the population and design described in that abstract.
   sourceIds:
-  - reddit-pmid-8272204
+    - reddit-pmid-8272204
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Abstract result from PMID 8272204; this single study does not establish general efficacy or safety.
@@ -864,22 +960,11 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   publisher: PsychonautWiki
 ```
 
-## External wiki links
-
-```yaml
-- service: Wikipedia
-  url: https://en.wikipedia.org/wiki/Piracetam
-  title: Wikipedia
-- service: Examine
-  url: https://examine.com/supplements/Piracetam
-  title: Examine
-```
-
 ## References
 
 ```yaml
 - id: pubchem
-  title: 'Piracetam: compound identity and structure'
+  title: "Piracetam: compound identity and structure"
   authors: NCBI PubChem
   year: 2026
   url: https://pubchem.ncbi.nlm.nih.gov/compound/4843
@@ -888,7 +973,7 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   limitation: The parent compound identity is distinct from salts, formulations, and commercial product quality.
   funding: US National Library of Medicine.
 - id: molekul-profile
-  title: 'Piracetam: Molekul research profile'
+  title: "Piracetam: Molekul research profile"
   authors: Molekul
   year: 2026
   url: https://molekul.io/compounds/piracetam
@@ -897,11 +982,11 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   limitation: A secondary discovery resource. This import does not independently verify its findings or count its links as independent studies.
   funding: Not assessed in this import.
 - id: molekul-link-174
-  title: '[A comparative study of noopept and piracetam in the treatment of mild and moderate cognitive impairment in patients with organic brain diseases of vascular and traumatic origin].'
+  title: "[A comparative study of noopept and piracetam in the treatment of mild and moderate cognitive impairment in patients with organic brain diseases of vascular and traumatic origin]."
   authors: Authors listed in returned report
   year: 2008
   url: https://pubmed.ncbi.nlm.nih.gov/18697252/
-  pmid: '18697252'
+  pmid: "18697252"
   kind: PubMed-indexed study
   insight: This URL appeared in the compound profile's source trail. No study finding is asserted by this reference.
   limitation: Publication title, authors, date, methods, findings, source access and relevance require original-document verification. Multiple links may represent the same study or a related preparation.
@@ -916,13 +1001,13 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   limitation: Bibliographic metadata was reconciled from the separate research acquisition; relevance and findings for this original discovery profile remain unassessed.
   funding: Not assessed in this import.
   doi: 10.1007/s11055-009-9128-4
-  pmid: '19234797'
+  pmid: "19234797"
 - id: molekul-link-213
   title: PubMed PMID 22972044 — source link captured 2026; metadata pending
   authors: Bibliographic metadata not independently verified
   year: 2026
   url: https://pubmed.ncbi.nlm.nih.gov/22972044/
-  pmid: '22972044'
+  pmid: "22972044"
   kind: Source discovery link · capture year
   insight: This URL appeared in the compound profile's source trail. No study finding is asserted by this reference.
   limitation: Publication title, authors, date, methods, findings, source access and relevance require original-document verification. Multiple links may represent the same study or a related preparation.
@@ -932,7 +1017,7 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   authors: Bibliographic metadata not independently verified
   year: 2026
   url: https://pubmed.ncbi.nlm.nih.gov/7865703/
-  pmid: '7865703'
+  pmid: "7865703"
   kind: Source discovery link · capture year
   insight: This URL appeared in the compound profile's source trail. No study finding is asserted by this reference.
   limitation: Publication title, authors, date, methods, findings, source access and relevance require original-document verification. Multiple links may represent the same study or a related preparation.
@@ -942,7 +1027,7 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   authors: Bibliographic metadata not independently verified
   year: 2026
   url: https://pubmed.ncbi.nlm.nih.gov/9316679/
-  pmid: '9316679'
+  pmid: "9316679"
   kind: Source discovery link · capture year
   insight: This URL appeared in the compound profile's source trail. No study finding is asserted by this reference.
   limitation: Publication title, authors, date, methods, findings, source access and relevance require original-document verification. Multiple links may represent the same study or a related preparation.
@@ -961,7 +1046,7 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   authors: Bibliographic metadata not independently verified
   year: 2026
   url: https://pubmed.ncbi.nlm.nih.gov/8553617/
-  pmid: '8553617'
+  pmid: "8553617"
   kind: Source discovery link · capture year
   insight: This URL appeared in the compound profile's source trail. No study finding is asserted by this reference.
   limitation: Publication title, authors, date, methods, findings, source access and relevance require original-document verification. Multiple links may represent the same study or a related preparation.
@@ -971,7 +1056,7 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   authors: Bibliographic metadata not independently verified
   year: 2026
   url: https://pubmed.ncbi.nlm.nih.gov/10395980/
-  pmid: '10395980'
+  pmid: "10395980"
   kind: Source discovery link · capture year
   insight: This URL appeared in the compound profile's source trail. No study finding is asserted by this reference.
   limitation: Publication title, authors, date, methods, findings, source access and relevance require original-document verification. Multiple links may represent the same study or a related preparation.
@@ -981,7 +1066,7 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   authors: Bibliographic metadata not independently verified
   year: 2026
   url: https://pubmed.ncbi.nlm.nih.gov/826948/
-  pmid: '826948'
+  pmid: "826948"
   kind: Source discovery link · capture year
   insight: This URL appeared in the compound profile's source trail. No study finding is asserted by this reference.
   limitation: Publication title, authors, date, methods, findings, source access and relevance require original-document verification. Multiple links may represent the same study or a related preparation.
@@ -991,7 +1076,7 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   authors: Bibliographic metadata not independently verified
   year: 2026
   url: https://pubmed.ncbi.nlm.nih.gov/3835497/
-  pmid: '3835497'
+  pmid: "3835497"
   kind: Source discovery link · capture year
   insight: This URL appeared in the compound profile's source trail. No study finding is asserted by this reference.
   limitation: Publication title, authors, date, methods, findings, source access and relevance require original-document verification. Multiple links may represent the same study or a related preparation.
@@ -1001,7 +1086,7 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   authors: Bibliographic metadata not independently verified
   year: 2026
   url: https://pubmed.ncbi.nlm.nih.gov/38878641/
-  pmid: '38878641'
+  pmid: "38878641"
   kind: Source discovery link · capture year
   insight: This URL appeared in the compound profile's source trail. No study finding is asserted by this reference.
   limitation: Publication title, authors, date, methods, findings, source access and relevance require original-document verification. Multiple links may represent the same study or a related preparation.
@@ -1011,7 +1096,7 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   authors: Bibliographic metadata not independently verified
   year: 2026
   url: https://pubmed.ncbi.nlm.nih.gov/785952/
-  pmid: '785952'
+  pmid: "785952"
   kind: Source discovery link · capture year
   insight: This URL appeared in the compound profile's source trail. No study finding is asserted by this reference.
   limitation: Publication title, authors, date, methods, findings, source access and relevance require original-document verification. Multiple links may represent the same study or a related preparation.
@@ -1021,7 +1106,7 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   authors: Bibliographic metadata not independently verified
   year: 2026
   url: https://pubmed.ncbi.nlm.nih.gov/10555876/
-  pmid: '10555876'
+  pmid: "10555876"
   kind: Source discovery link · capture year
   insight: This URL appeared in the compound profile's source trail. No study finding is asserted by this reference.
   limitation: Publication title, authors, date, methods, findings, source access and relevance require original-document verification. Multiple links may represent the same study or a related preparation.
@@ -1052,7 +1137,7 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   kind: PubMed publication
   insight: A rapid, sensitive and specific method for quantifying piracetam in human plasma using Piracetam d-8 as the internal standard (IS) is described.
   limitation: PubMed abstract for PMID 26248695 was reviewed; no rights-eligible PMC full text was available in this pass.
-  pmid: '26248695'
+  pmid: "26248695"
   doi: 10.1002/bmc.3579
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -1090,7 +1175,7 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   kind: PubMed publication
   insight: The blockade of the memory-enhancing effects of piracetam resulting from adrenalectomy can be abolished by substitution with either corticosterone or aldosterone.
   limitation: PubMed abstract for PMID 2149831 was reviewed; no rights-eligible PMC full text was available in this pass.
-  pmid: '2149831'
+  pmid: "2149831"
   doi: 10.1016/0006-8993(90)90691-4
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -1104,7 +1189,7 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   kind: PubMed publication
   insight: for 14 days) elevates N-methyl-D-aspartate (NMDA) receptor density by about 20% and normalizes the enhanced affinity of L-glutamate for the NMDA receptor.
   limitation: PubMed abstract for PMID 8234409 was reviewed; no rights-eligible PMC full text was available in this pass.
-  pmid: '8234409'
+  pmid: "8234409"
   doi: 10.1159/000139100
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -1118,7 +1203,7 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   kind: PubMed publication
   insight: In order to test the hypothesis that piracetam improves cognitive functions by restoring biochemical deficits of the aging brain, we investigated the effects of piracetam treatment (300 mg/kg daily for 6 weeks) on the active avoidance performance of young and aged rats.
   limitation: PubMed abstract for PMID 10338103 was reviewed; no rights-eligible PMC full text was available in this pass.
-  pmid: '10338103'
+  pmid: "10338103"
   doi: 10.1055/s-2007-979231
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -1132,7 +1217,7 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   kind: PubMed publication
   insight: The stimulating effect of piracetam on the respiration and glycolysis was observed in rat brain cortex slices incubated under oxygen atmosphere.
   limitation: PubMed abstract for PMID 870885 was reviewed; no rights-eligible PMC full text was available in this pass.
-  pmid: '870885'
+  pmid: "870885"
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
@@ -1145,7 +1230,7 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   kind: PubMed publication
   insight: When the animals were killed one hour after the administration of the drugs, piracetam significantly increased the DA level in the cerebral cortex and in the striatum, as well as the 5-HT level in the cortex, reducing the 5-HT level in the striatum, brain stem and hypothalamus.
   limitation: PubMed abstract for PMID 6535371 was reviewed; no rights-eligible PMC full text was available in this pass.
-  pmid: '6535371'
+  pmid: "6535371"
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
@@ -1158,7 +1243,7 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   kind: PubMed publication
   insight: The effect on platelet aggregation occurs through inhibition of thromboxane synthetase or anti-thromboxane A2 activity together with a reduction in the plasma level of von Willebrand's factor (F.VIIIR:vW).
   limitation: PubMed abstract for PMID 8457235 was reviewed; no rights-eligible PMC full text was available in this pass.
-  pmid: '8457235'
+  pmid: "8457235"
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
@@ -1171,7 +1256,7 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   kind: PubMed publication
   insight: The animals treated 16 days with piracetam showed an increase of cAMP in the frontal brain of 134% compared with untreated animals.
   limitation: PubMed abstract for PMID 6311225 was reviewed; no rights-eligible PMC full text was available in this pass.
-  pmid: '6311225'
+  pmid: "6311225"
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
@@ -1184,7 +1269,7 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   kind: PubMed publication
   insight: It was found, using a double-blind cross-over technique, that dyslexics significantly increased their verbal learning by 15.0% and students by 8.6% (over and above their placebo increase).
   limitation: PubMed abstract for PMID 116285 was reviewed; no rights-eligible PMC full text was available in this pass.
-  pmid: '116285'
+  pmid: "116285"
   doi: 10.1007/BF00491989
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -1198,28 +1283,28 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   kind: PubMed publication
   insight: The trials were identified from a search of the Specialized Register of the Cochrane Dementia and Cognitive Improvement Group on 10 November 2000 using the term spiracetam, nootropic and 2-Oxo-1-pyrrolidine.
   limitation: PubMed abstract for PMID 11405971 was reviewed; no rights-eligible PMC full text was available in this pass.
-  pmid: '11405971'
+  pmid: "11405971"
   doi: 10.1002/14651858.CD001011
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
 - id: reddit-pmid-1755517
-  title: 'The effects of piracetam on lipofuscin of the rat cerebellar and hippocampal neurons after long-term alcohol treatment and withdrawal: a quantitative study.'
+  title: "The effects of piracetam on lipofuscin of the rat cerebellar and hippocampal neurons after long-term alcohol treatment and withdrawal: a quantitative study."
   authors: M M Paula-Barbosa, F Brandão, M C Pinho, J P Andrade, M D Madeira, A Cadete-Leite
   year: 1991
   url: https://pubmed.ncbi.nlm.nih.gov/1755517/
   kind: PubMed publication
   insight: There is a growing body of evidence indicating that chronic alcohol consumption induces morphological changes in the central nervous system (CNS) similar to those observed during brain senescence, including an increased formation of lipofuscin.
   limitation: PubMed abstract for PMID 1755517 was reviewed; no rights-eligible PMC full text was available in this pass.
-  pmid: '1755517'
+  pmid: "1755517"
   doi: 10.1111/j.1530-0277.1991.tb00610.x
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
 - id: reddit-link-6b8fac9c8dd5
-  title: 'Piracetam in developmental reading disorders: A review'
+  title: "Piracetam in developmental reading disorders: A review"
   authors: Not established
   year: 2026
   url: https://link.springer.com/article/10.1007%2FBF01977668
@@ -1236,9 +1321,9 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   year: 1988
   url: https://pubmed.ncbi.nlm.nih.gov/3370078/
   kind: PubMed publication
-  insight: 'The effects of two acute doses (1600 mg, 2400 mg) of 2-oxo-pyrrolidine-1-acetamide (piracetam, Normabraïn) on hypoxia resistance were screened vs placebo in a randomized, double-blind 3-way change-over design in 9 healthy male volunteers (mean age: 26.4 +/- 3.5 years; mean body weight: 74.9 +/- 8.4 kg).'
+  insight: "The effects of two acute doses (1600 mg, 2400 mg) of 2-oxo-pyrrolidine-1-acetamide (piracetam, Normabraïn) on hypoxia resistance were screened vs placebo in a randomized, double-blind 3-way change-over design in 9 healthy male volunteers (mean age: 26.4 +/- 3.5 years; mean body weight: 74.9 +/- 8.4 kg)."
   limitation: PubMed abstract for PMID 3370078 was reviewed; no rights-eligible PMC full text was available in this pass.
-  pmid: '3370078'
+  pmid: "3370078"
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
@@ -1251,27 +1336,27 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   kind: PubMed publication
   insight: The latter was induced by a fixed gas combination of 9.8% oxygen (O2) and 90.2% nitrogen (N2, found in 6,000 m altitude), which was inhaled for 23 minutes under normobraic conditions by 18 healthy volunteers.
   limitation: PubMed abstract for PMID 7655763 was reviewed; no rights-eligible PMC full text was available in this pass.
-  pmid: '7655763'
+  pmid: "7655763"
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
 - id: reddit-pmid-12006732
-  title: 'Clinical efficacy of piracetam in cognitive impairment: a meta-analysis.'
+  title: "Clinical efficacy of piracetam in cognitive impairment: a meta-analysis."
   authors: Tony Waegemans, Colin R Wilsher, Anne Danniau, Steven H Ferris, Alexander Kurz, Bengt Winblad
   year: 2002
   url: https://pubmed.ncbi.nlm.nih.gov/12006732/
   kind: PubMed publication
   insight: These studies had as common outcome measure a clinical global impression of change, a measure of clinically meaningful improvement.
   limitation: PubMed abstract for PMID 12006732 was reviewed; no rights-eligible PMC full text was available in this pass.
-  pmid: '12006732'
+  pmid: "12006732"
   doi: 10.1159/000057700
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
 - id: reddit-link-a4e01ce1258e
-  title: 'Ginkgo Biloba Extract and Long-Term Cognitive Decline: A 20-Year Follow-Up Population-Based Study'
+  title: "Ginkgo Biloba Extract and Long-Term Cognitive Decline: A 20-Year Follow-Up Population-Based Study"
   authors: Not established
   year: 2026
   url: https://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0052755
@@ -1283,7 +1368,7 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
 - id: reddit-link-52bc224595d7
-  title: 'Piracetam (2-Oxo-Pyrrolidone) Advance and Modulate Central Processing Reaction Time in Normal Healthy Volunteers: Randomized Experimental Study; Single Blind Clinical Trail'
+  title: "Piracetam (2-Oxo-Pyrrolidone) Advance and Modulate Central Processing Reaction Time in Normal Healthy Volunteers: Randomized Experimental Study; Single Blind Clinical Trail"
   authors: Not established
   year: 2026
   url: https://www.webmedcentral.com/article_view/3129
@@ -1302,7 +1387,7 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   kind: PubMed publication
   insight: The dimensionality decreased from placebo (median = 5.89) to low dose (median = 5.72) to high dose (median = 5.59), significant in a Friedman ANOVA at P < 0.02, with significant differences between placebo vs.
   limitation: PubMed abstract for PMID 7680995 was reviewed; no rights-eligible PMC full text was available in this pass.
-  pmid: '7680995'
+  pmid: "7680995"
   doi: 10.1016/0013-4694(93)90007-i
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -1316,12 +1401,20 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
   kind: PubMed publication
   insight: Nineteen time segments were found.
   limitation: PubMed abstract for PMID 8272204 was reviewed; no rights-eligible PMC full text was available in this pass.
-  pmid: '8272204'
+  pmid: "8272204"
   doi: 10.1159/000119026
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
+- id: psychonautwiki
+  title: "Piracetam: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/Piracetam
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal
@@ -1329,3 +1422,15 @@ Reviewed PubMed abstracts for PMID(s) 10338103, 11405971, 116285, 12006732, 1755
 ```yaml
 []
 ```
+
+## External wiki links
+
+```yaml
+- service: Wikipedia
+  url: https://en.wikipedia.org/wiki/Piracetam
+  title: Wikipedia
+- service: Examine
+  url: https://examine.com/supplements/Piracetam
+  title: Examine
+```
+

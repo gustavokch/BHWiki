@@ -9,7 +9,7 @@ pubchemCid: null
 smiles: Not established
 category: Identity record
 tags: []
-accent: '#a9b993'
+accent: "#a9b993"
 reviewedAt: 2026-10-27
 editorialStatus: sourced-draft
 halfLife:
@@ -27,37 +27,37 @@ kinetics:
   metabolism: Not established
   sourceId: optihealth-substance-019fe218-4402-73f8-9046-c4ccae708f4f
 x-shape:
-- slug
-- name
-- subtitle
-- summary
-- description
-- aliases
-- formula
-- molecularWeight
-- pubchemCid
-- smiles
-- category
-- tags
-- accent
-- evidenceNote
-- reviewedAt
-- editorialStatus
-- halfLife
-- pkObservations
-- kinetics
-- modifiers
-- doses
-- effects
-- outcomes
-- claims
-- mechanisms
-- cautions
-- interactions
-- experienceLinks
-- references
-- legal
-- externalWikiLinks
+  - slug
+  - name
+  - subtitle
+  - summary
+  - description
+  - aliases
+  - formula
+  - molecularWeight
+  - pubchemCid
+  - smiles
+  - category
+  - tags
+  - accent
+  - evidenceNote
+  - reviewedAt
+  - editorialStatus
+  - halfLife
+  - pkObservations
+  - kinetics
+  - modifiers
+  - doses
+  - effects
+  - outcomes
+  - claims
+  - mechanisms
+  - cautions
+  - interactions
+  - experienceLinks
+  - references
+  - legal
+  - externalWikiLinks
 x-order: 1115
 ---
 
@@ -120,6 +120,81 @@ Reddit index corpus import (6 linked source records; 5 PubMed abstracts). Full-t
   sourceCategory: research
   note: Dose extracted from the PubMed abstract; verify the full text for formulation and protocol details.
   sourceId: reddit-pmid-15146330
+- label: Threshold dose
+  amount: 25 mg
+  quantity: 25
+  quantityMax: null
+  unit: mg
+  ingredient: 5-HTP
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 50–100 mg
+  quantity: 50
+  quantityMax: 100
+  unit: mg
+  ingredient: 5-HTP
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 100–300 mg
+  quantity: 100
+  quantityMax: 300
+  unit: mg
+  ingredient: 5-HTP
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 300–500 mg
+  quantity: 300
+  quantityMax: 500
+  unit: mg
+  ingredient: 5-HTP
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (500 mg and above)
+  amount: 500 mg and above
+  quantity: 500
+  quantityMax: null
+  unit: mg
+  ingredient: 5-HTP
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -161,10 +236,10 @@ Reddit index corpus import (6 linked source records; 5 PubMed abstracts). Full-t
   name: Sleep
   direction: Increased
   evidence: Human research
-  description: 'UNLABELLED: To test the hypothesis that the administration of L -5-hydroxytryptophan (L -5-HTP) might exert beneficial effects on sleep terrors, we carried out an open pharmacological trial in a group of children with sleep terrors compared to a group of children with the same disorder but without L -5-HTP treatment.'
+  description: "UNLABELLED: To test the hypothesis that the administration of L -5-hydroxytryptophan (L -5-HTP) might exert beneficial effects on sleep terrors, we carried out an open pharmacological trial in a group of children with sleep terrors compared to a group of children with the same disorder but without L -5-HTP treatment."
   sourceId: reddit-pmid-15146330
   population: examined again from the clinical and EEG points of view and (5) after 6 months, a structured interview in order to evaluate the clinical outcome
-  exposure: 'UNLABELLED: To test the hypothesis that the administration of L -5-hydroxytryptophan (L -5-HTP) might exert beneficial effects on sleep terrors, we carried out an open pharmacological trial in a group of children with sleep terrors compared to a group of children with the same disorder but without L -5-HTP treatment.'
+  exposure: "UNLABELLED: To test the hypothesis that the administration of L -5-hydroxytryptophan (L -5-HTP) might exert beneficial effects on sleep terrors, we carried out an open pharmacological trial in a group of children with sleep terrors compared to a group of children with the same disorder but without L -5-HTP treatment."
   instrument: null
   magnitude: null
   reportType: measured-assessment
@@ -174,16 +249,16 @@ Reddit index corpus import (6 linked source records; 5 PubMed abstracts). Full-t
 
 ```yaml
 - title: Source-specific finding from PMID 23609610
-  description: 'OBJECTIVE: Several studies have suggested that exogenous administration of the serotonin precursor 5-hydroxytryptophan (5-HTP) can result in the ectopic production of serotonin in dopaminergic neurons and a concomitant reduction in dopamine release.'
+  description: "OBJECTIVE: Several studies have suggested that exogenous administration of the serotonin precursor 5-hydroxytryptophan (5-HTP) can result in the ectopic production of serotonin in dopaminergic neurons and a concomitant reduction in dopamine release."
   sourceId: reddit-pmid-23609610
 - title: Source-specific finding from PMID 20737522
-  description: 'OBJECTIVE: Although the serotonin precursor 5-hydroxytryptophan (5-HTP) is marketed as a psychoactive nutritional supplement, knowledge is limited regarding the effects of exogenous 5-HTP on brain activity.'
+  description: "OBJECTIVE: Although the serotonin precursor 5-hydroxytryptophan (5-HTP) is marketed as a psychoactive nutritional supplement, knowledge is limited regarding the effects of exogenous 5-HTP on brain activity."
   sourceId: reddit-pmid-20737522
 - title: Source-specific finding from PMID 21440001
   description: Carcinoid heart disease was one of the first valvular pathologies studied in molecular detail, and early research identified serotonin produced by oncogenic enterochromaffin cells as the likely culprit in causing changes in heart valve tissue.
   sourceId: reddit-pmid-21440001
 - title: Source-specific finding from PMID 12073163
-  description: 'BACKGROUND: Hypersensitivity of brain serotonin receptors has been proposed as a causal mechanism in the pathophysiology of panic disorder.'
+  description: "BACKGROUND: Hypersensitivity of brain serotonin receptors has been proposed as a causal mechanism in the pathophysiology of panic disorder."
   sourceId: reddit-pmid-12073163
 ```
 
@@ -191,10 +266,10 @@ Reddit index corpus import (6 linked source records; 5 PubMed abstracts). Full-t
 
 ```yaml
 - title: Source-specific finding from PMID 23609610
-  description: 'OBJECTIVE: Several studies have suggested that exogenous administration of the serotonin precursor 5-hydroxytryptophan (5-HTP) can result in the ectopic production of serotonin in dopaminergic neurons and a concomitant reduction in dopamine release.'
+  description: "OBJECTIVE: Several studies have suggested that exogenous administration of the serotonin precursor 5-hydroxytryptophan (5-HTP) can result in the ectopic production of serotonin in dopaminergic neurons and a concomitant reduction in dopamine release."
   sourceId: reddit-pmid-23609610
 - title: Source-specific finding from PMID 15146330
-  description: 'UNLABELLED: To test the hypothesis that the administration of L -5-hydroxytryptophan (L -5-HTP) might exert beneficial effects on sleep terrors, we carried out an open pharmacological trial in a group of children with sleep terrors compared to a group of children with the same disorder but without L -5-HTP treatment.'
+  description: "UNLABELLED: To test the hypothesis that the administration of L -5-hydroxytryptophan (L -5-HTP) might exert beneficial effects on sleep terrors, we carried out an open pharmacological trial in a group of children with sleep terrors compared to a group of children with the same disorder but without L -5-HTP treatment."
   sourceId: reddit-pmid-15146330
 ```
 
@@ -205,13 +280,13 @@ Reddit index corpus import (6 linked source records; 5 PubMed abstracts). Full-t
   assertion: 5-HTP is associated with the reported sleep finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:5-htp
-    role: intervention or exposure
-  - entityId: tag:sleep
-    role: reported endpoint
+    - entityId: substance:5-htp
+      role: intervention or exposure
+    - entityId: tag:sleep
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-15146330
+    - reddit-pmid-15146330
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -229,17 +304,6 @@ Reddit index corpus import (6 linked source records; 5 PubMed abstracts). Full-t
 []
 ```
 
-## External wiki links
-
-```yaml
-- service: Wikipedia
-  url: https://en.wikipedia.org/wiki/5htp
-  title: Wikipedia
-- service: Examine
-  url: https://examine.com/supplements/5-HTP
-  title: Examine
-```
-
 ## References
 
 ```yaml
@@ -252,28 +316,28 @@ Reddit index corpus import (6 linked source records; 5 PubMed abstracts). Full-t
   insight: The OptiHealth canonical catalog records this substance identity label.
   limitation: This catalog snapshot is not an independent evidence review and does not establish structure, dose, safety, or efficacy.
 - id: reddit-pmid-23609610
-  title: 'Effects of oral 5-hydroxytryptophan on a standardized planning task: insight into possible dopamine/serotonin interactions in the forebrain.'
+  title: "Effects of oral 5-hydroxytryptophan on a standardized planning task: insight into possible dopamine/serotonin interactions in the forebrain."
   authors: Mathew H Gendle, Erica L Young, Alexandra C Romano
   year: 2013
   url: https://pubmed.ncbi.nlm.nih.gov/23609610/
   kind: PubMed publication
-  insight: 'OBJECTIVE: Several studies have suggested that exogenous administration of the serotonin precursor 5-hydroxytryptophan (5-HTP) can result in the ectopic production of serotonin in dopaminergic neurons and a concomitant reduction in dopamine release.'
+  insight: "OBJECTIVE: Several studies have suggested that exogenous administration of the serotonin precursor 5-hydroxytryptophan (5-HTP) can result in the ectopic production of serotonin in dopaminergic neurons and a concomitant reduction in dopamine release."
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '23609610'
+  pmid: "23609610"
   doi: 10.1002/hup.2314
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
 - id: reddit-pmid-20737522
-  title: 'Oral administration of 5-hydroxytryptophan (5-HTP) impairs decision making under ambiguity but not under risk: evidence from the Iowa Gambling Task.'
+  title: "Oral administration of 5-hydroxytryptophan (5-HTP) impairs decision making under ambiguity but not under risk: evidence from the Iowa Gambling Task."
   authors: Mathew H Gendle, Abbe C Golding
   year: 2010
   url: https://pubmed.ncbi.nlm.nih.gov/20737522/
   kind: PubMed publication
-  insight: 'OBJECTIVE: Although the serotonin precursor 5-hydroxytryptophan (5-HTP) is marketed as a psychoactive nutritional supplement, knowledge is limited regarding the effects of exogenous 5-HTP on brain activity.'
+  insight: "OBJECTIVE: Although the serotonin precursor 5-hydroxytryptophan (5-HTP) is marketed as a psychoactive nutritional supplement, knowledge is limited regarding the effects of exogenous 5-HTP on brain activity."
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '20737522'
+  pmid: "20737522"
   doi: 10.1002/hup.1139
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -287,7 +351,7 @@ Reddit index corpus import (6 linked source records; 5 PubMed abstracts). Full-t
   kind: PubMed publication
   insight: Carcinoid heart disease was one of the first valvular pathologies studied in molecular detail, and early research identified serotonin produced by oncogenic enterochromaffin cells as the likely culprit in causing changes in heart valve tissue.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '21440001'
+  pmid: "21440001"
   doi: 10.1016/j.pharmthera.2011.03.008
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -311,9 +375,9 @@ Reddit index corpus import (6 linked source records; 5 PubMed abstracts). Full-t
   year: 2002
   url: https://pubmed.ncbi.nlm.nih.gov/12073163/
   kind: PubMed publication
-  insight: 'BACKGROUND: Hypersensitivity of brain serotonin receptors has been proposed as a causal mechanism in the pathophysiology of panic disorder.'
+  insight: "BACKGROUND: Hypersensitivity of brain serotonin receptors has been proposed as a causal mechanism in the pathophysiology of panic disorder."
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '12073163'
+  pmid: "12073163"
   doi: 10.1007/s00213-002-1072-8
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -325,14 +389,22 @@ Reddit index corpus import (6 linked source records; 5 PubMed abstracts). Full-t
   year: 2004
   url: https://pubmed.ncbi.nlm.nih.gov/15146330/
   kind: PubMed publication
-  insight: 'UNLABELLED: To test the hypothesis that the administration of L -5-hydroxytryptophan (L -5-HTP) might exert beneficial effects on sleep terrors, we carried out an open pharmacological trial in a group of children with sleep terrors compared to a group of children with the same disorder but without L -5-HTP treatment.'
+  insight: "UNLABELLED: To test the hypothesis that the administration of L -5-hydroxytryptophan (L -5-HTP) might exert beneficial effects on sleep terrors, we carried out an open pharmacological trial in a group of children with sleep terrors compared to a group of children with the same disorder but without L -5-HTP treatment."
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '15146330'
+  pmid: "15146330"
   doi: 10.1007/s00431-004-1444-7
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
+- id: psychonautwiki
+  title: "5-Hydroxytryptophan: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/5-Hydroxytryptophan
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal
@@ -340,3 +412,15 @@ Reddit index corpus import (6 linked source records; 5 PubMed abstracts). Full-t
 ```yaml
 []
 ```
+
+## External wiki links
+
+```yaml
+- service: Wikipedia
+  url: https://en.wikipedia.org/wiki/5htp
+  title: Wikipedia
+- service: Examine
+  url: https://examine.com/supplements/5-HTP
+  title: Examine
+```
+

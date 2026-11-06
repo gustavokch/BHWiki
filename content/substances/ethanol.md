@@ -124,6 +124,81 @@ Acute dose-response and interaction evidence includes small randomized or crosso
   sourceCategory: research
   note: A specific meal substantially changed exposure in this small study; the result is not a universal meal correction factor.
   sourceId: jones1994
+- label: Threshold dose
+  amount: 10 g
+  quantity: 10
+  quantityMax: null
+  unit: g
+  ingredient: Ethanol
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 10–20 g
+  quantity: 10
+  quantityMax: 20
+  unit: g
+  ingredient: Ethanol
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 20–30 g
+  quantity: 20
+  quantityMax: 30
+  unit: g
+  ingredient: Ethanol
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 30–40 g
+  quantity: 30
+  quantityMax: 40
+  unit: g
+  ingredient: Ethanol
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (40 g and above)
+  amount: 40 g and above
+  quantity: 40
+  quantityMax: null
+  unit: g
+  ingredient: Ethanol
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -143,6 +218,47 @@ Acute dose-response and interaction evidence includes small randomized or crosso
   context: Clinical pharmacokinetic modeling describes concentration-dependent, capacity-limited elimination rather than one stable first-order half-life; a zero-order approximation also has limitations.
   sourceId: holford1987
   modelEligible: false
+```
+
+## Duration
+
+```yaml
+- id: psychonautwiki-oral
+  measurement: subjective
+  route: Oral
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 1.5
+    max: 5
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 2
+      max: 5
+      unit: minutes
+    - name: comeup
+      basis: phase-duration
+      min: 15
+      max: 45
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 30
+      max: 90
+      unit: minutes
+    - name: offset
+      basis: phase-duration
+      min: 45
+      max: 120
+      unit: minutes
+    - name: after-effects
+      basis: phase-duration
+      min: 6
+      max: 48
+      unit: hours
 ```
 
 ## Modifiers
@@ -321,7 +437,7 @@ Acute dose-response and interaction evidence includes small randomized or crosso
   title: Clinical pharmacokinetics of ethanol.
   authors: N H Holford
   year: 1987
-  pmid: '3319346'
+  pmid: "3319346"
   doi: 10.2165/00003088-198713050-00001
   url: https://pubmed.ncbi.nlm.nih.gov/3319346/
   kind: Clinical pharmacokinetic review
@@ -335,7 +451,7 @@ Acute dose-response and interaction evidence includes small randomized or crosso
   title: Individual differences in the biphasic effects of ethanol.
   authors: L Holdstock; H de Wit
   year: 1998
-  pmid: '9884132'
+  pmid: "9884132"
   url: https://pubmed.ncbi.nlm.nih.gov/9884132/
   kind: Randomized double-blind crossover study
   insight: Provides placebo-controlled 0.2, 0.4 and 0.8 g/kg subjective dose-response and ascending-versus-descending limb data.
@@ -345,10 +461,10 @@ Acute dose-response and interaction evidence includes small randomized or crosso
   conflictsOfInterest: Not assessed.
   conflictOfInterestStatus: not-assessed
 - id: nuotto1991
-  title: 'Evaluation of a new computerized psychomotor test battery: effects of alcohol.'
+  title: "Evaluation of a new computerized psychomotor test battery: effects of alcohol."
   authors: E J Nuotto; K T Korttila
   year: 1991
-  pmid: '1946181'
+  pmid: "1946181"
   doi: 10.1111/j.1600-0773.1991.tb01253.x
   url: https://pubmed.ncbi.nlm.nih.gov/1946181/
   kind: Randomized controlled acute study
@@ -362,7 +478,7 @@ Acute dose-response and interaction evidence includes small randomized or crosso
   title: Food-induced lowering of blood-ethanol profiles and increased rate of elimination immediately after a meal.
   authors: A W Jones; K A Jönsson
   year: 1994
-  pmid: '8064267'
+  pmid: "8064267"
   url: https://pubmed.ncbi.nlm.nih.gov/8064267/
   kind: Human crossover pharmacokinetic study
   insight: Demonstrates lower peak BAC and AUC and faster apparent disappearance after a meal in the tested conditions.
@@ -375,7 +491,7 @@ Acute dose-response and interaction evidence includes small randomized or crosso
   title: An investigation into the interaction between ethanol at low doses and the benzodiazepines nitrazepam and temazepam on psychomotor performance in normal subjects.
   authors: P V Taberner; C J Roberts; E Shrosbree; C J Pycock; L English
   year: 1983
-  pmid: '6140699'
+  pmid: "6140699"
   doi: 10.1007/BF00427570
   url: https://pubmed.ncbi.nlm.nih.gov/6140699/
   kind: Randomized human interaction study
@@ -389,7 +505,7 @@ Acute dose-response and interaction evidence includes small randomized or crosso
   title: Missense Gamma-Aminobutyric Acid Receptor Polymorphisms Are Associated with Reaction Time, Motor Time, and Ethanol Effects in Vivo.
   authors: Elena García-Martín; María I Ramos; José A Cornejo-García; Segismundo Galván; James R Perkins; Laura Rodríguez-Santos; Hortensia Alonso-Navarro; Félix J Jiménez-Jiménez; José A G Agúndez
   year: 2018
-  pmid: '29445327'
+  pmid: "29445327"
   doi: 10.3389/fncel.2018.00010
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5797743/
   kind: Human pharmacogenetic ethanol-challenge study
@@ -404,7 +520,7 @@ Acute dose-response and interaction evidence includes small randomized or crosso
   title: Ethanol inhibits NMDA-activated ion current in hippocampal neurons.
   authors: D M Lovinger; G White; F F Weight
   year: 1989
-  pmid: '2467382'
+  pmid: "2467382"
   doi: 10.1126/science.2467382
   url: https://pubmed.ncbi.nlm.nih.gov/2467382/
   kind: Cellular electrophysiology study
@@ -418,7 +534,7 @@ Acute dose-response and interaction evidence includes small randomized or crosso
   title: A randomized controlled trial of the effect of alcohol consumption on blood pressure.
   authors: I B Puddey; L J Beilin; R Vandongen; I L Rouse
   year: 1985
-  pmid: '4028514'
+  pmid: "4028514"
   doi: 10.1111/j.1440-1681.1985.tb02643.x
   url: https://pubmed.ncbi.nlm.nih.gov/4028514/
   kind: Randomized controlled crossover trial
@@ -429,10 +545,10 @@ Acute dose-response and interaction evidence includes small randomized or crosso
   conflictsOfInterest: Not assessed.
   conflictOfInterestStatus: not-assessed
 - id: topiwala2017
-  title: 'Moderate alcohol consumption as risk factor for adverse brain outcomes and cognitive decline: longitudinal cohort study.'
+  title: "Moderate alcohol consumption as risk factor for adverse brain outcomes and cognitive decline: longitudinal cohort study."
   authors: Anya Topiwala; Charlotte L Allan; Vyara Valkanova; Enikő Zsoldos; Nicola Filippini; Claire Sexton; Abda Mahmood; Peggy Fooks; Archana Singh-Manoux; Clare E Mackay; Mika Kivimäki; Klaus P Ebmeier
   year: 2017
-  pmid: '28588063'
+  pmid: "28588063"
   doi: 10.1136/bmj.j2353
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5460586/
   kind: Longitudinal cohort with endpoint neuroimaging
@@ -444,10 +560,10 @@ Acute dose-response and interaction evidence includes small randomized or crosso
   conflictOfInterestStatus: none-declared
   disclosureUrl: https://www.bmj.com/content/357/bmj.j2353
 - id: simpson2019
-  title: 'Alcohol drinking patterns and liver cirrhosis risk: analysis of the prospective UK Million Women Study.'
+  title: "Alcohol drinking patterns and liver cirrhosis risk: analysis of the prospective UK Million Women Study."
   authors: Rachel F Simpson; Carol Hermon; Bette Liu; Jane Green; Gillian K Reeves; Valerie Beral; Sarah Floud; Million Women Study Collaborators
   year: 2019
-  pmid: '30472032'
+  pmid: "30472032"
   doi: 10.1016/S2468-2667(18)30230-5
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6323353/
   kind: Prospective cohort study
@@ -459,10 +575,10 @@ Acute dose-response and interaction evidence includes small randomized or crosso
   conflictOfInterestStatus: none-declared
   disclosureUrl: https://pmc.ncbi.nlm.nih.gov/articles/PMC6323353/
 - id: cooper2013
-  title: 'The association between binge drinking and birth outcomes: results from the Born in Bradford cohort study.'
+  title: "The association between binge drinking and birth outcomes: results from the Born in Bradford cohort study."
   authors: Duncan L Cooper; Emily S Petherick; John Wright
   year: 2013
-  pmid: '23729326'
+  pmid: "23729326"
   doi: 10.1136/jech-2012-202303
   url: https://pubmed.ncbi.nlm.nih.gov/23729326/
   kind: Pregnancy cohort study
@@ -473,7 +589,7 @@ Acute dose-response and interaction evidence includes small randomized or crosso
   conflictsOfInterest: Not assessed.
   conflictOfInterestStatus: not-assessed
 - id: niaaa-aud-2025
-  title: 'Alcohol Use Disorder: From Risk to Diagnosis to Recovery'
+  title: "Alcohol Use Disorder: From Risk to Diagnosis to Recovery"
   authors: National Institute on Alcohol Abuse and Alcoholism
   year: 2025
   url: https://www.niaaa.nih.gov/health-professionals-communities/core-resource-on-alcohol/alcohol-use-disorder-risk-diagnosis-recovery
@@ -520,6 +636,14 @@ Acute dose-response and interaction evidence includes small randomized or crosso
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed at page level.
   conflictOfInterestStatus: not-assessed
+- id: psychonautwiki
+  title: "Alcohol: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/Alcohol
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal

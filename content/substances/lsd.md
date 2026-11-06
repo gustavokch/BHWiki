@@ -111,6 +111,81 @@ The half-life is a study geometric mean. Subjective duration in that study is no
   sourceCategory: research
   note: A ketanserin condition was also administered. Its outcome was not in the text used for this draft, so it is omitted.
   sourceId: holze2021
+- label: Threshold dose
+  amount: 15 µg
+  quantity: 15
+  quantityMax: null
+  unit: µg
+  ingredient: LSD
+  formulation: Not established
+  route: Sublingual
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 15–75 µg
+  quantity: 15
+  quantityMax: 75
+  unit: µg
+  ingredient: LSD
+  formulation: Not established
+  route: Sublingual
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 75–150 µg
+  quantity: 75
+  quantityMax: 150
+  unit: µg
+  ingredient: LSD
+  formulation: Not established
+  route: Sublingual
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 150–300 µg
+  quantity: 150
+  quantityMax: 300
+  unit: µg
+  ingredient: LSD
+  formulation: Not established
+  route: Sublingual
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (300 µg and above)
+  amount: 300 µg and above
+  quantity: 300
+  quantityMax: null
+  unit: µg
+  ingredient: LSD
+  formulation: Not established
+  route: Sublingual
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -130,6 +205,47 @@ The half-life is a study geometric mean. Subjective duration in that study is no
   context: Geometric mean 2.6 hours, with a reported 95% CI of 2.2–3.4 hours. The sample size was not restated in the text used for this draft.
   sourceId: dolder2017
   modelEligible: true
+```
+
+## Duration
+
+```yaml
+- id: psychonautwiki-sublingual
+  measurement: subjective
+  route: Sublingual
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 8
+    max: 12
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 15
+      max: 30
+      unit: minutes
+    - name: comeup
+      basis: phase-duration
+      min: 45
+      max: 90
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 3
+      max: 5
+      unit: hours
+    - name: offset
+      basis: phase-duration
+      min: 3
+      max: 5
+      unit: hours
+    - name: after-effects
+      basis: phase-duration
+      min: 12
+      max: 48
+      unit: hours
 ```
 
 ## Modifiers
@@ -228,7 +344,7 @@ The half-life is a study geometric mean. Subjective duration in that study is no
   title: Pharmacokinetics and Pharmacodynamics of Lysergic Acid Diethylamide in Healthy Subjects
   authors: Dolder et al.
   year: 2017
-  pmid: '28197931'
+  pmid: "28197931"
   url: https://pubmed.ncbi.nlm.nih.gov/28197931/
   kind: Human pharmacokinetic study
   insight: Reports plasma Cmax, a 2.6-hour geometric mean half-life, and subjective peak and duration after 100 and 200 µg.
@@ -238,7 +354,7 @@ The half-life is a study geometric mean. Subjective duration in that study is no
   title: Acute dose-dependent effects of lysergic acid diethylamide in a double-blind placebo-controlled study in healthy subjects
   authors: Holze et al.
   year: 2021
-  pmid: '33059356'
+  pmid: "33059356"
   url: https://pubmed.ncbi.nlm.nih.gov/33059356/
   kind: Double-blind placebo-controlled study
   insight: Describes dose-dependent subjective effects from 25 µg, a ceiling of good effects at 100 µg, and more anxiety at 200 µg.
@@ -248,14 +364,14 @@ The half-life is a study geometric mean. Subjective duration in that study is no
   title: Psychedelics
   authors: Nichols
   year: 2016
-  pmid: '26841800'
+  pmid: "26841800"
   url: https://pubmed.ncbi.nlm.nih.gov/26841800/
   kind: Review
   insight: Describes psychedelics as agonists or partial agonists at brain 5-HT2A receptors.
   limitation: A class review. It does not supply an LSD binding constant, and this article does not repeat broader safety claims from the review.
   funding: Not assessed in this draft.
 - id: pubchem
-  title: 'LSD: compound identity and structure'
+  title: "LSD: compound identity and structure"
   authors: NCBI PubChem
   year: 2026
   url: https://pubchem.ncbi.nlm.nih.gov/compound/5761
@@ -263,6 +379,14 @@ The half-life is a study geometric mean. Subjective duration in that study is no
   insight: Source of the displayed formula, molecular weight, structure, and connectivity SMILES.
   limitation: Connectivity SMILES do not encode every stereochemical distinction. The parent record is distinct from salts, formulations, and commercial product quality.
   funding: US National Library of Medicine.
+- id: psychonautwiki
+  title: "LSD: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/LSD
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal

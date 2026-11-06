@@ -3,26 +3,26 @@ slug: caffeine
 name: Caffeine
 subtitle: Wakefulness, with a long tail.
 aliases:
-- 1,3,7-trimethylxanthine
+  - 1,3,7-trimethylxanthine
 formula: C8H10N4O2
 molecularWeight: 194.19 g/mol
 pubchemCid: 2519
 smiles: CN1C=NC2=C1C(=O)N(C(=O)N2C)C
 category: Stimulant
 tags:
-- stimulant
-- methylxanthine
-- adenosine-antagonist
-- adenosine
-- cyp1a2
-- attention
-- sleep
-- adenosine-receptor
-- tobacco-smoke
-- alertness
-- anxiety
-accent: '#adbd8e'
-reviewedAt: '2026-11-01'
+  - stimulant
+  - methylxanthine
+  - adenosine-antagonist
+  - adenosine
+  - cyp1a2
+  - attention
+  - sleep
+  - adenosine-receptor
+  - tobacco-smoke
+  - alertness
+  - anxiety
+accent: "#adbd8e"
+reviewedAt: 2026-11-01
 halfLife:
   label: Highly variable; 4.1 hours was the study mean in one six-man oral pharmacokinetic study
   low: 4.1
@@ -39,37 +39,37 @@ kinetics:
   sourceId: newton1981
 editorialStatus: sourced-draft
 x-shape:
-- slug
-- name
-- subtitle
-- summary
-- description
-- aliases
-- formula
-- molecularWeight
-- pubchemCid
-- smiles
-- category
-- tags
-- accent
-- evidenceNote
-- reviewedAt
-- halfLife
-- kinetics
-- modifiers
-- doses
-- effects
-- mechanisms
-- cautions
-- references
-- legal
-- editorialStatus
-- pkObservations
-- outcomes
-- claims
-- interactions
-- experienceLinks
-- externalWikiLinks
+  - slug
+  - name
+  - subtitle
+  - summary
+  - description
+  - aliases
+  - formula
+  - molecularWeight
+  - pubchemCid
+  - smiles
+  - category
+  - tags
+  - accent
+  - evidenceNote
+  - reviewedAt
+  - halfLife
+  - kinetics
+  - modifiers
+  - doses
+  - effects
+  - mechanisms
+  - cautions
+  - references
+  - legal
+  - editorialStatus
+  - pkObservations
+  - outcomes
+  - claims
+  - interactions
+  - experienceLinks
+  - externalWikiLinks
 x-order: 0
 ---
 
@@ -282,6 +282,231 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   sourceCategory: research
   note: Trial exposure; napping was the active comparator.
   sourceId: reddit-pmid-18554731
+- label: Threshold dose
+  amount: 2.5 mg
+  quantity: 2.5
+  quantityMax: null
+  unit: mg
+  ingredient: Caffeine
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 10–25 mg
+  quantity: 10
+  quantityMax: 25
+  unit: mg
+  ingredient: Caffeine
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 25–40 mg
+  quantity: 25
+  quantityMax: 40
+  unit: mg
+  ingredient: Caffeine
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 40–80 mg
+  quantity: 40
+  quantityMax: 80
+  unit: mg
+  ingredient: Caffeine
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (80 mg and above)
+  amount: 80 mg and above
+  quantity: 80
+  quantityMax: null
+  unit: mg
+  ingredient: Caffeine
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Threshold dose
+  amount: 10 mg
+  quantity: 10
+  quantityMax: null
+  unit: mg
+  ingredient: Caffeine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 20–50 mg
+  quantity: 20
+  quantityMax: 50
+  unit: mg
+  ingredient: Caffeine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 50–150 mg
+  quantity: 50
+  quantityMax: 150
+  unit: mg
+  ingredient: Caffeine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 150–500 mg
+  quantity: 150
+  quantityMax: 500
+  unit: mg
+  ingredient: Caffeine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (500 mg and above)
+  amount: 500 mg and above
+  quantity: 500
+  quantityMax: null
+  unit: mg
+  ingredient: Caffeine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Threshold dose
+  amount: 25 mg
+  quantity: 25
+  quantityMax: null
+  unit: mg
+  ingredient: Caffeine
+  formulation: Not established
+  route: Smoked
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 25–75 mg
+  quantity: 25
+  quantityMax: 75
+  unit: mg
+  ingredient: Caffeine
+  formulation: Not established
+  route: Smoked
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 75–125 mg
+  quantity: 75
+  quantityMax: 125
+  unit: mg
+  ingredient: Caffeine
+  formulation: Not established
+  route: Smoked
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 125–175 mg
+  quantity: 125
+  quantityMax: 175
+  unit: mg
+  ingredient: Caffeine
+  formulation: Not established
+  route: Smoked
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (175 mg and above)
+  amount: 175 mg and above
+  quantity: 175
+  quantityMax: null
+  unit: mg
+  ingredient: Caffeine
+  formulation: Not established
+  route: Smoked
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -401,6 +626,114 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   modelEligible: false
 ```
 
+## Duration
+
+```yaml
+- id: psychonautwiki-insufflated
+  measurement: subjective
+  route: Intranasal (insufflated)
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 1
+    max: 2.5
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 0.5
+      max: 2
+      unit: minutes
+    - name: comeup
+      basis: phase-duration
+      min: 0.5
+      max: 2
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 0.5
+      max: 1
+      unit: hours
+    - name: offset
+      basis: phase-duration
+      min: 6
+      max: 10
+      unit: hours
+    - name: after-effects
+      basis: phase-duration
+      min: 6
+      max: 24
+      unit: hours
+- id: psychonautwiki-oral
+  measurement: subjective
+  route: Oral
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 2
+    max: 5
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 5
+      max: 10
+      unit: minutes
+    - name: comeup
+      basis: phase-duration
+      min: 10
+      max: 60
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 1
+      max: 2
+      unit: hours
+    - name: offset
+      basis: phase-duration
+      min: 6
+      max: 10
+      unit: hours
+    - name: after-effects
+      basis: phase-duration
+      min: 2
+      max: 4
+      unit: hours
+- id: psychonautwiki-smoked
+  measurement: subjective
+  route: Smoked
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 45
+    max: 70
+    unit: minutes
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 2
+      max: 5
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 10
+      max: 20
+      unit: minutes
+    - name: offset
+      basis: phase-duration
+      min: 30
+      max: 45
+      unit: minutes
+    - name: after-effects
+      basis: phase-duration
+      min: 2
+      max: 4
+      unit: hours
+```
+
 ## Modifiers
 
 ```yaml
@@ -461,13 +794,13 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
     design: Randomized double-blind placebo-controlled crossover
     sampleSize: 27
     populationLabels:
-    - healthy adults
+      - healthy adults
     comparator: Placebo
     route: Oral
     formulation: Study caffeine preparation; exact dosage form not established from inspected abstract
     assessmentTime: 60 minutes after administration
     comparedSubstances:
-    - l-theanine
+      - l-theanine
   conflictingSourceIds: []
 - id: caffeine-anxiety-jitteriness-dose
   conceptId: anxiety
@@ -486,13 +819,13 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
     design: Randomized double-blind single-dose crossover
     sampleSize: 12
     populationLabels:
-    - healthy volunteers
+      - healthy volunteers
     comparator: Placebo and lower caffeine dose
     route: Oral
     formulation: Exact dosage form not established from inspected abstract
     assessmentTime: Acute post-dose
   conflictingSourceIds:
-  - hoppe2025
+    - hoppe2025
 - id: reddit-caffeine-alertness-27649778
   conceptId: alertness
   name: Alertness
@@ -510,10 +843,10 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   name: Alertness
   direction: Increased
   evidence: Limited research
-  description: 'RATIONALE: The cognitive and mood effects of caffeine are well documented.'
+  description: "RATIONALE: The cognitive and mood effects of caffeine are well documented."
   sourceId: reddit-pmid-15678363
   population: Population described in the PubMed abstract
-  exposure: 'RATIONALE: The cognitive and mood effects of caffeine are well documented.'
+  exposure: "RATIONALE: The cognitive and mood effects of caffeine are well documented."
   instrument: null
   magnitude: null
   reportType: measured-assessment
@@ -539,13 +872,13 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
     design: Randomized double-blind placebo-controlled crossover
     sampleSize: 27
     populationLabels:
-    - healthy adults
+      - healthy adults
     comparator: Placebo
     route: Oral
     formulation: Study caffeine preparation; exact dosage form not established from inspected abstract
     assessmentTime: 90 minutes after administration
     comparedSubstances:
-    - l-theanine
+      - l-theanine
   conflictingSourceIds: []
 - id: caffeine-sustained-attention-60mg
   conceptId: attention
@@ -564,8 +897,8 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
     design: Randomized double-blind placebo-controlled crossover
     sampleSize: 82
     populationLabels:
-    - healthy adults
-    - low or non-caffeine consumers
+      - healthy adults
+      - low or non-caffeine consumers
     comparator: Placebo
     route: Oral
     formulation: Exact dosage form not established from inspected abstract
@@ -588,7 +921,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
     design: Preregistered randomized double-blind placebo-controlled crossover
     sampleSize: 36
     populationLabels:
-    - non-clinical young adults
+      - non-clinical young adults
     comparator: Placebo
     route: Oral
     formulation: Study caffeine preparation; exact dosage form not established from inspected abstract
@@ -631,8 +964,8 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
     design: Placebo-controlled double-blind randomized crossover
     sampleSize: 23
     populationLabels:
-    - healthy men
-    - moderate habitual caffeine consumers
+      - healthy men
+      - moderate habitual caffeine consumers
     comparator: Placebo
     route: Oral
     formulation: Study caffeine preparation; exact dosage form not established from inspected abstract
@@ -655,8 +988,8 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
     design: Double-blind randomized crossover
     sampleSize: 20
     populationLabels:
-    - healthy young men
-    - habitual caffeine consumers
+      - healthy young men
+      - habitual caffeine consumers
     comparator: Placebo and withdrawal conditions
     route: Oral
     formulation: 150 mg study caffeine doses
@@ -680,8 +1013,8 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
     design: Double-blind randomized crossover
     sampleSize: 20
     populationLabels:
-    - healthy young men
-    - habitual caffeine consumers
+      - healthy young men
+      - habitual caffeine consumers
     comparator: Placebo
     route: Oral
     formulation: 150 mg study caffeine doses
@@ -705,8 +1038,8 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
     design: Within-participant comparison with non-regular-consumer comparator
     sampleSize: 55
     populationLabels:
-    - regular coffee consumers
-    - non-regular coffee consumers
+      - regular coffee consumers
+      - non-regular coffee consumers
     comparator: Habitual morning coffee or non-regular-consumer group
     route: Oral
     formulation: Habitual coffee; composition and dose not established from inspected abstract
@@ -729,10 +1062,10 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   name: Attention
   direction: Increased
   evidence: Human research
-  description: 'RATIONALE: Despite the large number of studies on the behavioural effects of caffeine, an unequivocal conclusion had not been reached.'
+  description: "RATIONALE: Despite the large number of studies on the behavioural effects of caffeine, an unequivocal conclusion had not been reached."
   sourceId: reddit-pmid-23241646
   population: Population described in the PubMed abstract
-  exposure: 'RATIONALE: Despite the large number of studies on the behavioural effects of caffeine, an unequivocal conclusion had not been reached.'
+  exposure: "RATIONALE: Despite the large number of studies on the behavioural effects of caffeine, an unequivocal conclusion had not been reached."
   instrument: null
   magnitude: null
   reportType: measured-assessment
@@ -801,10 +1134,10 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   name: Cognitive Performance
   direction: Increased
   evidence: Limited research
-  description: 'RATIONALE: The cognitive and mood effects of caffeine are well documented.'
+  description: "RATIONALE: The cognitive and mood effects of caffeine are well documented."
   sourceId: reddit-pmid-15678363
   population: Population described in the PubMed abstract
-  exposure: 'RATIONALE: The cognitive and mood effects of caffeine are well documented.'
+  exposure: "RATIONALE: The cognitive and mood effects of caffeine are well documented."
   instrument: null
   magnitude: null
   reportType: measured-assessment
@@ -813,10 +1146,10 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   name: Episodic Memory
   direction: Increased
   evidence: Limited research
-  description: 'RATIONALE: The cognitive and mood effects of caffeine are well documented.'
+  description: "RATIONALE: The cognitive and mood effects of caffeine are well documented."
   sourceId: reddit-pmid-15678363
   population: Population described in the PubMed abstract
-  exposure: 'RATIONALE: The cognitive and mood effects of caffeine are well documented.'
+  exposure: "RATIONALE: The cognitive and mood effects of caffeine are well documented."
   instrument: null
   magnitude: null
   reportType: measured-assessment
@@ -825,10 +1158,10 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   name: Fatigue Severity
   direction: Increased
   evidence: Limited research
-  description: 'RATIONALE: The cognitive and mood effects of caffeine are well documented.'
+  description: "RATIONALE: The cognitive and mood effects of caffeine are well documented."
   sourceId: reddit-pmid-15678363
   population: Population described in the PubMed abstract
-  exposure: 'RATIONALE: The cognitive and mood effects of caffeine are well documented.'
+  exposure: "RATIONALE: The cognitive and mood effects of caffeine are well documented."
   instrument: null
   magnitude: null
   reportType: measured-assessment
@@ -837,10 +1170,10 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   name: Cognitive Performance
   direction: Increased
   evidence: Human research
-  description: 'RATIONALE: Caffeine is present in many widely consumed drinks and some foods.'
+  description: "RATIONALE: Caffeine is present in many widely consumed drinks and some foods."
   sourceId: reddit-pmid-11057520
   population: Population described in the PubMed abstract
-  exposure: 'RATIONALE: Caffeine is present in many widely consumed drinks and some foods.'
+  exposure: "RATIONALE: Caffeine is present in many widely consumed drinks and some foods."
   instrument: null
   magnitude: null
   reportType: measured-assessment
@@ -893,7 +1226,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
 
 ```yaml
 - title: Sleep effects can extend well beyond perceived stimulation
-  description: 'Do not convert caffeine elimination half-life into a subjective-duration estimate. Direct sleep studies show that dose and timing matter: 400 mg impaired subsequent sleep at timings extending many hours before bed, while 100 mg was null at the tested timings in a newer crossover study.'
+  description: "Do not convert caffeine elimination half-life into a subjective-duration estimate. Direct sleep studies show that dose and timing matter: 400 mg impaired subsequent sleep at timings extending many hours before bed, while 100 mg was null at the tested timings in a newer crossover study."
   sourceId: gardiner2025
 - title: Anxiety and jitteriness are dose- and person-dependent
   description: Higher acute exposure can produce tension, nervousness, anxiety, palpitations, and restlessness. The null subjective-anxiety result with 150 mg in a separate 2025 study should not be extrapolated to higher doses or all anxiety phenotypes.
@@ -923,7 +1256,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   description: The 2026 American Academy of Sleep Medicine guideline conditionally suggests caffeine before or during a night shift for excessive sleepiness in adults with shift-work disorder, but rates the evidence very low and warns that intake close to bedtime can worsen sleep onset and quality.
   sourceId: pmid-42925456
 - title: Source-specific finding from PMID 23241646
-  description: 'RATIONALE: Despite the large number of studies on the behavioural effects of caffeine, an unequivocal conclusion had not been reached.'
+  description: "RATIONALE: Despite the large number of studies on the behavioural effects of caffeine, an unequivocal conclusion had not been reached."
   sourceId: reddit-pmid-23241646
 - title: Source-specific finding from PMID 27649778
   description: Caffeine induces positive effects on sustained attention, although studies assessing the acute effects of low caffeine dose (<75 mg) on sustained attention are limited and use short-term tests.
@@ -932,7 +1265,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   description: Caffeine is commonly consumed in an effort to enhance cognitive performance.
   sourceId: reddit-pmid-22728314
 - title: Source-specific finding from PMID 15678363
-  description: 'RATIONALE: The cognitive and mood effects of caffeine are well documented.'
+  description: "RATIONALE: The cognitive and mood effects of caffeine are well documented."
   sourceId: reddit-pmid-15678363
 - title: Source-specific finding from PMID 14687776
   description: Four cases of fatal intoxications with caffeine are described.
@@ -949,15 +1282,15 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   assertion: Caffeine antagonizes adenosine receptors.
   relation: receptor-antagonism
   participants:
-  - entityId: substance:caffeine
-    role: agent
-  - entityId: tag:adenosine-receptor
-    role: target
-  - entityId: tag:adenosine
-    role: endogenous-ligand
+    - entityId: substance:caffeine
+      role: agent
+    - entityId: tag:adenosine-receptor
+      role: target
+    - entityId: tag:adenosine
+      role: endogenous-ligand
   context: Human-relevant pharmacology; receptor antagonism is a mechanism and does not itself quantify clinical benefit or duration.
   sourceIds:
-  - temple2017
+    - temple2017
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: The retained source is a broad review rather than a receptor-occupancy dose-response trial.
@@ -965,16 +1298,16 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   assertion: Acute caffeine can increase subjective alertness and improve selected laboratory attention measures in healthy adults.
   relation: acute-performance-effect
   participants:
-  - entityId: substance:caffeine
-    role: exposure
-  - entityId: tag:alertness
-    role: subjective-effect
-  - entityId: tag:attention
-    role: measured-outcome
+    - entityId: substance:caffeine
+      role: exposure
+    - entityId: tag:alertness
+      role: subjective-effect
+    - entityId: tag:attention
+      role: measured-outcome
   context: Supported by separate caffeine-alone studies using 50 mg and 60 mg acute oral exposures.
   sourceIds:
-  - owen2008
-  - wilhelmus2017
+    - owen2008
+    - wilhelmus2017
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Task-specific short-term improvements do not establish a generalized productivity, learning, or long-term cognitive benefit.
@@ -982,15 +1315,15 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   assertion: Caffeine's effect on subsequent sleep depends on dose, timing, and exposure history rather than a single universal bedtime cutoff.
   relation: dose-timing-outcome
   participants:
-  - entityId: substance:caffeine
-    role: exposure
-  - entityId: tag:sleep
-    role: measured-outcome
+    - entityId: substance:caffeine
+      role: exposure
+    - entityId: tag:sleep
+      role: measured-outcome
   context: 400 mg disrupted sleep in the Drake trial; a newer crossover found no significant sleep effect from 100 mg at 4–12 hours pre-bed but disruption from 400 mg, while repeated daytime dosing in habitual users produced null conventional sleep outcomes under a different schedule.
   sourceIds:
-  - drake2013
-  - gardiner2025
-  - weibel2021
+    - drake2013
+    - gardiner2025
+    - weibel2021
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: These trials used different populations, exposure histories, schedules, and sleep methods and should not be collapsed into one deterministic cutoff.
@@ -998,15 +1331,15 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   assertion: Tobacco-smoke exposure induces caffeine-metabolizing CYP1A2 activity, and caffeine clearance decreases after smoking cessation.
   relation: clearance-modification
   participants:
-  - entityId: substance:caffeine
-    role: substrate
-  - entityId: tag:cyp1a2
-    role: metabolizing-enzyme
-  - entityId: tag:tobacco-smoke
-    role: exposure-context
+    - entityId: substance:caffeine
+      role: substrate
+    - entityId: tag:cyp1a2
+      role: metabolizing-enzyme
+    - entityId: tag:tobacco-smoke
+      role: exposure-context
   context: Twelve heavy smokers undergoing abrupt cessation received a 148 mg caffeine phenotyping dose.
   sourceIds:
-  - faber2004
+    - faber2004
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: The study was small and selected. The reported half-life of the decline in CYP1A2 activity is not caffeine elimination half-life.
@@ -1014,14 +1347,14 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   assertion: Regular caffeine exposure can produce physical dependence expressed as a withdrawal syndrome after abrupt cessation.
   relation: dependence-withdrawal
   participants:
-  - entityId: substance:caffeine
-    role: repeated-exposure
-  - entityId: tag:alertness
-    role: withdrawal-related-functional-domain
+    - entityId: substance:caffeine
+      role: repeated-exposure
+    - entityId: tag:alertness
+      role: withdrawal-related-functional-domain
   context: Controlled substitution studies documented headache, fatigue and dysphoric or performance effects after caffeine replacement with placebo; withdrawal has been demonstrated after repeated exposure as low as 100 mg/day in a very small study.
   sourceIds:
-  - silverman1992
-  - griffiths1990
+    - silverman1992
+    - griffiths1990
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Withdrawal incidence, severity, and duration vary substantially; the 100 mg/day study included only seven participants.
@@ -1029,13 +1362,13 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   assertion: Tolerance to repeated caffeine exposure can develop for some physiological responses without becoming complete across all measured responses.
   relation: tolerance
   participants:
-  - entityId: substance:caffeine
-    role: repeated-exposure
-  - entityId: tag:adenosine-antagonist
-    role: pharmacological-context
+    - entityId: substance:caffeine
+      role: repeated-exposure
+    - entityId: tag:adenosine-antagonist
+      role: pharmacological-context
   context: In a nine-person study, six days of chronic caffeine attenuated acute pressor and adrenaline responses, while the caffeine-associated reduction in middle cerebral artery velocity was not similarly lost.
   sourceIds:
-  - debrah1995
+    - debrah1995
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Small physiological study; tolerance in one endpoint does not establish tolerance to alertness, anxiety, sleep disruption, or all other caffeine effects.
@@ -1043,28 +1376,28 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   assertion: An acute caffeine dose can raise blood pressure, but the magnitude and even detectability of the cardiovascular response varies across controlled studies.
   relation: context-dependent-physiological-effect
   participants:
-  - entityId: substance:caffeine
-    role: exposure
-  - entityId: tag:blood-pressure
-    role: measured-outcome
+    - entityId: substance:caffeine
+      role: exposure
+    - entityId: tag:blood-pressure
+      role: measured-outcome
   context: A 250 mg crossover study in nine caffeine-abstinent healthy young participants reported a 14/10 mm Hg blood-pressure rise at one hour; a separate 18-person 250 mg crossover study reported no cardiovascular effect at its approximately 30-minute resting assessment.
   sourceIds:
-  - robertson1978
+    - robertson1978
   conflictingSourceIds:
-  - barry2005
+    - barry2005
   assessment: not-formally-assessed
   limitation: The experiments were small and differed in prior caffeine exposure, population, measurement timing, and experimental conditions.
 - id: pregnancy-clearance
   assertion: Pregnancy can substantially prolong caffeine elimination.
   relation: population-pk-modification
   participants:
-  - entityId: substance:caffeine
-    role: analyte
-  - entityId: tag:cyp1a2
-    role: metabolizing-enzyme
+    - entityId: substance:caffeine
+      role: analyte
+    - entityId: tag:cyp1a2
+      role: metabolizing-enzyme
   context: A human salivary pharmacokinetic study reported an average 10.5-hour caffeine half-life during the last four weeks of pregnancy, compared with about 3 hours in non-pregnant women.
   sourceIds:
-  - knutti1982
+    - knutti1982
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Older study with formulation and route details not available in the inspected abstract; the result should not be treated as a universal pregnancy half-life.
@@ -1072,13 +1405,13 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   assertion: Caffeine is associated with the reported episodic memory finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:caffeine
-    role: intervention or exposure
-  - entityId: tag:episodic-memory
-    role: reported endpoint
+    - entityId: substance:caffeine
+      role: intervention or exposure
+    - entityId: tag:episodic-memory
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-27895607
+    - reddit-pmid-27895607
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1086,13 +1419,13 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   assertion: Caffeine is associated with the reported attention finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:caffeine
-    role: intervention or exposure
-  - entityId: tag:attention
-    role: reported endpoint
+    - entityId: substance:caffeine
+      role: intervention or exposure
+    - entityId: tag:attention
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-23241646
+    - reddit-pmid-23241646
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1100,13 +1433,13 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   assertion: Caffeine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:caffeine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:caffeine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - wilhelmus2017
+    - wilhelmus2017
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1114,13 +1447,13 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   assertion: Caffeine is associated with the reported fatigue severity finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:caffeine
-    role: intervention or exposure
-  - entityId: tag:fatigue-severity
-    role: reported endpoint
+    - entityId: substance:caffeine
+      role: intervention or exposure
+    - entityId: tag:fatigue-severity
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - wilhelmus2017
+    - wilhelmus2017
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1128,13 +1461,13 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   assertion: Caffeine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:caffeine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:caffeine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-22728314
+    - reddit-pmid-22728314
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1142,13 +1475,13 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   assertion: Caffeine is associated with the reported episodic memory finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:caffeine
-    role: intervention or exposure
-  - entityId: tag:episodic-memory
-    role: reported endpoint
+    - entityId: substance:caffeine
+      role: intervention or exposure
+    - entityId: tag:episodic-memory
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-22728314
+    - reddit-pmid-22728314
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1156,13 +1489,13 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   assertion: Caffeine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:caffeine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:caffeine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-15678363
+    - reddit-pmid-15678363
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1170,13 +1503,13 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   assertion: Caffeine is associated with the reported fatigue severity finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:caffeine
-    role: intervention or exposure
-  - entityId: tag:fatigue-severity
-    role: reported endpoint
+    - entityId: substance:caffeine
+      role: intervention or exposure
+    - entityId: tag:fatigue-severity
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-15678363
+    - reddit-pmid-15678363
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1184,13 +1517,13 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   assertion: Caffeine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:caffeine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:caffeine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-11057520
+    - reddit-pmid-11057520
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1198,13 +1531,13 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   assertion: Caffeine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:caffeine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:caffeine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-11057520
+    - reddit-pmid-11057520
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1212,13 +1545,13 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   assertion: Caffeine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:caffeine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:caffeine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-24413697
+    - reddit-pmid-24413697
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1226,13 +1559,13 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   assertion: Caffeine is associated with the reported episodic memory finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:caffeine
-    role: intervention or exposure
-  - entityId: tag:episodic-memory
-    role: reported endpoint
+    - entityId: substance:caffeine
+      role: intervention or exposure
+    - entityId: tag:episodic-memory
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-24413697
+    - reddit-pmid-24413697
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1240,13 +1573,13 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   assertion: Caffeine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:caffeine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:caffeine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-14687776
+    - reddit-pmid-14687776
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1254,13 +1587,13 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   assertion: Caffeine is associated with the reported episodic memory finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:caffeine
-    role: intervention or exposure
-  - entityId: tag:episodic-memory
-    role: reported endpoint
+    - entityId: substance:caffeine
+      role: intervention or exposure
+    - entityId: tag:episodic-memory
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-14687776
+    - reddit-pmid-14687776
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1268,13 +1601,13 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   assertion: Caffeine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:caffeine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:caffeine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-2617841
+    - reddit-pmid-2617841
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1282,13 +1615,13 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   assertion: Caffeine is associated with the reported episodic memory finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:caffeine
-    role: intervention or exposure
-  - entityId: tag:episodic-memory
-    role: reported endpoint
+    - entityId: substance:caffeine
+      role: intervention or exposure
+    - entityId: tag:episodic-memory
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-2617841
+    - reddit-pmid-2617841
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1308,7 +1641,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
 - id: caffeine-fluvoxamine
   name: Fluvoxamine
   otherSlug: null
-  summary: 'Fluvoxamine markedly increased caffeine exposure in an eight-person crossover study: median total caffeine clearance decreased from 107 to 21 mL/min and half-life increased from about 5 to 31 hours after fluvoxamine treatment.'
+  summary: "Fluvoxamine markedly increased caffeine exposure in an eight-person crossover study: median total caffeine clearance decreased from 107 to 21 mL/min and half-life increased from about 5 to 31 hours after fluvoxamine treatment."
   sourceId: jeppesen1996
   mechanism: Potent CYP1A2 inhibition, including reduced caffeine N3-demethylation to paraxanthine
   context: Healthy volunteers; 200 mg oral caffeine compared before and during repeated fluvoxamine dosing
@@ -1316,7 +1649,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
 - id: caffeine-oral-contraceptives
   name: Oral contraceptive steroids
   otherSlug: null
-  summary: 'Oral-contraceptive use was associated with slower caffeine elimination after a 250 mg oral caffeine dose: mean half-life was 10.7 hours in users versus 6.2 hours in women not using oral contraceptive steroids, with lower total plasma clearance in users.'
+  summary: "Oral-contraceptive use was associated with slower caffeine elimination after a 250 mg oral caffeine dose: mean half-life was 10.7 hours in users versus 6.2 hours in women not using oral contraceptive steroids, with lower total plasma clearance in users."
   sourceId: patwardhan1980
   mechanism: Reduced caffeine metabolic clearance; later evidence is consistent with reduced CYP1A2 activity
   context: Healthy women using versus not using oral contraceptive steroids
@@ -1327,17 +1660,6 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
 
 ```yaml
 []
-```
-
-## External wiki links
-
-```yaml
-- service: Wikipedia
-  url: https://en.wikipedia.org/wiki/Caffeine
-  title: Wikipedia
-- service: Examine
-  url: https://examine.com/supplements/Caffeine
-  title: Examine
 ```
 
 ## References
@@ -1359,7 +1681,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   title: Acute Caffeine Intake Does Not Modulate Active or Reactive Inhibition in Non-Clinical Young Adults, and ADHD Symptoms Do Not Moderate Its Effects.
   authors: Altınok A.
   year: 2026
-  pmid: '42830444'
+  pmid: "42830444"
   doi: 10.1002/hup.70067
   url: https://pubmed.ncbi.nlm.nih.gov/42830444/
   kind: Preregistered randomized double-blind placebo-controlled crossover trial
@@ -1373,7 +1695,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   title: Should Coffee Consumers Not Have Their Habitual Morning Coffee Before Testing Their Cognitive Functions?
   authors: Pitsikas N, Nguyen DT, Blokland A.
   year: 2026
-  pmid: '42920333'
+  pmid: "42920333"
   doi: 10.1002/hup.70070
   url: https://pubmed.ncbi.nlm.nih.gov/42920333/
   kind: Human cognitive comparison study
@@ -1384,10 +1706,10 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   conflictsOfInterest: Full conflict disclosures were not assessed from the abstract-only record.
   conflictOfInterestStatus: not-assessed
 - id: pmid-42925456
-  title: 'Management of shift work disorder: an American Academy of Sleep Medicine clinical practice guideline.'
+  title: "Management of shift work disorder: an American Academy of Sleep Medicine clinical practice guideline."
   authors: Wright KP, Abbott SM, Ashbrook L, Drake CL, Flynn-Evans E, Framnes-DeBoer S, Kazmi U, Keeler K, McCall C, Morgan R, Shaffer-Hodgeman T, Trotti LM.
   year: 2026
-  pmid: '42925456'
+  pmid: "42925456"
   doi: 10.1007/s44470-026-00084-w
   url: https://pubmed.ncbi.nlm.nih.gov/42925456/
   kind: Clinical practice guideline
@@ -1405,7 +1727,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: Randomized crossover trial
   insight: Caffeine with L-theanine improved some attention-task outcomes in 27 healthy volunteers.
   limitation: Small, short-term study; selected laboratory tasks do not establish everyday productivity or long-term benefit. Authors were affiliated with Unilever.
-  pmid: '18681988'
+  pmid: "18681988"
   doi: 10.1179/147683008X301513
   funding: Funding not assessed; author affiliations include Unilever.
 - id: drake2013
@@ -1416,7 +1738,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: Randomized controlled sleep trial
   insight: A 400 mg caffeine exposure significantly disrupted subsequent sleep relative to placebo when given at bedtime and 3 or 6 hours before bedtime.
   limitation: One fixed high dose, a small selected sample, and home sleep measurement do not establish a universal bedtime cutoff or the response to lower doses.
-  pmid: '24235903'
+  pmid: "24235903"
   doi: 10.5664/jcsm.3170
   funding: The inspected full text reports an investigator-initiated grant from Zeo Inc. to Christopher Drake.
   sponsorshipStatus: industry-funded
@@ -1424,14 +1746,14 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   conflictOfInterestStatus: declared
   disclosureUrl: https://pmc.ncbi.nlm.nih.gov/articles/PMC3805807/
 - id: temple2017
-  title: 'The Safety of Ingested Caffeine: A Comprehensive Review.'
+  title: "The Safety of Ingested Caffeine: A Comprehensive Review."
   authors: Jennifer L Temple; Christophe Bernard; Steven E Lipshultz; Jason D Czachor; Joslyn A Westphal; Miriam A Mestre
   year: 2017
   url: https://pubmed.ncbi.nlm.nih.gov/28603504/
   kind: Narrative safety review
   insight: Broad synthesis of caffeine pharmacology and safety across adults and potentially vulnerable populations; retained as contextual synthesis and to reconcile the existing BHWiki source record.
   limitation: Narrative review spanning heterogeneous sources; it is not used here as the sole evidence for a primary measured caffeine outcome.
-  pmid: '28603504'
+  pmid: "28603504"
   doi: 10.3389/fpsyt.2017.00080
   funding: The inspected article lists non-commercial research support including French National Research Agency and U.S. National Institutes of Health grants.
   sponsorshipStatus: non-industry-funded
@@ -1446,21 +1768,21 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: Human pharmacokinetic phenotyping study
   insight: After abrupt smoking cessation in 12 heavy smokers, caffeine clearance decreased by 36.1% (95% CI 30.9%–42.2%), supporting rapid loss of tobacco-smoke-associated CYP1A2 induction.
   limitation: Small, selected sample of heavy smokers. The reported 38.6-hour half-life is the fitted decline of CYP1A2 activity, not caffeine elimination half-life.
-  pmid: '15289794'
+  pmid: "15289794"
   doi: 10.1016/j.clpt.2004.04.003
   funding: Full-text funding declaration was not inspected.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Full-text conflict-of-interest declaration was not inspected.
   conflictOfInterestStatus: not-assessed
 - id: grzegorzewski2022
-  title: 'Pharmacokinetics of Caffeine: A Systematic Analysis of Reported Data for Application in Metabolic Phenotyping and Liver Function Testing.'
+  title: "Pharmacokinetics of Caffeine: A Systematic Analysis of Reported Data for Application in Metabolic Phenotyping and Liver Function Testing."
   authors: Jan Grzegorzewski; Florian Bartsch; Adrian Köller; Matthias König
   year: 2022
   url: https://pubmed.ncbi.nlm.nih.gov/35280254/
   kind: Systematic pharmacokinetic analysis
   insight: Integrates human caffeine pharmacokinetic data from 141 publications and maps modifiers including smoking, oral contraceptives, medicines, and disease; used here primarily to locate and contextualize primary studies.
   limitation: Combines heterogeneous historical studies with differing populations, doses, analytes, sampling designs, and methods; it is not a personal pharmacokinetic calculator.
-  pmid: '35280254'
+  pmid: "35280254"
   doi: 10.3389/fphar.2021.752826
   funding: The inspected article reports German Federal Ministry of Education and Research and German Research Foundation support, including LiSyM and FOR 5151 funding, plus institutional/open-access support.
   sponsorshipStatus: non-industry-funded
@@ -1475,7 +1797,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: Randomized controlled crossover trial
   insight: A single 60 mg oral caffeine dose improved sustained-attention measures and subjective alertness in 82 healthy low- or non-caffeine-consuming adults aged 40–60.
   limitation: Acute laboratory endpoints in a selected age and caffeine-use group do not establish long-term cognitive benefit or effects in habitual high users.
-  pmid: '27649778'
+  pmid: "27649778"
   doi: 10.1177/0269881116668593
   funding: Full-text funding declaration was not inspected; sponsorship is not inferred from affiliations.
   sponsorshipStatus: not-assessed
@@ -1489,7 +1811,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: Randomized double-blind crossover trial
   insight: In 12 healthy volunteers, 250 mg produced more favorable subjective and performance effects than 500 mg, while 500 mg produced more tension, nervousness, anxiety, irritability, palpitations, and restlessness; pharmacokinetics also differed by dose.
   limitation: Very small study using comparatively large single doses; subjective and psychomotor findings should not be generalized to ordinary low-dose use.
-  pmid: '9378841'
+  pmid: "9378841"
   doi: 10.1002/j.1552-4604.1997.tb04356.x
   funding: Full funding statement was not inspected; PubMed indexes U.S. Public Health Service research support, but that indexing was not treated as a full disclosure.
   sponsorshipStatus: not-assessed
@@ -1503,7 +1825,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: Randomized placebo-controlled crossover trial
   insight: Among 29 participants with panic disorder and 53 healthy controls with low habitual caffeine consumption, 150 mg caffeine did not significantly increase the primary subjective-anxiety outcome, although arousal and avoidance-related measures changed.
   limitation: The panic-disorder target sample was not reached, habitual caffeine intake was intentionally low, the groups differed in some characteristics, and only one caffeine dose was tested.
-  pmid: '40577029'
+  pmid: "40577029"
   doi: 10.1177/02698811251344692
   funding: The inspected full text reports support from the Swedish Brain Foundation, Swedish Research Council, Åke Wiberg Foundation, and Kjell and Märta Beijer Foundation.
   sponsorshipStatus: non-industry-funded
@@ -1511,14 +1833,14 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   conflictOfInterestStatus: none-declared
   disclosureUrl: https://pmc.ncbi.nlm.nih.gov/articles/PMC12287556/
 - id: gardiner2025
-  title: 'Dose and timing effects of caffeine on subsequent sleep: a randomized clinical crossover trial.'
+  title: "Dose and timing effects of caffeine on subsequent sleep: a randomized clinical crossover trial."
   authors: Carissa L Gardiner; Jonathon Weakley; Louise M Burke; Francesca Fernandez; Rich D Johnston; Josh Leota; Suzanna Russell; Gabriella Munteanu; Andrew Townshend; Shona L Halson
   year: 2025
   url: https://pubmed.ncbi.nlm.nih.gov/39377163/
   kind: Randomized double-blind crossover sleep trial
   insight: In 23 healthy men, 100 mg caffeine was null for objective and subjective sleep at the tested 4-, 8-, and 12-hour pre-bed timings, whereas 400 mg disrupted sleep, including objective effects when taken 12 hours before bedtime.
   limitation: Small all-male sample with moderate habitual caffeine intake; only two caffeine doses and three timing intervals were tested.
-  pmid: '39377163'
+  pmid: "39377163"
   doi: 10.1093/sleep/zsae230
   funding: The complete funding declaration was not successfully inspected during this review.
   sponsorshipStatus: not-assessed
@@ -1532,7 +1854,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: Randomized double-blind crossover trial
   insight: After repeated daytime dosing with 150 mg caffeine three times daily, conventional nighttime sleep duration, latency, architecture, and subjective quality did not significantly differ from placebo when the final dose was eight hours before sleep, although sigma-band EEG power was reduced.
   limitation: Only 20 young male habitual caffeine users were studied; the dosing schedule and timing differ from acute evening-use experiments.
-  pmid: '33633278'
+  pmid: "33633278"
   doi: 10.1038/s41598-021-84088-x
   funding: The inspected full text reports non-commercial support including the Swiss National Science Foundation and Swiss foundations.
   sponsorshipStatus: non-industry-funded
@@ -1547,7 +1869,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: Double-blind caffeine-withdrawal study
   insight: In 62 adults averaging 235 mg/day habitual caffeine intake, placebo substitution during caffeine-free periods produced substantially more headache, fatigue and mood symptoms and slower tapping performance than baseline or caffeine replacement.
   limitation: Short withdrawal periods and a low-to-moderate habitual-use sample do not define symptom severity or duration for every user.
-  pmid: '1528206'
+  pmid: "1528206"
   doi: 10.1056/NEJM199210153271601
   funding: Full funding statement was not inspected; PubMed indexes U.S. Public Health Service research support, but that indexing was not treated as a full disclosure.
   sponsorshipStatus: not-assessed
@@ -1561,7 +1883,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: Double-blind controlled withdrawal study
   insight: Placebo substitution after repeated 100 mg/day caffeine produced a reproducible withdrawal effect, including headache, fatigue, dysphoric mood, muscle symptoms, nausea, and craving.
   limitation: Only seven participants were studied, with substantial variation in symptom presence and magnitude.
-  pmid: '2262896'
+  pmid: "2262896"
   funding: Full funding statement was not inspected; PubMed indexes U.S. Public Health Service research support, but that indexing was not treated as a full disclosure.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Full-text conflict-of-interest declaration was not inspected.
@@ -1574,7 +1896,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: Human pharmacokinetic study
   insight: Six healthy caffeine-free volunteers received oral caffeine doses from 50 to 750 mg; caffeine was rapidly absorbed and described as completely available, and only 1.83% of the dose was eliminated unchanged in urine.
   limitation: Very small study; one participant supplied the intravenous comparison data, and historical analytical and study methods limit generalization.
-  pmid: '7333346'
+  pmid: "7333346"
   doi: 10.1007/BF00609587
   funding: Full-text funding declaration was not inspected.
   sponsorshipStatus: not-assessed
@@ -1588,7 +1910,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: Human comparative pharmacokinetic study
   insight: In six healthy men, the reported mean caffeine elimination half-life was 4.1 hours; the study separately characterized paraxanthine, theobromine, and theophylline kinetics.
   limitation: Six male volunteers are insufficient to represent population variability in caffeine clearance.
-  pmid: '3756065'
+  pmid: "3756065"
   doi: 10.1111/j.1365-2125.1986.tb05246.x
   funding: Full-text funding declaration was not inspected.
   sponsorshipStatus: not-assessed
@@ -1602,7 +1924,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: Human metabolic pharmacokinetic study
   insight: In five subjects studied at caffeine steady state, mean fractional conversion to paraxanthine was 79.6%, confirming paraxanthine as the quantitatively dominant primary demethylated metabolite.
   limitation: Only five subjects contributed to the steady-state analysis, and the historical study does not capture modern population-level variability.
-  pmid: '3756066'
+  pmid: "3756066"
   doi: 10.1111/j.1365-2125.1986.tb05247.x
   funding: Full-text funding declaration was not inspected.
   sponsorshipStatus: not-assessed
@@ -1616,7 +1938,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: Human pregnancy pharmacokinetic study
   insight: Salivary caffeine measurements showed progressive prolongation of elimination during pregnancy, reaching an average half-life of 10.5 hours in the last four weeks versus about 3 hours in non-pregnant women.
   limitation: Older study; the inspected abstract does not provide all exposure, route, formulation, sample-size, or modern confounder-control details.
-  pmid: '6954898'
+  pmid: "6954898"
   doi: 10.1007/978-3-642-68511-8_33
   funding: Full-text funding declaration was not inspected.
   sponsorshipStatus: not-assessed
@@ -1630,7 +1952,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: Human pharmacokinetic comparison study
   insight: After 250 mg oral caffeine, women using oral contraceptive steroids had a reported mean half-life of 10.7 hours versus 6.2 hours in non-users and had lower plasma clearance.
   limitation: Small historical parallel-group comparison; contraceptive formulations and doses may not represent all current products.
-  pmid: '7359014'
+  pmid: "7359014"
   funding: Full funding statement was not inspected; PubMed indexes U.S. Public Health Service research support, but that indexing was not treated as a full disclosure.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Full-text conflict-of-interest declaration was not inspected.
@@ -1643,7 +1965,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: Human liver-disease pharmacokinetic study
   insight: After 300 mg oral caffeine, participants with cirrhosis had lower clearance and a reported 11.4-hour mean caffeine half-life versus 4.3 hours in healthy volunteers; metabolite-to-caffeine ratios were also reduced.
   limitation: Disease-severity and cohort-specific results should not be extrapolated to every form or degree of liver dysfunction.
-  pmid: '15051740'
+  pmid: "15051740"
   doi: 10.1177/0091270004263468
   funding: Full-text funding declaration was not inspected.
   sponsorshipStatus: not-assessed
@@ -1657,7 +1979,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: Randomized pharmacokinetic crossover interaction study
   insight: In 12 healthy volunteers, ciprofloxacin increased caffeine AUC from 31.8 to 77.8 mg/L·h and terminal half-life from 4.5 to 9.7 hours; temafloxacin did not alter caffeine pharmacokinetics.
   limitation: Small historical study using high ciprofloxacin dosing; interaction magnitude can depend on dose, patient characteristics, and treatment schedule.
-  pmid: '1319876'
+  pmid: "1319876"
   doi: 10.2165/00003088-199200221-00015
   funding: Full-text funding declaration was not inspected.
   sponsorshipStatus: not-assessed
@@ -1671,7 +1993,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: Randomized human pharmacokinetic crossover interaction study
   insight: Fluvoxamine reduced median caffeine clearance from 107 to 21 mL/min, increased half-life from about 5 to 31 hours, and strongly reduced paraxanthine-forming N3-demethylation, supporting CYP1A2 as a major caffeine-metabolism pathway.
   limitation: Only eight healthy volunteers were studied, and the interaction magnitude should not be assumed for every CYP1A2 inhibitor or dosing regimen.
-  pmid: '8807660'
+  pmid: "8807660"
   doi: 10.1097/00008571-199606000-00003
   funding: Full-text funding declaration was not inspected.
   sponsorshipStatus: not-assessed
@@ -1685,7 +2007,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: Randomized double-blind crossover physiological study
   insight: In nine healthy young participants with a three-week caffeine-source abstinence period, 250 mg oral caffeine increased mean blood pressure by 14/10 mm Hg at one hour and increased circulating renin and catecholamine measures.
   limitation: Very small, unusually caffeine-abstinent sample; acute results are not equivalent to long-term cardiovascular outcomes or responses in habitual users.
-  pmid: '339084'
+  pmid: "339084"
   doi: 10.1056/NEJM197801262980403
   funding: Full funding statement was not inspected; PubMed indexes U.S. Public Health Service research support, but that indexing was not treated as a full disclosure.
   sponsorshipStatus: not-assessed
@@ -1699,7 +2021,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: Randomized double-blind placebo-controlled crossover study
   insight: In 18 healthy university students, 250 mg oral caffeine altered electrodermal and EEG arousal markers but did not produce a detectable cardiovascular effect at the study's resting assessment.
   limitation: Small young sample with cardiovascular measurement approximately 30 minutes after dosing; the null result does not exclude pressor effects at other times or in other populations.
-  pmid: '16221568'
+  pmid: "16221568"
   doi: 10.1016/j.clinph.2005.08.008
   funding: Full-text funding declaration was not inspected.
   sponsorshipStatus: not-assessed
@@ -1713,14 +2035,14 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: Controlled acute and repeated-exposure human study
   insight: After six days of repeated caffeine use, acute pressor and adrenaline responses were attenuated while the caffeine-associated reduction in middle cerebral artery velocity persisted, showing that tolerance can be endpoint-specific.
   limitation: Only nine healthy volunteers were studied; the experiment does not establish tolerance patterns for subjective alertness, anxiety, sleep, or all other outcomes.
-  pmid: '8549061'
+  pmid: "8549061"
   doi: 10.1042/cs0890475
   funding: Full funding statement was not inspected; PubMed indexes non-U.S. and U.S. government research support, but those indexing terms were not treated as a complete disclosure.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Full-text conflict-of-interest declaration was not inspected.
   conflictOfInterestStatus: not-assessed
 - id: fda2024
-  title: 'Spilling the Beans: How Much Caffeine is Too Much?'
+  title: "Spilling the Beans: How Much Caffeine is Too Much?"
   authors: U.S. Food and Drug Administration
   year: 2024
   url: https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much
@@ -1756,14 +2078,14 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   conflictsOfInterest: Legislative source; research conflict-of-interest metadata are not applicable and were not assessed.
   conflictOfInterestStatus: not-assessed
 - id: reddit-pmid-15095008
-  title: 'Caffeine as a psychomotor stimulant: mechanism of action.'
+  title: "Caffeine as a psychomotor stimulant: mechanism of action."
   authors: G Fisone, A Borgkvist, A Usiello
   year: 2004
   url: https://pubmed.ncbi.nlm.nih.gov/15095008/
   kind: PubMed publication
   insight: The popularity of caffeine as a psychoactive drug is due to its stimulant properties, which depend on its ability to reduce adenosine transmission in the brain.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '15095008'
+  pmid: "15095008"
   doi: 10.1007/s00018-003-3269-3
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -1777,21 +2099,21 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: PubMed publication
   insight: Many college students struggle to perform well on exams in the early morning.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '27895607'
+  pmid: "27895607"
   doi: 10.3389/fpsyg.2016.01764
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
 - id: reddit-pmid-23241646
-  title: 'Caffeine as an attention enhancer: reviewing existing assumptions.'
+  title: "Caffeine as an attention enhancer: reviewing existing assumptions."
   authors: Suzanne J L Einöther, Timo Giesbrecht
   year: 2013
   url: https://pubmed.ncbi.nlm.nih.gov/23241646/
   kind: PubMed publication
-  insight: 'RATIONALE: Despite the large number of studies on the behavioural effects of caffeine, an unequivocal conclusion had not been reached.'
+  insight: "RATIONALE: Despite the large number of studies on the behavioural effects of caffeine, an unequivocal conclusion had not been reached."
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '23241646'
+  pmid: "23241646"
   doi: 10.1007/s00213-012-2917-4
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -1805,7 +2127,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: PubMed Central publication link
   insight: A 200 mg caffeine intervention impaired motor learning relative to placebo and a 60–90 minute nap; naps improved verbal recall and perceptual learning.
   limitation: PMC2603066 was not rights-eligible for automated full-text retrieval; abstract evidence remains source-bounded.
-  pmid: '18554731'
+  pmid: "18554731"
   pmcid: PMC2603066
   doi: 10.1016/j.bbr.2008.04.028
   funding: Full funding and conflict disclosures were not independently assessed here.
@@ -1820,7 +2142,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: PubMed publication
   insight: Caffeine is commonly consumed in an effort to enhance cognitive performance.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '22728314'
+  pmid: "22728314"
   doi: 10.1016/j.neuropharm.2012.06.026
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -1832,9 +2154,9 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   year: 2005
   url: https://pubmed.ncbi.nlm.nih.gov/15678363/
   kind: PubMed publication
-  insight: 'RATIONALE: The cognitive and mood effects of caffeine are well documented.'
+  insight: "RATIONALE: The cognitive and mood effects of caffeine are well documented."
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '15678363'
+  pmid: "15678363"
   doi: 10.1007/s00213-004-2104-3
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -1846,9 +2168,9 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   year: 2000
   url: https://pubmed.ncbi.nlm.nih.gov/11057520/
   kind: PubMed publication
-  insight: 'RATIONALE: Caffeine is present in many widely consumed drinks and some foods.'
+  insight: "RATIONALE: Caffeine is present in many widely consumed drinks and some foods."
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '11057520'
+  pmid: "11057520"
   doi: 10.1007/s002130000506
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -1862,7 +2184,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: PubMed publication
   insight: It is currently not known whether caffeine has an enhancing effect on long-term memory in humans.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '24413697'
+  pmid: "24413697"
   doi: 10.1038/nn.3623
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -1876,7 +2198,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: PubMed publication
   insight: Four cases of fatal intoxications with caffeine are described.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '14687776'
+  pmid: "14687776"
   doi: 10.1016/j.forsciint.2003.09.019
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -1890,7 +2212,7 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: PubMed publication
   insight: Caffeine has long been recognized as an addictive substance with numerous toxic effects.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '2617841'
+  pmid: "2617841"
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
@@ -1903,9 +2225,17 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   kind: PubMed Central publication link
   insight: A 200 mg caffeine intervention impaired motor learning relative to placebo and a 60–90 minute nap; naps improved verbal recall and perceptual learning.
   limitation: PMC2603066 was not rights-eligible for automated full-text retrieval; abstract evidence remains source-bounded.
-  pmid: '18554731'
+  pmid: "18554731"
   pmcid: PMC2603066
   doi: 10.1016/j.bbr.2008.04.028
+- id: psychonautwiki
+  title: "Caffeine: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/Caffeine
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal
@@ -1922,3 +2252,15 @@ Reddit index corpus import (11 linked source records; 11 PubMed abstracts after 
   sourceUrl: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A02011R1169-20250401
   asOf: 2026-10-16
 ```
+
+## External wiki links
+
+```yaml
+- service: Wikipedia
+  url: https://en.wikipedia.org/wiki/Caffeine
+  title: Wikipedia
+- service: Examine
+  url: https://examine.com/supplements/Caffeine
+  title: Examine
+```
+

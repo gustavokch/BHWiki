@@ -9,7 +9,7 @@ pubchemCid: null
 smiles: Not established
 category: Identity record
 tags: []
-accent: '#a9b993'
+accent: "#a9b993"
 reviewedAt: 2026-10-27
 editorialStatus: sourced-draft
 halfLife:
@@ -27,37 +27,37 @@ kinetics:
   metabolism: Not established
   sourceId: optihealth-substance-019fe218-43ee-739a-a7f5-85a6321108c6
 x-shape:
-- slug
-- name
-- subtitle
-- summary
-- description
-- aliases
-- formula
-- molecularWeight
-- pubchemCid
-- smiles
-- category
-- tags
-- accent
-- evidenceNote
-- reviewedAt
-- editorialStatus
-- halfLife
-- pkObservations
-- kinetics
-- modifiers
-- doses
-- effects
-- outcomes
-- claims
-- mechanisms
-- cautions
-- interactions
-- experienceLinks
-- references
-- legal
-- externalWikiLinks
+  - slug
+  - name
+  - subtitle
+  - summary
+  - description
+  - aliases
+  - formula
+  - molecularWeight
+  - pubchemCid
+  - smiles
+  - category
+  - tags
+  - accent
+  - evidenceNote
+  - reviewedAt
+  - editorialStatus
+  - halfLife
+  - pkObservations
+  - kinetics
+  - modifiers
+  - doses
+  - effects
+  - outcomes
+  - claims
+  - mechanisms
+  - cautions
+  - interactions
+  - experienceLinks
+  - references
+  - legal
+  - externalWikiLinks
 x-order: 1109
 ---
 
@@ -106,6 +106,81 @@ PubMed abstracts retrieved for PMIDs 1372342 and 3594455; no PMC full text was a
   sourceCategory: research
   note: Exact concentration not stated in abstract.
   sourceId: reddit-pmid-1372342
+- label: Threshold dose
+  amount: 250 mg
+  quantity: 250
+  quantityMax: null
+  unit: mg
+  ingredient: Oxiracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 500–1200 mg
+  quantity: 500
+  quantityMax: 1200
+  unit: mg
+  ingredient: Oxiracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 1200–1800 mg
+  quantity: 1200
+  quantityMax: 1800
+  unit: mg
+  ingredient: Oxiracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 1800–2400 mg
+  quantity: 1800
+  quantityMax: 2400
+  unit: mg
+  ingredient: Oxiracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (2400 mg and above)
+  amount: 2400 mg and above
+  quantity: 2400
+  quantityMax: null
+  unit: mg
+  ingredient: Oxiracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -125,6 +200,27 @@ PubMed abstracts retrieved for PMIDs 1372342 and 3594455; no PMC full text was a
   context: Linked abstracts report pharmacodynamic outcomes but no concentration-time or elimination measurements.
   sourceId: reddit-pmid-3594455
   modelEligible: false
+```
+
+## Duration
+
+```yaml
+- id: psychonautwiki-oral
+  measurement: subjective
+  route: Oral
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 8
+    max: 10
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 30
+      max: 90
+      unit: minutes
 ```
 
 ## Modifiers
@@ -185,13 +281,13 @@ PubMed abstracts retrieved for PMIDs 1372342 and 3594455; no PMC full text was a
   assertion: In rats, oxiracetam 100 mg/kg i.p. increased cholinergic utilization and antagonized an active-avoidance learning deficit.
   relation: preclinical-support
   participants:
-  - entityId: substance:oxiracetam-019fe218
-    role: intervention
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:oxiracetam-019fe218
+      role: intervention
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Experimental rat study; no human translation established.
   sourceIds:
-  - reddit-pmid-3594455
+    - reddit-pmid-3594455
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Preclinical evidence and limited abstract detail.
@@ -207,14 +303,6 @@ PubMed abstracts retrieved for PMIDs 1372342 and 3594455; no PMC full text was a
 
 ```yaml
 []
-```
-
-## External wiki links
-
-```yaml
-- service: Wikipedia
-  url: https://en.wikipedia.org/wiki/Oxiracetam
-  title: Wikipedia
 ```
 
 ## References
@@ -236,7 +324,7 @@ PubMed abstracts retrieved for PMIDs 1372342 and 3594455; no PMC full text was a
   kind: PubMed publication
   insight: Micromolar concentrations of piracetam, aniracetam, and oxiracetam enhanced alpha-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid (AMPA)-stimulated 45Ca2+ influx in primary cultures of cerebellar granule cells.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '1372342'
+  pmid: "1372342"
   doi: 10.1111/j.1471-4159.1992.tb11329.x
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -250,7 +338,7 @@ PubMed abstracts retrieved for PMIDs 1372342 and 3594455; no PMC full text was a
   kind: PubMed publication
   insight: Oxiracetam at 100 and 300 mg/kg i.p.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '3594455'
+  pmid: "3594455"
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
@@ -267,6 +355,14 @@ PubMed abstracts retrieved for PMIDs 1372342 and 3594455; no PMC full text was a
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
+- id: psychonautwiki
+  title: "Oxiracetam: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/Oxiracetam
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal
@@ -274,3 +370,12 @@ PubMed abstracts retrieved for PMIDs 1372342 and 3594455; no PMC full text was a
 ```yaml
 []
 ```
+
+## External wiki links
+
+```yaml
+- service: Wikipedia
+  url: https://en.wikipedia.org/wiki/Oxiracetam
+  title: Wikipedia
+```
+

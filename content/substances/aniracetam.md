@@ -9,7 +9,7 @@ pubchemCid: null
 smiles: Not established
 category: Identity record
 tags: []
-accent: '#a9b993'
+accent: "#a9b993"
 reviewedAt: 2026-10-27
 editorialStatus: sourced-draft
 halfLife:
@@ -27,37 +27,37 @@ kinetics:
   metabolism: Not established
   sourceId: optihealth-substance-019fe218-43e3-7c72-bd49-37f334347502
 x-shape:
-- slug
-- name
-- subtitle
-- summary
-- description
-- aliases
-- formula
-- molecularWeight
-- pubchemCid
-- smiles
-- category
-- tags
-- accent
-- evidenceNote
-- reviewedAt
-- editorialStatus
-- halfLife
-- pkObservations
-- kinetics
-- modifiers
-- doses
-- effects
-- outcomes
-- claims
-- mechanisms
-- cautions
-- interactions
-- experienceLinks
-- references
-- legal
-- externalWikiLinks
+  - slug
+  - name
+  - subtitle
+  - summary
+  - description
+  - aliases
+  - formula
+  - molecularWeight
+  - pubchemCid
+  - smiles
+  - category
+  - tags
+  - accent
+  - evidenceNote
+  - reviewedAt
+  - editorialStatus
+  - halfLife
+  - pkObservations
+  - kinetics
+  - modifiers
+  - doses
+  - effects
+  - outcomes
+  - claims
+  - mechanisms
+  - cautions
+  - interactions
+  - experienceLinks
+  - references
+  - legal
+  - externalWikiLinks
 x-order: 1105
 ---
 
@@ -110,6 +110,81 @@ Reddit index source review: Four PubMed abstracts were retrieved; PMC4123976 was
   sourceCategory: research
   note: Only 100 mg/kg reversed impairment.
   sourceId: reddit-pmid-24079994
+- label: Threshold dose
+  amount: 350 mg
+  quantity: 350
+  quantityMax: null
+  unit: mg
+  ingredient: Aniracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 500–1200 mg
+  quantity: 500
+  quantityMax: 1200
+  unit: mg
+  ingredient: Aniracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 1200–1800 mg
+  quantity: 1200
+  quantityMax: 1800
+  unit: mg
+  ingredient: Aniracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 1800–2400 mg
+  quantity: 1800
+  quantityMax: 2400
+  unit: mg
+  ingredient: Aniracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (2400 mg and above)
+  amount: 2400 mg and above
+  quantity: 2400
+  quantityMax: null
+  unit: mg
+  ingredient: Aniracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -131,6 +206,27 @@ Reddit index source review: Four PubMed abstracts were retrieved; PMC4123976 was
   modelEligible: false
 ```
 
+## Duration
+
+```yaml
+- id: psychonautwiki-oral
+  measurement: subjective
+  route: Oral
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 3
+    max: 5
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 45
+      max: 90
+      unit: minutes
+```
+
 ## Modifiers
 
 ```yaml
@@ -145,8 +241,7 @@ Reddit index source review: Four PubMed abstracts were retrieved; PMC4123976 was
   name: Anxiety-like behavior
   direction: Decreased
   evidence: Limited research
-  description: Aniracetam increased social interaction and showed anxiolytic effects
-    in social-interaction, elevated-plus-maze and conditioned-fear tests in mice.
+  description: Aniracetam increased social interaction and showed anxiolytic effects in social-interaction, elevated-plus-maze and conditioned-fear tests in mice.
   sourceId: reddit-pmid-11412837
   population: Mice
   exposure: 10–100 mg/kg
@@ -175,8 +270,7 @@ Reddit index source review: Four PubMed abstracts were retrieved; PMC4123976 was
   name: Passive-avoidance retention
   direction: Increased
   evidence: Limited research
-  description: Aniracetam 100 mg/kg reversed passive-avoidance impairment after 96
-    hours of sleep deprivation at 2- and 24-hour retention tests.
+  description: Aniracetam 100 mg/kg reversed passive-avoidance impairment after 96 hours of sleep deprivation at 2- and 24-hour retention tests.
   sourceId: reddit-pmid-24079994
   population: Male Wistar rats
   exposure: 25–100 mg/kg; 100 mg/kg effective
@@ -188,8 +282,7 @@ Reddit index source review: Four PubMed abstracts were retrieved; PMC4123976 was
   name: AMPA-receptor current potentiation
   direction: Increased
   evidence: Limited research
-  description: 2-Pyrrolidinone potentiated GluR1,3 and GluR1,2,3 AMPA currents, with
-    maximal effect around 100 μM and persistence after washout; effects were CaMKII-sensitive.
+  description: 2-Pyrrolidinone potentiated GluR1,3 and GluR1,2,3 AMPA currents, with maximal effect around 100 μM and persistence after washout; effects were CaMKII-sensitive.
   sourceId: reddit-pmid-11834304
   population: Xenopus oocytes expressing AMPA receptors
   exposure: 1 nM–300 μM metabolite concentrations
@@ -202,12 +295,10 @@ Reddit index source review: Four PubMed abstracts were retrieved; PMC4123976 was
 
 ```yaml
 - title: Metabolite AMPA potentiation
-  description: Aniracetam metabolites, especially 2-pyrrolidinone, potentiated AMPA
-    receptor currents; KN-93 inhibition implicates CaMKII in the long-lasting effect.
+  description: Aniracetam metabolites, especially 2-pyrrolidinone, potentiated AMPA receptor currents; KN-93 inhibition implicates CaMKII in the long-lasting effect.
   sourceId: reddit-pmid-11834304
 - title: Cholinergic, serotonergic and dopaminergic interaction
-  description: Haloperidol, mecamylamine and ketanserin blocked or attenuated mouse
-    anxiolytic effects, implicating D2, nicotinic acetylcholine and 5-HT2A receptors.
+  description: Haloperidol, mecamylamine and ketanserin blocked or attenuated mouse anxiolytic effects, implicating D2, nicotinic acetylcholine and 5-HT2A receptors.
   sourceId: reddit-pmid-11412837
 ```
 
@@ -215,12 +306,10 @@ Reddit index source review: Four PubMed abstracts were retrieved; PMC4123976 was
 
 ```yaml
 - title: No human evidence in linked papers
-  description: All cited biological findings are from animal models or in-vitro receptor
-    systems; human efficacy and safety are not established.
+  description: All cited biological findings are from animal models or in-vitro receptor systems; human efficacy and safety are not established.
   sourceId: reddit-pmid-11412837
 - title: Model and metabolite limits
-  description: The effective 100 mg/kg rat dose and micromolar metabolite concentrations
-    cannot be converted to a safe human dose.
+  description: The effective 100 mg/kg rat dose and micromolar metabolite concentrations cannot be converted to a safe human dose.
   sourceId: reddit-pmid-24079994
 ```
 
@@ -228,56 +317,47 @@ Reddit index source review: Four PubMed abstracts were retrieved; PMC4123976 was
 
 ```yaml
 - id: reddit-claim-aniracetam-11412837-0
-  assertion: Aniracetam reduced anxiety-like behavior in several mouse models through
-    interacting cholinergic, serotonergic and dopaminergic systems.
+  assertion: Aniracetam reduced anxiety-like behavior in several mouse models through interacting cholinergic, serotonergic and dopaminergic systems.
   relation: associated-with
   participants:
-  - entityId: substance:aniracetam
-    role: intervention or exposure
-  - entityId: tag:anxiety
-    role: reported endpoint
-  context: Publication abstract and/or retrieved PMC text; this is not a pooled efficacy
-    estimate.
+    - entityId: substance:aniracetam
+      role: intervention or exposure
+    - entityId: tag:anxiety
+      role: reported endpoint
+  context: Publication abstract and/or retrieved PMC text; this is not a pooled efficacy estimate.
   sourceIds:
-  - reddit-pmid-11412837
+    - reddit-pmid-11412837
   conflictingSourceIds: []
   assessment: not-formally-assessed
-  limitation: Publication-level association; direction and generalizability depend
-    on the cited study.
+  limitation: Publication-level association; direction and generalizability depend on the cited study.
 - id: reddit-claim-aniracetam-24079994-1
-  assertion: Aniracetam 100 mg/kg reversed sleep-deprivation passive-avoidance deficits
-    in rats.
+  assertion: Aniracetam 100 mg/kg reversed sleep-deprivation passive-avoidance deficits in rats.
   relation: associated-with
   participants:
-  - entityId: substance:aniracetam
-    role: intervention or exposure
-  - entityId: tag:episodic-memory
-    role: reported endpoint
-  context: Publication abstract and/or retrieved PMC text; this is not a pooled efficacy
-    estimate.
+    - entityId: substance:aniracetam
+      role: intervention or exposure
+    - entityId: tag:episodic-memory
+      role: reported endpoint
+  context: Publication abstract and/or retrieved PMC text; this is not a pooled efficacy estimate.
   sourceIds:
-  - reddit-pmid-24079994
+    - reddit-pmid-24079994
   conflictingSourceIds: []
   assessment: not-formally-assessed
-  limitation: Publication-level association; direction and generalizability depend
-    on the cited study.
+  limitation: Publication-level association; direction and generalizability depend on the cited study.
 - id: reddit-claim-aniracetam-11834304-2
-  assertion: The 2-pyrrolidinone metabolite potentiated AMPA receptor currents through
-    a CaMKII-sensitive mechanism in vitro.
+  assertion: The 2-pyrrolidinone metabolite potentiated AMPA receptor currents through a CaMKII-sensitive mechanism in vitro.
   relation: associated-with
   participants:
-  - entityId: substance:aniracetam
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
-  context: Publication abstract and/or retrieved PMC text; this is not a pooled efficacy
-    estimate.
+    - entityId: substance:aniracetam
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
+  context: Publication abstract and/or retrieved PMC text; this is not a pooled efficacy estimate.
   sourceIds:
-  - reddit-pmid-11834304
+    - reddit-pmid-11834304
   conflictingSourceIds: []
   assessment: not-formally-assessed
-  limitation: Publication-level association; direction and generalizability depend
-    on the cited study.
+  limitation: Publication-level association; direction and generalizability depend on the cited study.
 ```
 
 ## Interactions
@@ -311,14 +391,14 @@ Reddit index source review: Four PubMed abstracts were retrieved; PMC4123976 was
   kind: PubMed publication
   insight: Aniracetam 100 mg/kg reversed passive-avoidance deficits after 96 h sleep deprivation in rats.
   limitation: Abstract reviewed; rights-eligible PMC full text was unavailable for this publication.
-  pmid: '24079994'
+  pmid: "24079994"
   doi: 10.1016/j.bbr.2013.09.037
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
 - id: reddit-link-1795e054e2fc
-  title: 'Aniracetam: Its Novel Therapeutic Potential in Cerebral Dysfunctional Disorders Based on Recent Pharmacological Discoveries (2002)'
+  title: "Aniracetam: Its Novel Therapeutic Potential in Cerebral Dysfunctional Disorders Based on Recent Pharmacological Discoveries (2002)"
   authors: Not established
   year: 2002
   url: https://onlinelibrary.wiley.com/doi/10.1111/j.1527-3458.2002.tb00216.x/pdf
@@ -337,7 +417,7 @@ Reddit index source review: Four PubMed abstracts were retrieved; PMC4123976 was
   kind: PubMed publication
   insight: Aniracetam 10–100 mg/kg was anxiolytic across three mouse models; receptor antagonists implicated nicotinic, 5-HT2A and D2 mechanisms.
   limitation: Abstract reviewed; rights-eligible PMC full text was unavailable for this publication.
-  pmid: '11412837'
+  pmid: "11412837"
   doi: 10.1016/s0014-2999(01)01005-6
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -351,7 +431,7 @@ Reddit index source review: Four PubMed abstracts were retrieved; PMC4123976 was
   kind: PubMed publication
   insight: 2-Pyrrolidinone potentiated AMPA currents (maximal around 100 μM) with CaMKII-sensitive persistence in Xenopus oocytes.
   limitation: Abstract reviewed; rights-eligible PMC full text was unavailable for this publication.
-  pmid: '11834304'
+  pmid: "11834304"
   doi: 10.1016/s0169-328x(01)00331-x
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -369,7 +449,7 @@ Reddit index source review: Four PubMed abstracts were retrieved; PMC4123976 was
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
-  pmid: '25099639'
+  pmid: "25099639"
   doi: 10.1371/journal.pone.0104443
 - id: reddit-index-aniracetam
   title: Reddit r/Nootropics community index
@@ -387,9 +467,17 @@ Reddit index source review: Four PubMed abstracts were retrieved; PMC4123976 was
   kind: PubMed publication
   insight: Daily oral 50 mg/kg aniracetam did not alter cognitive or affective behavior across multiple assays in healthy adult mice; PMC full text is available.
   limitation: Healthy-animal null finding; it does not establish human efficacy or safety.
-  pmid: '25099639'
+  pmid: "25099639"
   pmcid: PMC4123976
   doi: 10.1371/journal.pone.0104443
+- id: psychonautwiki
+  title: "Aniracetam: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/Aniracetam
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal
@@ -397,3 +485,4 @@ Reddit index source review: Four PubMed abstracts were retrieved; PMC4123976 was
 ```yaml
 []
 ```
+

@@ -11,7 +11,7 @@ smiles: Not established
 category: Research subject
 tags: []
 accent: "#888888"
-reviewedAt: "2026-10-15"
+reviewedAt: 2026-10-15
 editorialStatus: sourced-draft
 halfLife:
   label: Not established
@@ -66,6 +66,7 @@ x-order: 9007199254740991
 Dextroamphetamine is a prescription central nervous system stimulant. U.S. indications depend on the product: the reviewed oral sulfate products are labeled for narcolepsy and pediatric ADHD, whereas Xelstrym, a dextroamphetamine transdermal system, is labeled for ADHD in adults and children aged six years and older—not narcolepsy. These formulations have different dose expressions and absorption profiles. (sourceId: zenzedi-label; sourceId: dexedrine-label; sourceId: procentra-label; sourceId: xelstrym-label)
 
 Randomized studies support short-term ADHD symptom improvement. Healthy-volunteer experiments show selective improvements in attention or willingness to exert effort, alongside null working-memory and reward-learning results; these findings do not establish general intellectual enhancement or sustained real-world productivity. Abuse, addiction, cardiovascular effects, psychosis or mania, and withdrawal are material risks. (sourceId: taylor-2000; sourceId: cutler-2022; sourceId: macqueen-2018; sourceId: soder-2021; sourceId: kassim-2023; sourceId: xelstrym-label)
+
 ## Description
 
 Dextroamphetamine is the dextrorotatory, S-enantiomer of amphetamine. Xelstrym contains dextroamphetamine base; the reviewed oral products contain its sulfate salt. Mixed amphetamine salts and lisdexamfetamine are outside this article’s direct-efficacy evidence unless explicitly identified as comparator, regulatory-bridging, or aggregated safety evidence. (sourceId: xelstrym-label; sourceId: zenzedi-label)
@@ -73,11 +74,13 @@ Dextroamphetamine is the dextrorotatory, S-enantiomer of amphetamine. Xelstrym c
 Representative U.S. formulations are Zenzedi immediate-release tablets containing 2.5, 5, 7.5, 10, 15, 20, or 30 mg dextroamphetamine sulfate; Dexedrine Spansule sustained-release capsules containing 5, 10, or 15 mg sulfate; and ProCentra immediate-release solution containing 5 mg sulfate per 5 mL. Their label records do not establish current pharmacy availability. (sourceId: zenzedi-label; sourceId: dexedrine-label; sourceId: procentra-label)
 
 Xelstrym strengths describe estimated delivery over nine hours: 4.5, 9, 13.5, or 18 mg dextroamphetamine. The corresponding patches contain 5, 10, 15, or 20 mg. Patch content, delivered dose, and oral sulfate dose are different quantities; the label expressly rejects milligram-for-milligram substitution with other amphetamine products. (sourceId: xelstrym-label)
+
 ## Evidence note
 
 The evidence below separates product-label findings, randomized clinical outcomes, healthy-volunteer laboratory experiments, and observational safety associations. FDA labeling sometimes incorporates evidence from related products: Xelstrym’s efficacy determination includes a direct pediatric patch trial and controlled **lisdexamfetamine** studies, including adult studies. Adult labeling therefore does not represent an independent adult patch efficacy trial. (sourceId: xelstrym-label)
 
 The patch publication, FDA presentation, and NCT01711021 registry describe the same pivotal experiment, not independent replications. Dose optimization enriched the randomized sample for tolerability and response; a carryover/sequence effect complicates its crossover analysis. The FDA label presents first-period results. Older oral ADHD and narcolepsy reports were not uniformly accessible in full; unverified doses and disclosures remain explicitly unresolved rather than reconstructed. (sourceId: cutler-2022; sourceId: xelstrym-label; sourceId: nct01711021; sourceId: parkes-1973; sourceId: taylor-2000)
+
 ## Doses
 
 ```yaml
@@ -94,7 +97,7 @@ The patch publication, FDA presentation, and NCT01711021 registry describe the s
   population: Pediatric ADHD; indication specifies ages 3–16 years
   purpose: Research exposure; not a dosing recommendation.
   sourceCategory: research
-  note: 'Source-specific evidence is preserved in the cited source.'
+  note: Source-specific evidence is preserved in the cited source.
   sourceId: S1
 - label: dextroamphetamine research exposure 2
   amount: Not established
@@ -109,7 +112,7 @@ The patch publication, FDA presentation, and NCT01711021 registry describe the s
   population: ADHD indication specifies ages 6–16 years
   purpose: Research exposure; not a dosing recommendation.
   sourceCategory: research
-  note: 'Source-specific evidence is preserved in the cited source.'
+  note: Source-specific evidence is preserved in the cited source.
   sourceId: S1
 - label: dextroamphetamine research exposure 3
   amount: Not established
@@ -124,7 +127,7 @@ The patch publication, FDA presentation, and NCT01711021 registry describe the s
   population: Narcolepsy
   purpose: Research exposure; not a dosing recommendation.
   sourceCategory: research
-  note: 'Source-specific evidence is preserved in the cited source.'
+  note: Source-specific evidence is preserved in the cited source.
   sourceId: S1
 - label: dextroamphetamine research exposure 4
   amount: Not established
@@ -139,7 +142,7 @@ The patch publication, FDA presentation, and NCT01711021 registry describe the s
   population: ADHD; ages 6–17 and adults
   purpose: Research exposure; not a dosing recommendation.
   sourceCategory: research
-  note: 'Source-specific evidence is preserved in the cited source.'
+  note: Source-specific evidence is preserved in the cited source.
   sourceId: S1
 - label: dextroamphetamine research exposure 5
   amount: Not established
@@ -154,8 +157,158 @@ The patch publication, FDA presentation, and NCT01711021 registry describe the s
   population: Not established
   purpose: Research exposure; not a dosing recommendation.
   sourceCategory: research
-  note: 'Source-specific evidence is preserved in the cited source.'
+  note: Source-specific evidence is preserved in the cited source.
   sourceId: S1
+- label: Threshold dose
+  amount: 3 mg
+  quantity: 3
+  quantityMax: null
+  unit: mg
+  ingredient: Dextroamphetamine
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 3–7.5 mg
+  quantity: 3
+  quantityMax: 7.5
+  unit: mg
+  ingredient: Dextroamphetamine
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 7.5–12 mg
+  quantity: 7.5
+  quantityMax: 12
+  unit: mg
+  ingredient: Dextroamphetamine
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 12–21.5 mg
+  quantity: 12
+  quantityMax: 21.5
+  unit: mg
+  ingredient: Dextroamphetamine
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (21.5 mg and above)
+  amount: 21.5 mg and above
+  quantity: 21.5
+  quantityMax: null
+  unit: mg
+  ingredient: Dextroamphetamine
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Threshold dose
+  amount: 3.75 mg
+  quantity: 3.75
+  quantityMax: null
+  unit: mg
+  ingredient: Dextroamphetamine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 3.75–10 mg
+  quantity: 3.75
+  quantityMax: 10
+  unit: mg
+  ingredient: Dextroamphetamine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 10–16 mg
+  quantity: 10
+  quantityMax: 16
+  unit: mg
+  ingredient: Dextroamphetamine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 16–30 mg
+  quantity: 16
+  quantityMax: 30
+  unit: mg
+  ingredient: Dextroamphetamine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (30 mg and above)
+  amount: 30 mg and above
+  quantity: 30
+  quantityMax: null
+  unit: mg
+  ingredient: Dextroamphetamine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -172,7 +325,7 @@ The patch publication, FDA presentation, and NCT01711021 registry describe the s
   low: null
   high: null
   unit: hours
-  context: "Source-specific evidence is preserved in the cited source."
+  context: Source-specific evidence is preserved in the cited source.
   sourceId: S1
   modelEligible: false
 - id: transdermal-disposition
@@ -186,7 +339,7 @@ The patch publication, FDA presentation, and NCT01711021 registry describe the s
   low: null
   high: null
   unit: hours
-  context: 'Source-specific evidence is preserved in the cited source.'
+  context: Source-specific evidence is preserved in the cited source.
   sourceId: S1
   modelEligible: false
 - id: metabolism-and-excretion
@@ -200,9 +353,86 @@ The patch publication, FDA presentation, and NCT01711021 registry describe the s
   low: null
   high: null
   unit: hours
-  context: "Source-specific evidence is preserved in the cited source."
+  context: Source-specific evidence is preserved in the cited source.
   sourceId: S1
   modelEligible: false
+```
+
+## Duration
+
+```yaml
+- id: psychonautwiki-insufflated
+  measurement: subjective
+  route: Intranasal (insufflated)
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 3
+    max: 6
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 1
+      max: 5
+      unit: minutes
+    - name: comeup
+      basis: phase-duration
+      min: 5
+      max: 15
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 1
+      max: 2
+      unit: hours
+    - name: offset
+      basis: phase-duration
+      min: 1.5
+      max: 3
+      unit: hours
+    - name: after-effects
+      basis: phase-duration
+      min: 2
+      max: 4
+      unit: hours
+- id: psychonautwiki-oral
+  measurement: subjective
+  route: Oral
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 6
+    max: 8
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 15
+      max: 30
+      unit: minutes
+    - name: comeup
+      basis: phase-duration
+      min: 30
+      max: 60
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 2.5
+      max: 4
+      unit: hours
+    - name: offset
+      basis: phase-duration
+      min: 2
+      max: 3
+      unit: hours
+    - name: after-effects
+      basis: phase-duration
+      min: 3
+      max: 6
+      unit: hours
 ```
 
 ## Modifiers
@@ -441,7 +671,7 @@ The patch publication, FDA presentation, and NCT01711021 registry describe the s
   description: Stimulants can worsen existing psychosis, precipitate manic or mixed episodes, and produce new psychotic or manic symptoms even at recommended doses.
   sourceId: S1
 - title: Research caution
-  description: 'Source-specific evidence is preserved in the cited source.'
+  description: Source-specific evidence is preserved in the cited source.
   sourceId: S1
 - title: Research caution
   description: Dextroamphetamine has high abuse and misuse potential, including addiction, overdose, and death. Risk increases with higher doses and unapproved administration methods. Physical dependence and tolerance can develop; neither alone is identical to addiction.
@@ -531,7 +761,7 @@ The patch publication, FDA presentation, and NCT01711021 registry describe the s
 - id: maoi
   name: Documented or hypothesized coexposure
   otherSlug: null
-  summary: 'Source-specific evidence is preserved in the cited source.'
+  summary: Source-specific evidence is preserved in the cited source.
   sourceId: S1
   context: Evidence context preserved from Deep Research
   conflictingSourceIds:
@@ -539,7 +769,7 @@ The patch publication, FDA presentation, and NCT01711021 registry describe the s
 - id: serotonergic-drugs
   name: Documented or hypothesized coexposure
   otherSlug: null
-  summary: 'Source-specific evidence is preserved in the cited source.'
+  summary: Source-specific evidence is preserved in the cited source.
   sourceId: S1
   context: Evidence context preserved from Deep Research
   conflictingSourceIds:
@@ -547,7 +777,7 @@ The patch publication, FDA presentation, and NCT01711021 registry describe the s
 - id: cyp2d6-inhibitors
   name: Documented or hypothesized coexposure
   otherSlug: null
-  summary: 'Source-specific evidence is preserved in the cited source.'
+  summary: Source-specific evidence is preserved in the cited source.
   sourceId: S1
   context: Evidence context preserved from Deep Research
   conflictingSourceIds:
@@ -555,7 +785,7 @@ The patch publication, FDA presentation, and NCT01711021 registry describe the s
 - id: urinary-ph-modifiers
   name: Documented or hypothesized coexposure
   otherSlug: null
-  summary: 'Source-specific evidence is preserved in the cited source.'
+  summary: Source-specific evidence is preserved in the cited source.
   sourceId: S1
   context: Evidence context preserved from Deep Research
   conflictingSourceIds:
@@ -563,7 +793,7 @@ The patch publication, FDA presentation, and NCT01711021 registry describe the s
 - id: tricyclic-antidepressants
   name: Documented or hypothesized coexposure
   otherSlug: null
-  summary: 'Source-specific evidence is preserved in the cited source.'
+  summary: Source-specific evidence is preserved in the cited source.
   sourceId: S1
   context: Evidence context preserved from Deep Research
   conflictingSourceIds:
@@ -571,7 +801,7 @@ The patch publication, FDA presentation, and NCT01711021 registry describe the s
 - id: pharmacokinetic-versus-pharmacodynamic
   name: Documented or hypothesized coexposure
   otherSlug: null
-  summary: 'Source-specific evidence is preserved in the cited source.'
+  summary: Source-specific evidence is preserved in the cited source.
   sourceId: S1
   context: Evidence context preserved from Deep Research
   conflictingSourceIds:
@@ -636,7 +866,7 @@ The patch publication, FDA presentation, and NCT01711021 registry describe the s
   conflictsOfInterest: Labeler and developer have commercial interests in the product.
   conflictOfInterestStatus: not-assessed
 - id: S5
-  title: 'Methylphenidate versus dexamphetamine in children with attention deficit hyperactivity disorder: A double-blind, crossover trial.'
+  title: "Methylphenidate versus dexamphetamine in children with attention deficit hyperactivity disorder: A double-blind, crossover trial."
   authors: D. Efron, F. Jarman, M. Barker
   year: 1997
   url: https://pubmed.ncbi.nlm.nih.gov/9382907/
@@ -660,7 +890,7 @@ The patch publication, FDA presentation, and NCT01711021 registry describe the s
   conflictsOfInterest: Full disclosure statement not recovered.
   conflictOfInterestStatus: not-assessed
 - id: S7
-  title: 'Efficacy and Safety of Dextroamphetamine Transdermal System for the Treatment of Attention-Deficit/Hyperactivity Disorder in Children and Adolescents: Results from a Pivotal Phase 2 Study.'
+  title: "Efficacy and Safety of Dextroamphetamine Transdermal System for the Treatment of Attention-Deficit/Hyperactivity Disorder in Children and Adolescents: Results from a Pivotal Phase 2 Study."
   authors: Andrew J. Cutler, Katsumi Suzuki, Brittney Starling, Kanan Balakrishnan, Marina Komaroff, Mariacristina Castelli, Suzanne Meeves, Ann C. Childress
   year: 2022
   url: https://pubmed.ncbi.nlm.nih.gov/35020462/
@@ -767,6 +997,14 @@ The patch publication, FDA presentation, and NCT01711021 registry describe the s
   sponsorshipStatus: not-assessed
   conflictsOfInterest: No study-level conflict declaration applies.
   conflictOfInterestStatus: not-assessed
+- id: psychonautwiki
+  title: "Dextroamphetamine: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/Dextroamphetamine
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal
@@ -793,3 +1031,4 @@ The patch publication, FDA presentation, and NCT01711021 registry describe the s
   sourceUrl: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d6394df5-f2c9-47eb-b57e-f3e9cfd94f84
   asOf: 2026-10-10
 ```
+
