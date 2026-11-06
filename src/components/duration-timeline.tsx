@@ -57,7 +57,12 @@ function RouteTiming({
       </CardHeader>
       <CardContent className="flex flex-col gap-4">
         <p>{route.population}</p>
-        {elapsed.length > 0 ? <ElapsedTimingChart route={route} /> : <TimingSourceSummary values={[
+        {elapsed.length > 0 ? (
+          <>
+            <ElapsedTimingChart route={route} />
+            <TimingSourceSummary values={[{ label: "Reported window", value: formatSpan(route.total) }]} />
+          </>
+        ) : <TimingSourceSummary values={[
           ...route.phases.map((phase) => ({ label: durationPhaseLabels[phase.name], value: formatSpan(phase) })),
           { label: "Reported window", value: formatSpan(route.total) },
         ]} />}
@@ -71,6 +76,44 @@ function RouteTiming({
     </Card>
   );
 }
+function PublishedTiming({
+  kinetics,
+  citationFor,
+  besideRoutes,
+}: {
+  kinetics: Substance["kinetics"];
+  citationFor: (id: string) => ReactNode;
+  besideRoutes: boolean;
+}) {
+  const markers = kinetics.markers ?? [];
+  return (
+    <Card>
+      <CardHeader>
+        <CardTitle>{markers.length ? "Published timing chart" : "Published timing evidence"}</CardTitle>
+        <CardDescription>{markers.length ? "Hover a marker to inspect the source wording; horizontal position is elapsed time since exposure." : "The source reports timing terms but does not provide numeric elapsed intervals."}</CardDescription>
+      </CardHeader>
+      <CardContent className="flex flex-col gap-3">
+        {markers.length ? (
+          <TimingMarkerChart markers={markers} />
+        ) : (
+          <TimingSourceSummary values={[
+            { label: "Onset", value: curatedTiming(kinetics.onset) },
+            { label: "Peak", value: curatedTiming(kinetics.peak) },
+            { label: "Duration", value: curatedTiming(kinetics.duration) },
+          ]} />
+        )}
+        <p className="text-sm text-muted-foreground">
+          {markers.length
+            ? "Markers are explicit source observations; they do not establish felt-effect timing or a parent-compound elimination curve."
+            : besideRoutes
+              ? "Plasma timing and felt effects are distinct measurements."
+              : "Not established as a numeric timeline. Plasma timing and felt effects are distinct measurements."} {citationFor(kinetics.sourceId)}
+        </p>
+      </CardContent>
+    </Card>
+  );
+}
+
 export function DurationTimeline({
   kinetics,
   citationFor,
@@ -80,8 +123,12 @@ export function DurationTimeline({
   citationFor: (id: string) => ReactNode;
 }) {
   const routes = kinetics.timeline ?? [];
-  return routes.length ? (
+  if (!routes.length) return <PublishedTiming kinetics={kinetics} citationFor={citationFor} besideRoutes={false} />;
+  const hasPublishedTiming = Boolean(kinetics.markers?.length)
+    || [kinetics.onset, kinetics.peak, kinetics.duration].some((value) => curatedTiming(value) !== null);
+  return (
     <div className="flex flex-col gap-4">
+      {hasPublishedTiming && <PublishedTiming kinetics={kinetics} citationFor={citationFor} besideRoutes />}
       {routes.map((route) => (
         <RouteTiming
           key={`${route.route}-${route.sourceId}-${route.id ?? route.formulation ?? ""}`}
@@ -90,28 +137,5 @@ export function DurationTimeline({
         />
       ))}
     </div>
-  ) : (
-    <Card>
-      <CardHeader>
-        <CardTitle>{kinetics.markers?.length ? "Published timing chart" : "Published timing evidence"}</CardTitle>
-        <CardDescription>{kinetics.markers?.length ? "Hover a marker to inspect the source wording; horizontal position is elapsed time since exposure." : "The source reports timing terms but does not provide numeric elapsed intervals."}</CardDescription>
-      </CardHeader>
-      <CardContent className="flex flex-col gap-3">
-        {kinetics.markers?.length ? (
-          <TimingMarkerChart markers={kinetics.markers} />
-        ) : (
-          <TimingSourceSummary values={[
-            { label: "Onset", value: curatedTiming(kinetics.onset) },
-            { label: "Peak", value: curatedTiming(kinetics.peak) },
-            { label: "Duration", value: curatedTiming(kinetics.duration) },
-          ]} />
-        )}
-        <p className="text-sm text-muted-foreground">
-          {kinetics.markers?.length
-            ? "Markers are explicit source observations; they do not establish felt-effect timing or a parent-compound elimination curve."
-            : "Not established as a numeric timeline. Plasma timing and felt effects are distinct measurements."} {citationFor(kinetics.sourceId)}
-        </p>
-      </CardContent>
-    </Card>
   );
 }

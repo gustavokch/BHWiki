@@ -6,7 +6,7 @@ import { formatSpan, elapsedPhases } from "../src/lib/duration";
 import { DurationTimeline } from "../src/components/duration-timeline";
 import { validateSubstance } from "../src/lib/validate-content";
 import { substances } from "../src/lib/content";
-import type { DurationPhase, Substance } from "../src/lib/types";
+import type { DurationPhase, DurationRoute, Substance } from "../src/lib/types";
 
 const phases: DurationPhase[] = [
   { name: "onset", min: 20, max: 40, unit: "minutes" },
@@ -26,7 +26,7 @@ test("the timeline retains cited prose and requires elapsed semantics for a char
   const caffeine = substances.find((substance) => substance.slug === "caffeine")!;
   const fallback = renderToStaticMarkup(createElement(DurationTimeline, {
     accent: caffeine.accent,
-    kinetics: caffeine.kinetics,
+    kinetics: { ...caffeine.kinetics, timeline: undefined },
     citationFor: () => createElement("span", null, "source"),
   }));
   assert.match(fallback, /Oral caffeine is rapidly absorbed/);
@@ -52,6 +52,27 @@ test("the timeline retains cited prose and requires elapsed semantics for a char
   assert.match(timed, /Time basis not assessed/);
   assert.match(timed, /20–40 min/);
   assert.match(timed, /3–6 h/);
+  assert.match(timed, /Oral caffeine is rapidly absorbed/);
+  assert.doesNotMatch(timed, /Not established as a numeric timeline/);
+  const subjectiveElapsed = renderToStaticMarkup(createElement(DurationTimeline, {
+    accent: caffeine.accent,
+    kinetics: {
+      ...caffeine.kinetics,
+      timeline: [{
+        measurement: "subjective",
+        route: "Oral",
+        population: "Fixture",
+        sourceId: caffeine.kinetics.sourceId,
+        note: "Fixture",
+        total: { min: 4, max: 8, unit: "hours" },
+        phases: [{ name: "onset", basis: "elapsed-since-exposure", min: 30, max: 90, unit: "minutes" }],
+      }],
+    },
+    citationFor: () => createElement("span", null, "source"),
+  }));
+  assert.match(subjectiveElapsed, /4–8 h/);
+  assert.match(subjectiveElapsed, /Reported subjective timing since exposure/);
+  assert.doesNotMatch(subjectiveElapsed, /Measured elapsed timing/);
 });
 
 test("a duration route must cite a reference on the article", () => {
@@ -65,4 +86,28 @@ test("a duration route must cite a reference on the article", () => {
     phases: [],
   }];
   assert.throws(() => validateSubstance(article), /unknown source/);
+});
+
+test("sub-minute phases keep seconds and convert only for elapsed positions", () => {
+  assert.equal(formatSpan({ min: 5, max: 20, unit: "seconds" }), "5–20 s");
+  const route: DurationRoute = {
+    route: "Smoked",
+    population: "Fixture",
+    sourceId: "source",
+    note: "Fixture",
+    total: null,
+    phases: [
+      { name: "onset", basis: "elapsed-since-exposure", min: 30, max: 90, unit: "seconds" },
+      { name: "peak", basis: "elapsed-since-exposure", min: 5, max: 10, unit: "minutes" },
+    ],
+  };
+  assert.deepEqual(elapsedPhases(route), [
+    { name: "onset", min: 0.5, max: 1.5 },
+    { name: "peak", min: 5, max: 10 },
+  ]);
+  const article = structuredClone(substances[0]) as Substance;
+  article.kinetics.timeline = [{ ...route, sourceId: article.references[0].id }];
+  validateSubstance(article);
+  article.kinetics.timeline![0].phases[0].unit = "days" as never;
+  assert.throws(() => validateSubstance(article), /unit: invalid category/);
 });

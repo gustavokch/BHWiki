@@ -19,7 +19,7 @@ export type Observation = {
   description: string; sourceId: string; population: string; exposure: string;
   instrument: string | null; magnitude: string | null;
 };
-export type TimeUnit = "minutes" | "hours";
+export type TimeUnit = "seconds" | "minutes" | "hours";
 export type TimeSpan = { min: number | null; max: number | null; unit: TimeUnit };
 export type DurationPhaseName = "onset" | "comeup" | "peak" | "offset" | "after-effects";
 export type DurationPhase = { name: DurationPhaseName; basis?: "elapsed-since-exposure" | "phase-duration" } & TimeSpan;

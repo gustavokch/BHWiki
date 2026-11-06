@@ -47,7 +47,7 @@ const context = (pairs: [string, unknown][]) =>
         : typeof value === "string"
           ? value.trim()
           : "";
-    if (!text || /^(?:not assessed|not reported|not quantified in this summary)\.?$/i.test(text)) return [];
+    if (!text || /^(?:not assessed|not established|not reported|not quantified in this summary)\.?$/i.test(text)) return [];
     return [{ label, value: text }];
   });
 export function observationRows(

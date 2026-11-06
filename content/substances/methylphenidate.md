@@ -3,20 +3,20 @@ slug: methylphenidate
 name: Methylphenidate
 subtitle: A transporter target, a clinical context.
 aliases:
-- Ritalin
-- Concerta
-- MPH
+  - Ritalin
+  - Concerta
+  - MPH
 formula: C14H19NO2
 molecularWeight: 233.31 g/mol
 pubchemCid: 4158
 smiles: COC(=O)C(C1CCCCN1)C2=CC=CC=C2
 category: Stimulant medicine
 tags:
-- stimulant
-- dopamine-transporter
-- dopamine
-- attention
-accent: '#b4a0c3'
+  - stimulant
+  - dopamine-transporter
+  - dopamine
+  - attention
+accent: "#b4a0c3"
 reviewedAt: 2026-09-29
 editorialStatus: sourced-draft
 halfLife:
@@ -34,37 +34,37 @@ kinetics:
   metabolism: Primarily de-esterification to ritalinic acid
   sourceId: methylphenidate-label
 x-shape:
-- slug
-- name
-- subtitle
-- summary
-- description
-- aliases
-- formula
-- molecularWeight
-- pubchemCid
-- smiles
-- category
-- tags
-- accent
-- evidenceNote
-- reviewedAt
-- editorialStatus
-- halfLife
-- pkObservations
-- kinetics
-- modifiers
-- doses
-- effects
-- outcomes
-- claims
-- mechanisms
-- cautions
-- references
-- legal
-- interactions
-- experienceLinks
-- externalWikiLinks
+  - slug
+  - name
+  - subtitle
+  - summary
+  - description
+  - aliases
+  - formula
+  - molecularWeight
+  - pubchemCid
+  - smiles
+  - category
+  - tags
+  - accent
+  - evidenceNote
+  - reviewedAt
+  - editorialStatus
+  - halfLife
+  - pkObservations
+  - kinetics
+  - modifiers
+  - doses
+  - effects
+  - outcomes
+  - claims
+  - mechanisms
+  - cautions
+  - references
+  - legal
+  - interactions
+  - experienceLinks
+  - externalWikiLinks
 x-order: 7
 ---
 
@@ -79,7 +79,6 @@ Methylphenidate is used in clinical treatment of ADHD and narcolepsy. It inhibit
 ## Evidence note
 
 PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derived records were replaced with source-specific summaries while curated label, DAT-occupancy, and TBI records were retained. Full text was unavailable for the Reddit-linked PMC records in this pass.
-
 
 ## Doses
 
@@ -129,6 +128,156 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   sourceCategory: research
   note: Abstract reports enhanced implicit learning; formulation details should be checked in full text.
   sourceId: reddit-pmid-28946787
+- label: Threshold dose
+  amount: 1 mg
+  quantity: 1
+  quantityMax: null
+  unit: mg
+  ingredient: Methylphenidate
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 2–10 mg
+  quantity: 2
+  quantityMax: 10
+  unit: mg
+  ingredient: Methylphenidate
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 10–30 mg
+  quantity: 10
+  quantityMax: 30
+  unit: mg
+  ingredient: Methylphenidate
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 30–60 mg
+  quantity: 30
+  quantityMax: 60
+  unit: mg
+  ingredient: Methylphenidate
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (60 mg and above)
+  amount: 60 mg and above
+  quantity: 60
+  quantityMax: null
+  unit: mg
+  ingredient: Methylphenidate
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Threshold dose
+  amount: 5 mg
+  quantity: 5
+  quantityMax: null
+  unit: mg
+  ingredient: Methylphenidate
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 10–20 mg
+  quantity: 10
+  quantityMax: 20
+  unit: mg
+  ingredient: Methylphenidate
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 20–40 mg
+  quantity: 20
+  quantityMax: 40
+  unit: mg
+  ingredient: Methylphenidate
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 40–60 mg
+  quantity: 40
+  quantityMax: 60
+  unit: mg
+  ingredient: Methylphenidate
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (60 mg and above)
+  amount: 60 mg and above
+  quantity: 60
+  quantityMax: null
+  unit: mg
+  ingredient: Methylphenidate
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -162,6 +311,83 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   context: Reported adult range, not a confidence interval or a personal prediction.
   sourceId: methylphenidate-pk-label
   modelEligible: false
+```
+
+## Duration
+
+```yaml
+- id: psychonautwiki-insufflated
+  measurement: subjective
+  route: Intranasal (insufflated)
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 2
+    max: 4
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 5
+      max: 20
+      unit: minutes
+    - name: comeup
+      basis: phase-duration
+      min: 15
+      max: 40
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 30
+      max: 45
+      unit: minutes
+    - name: offset
+      basis: phase-duration
+      min: 2
+      max: 4
+      unit: hours
+    - name: after-effects
+      basis: phase-duration
+      min: 1
+      max: 4
+      unit: hours
+- id: psychonautwiki-oral
+  measurement: subjective
+  route: Oral
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 2.5
+    max: 4
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 30
+      max: 60
+      unit: minutes
+    - name: comeup
+      basis: phase-duration
+      min: 20
+      max: 45
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 60
+      max: 90
+      unit: minutes
+    - name: offset
+      basis: phase-duration
+      min: 45
+      max: 60
+      unit: minutes
+    - name: after-effects
+      basis: phase-duration
+      min: 2
+      max: 6
+      unit: hours
 ```
 
 ## Modifiers
@@ -271,12 +497,10 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   sourceId: volkow1998
   conceptId: dopamine-transporter
 - title: Baseline- and plasma-level-dependent dose response
-  description: The visual-attention study found benefits in low performers and decreasing benefit at higher plasma levels
-    in high performers, consistent with an inverted-U response.
+  description: The visual-attention study found benefits in low performers and decreasing benefit at higher plasma levels in high performers, consistent with an inverted-U response.
   sourceId: reddit-pmid-20352415
 - title: Prefrontal alpha2A and dopamine D1 mechanisms in rats
-  description: In rats, moderate oral methylphenidate doses improved delayed alternation in an inverted-U pattern; alpha2-adrenoceptor
-    and D1 antagonists blocked the benefit.
+  description: In rats, moderate oral methylphenidate doses improved delayed alternation in an inverted-U pattern; alpha2-adrenoceptor and D1 antagonists blocked the benefit.
   sourceId: reddit-link-3db23a416d39
 ```
 
@@ -284,8 +508,7 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
 
 ```yaml
 - title: Misuse, dependence and withdrawal
-  description: Prescribing information carries a boxed warning for abuse, misuse and addiction and describes physical dependence
-    and withdrawal.
+  description: Prescribing information carries a boxed warning for abuse, misuse and addiction and describes physical dependence and withdrawal.
   sourceId: methylphenidate-label
 - title: Cardiovascular and psychiatric context
   description: The label describes cardiovascular and psychiatric risks and monitoring requirements.
@@ -294,12 +517,10 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   description: Immediate-release elimination data do not describe the release profile of every extended-release product.
   sourceId: methylphenidate-pk-label
 - title: TBI evidence is symptom-targeted, not disease-modifying
-  description: The 2026 neurorehabilitation review reports the most consistent evidence for selected attention and processing-speed
-    outcomes but states that no pharmacological treatment is established as disease-modifying after traumatic brain injury.
+  description: The 2026 neurorehabilitation review reports the most consistent evidence for selected attention and processing-speed outcomes but states that no pharmacological treatment is established as disease-modifying after traumatic brain injury.
   sourceId: pmid-42929311
 - title: Renal-safety signal is preclinical
-  description: An isolated-kidney model showed reduced urinary flow and glomerular filtration despite no in-vivo urea/creatinine
-    change; clinical nephrotoxicity remains unestablished.
+  description: An isolated-kidney model showed reduced urinary flow and glomerular filtration despite no in-vivo urea/creatinine change; clinical nephrotoxicity remains unestablished.
   sourceId: reddit-pmid-26407472
 ```
 
@@ -310,15 +531,15 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   assertion: Oral methylphenidate occupied dopamine transporters in a PET study.
   relation: transporter-occupancy
   participants:
-  - entityId: substance:methylphenidate
-    role: substance
-  - entityId: tag:dopamine-transporter
-    role: target
-  - entityId: tag:dopamine
-    role: transmitter
+    - entityId: substance:methylphenidate
+      role: substance
+    - entityId: tag:dopamine-transporter
+      role: target
+    - entityId: tag:dopamine
+      role: transmitter
   context: Acute exposure in healthy volunteers
   sourceIds:
-  - volkow1998
+    - volkow1998
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Mechanistic imaging does not measure clinical response.
@@ -326,13 +547,13 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   assertion: Methylphenidate improved visual processing speed mainly in healthy volunteers with low baseline performance, with plasma-level-dependent attenuation in high performers.
   relation: supported-by
   participants:
-  - entityId: substance:methylphenidate
-    role: intervention
-  - entityId: tag:attention
-    role: outcome
+    - entityId: substance:methylphenidate
+      role: intervention
+    - entityId: tag:attention
+      role: outcome
   context: 40 mg single-dose randomized crossover study.
   sourceIds:
-  - reddit-pmid-20352415
+    - reddit-pmid-20352415
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Small acute study; performance-dependent response.
@@ -340,13 +561,13 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   assertion: Across randomized studies in healthy individuals, methylphenidate showed a memory signal but no consistent enhancement across other cognitive domains.
   relation: supported-by
   participants:
-  - entityId: substance:methylphenidate
-    role: intervention
-  - entityId: tag:episodic-memory
-    role: outcome
+    - entityId: substance:methylphenidate
+      role: intervention
+    - entityId: tag:episodic-memory
+      role: outcome
   context: Systematic review and meta-analysis.
   sourceIds:
-  - reddit-pmid-20416377
+    - reddit-pmid-20416377
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Heterogeneous tasks, doses, and populations.
@@ -364,14 +585,6 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
 []
 ```
 
-## External wiki links
-
-```yaml
-- service: Wikipedia
-  url: https://en.wikipedia.org/wiki/Methylphenidate
-  title: Wikipedia
-```
-
 ## References
 
 ```yaml
@@ -379,7 +592,7 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   title: Psychopharmacological advances in neurorehabilitation after traumatic brain injury.
   authors: Arcani V, Iruthayanathar C, Rauen K.
   year: 2026
-  pmid: '42929311'
+  pmid: "42929311"
   doi: 10.1097/wco.0000000000001528
   url: https://pubmed.ncbi.nlm.nih.gov/42929311/
   kind: Clinical evidence review
@@ -390,7 +603,7 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   conflictsOfInterest: Full conflict disclosures were not assessed from the abstract-only record.
   conflictOfInterestStatus: not-assessed
 - id: methylphenidate-label
-  title: 'RITALIN immediate-release tablets: prescribing information'
+  title: "RITALIN immediate-release tablets: prescribing information"
   authors: Novartis Pharmaceuticals
   year: 2026
   url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c0bf0835-6a2f-4067-a158-8b86c4b0668a
@@ -399,7 +612,7 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   limitation: Formulation-specific labeling; date denotes retrieval, not original approval. It does not establish benefit outside the labeled context.
   funding: Manufacturer prescribing information hosted by the US National Library of Medicine.
 - id: methylphenidate-pk-label
-  title: 'RITALIN LA: pharmacokinetic comparison with Ritalin tablets'
+  title: "RITALIN LA: pharmacokinetic comparison with Ritalin tablets"
   authors: Novartis Pharmaceuticals
   year: 2026
   url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=effd952d-ac94-47bb-b107-589a4934dcca
@@ -411,7 +624,7 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   title: Neurocognitive effects of methylphenidate in adult attention-deficit/hyperactivity disorder
   authors: Turner et al.
   year: 2005
-  pmid: '15338103'
+  pmid: "15338103"
   doi: 10.1007/s00213-004-1993-5
   url: https://pubmed.ncbi.nlm.nih.gov/15338103/
   kind: Randomized placebo-controlled crossover study
@@ -422,7 +635,7 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   title: Dopamine transporter occupancies in the human brain induced by therapeutic doses of oral methylphenidate
   authors: Volkow et al.
   year: 1998
-  pmid: '9766762'
+  pmid: "9766762"
   doi: 10.1176/ajp.155.10.1325
   url: https://pubmed.ncbi.nlm.nih.gov/9766762/
   kind: Human PET study
@@ -430,7 +643,7 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   limitation: Small selected sample and a mechanistic endpoint.
   funding: Not assessed in this draft.
 - id: pubchem
-  title: 'Methylphenidate: compound identity and structure'
+  title: "Methylphenidate: compound identity and structure"
   authors: NCBI PubChem
   year: 2026
   url: https://pubchem.ncbi.nlm.nih.gov/compound/4158
@@ -446,14 +659,14 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   kind: PubMed publication
   insight: Stimulants such as methylphenidate are increasingly used for cognitive enhancement but precise mechanisms are unknown.
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '32193325'
+  pmid: "32193325"
   doi: 10.1126/science.aaz5891
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not reported in the retrieved PubMed record.
   conflictOfInterestStatus: not-assessed
 - id: reddit-link-3db23a416d39
-  title: 'Methylphenidate improves prefrontal cortical cognitive function through α2 adrenoceptor and dopamine D1 receptor actions: Relevance to therapeutic effects in Attention Deficit Hyperactivity Disorder (2005)'
+  title: "Methylphenidate improves prefrontal cortical cognitive function through α2 adrenoceptor and dopamine D1 receptor actions: Relevance to therapeutic effects in Attention Deficit Hyperactivity Disorder (2005)"
   authors: Not established
   year: 2005
   url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1143775/
@@ -465,14 +678,14 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   conflictsOfInterest: Not reported in the retrieved PubMed record.
   conflictOfInterestStatus: not-assessed
 - id: reddit-pmid-28864865
-  title: 'The effect of single-dose methylphenidate on the rate of error-driven learning in healthy males: a randomized controlled trial.'
+  title: "The effect of single-dose methylphenidate on the rate of error-driven learning in healthy males: a randomized controlled trial."
   authors: Jonathon R Howlett, He Huang, Cédric M Hysek, Martin P Paulus
   year: 2017
   url: https://pubmed.ncbi.nlm.nih.gov/28864865/
   kind: PubMed publication
-  insight: 'RATIONALE AND OBJECTIVES: Norepinephrine mediates the adjustment of error-driven learning to match the rate of change of the environment, while phasic dopamine signals prediction errors.'
+  insight: "RATIONALE AND OBJECTIVES: Norepinephrine mediates the adjustment of error-driven learning to match the rate of change of the environment, while phasic dopamine signals prediction errors."
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '28864865'
+  pmid: "28864865"
   doi: 10.1007/s00213-017-4723-5
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
@@ -484,9 +697,9 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   year: 2018
   url: https://pubmed.ncbi.nlm.nih.gov/28946787/
   kind: PubMed publication
-  insight: 'BACKGROUND AND PURPOSE: One limiting factor in the development of pharmacological interventions to enhance cognition is the absence of biomarkers that can be used in healthy volunteers to screen novel compounds.'
+  insight: "BACKGROUND AND PURPOSE: One limiting factor in the development of pharmacological interventions to enhance cognition is the absence of biomarkers that can be used in healthy volunteers to screen novel compounds."
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '28946787'
+  pmid: "28946787"
   doi: 10.1177/0269881117731472
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
@@ -500,7 +713,7 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   kind: PubMed publication
   insight: A recent wave of studies--more than 100 conducted over the last decade--has shown that exerting effort at controlling impulses or behavioral tendencies leaves a person depleted and less able to engage in subsequent rounds of regulation.
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '24756766'
+  pmid: "24756766"
   doi: 10.1177/0956797614526415
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
@@ -514,21 +727,21 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   kind: PubMed publication
   insight: 'RATIONALE: Methylphenidate, the most common treatment of attention deficit hyperactivity disorder (ADHD), is increasingly used by healthy individuals as a "smart drug" to enhance cognitive abilities like attention.'
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '26349753'
+  pmid: "26349753"
   doi: 10.1007/s00213-015-4059-y
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not reported in the retrieved PubMed record.
   conflictOfInterestStatus: not-assessed
 - id: reddit-pmid-26309606
-  title: 'Effect of methylphenidate on mismatched visual information processing in young healthy volunteers: an event-related potential study.'
+  title: "Effect of methylphenidate on mismatched visual information processing in young healthy volunteers: an event-related potential study."
   authors: Chunyu Han, Yuping Wang, Mian Shi, Wei Mao, Wei Sun
   year: 2015
   url: https://pubmed.ncbi.nlm.nih.gov/26309606/
   kind: PubMed publication
   insight: This study was to investigate whether a single dose of methylphenidate (MPH), a dopamine and noradrenaline enhancing drug for the treatment of attentional deficits, influences mismatch visual information processing in young healthy volunteers determined with N270.
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '26309606'
+  pmid: "26309606"
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not reported in the retrieved PubMed record.
@@ -541,7 +754,7 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   kind: PubMed publication
   insight: Our previous study showed enhanced declarative memory consolidation after acute methylphenidate (MPH) administration.
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '24119823'
+  pmid: "24119823"
   doi: 10.1016/j.euroneuro.2013.09.009
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
@@ -567,7 +780,7 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   kind: PubMed publication
   insight: Six men and 3 women on each of 4 days received 10 mg of methylphenidate or placebo (2 times a day) at 0800 and 1200 after 8 hr or 0 hr of sleep.
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '9386961'
+  pmid: "9386961"
   doi: 10.1037//1064-1297.5.4.344
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
@@ -593,7 +806,7 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   kind: PubMed Central full text
   insight: Randomized crossover study of 19 healthy men; 20 and 40 mg improved declarative-memory consolidation and selected executive tasks.
   limitation: Full text and PubMed abstract retrieved; single-dose healthy-volunteer study.
-  pmid: '22169884'
+  pmid: "22169884"
   pmcid: PMC3360847
   doi: 10.1007/s00213-011-2468-8
 - id: reddit-link-9442205bb80e
@@ -616,21 +829,21 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   kind: PubMed publication
   insight: Models of information processing currently popular in cognitive psychology divide the reaction process into a series of discrete separable stages.
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '3927371'
+  pmid: "3927371"
   doi: 10.1007/BF00431690
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not reported in the retrieved PubMed record.
   conflictOfInterestStatus: not-assessed
 - id: reddit-pmid-20352415
-  title: 'Effects of modafinil and methylphenidate on visual attention capacity: a TVA-based study.'
+  title: "Effects of modafinil and methylphenidate on visual attention capacity: a TVA-based study."
   authors: Kathrin Finke, Chris M Dodds, Peter Bublak, Ralf Regenthal, Frank Baumann, Tom Manly, Ulrich Müller
   year: 2010
   url: https://pubmed.ncbi.nlm.nih.gov/20352415/
   kind: PubMed publication
-  insight: 'INTRODUCTION: Theory of visual attention (TVA; Bundesen 1990) whole report tasks allow the independent measurement of visual perceptual processing speed and visual short-term memory (vSTM) storage capacity, unconfounded by motor speed.'
+  insight: "INTRODUCTION: Theory of visual attention (TVA; Bundesen 1990) whole report tasks allow the independent measurement of visual perceptual processing speed and visual short-term memory (vSTM) storage capacity, unconfounded by motor speed."
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '20352415'
+  pmid: "20352415"
   doi: 10.1007/s00213-010-1823-x
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
@@ -642,9 +855,9 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   year: 2010
   url: https://pubmed.ncbi.nlm.nih.gov/20424828/
   kind: PubMed publication
-  insight: 'INTRODUCTION: The effect of a single dose of methylphenidate (MPH) on cognitive measures and decision-making processes was assessed in a sample of adults with ADHD and in a control sample.'
+  insight: "INTRODUCTION: The effect of a single dose of methylphenidate (MPH) on cognitive measures and decision-making processes was assessed in a sample of adults with ADHD and in a control sample."
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '20424828'
+  pmid: "20424828"
   doi: 10.1007/s00213-010-1853-4
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
@@ -658,7 +871,7 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   kind: PubMed publication
   insight: We compare the view that the effect of methylphenidate (MPH) is selective to individuals with attention-deficit/hyperactivity disorder (ADHD) with an alternative approach suggesting that its effect is more prominent for individuals with weak baseline capacities in relevant cognitive tasks.
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '24525641'
+  pmid: "24525641"
   doi: 10.1097/JCP.0000000000000076
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
@@ -672,21 +885,21 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   kind: PubMed publication
   insight: Cognitive effects of the novel glycine prodrug milacemide (400 mg), the catecholaminergic agonist methylphenidate (20 mg), and placebo were evaluated in 48 healthy young adults.
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '7862911'
+  pmid: "7862911"
   doi: 10.1007/BF02244750
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not reported in the retrieved PubMed record.
   conflictOfInterestStatus: not-assessed
 - id: reddit-pmid-26407472
-  title: 'Study of the safety of methylphenidate: Focus on nephrotoxicity aspects.'
+  title: "Study of the safety of methylphenidate: Focus on nephrotoxicity aspects."
   authors: Luiza Herbene Macedo Soares Salviano, Maria Isabel Linhares, Klistenes Alves de Lima, Alana Gomes de Souza, Dânya Bandeira Lima, Antônio Rafael Coelho Jorge, Marcus Felipe Bezerra da Costa, Adriano José Maia Chaves Filho, Alice Maria Costa Martins, Helena Serra Azul Monteiro, Teresa Maria de Jesus Ponte Carvalho, Marta Maria de França Fonteles
   year: 2015
   url: https://pubmed.ncbi.nlm.nih.gov/26407472/
   kind: PubMed publication
-  insight: 'AIMS: Methylphenidate (MPD) is increasingly prescribed for the treatment of Attention Deficit Hyperactivity Disorder and there are concerns about its appropriate use.'
+  insight: "AIMS: Methylphenidate (MPD) is increasingly prescribed for the treatment of Attention Deficit Hyperactivity Disorder and there are concerns about its appropriate use."
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '26407472'
+  pmid: "26407472"
   doi: 10.1016/j.lfs.2015.09.014
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
@@ -700,7 +913,7 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   kind: PubMed publication
   insight: Methylphenidate is a psychostimulant that inhibits the neuronal dopamine transporter.
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '19587858'
+  pmid: "19587858"
   doi: 10.2174/157015908787386041
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
@@ -714,7 +927,7 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   kind: PubMed publication
   insight: Methylphenidate (MPH) is the most common used drug in child and adolescent psychiatry.
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '16736241'
+  pmid: "16736241"
   doi: 10.1007/s00702-006-0487-5
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
@@ -726,9 +939,9 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   year: 2013
   url: https://pubmed.ncbi.nlm.nih.gov/25408898/
   kind: PubMed publication
-  insight: 'BACKGROUND: The psychostimulant methylphenidate (MPH) is the first choice of drug treatment in Attention-Deficit/Hyperactivity Disorder (ADHD).'
+  insight: "BACKGROUND: The psychostimulant methylphenidate (MPH) is the first choice of drug treatment in Attention-Deficit/Hyperactivity Disorder (ADHD)."
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '25408898'
+  pmid: "25408898"
   doi: 10.1186/2049-9256-1-5
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
@@ -740,23 +953,23 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   year: 2012
   url: https://pubmed.ncbi.nlm.nih.gov/22470460/
   kind: PubMed publication
-  insight: 'BACKGROUND: Methylphenidate (MPH) is a psychostimulant that exerts its pharmacological effects via preferential blockade of the dopamine transporter (DAT) and the norepinephrine transporter (NET), resulting in increased monoamine levels in the synapse.'
+  insight: "BACKGROUND: Methylphenidate (MPH) is a psychostimulant that exerts its pharmacological effects via preferential blockade of the dopamine transporter (DAT) and the norepinephrine transporter (NET), resulting in increased monoamine levels in the synapse."
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '22470460'
+  pmid: "22470460"
   doi: 10.1371/journal.pone.0033693
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not reported in the retrieved PubMed record.
   conflictOfInterestStatus: not-assessed
 - id: reddit-pmid-20416377
-  title: 'Modafinil and methylphenidate for neuroenhancement in healthy individuals: A systematic review.'
+  title: "Modafinil and methylphenidate for neuroenhancement in healthy individuals: A systematic review."
   authors: Dimitris Repantis, Peter Schlattmann, Oona Laisney, Isabella Heuser
   year: 2010
   url: https://pubmed.ncbi.nlm.nih.gov/20416377/
   kind: PubMed publication
   insight: The term neuroenhancement refers to improvement in the cognitive, emotional and motivational functions of healthy individuals through, inter alia, the use of drugs.
   limitation: PubMed abstract retrieved with the PubMed connector on 2026-11-01; full text was not available for this citation.
-  pmid: '20416377'
+  pmid: "20416377"
   doi: 10.1016/j.phrs.2010.04.002
   funding: Not reported in the retrieved PubMed record.
   sponsorshipStatus: not-assessed
@@ -774,6 +987,14 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not reported in the retrieved PubMed record.
   conflictOfInterestStatus: not-assessed
+- id: psychonautwiki
+  title: "Methylphenidate: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/Methylphenidate
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal
@@ -781,3 +1002,12 @@ PubMed abstracts for all 22 linked PMIDs were retrieved; heuristic Reddit-derive
 ```yaml
 []
 ```
+
+## External wiki links
+
+```yaml
+- service: Wikipedia
+  url: https://en.wikipedia.org/wiki/Methylphenidate
+  title: Wikipedia
+```
+

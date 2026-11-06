@@ -160,6 +160,81 @@ Direct evidence includes small human CYP2D6 pharmacokinetic experiments, a rando
   sourceCategory: research
   note: The trial did not show reduced worst pain or analgesic use versus placebo.
   sourceId: ferguson2023
+- label: Threshold dose
+  amount: 75 mg
+  quantity: 75
+  quantityMax: null
+  unit: mg
+  ingredient: Dextromethorphan
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 100–200 mg
+  quantity: 100
+  quantityMax: 200
+  unit: mg
+  ingredient: Dextromethorphan
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 200–400 mg
+  quantity: 200
+  quantityMax: 400
+  unit: mg
+  ingredient: Dextromethorphan
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 400–700 mg
+  quantity: 400
+  quantityMax: 700
+  unit: mg
+  ingredient: Dextromethorphan
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (700 mg and above)
+  amount: 700 mg and above
+  quantity: 700
+  quantityMax: null
+  unit: mg
+  ingredient: Dextromethorphan
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -207,6 +282,47 @@ Direct evidence includes small human CYP2D6 pharmacokinetic experiments, a rando
   context: Amaeze et al. measured metabolite/parent ratios rather than elimination half-life; a pregnancy-specific half-life cannot be inferred from that study.
   sourceId: amaeze2023
   modelEligible: false
+```
+
+## Duration
+
+```yaml
+- id: psychonautwiki-oral
+  measurement: subjective
+  route: Oral
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 8
+    max: 12
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 30
+      max: 120
+      unit: minutes
+    - name: comeup
+      basis: phase-duration
+      min: 60
+      max: 120
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 3
+      max: 6
+      unit: hours
+    - name: offset
+      basis: phase-duration
+      min: 2
+      max: 4
+      unit: hours
+    - name: after-effects
+      basis: phase-duration
+      min: 4
+      max: 24
+      unit: hours
 ```
 
 ## Modifiers
@@ -485,7 +601,7 @@ Direct evidence includes small human CYP2D6 pharmacokinetic experiments, a rando
   conflictOfInterestStatus: not-assessed
   disclosureUrl: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=20f7c1a9-fc4d-1f51-e063-6394a90a8be3
 - id: fdaM012
-  title: 'Over-the-Counter (OTC) Monograph M012: Cold, Cough, Allergy, Bronchodilator, and Antiasthmatic Drug Products for Over-the-Counter Human Use'
+  title: "Over-the-Counter (OTC) Monograph M012: Cold, Cough, Allergy, Bronchodilator, and Antiasthmatic Drug Products for Over-the-Counter Human Use"
   authors: U.S. Food and Drug Administration
   year: 2022
   url: https://www.accessdata.fda.gov/drugsatfda_docs/omuf/monographs/OTC%20Monograph_M012-Cough%20Cold%20Allergy%20Bronchodilator%20and%20Antiasthmatic%20Drug%20Products%20for%20OTC%20Human%20Use%2010.14.2022.pdf
@@ -497,7 +613,7 @@ Direct evidence includes small human CYP2D6 pharmacokinetic experiments, a rando
   conflictsOfInterest: Institutional regulatory source; investigator conflicts are not applicable.
   conflictOfInterestStatus: not-assessed
 - id: dea2026
-  title: 'Drugs of Abuse: A DEA Resource Guide, 2026 Edition'
+  title: "Drugs of Abuse: A DEA Resource Guide, 2026 Edition"
   authors: U.S. Drug Enforcement Administration
   year: 2026
   url: https://www.dea.gov/sites/default/files/2026-10/Drugs-Abuse-2026.pdf
@@ -516,35 +632,35 @@ Direct evidence includes small human CYP2D6 pharmacokinetic experiments, a rando
   kind: human-pharmacokinetic-study
   insight: Six extensive and six poor metabolizers showed 150-fold parent-AUC differences; quinidine increased parent exposure, while the capsaicin model was null.
   limitation: Very small phenotype groups and an experimental cough model; full text was not available through PMC for this draft.
-  pmid: '8841152'
+  pmid: "8841152"
   doi: 10.1016/S0009-9236(96)90056-9
   funding: PubMed indexes Research Support, Non-U.S. Gov't; specific funder was not available in the accessible record.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not reported in the accessible PubMed record; full text not assessed.
   conflictOfInterestStatus: not-assessed
 - id: schadel1995
-  title: 'Pharmacokinetics of dextromethorphan and metabolites in humans: influence of the CYP2D6 phenotype and quinidine inhibition.'
+  title: "Pharmacokinetics of dextromethorphan and metabolites in humans: influence of the CYP2D6 phenotype and quinidine inhibition."
   authors: M Schadel; D Wu; S V Otton; W Kalow; E M Sellers
   year: 1995
   url: https://pubmed.ncbi.nlm.nih.gov/7593709/
   kind: human-pharmacokinetic-study
   insight: After 30 mg, parent drug was minimal in extensive but dominant in poor metabolizers; quinidine suppressed dextrorphan formation.
   limitation: Small groups of five extensive and four poor metabolizers; full text was not available through PMC for this draft.
-  pmid: '7593709'
+  pmid: "7593709"
   doi: 10.1097/00004714-199508000-00005
   funding: PubMed indexes U.S. Public Health Service research support.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not reported in the accessible PubMed record.
   conflictOfInterestStatus: not-assessed
 - id: ramsay2008
-  title: 'Assessment of antitussive efficacy of dextromethorphan in smoking related cough: objective vs. subjective measures.'
+  title: "Assessment of antitussive efficacy of dextromethorphan in smoking related cough: objective vs. subjective measures."
   authors: James Ramsay; Caroline Wright; Rachel Thompson; David Hull; Alyn H Morice
   year: 2008
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2432485/
   kind: randomized-crossover-trial
   insight: 22 mg reduced citric-acid cough-reflex sensitivity versus placebo, while subjective cough outcomes did not separate from placebo.
   limitation: Smoking-related cough model; physiologic cough challenge and clinically experienced cough diverged, limiting endpoint generalization.
-  pmid: '18279476'
+  pmid: "18279476"
   doi: 10.1111/j.1365-2125.2008.03115.x
   funding: Funding was not reported in the accessible PubMed metadata used for this draft.
   sponsorshipStatus: not-reported
@@ -559,7 +675,7 @@ Direct evidence includes small human CYP2D6 pharmacokinetic experiments, a rando
   kind: controlled-human-laboratory-study
   insight: Single doses of 100–800 mg/70 kg produced dose-related perceptual, subjective and physiological effects in 12 volunteers.
   limitation: Small selected sample with prior hallucinogen experience; supratherapeutic exposures cannot be generalized to labeled cough dosing.
-  pmid: '22526529'
+  pmid: "22526529"
   doi: 10.1007/s00213-012-2680-6
   funding: PubMed indexes NIH extramural research support.
   sponsorshipStatus: non-industry-funded
@@ -574,7 +690,7 @@ Direct evidence includes small human CYP2D6 pharmacokinetic experiments, a rando
   kind: case-series
   insight: Two serotonin-syndrome cases had supratherapeutic measured dextromethorphan with therapeutic SSRI concentrations.
   limitation: Only two cases; one included high chlorpheniramine exposure, and case reports cannot estimate incidence or a threshold.
-  pmid: '19238739'
+  pmid: "19238739"
   doi: 10.1080/15563650701668625
   funding: Not reported in the accessible PubMed record.
   sponsorshipStatus: not-assessed
@@ -588,7 +704,7 @@ Direct evidence includes small human CYP2D6 pharmacokinetic experiments, a rando
   kind: case-report
   insight: Documents long-term escalation to 1,800 mg/day, dependence and autonomic withdrawal during inpatient detoxification.
   limitation: Single severe case; does not provide prevalence or risk at therapeutic doses.
-  pmid: '20737060'
+  pmid: "20737060"
   doi: 10.3238/arztebl.2010.0537
   funding: No funding category is listed in the accessible PubMed metadata.
   sponsorshipStatus: not-reported
@@ -596,14 +712,14 @@ Direct evidence includes small human CYP2D6 pharmacokinetic experiments, a rando
   conflictOfInterestStatus: not-assessed
   disclosureUrl: https://pmc.ncbi.nlm.nih.gov/articles/PMC2925345/
 - id: einarson2001
-  title: 'The safety of dextromethorphan in pregnancy : results of a controlled study.'
+  title: "The safety of dextromethorphan in pregnancy : results of a controlled study."
   authors: A Einarson; D Lyszkiewicz; G Koren
   year: 2001
   url: https://pubmed.ncbi.nlm.nih.gov/11171724/
   kind: controlled-observational-pregnancy-study
   insight: Among 184 exposed pregnancies, the study did not find a higher overall major-malformation rate than matched controls.
   limitation: Observational counseling-program cohort with modest sample size; insufficient for uncommon defect patterns or definitive no-risk conclusions.
-  pmid: '11171724'
+  pmid: "11171724"
   doi: 10.1378/chest.119.2.466
   funding: PubMed indexes Research Support, Non-U.S. Gov't.
   sponsorshipStatus: not-assessed
@@ -617,7 +733,7 @@ Direct evidence includes small human CYP2D6 pharmacokinetic experiments, a rando
   kind: prospective-randomized-pharmacokinetic-study
   insight: Forty-seven completers showed higher dextromethorphan metabolic ratios during pregnancy than postpartum; vitamin A had no effect.
   limitation: Included CYP2D6 activity scores 1–2 and used short-window metabolic ratios rather than full dextromethorphan half-life.
-  pmid: '36309846'
+  pmid: "36309846"
   doi: 10.1002/jcph.2169
   funding: PubMed indexes NIH extramural and non-U.S. government research support.
   sponsorshipStatus: non-industry-funded
@@ -625,14 +741,14 @@ Direct evidence includes small human CYP2D6 pharmacokinetic experiments, a rando
   conflictOfInterestStatus: not-assessed
   disclosureUrl: https://pmc.ncbi.nlm.nih.gov/articles/PMC9931631/
 - id: ferguson2023
-  title: 'Dextromethorphan as a novel nonopioid adjunctive agent for pain control with medication abortion: A randomized controlled trial.'
+  title: "Dextromethorphan as a novel nonopioid adjunctive agent for pain control with medication abortion: A randomized controlled trial."
   authors: Grace P Ferguson; Sharon L Achilles; Leslie A Meyn; Colleen M Krajewski; Catherine A Chappell; Kavita Vinekar; Beatrice A Chen
   year: 2023
   url: https://pubmed.ncbi.nlm.nih.gov/36332661/
   kind: randomized-controlled-trial
   insight: In 156 randomized participants, adjunctive dextromethorphan did not reduce worst pain or analgesic use; satisfaction was lower than placebo.
   limitation: Condition- and regimen-specific; nearly one quarter used no analgesia, and adherence to counseled analgesics varied.
-  pmid: '36332661'
+  pmid: "36332661"
   doi: 10.1016/j.contraception.2022.10.010
   funding: PubMed indexes Research Support, Non-U.S. Gov't.
   sponsorshipStatus: not-assessed
@@ -646,7 +762,7 @@ Direct evidence includes small human CYP2D6 pharmacokinetic experiments, a rando
   kind: preclinical-mechanistic-study
   insight: Both parent drug and dextrorphan blocked NMDA-linked electrophysiologic responses in guinea-pig neocortical slices.
   limitation: In-vitro animal tissue at micromolar concentrations; does not establish human target occupancy or clinical benefit.
-  pmid: '2897648'
+  pmid: "2897648"
   doi: 10.1016/0304-3940(88)90362-x
   funding: PubMed indexes U.S. Public Health Service and non-U.S. government research support.
   sponsorshipStatus: not-assessed
@@ -660,12 +776,20 @@ Direct evidence includes small human CYP2D6 pharmacokinetic experiments, a rando
   kind: preclinical-receptor-binding-study
   insight: Direct comparative binding measured sigma-1 affinity and lower dextromethorphan than dextrorphan affinity at PCP/NMDA-channel sites.
   limitation: Preclinical comparative binding and mouse behavior; cannot assign a human therapeutic mechanism.
-  pmid: '10064839'
+  pmid: "10064839"
   doi: 10.1016/S0006-8993(99)01125-7
   funding: PubMed indexes Research Support, Non-U.S. Gov't.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not reported in the accessible PubMed record.
   conflictOfInterestStatus: not-assessed
+- id: psychonautwiki
+  title: "Dextromethorphan: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/Dextromethorphan
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal

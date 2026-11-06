@@ -95,6 +95,81 @@ The severity result belongs to a supervised therapy protocol. The milligram expo
   sourceCategory: research
   note: Supervised trial exposure. The abstract does not state a milligram amount.
   sourceId: mitchell2021
+- label: Threshold dose
+  amount: 20 mg
+  quantity: 20
+  quantityMax: null
+  unit: mg
+  ingredient: MDMA
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 20–80 mg
+  quantity: 20
+  quantityMax: 80
+  unit: mg
+  ingredient: MDMA
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 80–120 mg
+  quantity: 80
+  quantityMax: 120
+  unit: mg
+  ingredient: MDMA
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 120–150 mg
+  quantity: 120
+  quantityMax: 150
+  unit: mg
+  ingredient: MDMA
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (150 mg and above)
+  amount: 150 mg and above
+  quantity: 150
+  quantityMax: null
+  unit: mg
+  ingredient: MDMA
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -114,6 +189,47 @@ The severity result belongs to a supervised therapy protocol. The milligram expo
   context: No elimination half-life was reported in the inspected abstract.
   sourceId: mitchell2021
   modelEligible: false
+```
+
+## Duration
+
+```yaml
+- id: psychonautwiki-oral
+  measurement: subjective
+  route: Oral
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 3
+    max: 6
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 30
+      max: 45
+      unit: minutes
+    - name: comeup
+      basis: phase-duration
+      min: 15
+      max: 30
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 1.5
+      max: 2.5
+      unit: hours
+    - name: offset
+      basis: phase-duration
+      min: 1
+      max: 1.5
+      unit: hours
+    - name: after-effects
+      basis: phase-duration
+      min: 12
+      max: 48
+      unit: hours
 ```
 
 ## Modifiers
@@ -196,17 +312,17 @@ The severity result belongs to a supervised therapy protocol. The milligram expo
 
 ```yaml
 - id: mitchell2021
-  title: 'MDMA-assisted therapy for severe PTSD: a randomized, double-blind, placebo-controlled phase 3 study'
+  title: "MDMA-assisted therapy for severe PTSD: a randomized, double-blind, placebo-controlled phase 3 study"
   authors: Mitchell et al.
   year: 2021
-  pmid: '33972795'
+  pmid: "33972795"
   url: https://pubmed.ncbi.nlm.nih.gov/33972795/
   kind: Randomized double-blind placebo-controlled trial
   insight: Reports the CAPS-5 primary result and the Sheehan Disability Scale secondary result in severe PTSD.
   limitation: The inspected abstract omits the milligram dose. Sponsor employment, medication washout, and supervised therapy limit generalization. A later moderate-to-severe trial was not re-extracted.
   funding: The inspected abstract discloses sponsor employment. Full funding details were not re-extracted.
 - id: pubchem
-  title: 'MDMA: compound identity and structure'
+  title: "MDMA: compound identity and structure"
   authors: NCBI PubChem
   year: 2026
   url: https://pubchem.ncbi.nlm.nih.gov/compound/1615
@@ -214,6 +330,14 @@ The severity result belongs to a supervised therapy protocol. The milligram expo
   insight: Source of the displayed formula, molecular weight, structure, and connectivity SMILES.
   limitation: Connectivity SMILES do not encode every stereochemical distinction. The parent record is distinct from salts, formulations, and commercial product quality.
   funding: US National Library of Medicine.
+- id: psychonautwiki
+  title: "MDMA: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/MDMA
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal

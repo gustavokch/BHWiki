@@ -211,6 +211,156 @@ Human receptor evidence should be described conservatively. The reviewed literat
   sourceCategory: research
   note: Two participants requested discontinuation after the loading dose because of anxiety and intense effects.
   sourceId: vanderheijden2026-smoking
+- label: Threshold dose
+  amount: 4 mg
+  quantity: 4
+  quantityMax: null
+  unit: mg
+  ingredient: DMT
+  formulation: Not established
+  route: Intravenous
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 4–10 mg
+  quantity: 4
+  quantityMax: 10
+  unit: mg
+  ingredient: DMT
+  formulation: Not established
+  route: Intravenous
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 10–15 mg
+  quantity: 10
+  quantityMax: 15
+  unit: mg
+  ingredient: DMT
+  formulation: Not established
+  route: Intravenous
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 15–20 mg
+  quantity: 15
+  quantityMax: 20
+  unit: mg
+  ingredient: DMT
+  formulation: Not established
+  route: Intravenous
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (20 mg and above)
+  amount: 20 mg and above
+  quantity: 20
+  quantityMax: null
+  unit: mg
+  ingredient: DMT
+  formulation: Not established
+  route: Intravenous
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Threshold dose
+  amount: 2 mg
+  quantity: 2
+  quantityMax: null
+  unit: mg
+  ingredient: DMT
+  formulation: Not established
+  route: Smoked
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 10–20 mg
+  quantity: 10
+  quantityMax: 20
+  unit: mg
+  ingredient: DMT
+  formulation: Not established
+  route: Smoked
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 20–40 mg
+  quantity: 20
+  quantityMax: 40
+  unit: mg
+  ingredient: DMT
+  formulation: Not established
+  route: Smoked
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 40–60 mg
+  quantity: 40
+  quantityMax: 60
+  unit: mg
+  ingredient: DMT
+  formulation: Not established
+  route: Smoked
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (60 mg and above)
+  amount: 60 mg and above
+  quantity: 60
+  quantityMax: null
+  unit: mg
+  ingredient: DMT
+  formulation: Not established
+  route: Smoked
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -408,6 +558,73 @@ Human receptor evidence should be described conservatively. The reviewed literat
       basis: phase-duration
       min: 0
       max: 20
+      unit: minutes
+- id: psychonautwiki-intravenous
+  measurement: subjective
+  route: Intravenous
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 15
+    max: 30
+    unit: minutes
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 2
+      max: 10
+      unit: seconds
+    - name: comeup
+      basis: phase-duration
+      min: 70
+      max: 100
+      unit: seconds
+    - name: peak
+      basis: phase-duration
+      min: 2
+      max: 5
+      unit: minutes
+    - name: offset
+      basis: phase-duration
+      min: 10
+      max: 20
+      unit: minutes
+- id: psychonautwiki-smoked
+  measurement: subjective
+  route: Smoked
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 5
+    max: 20
+    unit: minutes
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 20
+      max: 40
+      unit: seconds
+    - name: comeup
+      basis: phase-duration
+      min: 1
+      max: 3
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 2
+      max: 8
+      unit: minutes
+    - name: offset
+      basis: phase-duration
+      min: 1
+      max: 6
+      unit: minutes
+    - name: after-effects
+      basis: phase-duration
+      min: 10
+      max: 60
       unit: minutes
 ```
 
@@ -855,7 +1072,7 @@ Human receptor evidence should be described conservatively. The reviewed literat
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed from an inspected full-text conflict disclosure.
   conflictOfInterestStatus: not-assessed
-  pmid: '8297216'
+  pmid: "8297216"
   doi: 10.1001/archpsyc.1994.03950020009001
 - id: strassman1994-subjective
   title: Dose-response study of N,N-dimethyltryptamine in humans. II. Subjective effects and preliminary results of a new rating scale
@@ -869,7 +1086,7 @@ Human receptor evidence should be described conservatively. The reviewed literat
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed from an inspected full-text conflict disclosure.
   conflictOfInterestStatus: not-assessed
-  pmid: '8297217'
+  pmid: "8297217"
   doi: 10.1001/archpsyc.1994.03950020022002
 - id: good2023-pk
   title: Pharmacokinetics of N,N-dimethyltryptamine in Humans
@@ -884,10 +1101,10 @@ Human receptor evidence should be described conservatively. The reviewed literat
   conflictsOfInterest: The inspected article disclosure reported conflicts involving multiple authors and Small Pharma, including company employment or related financial relationships; no inference of independence was made.
   conflictOfInterestStatus: declared
   disclosureUrl: https://pmc.ncbi.nlm.nih.gov/articles/PMC10122081/
-  pmid: '37086340'
+  pmid: "37086340"
   doi: 10.1007/s13318-023-00822-y
 - id: james2024-phase1
-  title: 'Safety, tolerability, pharmacodynamic and wellbeing effects of SPL026 (dimethyltryptamine fumarate) in healthy participants: a randomized, placebo-controlled phase 1 trial'
+  title: "Safety, tolerability, pharmacodynamic and wellbeing effects of SPL026 (dimethyltryptamine fumarate) in healthy participants: a randomized, placebo-controlled phase 1 trial"
   authors: Ellen James; David Erritzoe; Tiffanie Benway; Zelah Joel; Christopher Timmermann; Meghan Good; Claudio Agnorelli; Brandon M. Weiss; Tommaso Barba; Graham Campbell; Michelle Baker Jones; Charlotte Hughes; Helen Topping; Malcolm Boyce; Carol Routledge
   year: 2024
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10810248/
@@ -899,10 +1116,10 @@ Human receptor evidence should be described conservatively. The reviewed literat
   conflictsOfInterest: EJ, TBe, ZJ, MG, and CR were or had been Small Pharma employees; DE, CT, CA, BW, and TBa received a Small Pharma research grant for the trial; GC, MJ, CH, HT, and MB were employees or contractors of Hammersmith Medicines Research, which Small Pharma contracted to conduct the trial.
   conflictOfInterestStatus: declared
   disclosureUrl: https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2023.1305796/full
-  pmid: '38274414'
+  pmid: "38274414"
   doi: 10.3389/fpsyt.2023.1305796
 - id: erritzoe2026-mdd
-  title: 'A short-acting psychedelic intervention for major depressive disorder: a phase IIa randomized placebo-controlled trial'
+  title: "A short-acting psychedelic intervention for major depressive disorder: a phase IIa randomized placebo-controlled trial"
   authors: David Erritzoe; Tommaso Barba; Tiffanie Benway; Zelah Joel; Meghan Good; Marie Layzell; Michelle Baker Jones; Graham Campbell; Ashleigh Murphy-Beiner; Peter Rands; Malcolm Boyce; Helen Topping; Brandon Weiss; Christopher Timmermann; David Nutt; Robin Carhart-Harris; Carol Routledge; Ellen James
   year: 2026
   url: https://www.nature.com/articles/s41591-025-04154-z
@@ -914,10 +1131,10 @@ Human receptor evidence should be described conservatively. The reviewed literat
   conflictsOfInterest: The inspected disclosure reports multiple commercial relationships. Small Pharma employment/shareholding or later Cybin employment/options were declared by several authors; other authors reported advisory roles with psychedelic-development companies. The article states that the remaining authors declared no competing interests.
   conflictOfInterestStatus: declared
   disclosureUrl: https://www.nature.com/articles/s41591-025-04154-z
-  pmid: '41699126'
+  pmid: "41699126"
   doi: 10.1038/s41591-025-04154-z
 - id: vanderheijden2025-sixhour
-  title: 'Safety, Pharmacokinetics, and Pharmacodynamics of a 6-h N,N-Dimethyltryptamine (DMT) Infusion in Healthy Volunteers: A Randomized, Double-Blind, Placebo-Controlled Trial'
+  title: "Safety, Pharmacokinetics, and Pharmacodynamics of a 6-h N,N-Dimethyltryptamine (DMT) Infusion in Healthy Volunteers: A Randomized, Double-Blind, Placebo-Controlled Trial"
   authors: Katelijne V. van der Heijden; Rob G. J. A. Zuiker; Marije E. Otto; Christopher S. Bryan; Nancy Stewart; Christopher Stillwell; Marieke L. De Kam; Marloes B. van Leuken; Joop M. A. van Gerven; Gabriel E. Jacobs
   year: 2025
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12070030/
@@ -929,7 +1146,7 @@ Human receptor evidence should be described conservatively. The reviewed literat
   conflictsOfInterest: Christopher S. Bryan and Christopher Stillwell were employees of Algernon Pharmaceuticals; the other authors declared no competing interests for the work.
   conflictOfInterestStatus: declared
   disclosureUrl: https://pmc.ncbi.nlm.nih.gov/articles/PMC12070030/
-  pmid: '40356576'
+  pmid: "40356576"
   doi: 10.1111/cts.70234
 - id: erne2025-continuous
   title: Acute dose-dependent effects and self-guided titration of continuous N,N-dimethyltryptamine infusions in a double-blind placebo-controlled study in healthy participants
@@ -944,10 +1161,10 @@ Human receptor evidence should be described conservatively. The reviewed literat
   conflictsOfInterest: Matthias E. Liechti declared consultancy for Mind Medicine, Inc.; other authors declared no conflicts. University Hospital Basel know-how and data associated with the work were licensed to Mind Medicine, which the disclosure states had no role in financing, planning, conducting, or publishing the study.
   conflictOfInterestStatus: declared
   disclosureUrl: https://www.nature.com/articles/s41386-024-02041-8
-  pmid: '39702577'
+  pmid: "39702577"
   doi: 10.1038/s41386-024-02041-8
 - id: erne2026-bolus
-  title: 'Dose-dependent pharmacokinetics and acute effects of intravenous bolus N,N-dimethyltryptamine: double-blind, randomized versus open-label dose-escalation administration study in healthy participants'
+  title: "Dose-dependent pharmacokinetics and acute effects of intravenous bolus N,N-dimethyltryptamine: double-blind, randomized versus open-label dose-escalation administration study in healthy participants"
   authors: Livio Erne; Lorenz Mueller; Isabelle Straumann; Bislim Ademaj; Anne Eckert; Ina Vukalovic; Jan Valenta; Dino Luethi; Matthias E. Liechti; Severin B. Vogt
   year: 2026
   url: https://www.nature.com/articles/s41398-026-03987-7
@@ -959,7 +1176,7 @@ Human receptor evidence should be described conservatively. The reviewed literat
   conflictsOfInterest: Matthias E. Liechti declared consultancy for Mind Medicine, Inc. and Lykos Therapeutics; the other authors declared no conflicts of interest.
   conflictOfInterestStatus: declared
   disclosureUrl: https://www.nature.com/articles/s41398-026-03987-7
-  pmid: '41896202'
+  pmid: "41896202"
   doi: 10.1038/s41398-026-03987-7
 - id: vanderheijden2026-smoking
   title: Pharmacokinetics, pharmacodynamics and safety of N,N-dimethyltryptamine administered intravenously in healthy smoking and non-smoking volunteers
@@ -973,7 +1190,7 @@ Human receptor evidence should be described conservatively. The reviewed literat
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed from an inspected full-text conflict declaration.
   conflictOfInterestStatus: not-assessed
-  pmid: '42671902'
+  pmid: "42671902"
   doi: 10.1177/02698811261473451
 - id: zahid2026-pindolol
   title: 5-HT1A receptor blockade potentiates the subjective effects of DMT
@@ -987,7 +1204,7 @@ Human receptor evidence should be described conservatively. The reviewed literat
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed from an inspected full-text conflict declaration.
   conflictOfInterestStatus: not-assessed
-  pmid: '42068196'
+  pmid: "42068196"
   doi: 10.1177/02698811261443696
 - id: luppi2023-pet-atlas
   title: In vivo mapping of pharmacologically induced functional reorganization onto the human brain's neurotransmitter landscape
@@ -1001,7 +1218,7 @@ Human receptor evidence should be described conservatively. The reviewed literat
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed from an inspected full-text conflict disclosure for this review.
   conflictOfInterestStatus: not-assessed
-  pmid: '37315149'
+  pmid: "37315149"
   doi: 10.1126/sciadv.adf8332
 - id: piccinini2025-dynamics
   title: Transient destabilization of whole brain dynamics induced by N,N-Dimethyltryptamine (DMT)
@@ -1015,7 +1232,7 @@ Human receptor evidence should be described conservatively. The reviewed literat
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed from an inspected full-text conflict disclosure for this review.
   conflictOfInterestStatus: not-assessed
-  pmid: '40069397'
+  pmid: "40069397"
   doi: 10.1038/s42003-025-07576-0
 - id: nct04673383
   title: SPL026 (DMT Fumarate) in Healthy Subjects and MDD Patients
@@ -1091,6 +1308,14 @@ Human receptor evidence should be described conservatively. The reviewed literat
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not applicable to an official legal source.
   conflictOfInterestStatus: not-assessed
+- id: psychonautwiki
+  title: "DMT: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/DMT
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal

@@ -70,11 +70,13 @@ Lisdexamfetamine is recorded here as C15H25N3O, PubChem CID 11597698. It is inde
 Placebo-controlled randomized trials demonstrate clinically meaningful reductions in ADHD symptom ratings and binge-eating frequency in diagnosed populations. Evidence does not establish that these benefits generalize to healthy people or translate into superior real-world intellectual performance. Important risks include insomnia, appetite and weight reduction, elevated heart rate and blood pressure, psychiatric adverse reactions, and misuse, addiction, overdose and dependence.
 
 The prodrug formulation changes absorption and active-drug exposure kinetics but does not eliminate amphetamine-associated risks. [sourceId: fda2025, adler2008, mcelroy2016]
+
 ## Description
 
 Lisdexamfetamine is an identity record for PubChem CID 11597698 (C15H25N3O). The structure and molecular weight come from that compound record. Salts, stereoisomers, preparations, and commercial products can differ. It is indexed under Stimulant, Phenethylamine. Effects, doses, pharmacokinetics, interactions, and legal status have not been assessed for this draft.
 
 Vyvanse is available as oral capsules and chewable tablets. The pharmacological activity is predominantly attributable to the released dextroamphetamine, which enhances catecholaminergic neurotransmission. The conversion step contributes to a comparatively gradual active-drug concentration profile after oral administration; this does not confer immunity from misuse or make the drug nonaddictive. [sourceId: fda2025]
+
 ## Evidence note
 
 Only chemical identity is curated. Effects, doses, pharmacokinetics, interactions, and legal status have not been assessed.
@@ -84,6 +86,7 @@ The strongest direct evidence consists of short-term, randomized, double-blind, 
 The ADHD and BED trials frequently excluded participants with unstable medical or significant psychiatric comorbidity, limiting external validity. Several pivotal trials were sponsored by Shire, with sponsor employees among the authors. Open-label extensions, post hoc analyses and responder-enriched randomized-withdrawal studies are distinguished from independent, unselected placebo-controlled trials.
 
 No demonstrated benefit in diagnosed ADHD or BED is treated as evidence of efficacy in healthy individuals. [sourceId: adler2008, adler2013, mcelroy2015, mcelroy2016, hudson2017]
+
 ## Doses
 
 ```yaml
@@ -100,7 +103,7 @@ No demonstrated benefit in diagnosed ADHD or BED is treated as evidence of effic
   population: ADHD, age 6 years and older
   purpose: Research exposure; not a dosing recommendation.
   sourceCategory: research
-  note: 'Source-specific evidence is preserved in the cited source.'
+  note: Source-specific evidence is preserved in the cited source.
   sourceId: dr-lisdexamfetamine-s1
 - label: lisdexamfetamine research exposure 2
   amount: Not established
@@ -115,7 +118,7 @@ No demonstrated benefit in diagnosed ADHD or BED is treated as evidence of effic
   population: Moderate-to-severe BED, adults
   purpose: Research exposure; not a dosing recommendation.
   sourceCategory: research
-  note: 'Source-specific evidence is preserved in the cited source.'
+  note: Source-specific evidence is preserved in the cited source.
   sourceId: dr-lisdexamfetamine-s1
 - label: lisdexamfetamine research exposure 3
   amount: Not established
@@ -130,7 +133,7 @@ No demonstrated benefit in diagnosed ADHD or BED is treated as evidence of effic
   population: Severe renal impairment, GFR 15 to <30 mL/min/1.73 m²
   purpose: Research exposure; not a dosing recommendation.
   sourceCategory: research
-  note: 'Source-specific evidence is preserved in the cited source.'
+  note: Source-specific evidence is preserved in the cited source.
   sourceId: dr-lisdexamfetamine-s1
 - label: lisdexamfetamine research exposure 4
   amount: Not established
@@ -145,7 +148,7 @@ No demonstrated benefit in diagnosed ADHD or BED is treated as evidence of effic
   population: End-stage renal disease, GFR <15 mL/min/1.73 m²
   purpose: Research exposure; not a dosing recommendation.
   sourceCategory: research
-  note: 'Source-specific evidence is preserved in the cited source.'
+  note: Source-specific evidence is preserved in the cited source.
   sourceId: dr-lisdexamfetamine-s1
 - label: lisdexamfetamine research exposure 5
   amount: Not established
@@ -160,8 +163,83 @@ No demonstrated benefit in diagnosed ADHD or BED is treated as evidence of effic
   population: Healthy individuals seeking cognitive enhancement
   purpose: Research exposure; not a dosing recommendation.
   sourceCategory: research
-  note: 'Source-specific evidence is preserved in the cited source.'
+  note: Source-specific evidence is preserved in the cited source.
   sourceId: dr-lisdexamfetamine-s1
+- label: Threshold dose
+  amount: 10 mg
+  quantity: 10
+  quantityMax: null
+  unit: mg
+  ingredient: Lisdexamfetamine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 20–30 mg
+  quantity: 20
+  quantityMax: 30
+  unit: mg
+  ingredient: Lisdexamfetamine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 30–60 mg
+  quantity: 30
+  quantityMax: 60
+  unit: mg
+  ingredient: Lisdexamfetamine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 60–90 mg
+  quantity: 60
+  quantityMax: 90
+  unit: mg
+  ingredient: Lisdexamfetamine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (90 mg and above)
+  amount: 90 mg and above
+  quantity: 90
+  quantityMax: null
+  unit: mg
+  ingredient: Lisdexamfetamine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -192,7 +270,7 @@ No demonstrated benefit in diagnosed ADHD or BED is treated as evidence of effic
   low: null
   high: null
   unit: hours
-  context: 'Source-specific evidence is preserved in the cited source.'
+  context: Source-specific evidence is preserved in the cited source.
   sourceId: dr-lisdexamfetamine-s1
   modelEligible: false
 - id: dr-lisdexamfetamine-lisdexamfetamine-pk-2
@@ -206,7 +284,7 @@ No demonstrated benefit in diagnosed ADHD or BED is treated as evidence of effic
   low: null
   high: null
   unit: hours
-  context: 'Source-specific evidence is preserved in the cited source.'
+  context: Source-specific evidence is preserved in the cited source.
   sourceId: dr-lisdexamfetamine-s1
   modelEligible: false
 - id: dr-lisdexamfetamine-lisdexamfetamine-pk-3
@@ -220,7 +298,7 @@ No demonstrated benefit in diagnosed ADHD or BED is treated as evidence of effic
   low: null
   high: null
   unit: hours
-  context: 'Source-specific evidence is preserved in the cited source.'
+  context: Source-specific evidence is preserved in the cited source.
   sourceId: dr-lisdexamfetamine-s1
   modelEligible: false
 - id: dr-lisdexamfetamine-lisdexamfetamine-pk-4
@@ -234,7 +312,7 @@ No demonstrated benefit in diagnosed ADHD or BED is treated as evidence of effic
   low: null
   high: null
   unit: hours
-  context: 'Source-specific evidence is preserved in the cited source.'
+  context: Source-specific evidence is preserved in the cited source.
   sourceId: dr-lisdexamfetamine-s1
   modelEligible: false
 - id: dr-lisdexamfetamine-lisdexamfetamine-pk-5
@@ -248,7 +326,7 @@ No demonstrated benefit in diagnosed ADHD or BED is treated as evidence of effic
   low: null
   high: null
   unit: hours
-  context: 'Source-specific evidence is preserved in the cited source.'
+  context: Source-specific evidence is preserved in the cited source.
   sourceId: dr-lisdexamfetamine-s1
   modelEligible: false
 - id: dr-lisdexamfetamine-lisdexamfetamine-pk-6
@@ -262,7 +340,7 @@ No demonstrated benefit in diagnosed ADHD or BED is treated as evidence of effic
   low: null
   high: null
   unit: hours
-  context: 'Source-specific evidence is preserved in the cited source.'
+  context: Source-specific evidence is preserved in the cited source.
   sourceId: dr-lisdexamfetamine-s1
   modelEligible: false
 - id: dr-lisdexamfetamine-lisdexamfetamine-pk-7
@@ -276,7 +354,7 @@ No demonstrated benefit in diagnosed ADHD or BED is treated as evidence of effic
   low: null
   high: null
   unit: hours
-  context: 'Source-specific evidence is preserved in the cited source.'
+  context: Source-specific evidence is preserved in the cited source.
   sourceId: dr-lisdexamfetamine-s1
   modelEligible: false
 - id: dr-lisdexamfetamine-lisdexamfetamine-pk-8
@@ -290,9 +368,50 @@ No demonstrated benefit in diagnosed ADHD or BED is treated as evidence of effic
   low: null
   high: null
   unit: hours
-  context: 'Source-specific evidence is preserved in the cited source.'
+  context: Source-specific evidence is preserved in the cited source.
   sourceId: dr-lisdexamfetamine-s1
   modelEligible: false
+```
+
+## Duration
+
+```yaml
+- id: psychonautwiki-oral
+  measurement: subjective
+  route: Oral
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 10
+    max: 14
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 60
+      max: 90
+      unit: minutes
+    - name: comeup
+      basis: phase-duration
+      min: 30
+      max: 60
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 3
+      max: 5
+      unit: hours
+    - name: offset
+      basis: phase-duration
+      min: 4
+      max: 6
+      unit: hours
+    - name: after-effects
+      basis: phase-duration
+      min: 2
+      max: 6
+      unit: hours
 ```
 
 ## Modifiers
@@ -654,34 +773,34 @@ No demonstrated benefit in diagnosed ADHD or BED is treated as evidence of effic
 
 ```yaml
 - title: Research caution
-  description: 'Source-specific evidence is preserved in the cited source.'
+  description: Source-specific evidence is preserved in the cited source.
   sourceId: dr-lisdexamfetamine-s1
 - title: Research caution
-  description: 'Source-specific evidence is preserved in the cited source.'
+  description: Source-specific evidence is preserved in the cited source.
   sourceId: dr-lisdexamfetamine-s1
 - title: Research caution
-  description: 'Source-specific evidence is preserved in the cited source.'
+  description: Source-specific evidence is preserved in the cited source.
   sourceId: dr-lisdexamfetamine-s1
 - title: Research caution
-  description: 'Source-specific evidence is preserved in the cited source.'
+  description: Source-specific evidence is preserved in the cited source.
   sourceId: dr-lisdexamfetamine-s1
 - title: Research caution
-  description: 'Source-specific evidence is preserved in the cited source.'
+  description: Source-specific evidence is preserved in the cited source.
   sourceId: dr-lisdexamfetamine-s1
 - title: Research caution
-  description: 'Source-specific evidence is preserved in the cited source.'
+  description: Source-specific evidence is preserved in the cited source.
   sourceId: dr-lisdexamfetamine-s1
 - title: Research caution
-  description: 'Source-specific evidence is preserved in the cited source.'
+  description: Source-specific evidence is preserved in the cited source.
   sourceId: dr-lisdexamfetamine-s1
 - title: Research caution
-  description: 'Source-specific evidence is preserved in the cited source.'
+  description: Source-specific evidence is preserved in the cited source.
   sourceId: dr-lisdexamfetamine-s1
 - title: Research caution
-  description: 'Source-specific evidence is preserved in the cited source.'
+  description: Source-specific evidence is preserved in the cited source.
   sourceId: dr-lisdexamfetamine-s1
 - title: Research caution
-  description: 'Source-specific evidence is preserved in the cited source.'
+  description: Source-specific evidence is preserved in the cited source.
   sourceId: dr-lisdexamfetamine-s1
 ```
 
@@ -709,7 +828,7 @@ No demonstrated benefit in diagnosed ADHD or BED is treated as evidence of effic
 
 ```yaml
 - id: pubchem
-  title: 'Lisdexamfetamine: compound identity and structure'
+  title: "Lisdexamfetamine: compound identity and structure"
   authors: NCBI PubChem
   year: 2026
   url: https://pubchem.ncbi.nlm.nih.gov/compound/11597698
@@ -729,6 +848,14 @@ No demonstrated benefit in diagnosed ADHD or BED is treated as evidence of effic
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed.
   conflictOfInterestStatus: not-assessed
+- id: psychonautwiki
+  title: "Lisdexamfetamine: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/Lisdexamfetamine
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal
@@ -736,3 +863,4 @@ No demonstrated benefit in diagnosed ADHD or BED is treated as evidence of effic
 ```yaml
 []
 ```
+

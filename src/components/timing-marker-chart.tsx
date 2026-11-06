@@ -3,12 +3,9 @@
 import type { ChartConfiguration } from "chart.js";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { TimingMarker } from "@/lib/types";
+import { toMinutes } from "@/lib/duration";
 import { loadChartJs } from "./chartjs-runtime";
 import { markerTone, timingToneColors, timingToneLabels, type TimingTone } from "./timing-chart-colors";
-
-function toMinutes(marker: TimingMarker) {
-  return marker.at * (marker.unit === "hours" ? 60 : 1);
-}
 
 function formatElapsed(minutes: number) {
   if (minutes >= 60) {
@@ -26,7 +23,7 @@ function formatAxisTick(minutes: number, maximum: number) {
 export function TimingMarkerChart({ markers }: { markers: TimingMarker[] }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [isVisible, setIsVisible] = useState(false);
-  const points = useMemo(() => markers.map((marker) => ({ marker, minutes: toMinutes(marker) })), [markers]);
+  const points = useMemo(() => markers.map((marker) => ({ marker, minutes: toMinutes(marker.at, marker.unit) })), [markers]);
   const maximum = Math.max(1, ...points.map((point) => point.minutes));
   const axisMaximum = maximum + Math.max(1, maximum * 0.04);
   const labels = useMemo(() => points.map((point) => {

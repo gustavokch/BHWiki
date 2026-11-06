@@ -3,20 +3,20 @@ slug: nicotine
 name: Nicotine
 subtitle: Cholinergic signaling with dependence risk.
 aliases:
-- (S)-nicotine
+  - (S)-nicotine
 formula: C10H14N2
 molecularWeight: 162.23 g/mol
 pubchemCid: 89594
 smiles: CN1CCCC1C2=CN=CC=C2
 category: Stimulant
 tags:
-- stimulant
-- nicotinic-agonist
-- acetylcholine
-- cyp2a6
-- nicotinic-receptor
-- craving
-accent: '#c8a18f'
+  - stimulant
+  - nicotinic-agonist
+  - acetylcholine
+  - cyp2a6
+  - nicotinic-receptor
+  - craving
+accent: "#c8a18f"
 reviewedAt: 2026-10-22
 halfLife:
   label: Approximately 2 hours for plasma nicotine
@@ -34,37 +34,37 @@ kinetics:
   sourceId: benowitz2009
 editorialStatus: sourced-draft
 x-shape:
-- slug
-- name
-- subtitle
-- summary
-- description
-- aliases
-- formula
-- molecularWeight
-- pubchemCid
-- smiles
-- category
-- tags
-- accent
-- evidenceNote
-- reviewedAt
-- halfLife
-- kinetics
-- modifiers
-- doses
-- effects
-- mechanisms
-- cautions
-- references
-- legal
-- editorialStatus
-- pkObservations
-- outcomes
-- claims
-- interactions
-- experienceLinks
-- externalWikiLinks
+  - slug
+  - name
+  - subtitle
+  - summary
+  - description
+  - aliases
+  - formula
+  - molecularWeight
+  - pubchemCid
+  - smiles
+  - category
+  - tags
+  - accent
+  - evidenceNote
+  - reviewedAt
+  - halfLife
+  - kinetics
+  - modifiers
+  - doses
+  - effects
+  - mechanisms
+  - cautions
+  - references
+  - legal
+  - editorialStatus
+  - pkObservations
+  - outcomes
+  - claims
+  - interactions
+  - experienceLinks
+  - externalWikiLinks
 x-order: 4
 ---
 
@@ -244,7 +244,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   sourceId: reddit-pmid-25929709
 - label: PubMed study exposure (26345343)
   amount: 4.0 mg
-  quantity: 4.0
+  quantity: 4
   quantityMax: null
   unit: mg
   ingredient: Nicotine
@@ -256,6 +256,231 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   sourceCategory: research
   note: Dose extracted from the PubMed abstract; verify the full text for formulation and protocol details.
   sourceId: reddit-pmid-26345343
+- label: Threshold dose
+  amount: 0.2 mg
+  quantity: 0.2
+  quantityMax: null
+  unit: mg
+  ingredient: Nicotine
+  formulation: Not established
+  route: Buccal
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 0.5–2 mg
+  quantity: 0.5
+  quantityMax: 2
+  unit: mg
+  ingredient: Nicotine
+  formulation: Not established
+  route: Buccal
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 2–4 mg
+  quantity: 2
+  quantityMax: 4
+  unit: mg
+  ingredient: Nicotine
+  formulation: Not established
+  route: Buccal
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 4–6 mg
+  quantity: 4
+  quantityMax: 6
+  unit: mg
+  ingredient: Nicotine
+  formulation: Not established
+  route: Buccal
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (6 mg and above)
+  amount: 6 mg and above
+  quantity: 6
+  quantityMax: null
+  unit: mg
+  ingredient: Nicotine
+  formulation: Not established
+  route: Buccal
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Threshold dose
+  amount: 0.2 mg
+  quantity: 0.2
+  quantityMax: null
+  unit: mg
+  ingredient: Nicotine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 1–3 mg
+  quantity: 1
+  quantityMax: 3
+  unit: mg
+  ingredient: Nicotine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 3–5 mg
+  quantity: 3
+  quantityMax: 5
+  unit: mg
+  ingredient: Nicotine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 5–7 mg
+  quantity: 5
+  quantityMax: 7
+  unit: mg
+  ingredient: Nicotine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (7 mg and above)
+  amount: 7 mg and above
+  quantity: 7
+  quantityMax: null
+  unit: mg
+  ingredient: Nicotine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Threshold dose
+  amount: 0.2 mg
+  quantity: 0.2
+  quantityMax: null
+  unit: mg
+  ingredient: Nicotine
+  formulation: Not established
+  route: Smoked
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 0.3–0.8 mg
+  quantity: 0.3
+  quantityMax: 0.8
+  unit: mg
+  ingredient: Nicotine
+  formulation: Not established
+  route: Smoked
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 0.8–1.5 mg
+  quantity: 0.8
+  quantityMax: 1.5
+  unit: mg
+  ingredient: Nicotine
+  formulation: Not established
+  route: Smoked
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 1.5–3.5 mg
+  quantity: 1.5
+  quantityMax: 3.5
+  unit: mg
+  ingredient: Nicotine
+  formulation: Not established
+  route: Smoked
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (3.5 mg and above)
+  amount: 3.5 mg and above
+  quantity: 3.5
+  quantityMax: null
+  unit: mg
+  ingredient: Nicotine
+  formulation: Not established
+  route: Smoked
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -318,6 +543,114 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   note: Withdrawal commonly begins within 4–24 hours, is often worst during the first week with a peak around the first three days, and declines over about three to four weeks; craving and cue reactivity may persist longer.
   total: null
   phases: []
+- id: psychonautwiki-buccal
+  measurement: subjective
+  route: Buccal
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 45
+    max: 90
+    unit: minutes
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 3
+      max: 15
+      unit: minutes
+    - name: comeup
+      basis: phase-duration
+      min: 3
+      max: 15
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 5
+      max: 20
+      unit: minutes
+    - name: offset
+      basis: phase-duration
+      min: 1
+      max: 2
+      unit: hours
+    - name: after-effects
+      basis: phase-duration
+      min: 2
+      max: 6
+      unit: hours
+- id: psychonautwiki-oral
+  measurement: subjective
+  route: Oral
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 5
+    max: 7
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 20
+      max: 40
+      unit: minutes
+    - name: comeup
+      basis: phase-duration
+      min: 60
+      max: 90
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 60
+      max: 90
+      unit: minutes
+    - name: offset
+      basis: phase-duration
+      min: 2.5
+      max: 3.5
+      unit: hours
+    - name: after-effects
+      basis: phase-duration
+      min: 2
+      max: 4
+      unit: hours
+- id: psychonautwiki-smoked
+  measurement: subjective
+  route: Smoked
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 1
+    max: 3
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 5
+      max: 20
+      unit: seconds
+    - name: comeup
+      basis: phase-duration
+      min: 5
+      max: 10
+      unit: seconds
+    - name: peak
+      basis: phase-duration
+      min: 2
+      max: 5
+      unit: minutes
+    - name: offset
+      basis: phase-duration
+      min: 1
+      max: 2
+      unit: hours
+    - name: after-effects
+      basis: phase-duration
+      min: 1
+      max: 3
+      unit: hours
 ```
 
 ## Modifiers
@@ -363,7 +696,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   description: A 2021 meta-analysis of 31 patch publications in 978 healthy nonsmokers found a small attention benefit, while another systematic review found positive, mixed and null attention studies without a consistent overall effect.
   sourceId: majdi2021
   conflictingSourceIds:
-  - pasetes2020
+    - pasetes2020
   reportType: measured-assessment
   conceptId: alertness
   population: Healthy nonsmoking adults in short randomized laboratory studies
@@ -375,7 +708,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
     design: Meta-analysis of randomized clinical-trial publications
     sampleSize: 978
     populationLabels:
-    - healthy nonsmokers
+      - healthy nonsmokers
     comparator: Placebo
     route: transdermal
     formulation: nicotine patch
@@ -410,7 +743,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   description: Overnight nicotine patches in healthy nonsmokers increased sleep latency and wake after sleep onset and reduced total sleep time, sleep efficiency and REM sleep; in abstinent smokers, a 24-hour patch can instead reduce withdrawal-related sleep disruption.
   sourceId: choi2017
   conflictingSourceIds:
-  - staner2006
+    - staner2006
   conceptId: alertness
   population: Healthy nonsmoking men in one crossover study; dependent smokers in a separate cessation study
   exposure: 14 mg overnight patch or 24-hour patch during cessation
@@ -472,7 +805,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
     design: Cochrane systematic review
     sampleSize: 64640
     populationLabels:
-    - adult smokers
+      - adult smokers
     comparator: placebo or control
     route: multiple NRT routes
     formulation: patch, gum, lozenge, inhaler or nasal spray
@@ -507,7 +840,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   description: A six-month pilot trial in 74 nonsmoking adults with amnestic MCI improved several cognitive-test outcomes but not clinician-rated global impression; the two-year MIND trial top-line report found no significant cognitive or functional benefit.
   sourceId: newhouse2012
   conflictingSourceIds:
-  - andrews2026
+    - andrews2026
   conceptId: attention
   population: Older nonsmoking adults with amnestic MCI
   exposure: 15 mg/day transdermal nicotine for six months
@@ -517,9 +850,8 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   name: NRT-assisted cessation during pregnancy
   direction: Variable
   evidence: Human research
-  description: 'Pregnancy evidence is low certainty: overall NRT abstinence was higher, but the placebo-controlled subgroup crossed the null and adherence was low.
-
-    '
+  description: |
+    Pregnancy evidence is low certainty: overall NRT abstinence was higher, but the placebo-controlled subgroup crossed the null and adherence was low.
   sourceId: claire2020
   conceptId: cardiovascular
   population: Pregnant smokers in 11 trials
@@ -555,10 +887,10 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   name: Attention
   direction: Increased
   evidence: Limited research
-  description: 'RATIONALE: Several studies provide evidence that nicotine alleviates the detrimental effects of distracting sensory stimuli.'
+  description: "RATIONALE: Several studies provide evidence that nicotine alleviates the detrimental effects of distracting sensory stimuli."
   sourceId: reddit-pmid-25304866
   population: Population described in the PubMed abstract
-  exposure: 'RATIONALE: Several studies provide evidence that nicotine alleviates the detrimental effects of distracting sensory stimuli.'
+  exposure: "RATIONALE: Several studies provide evidence that nicotine alleviates the detrimental effects of distracting sensory stimuli."
   instrument: null
   magnitude: null
   reportType: measured-assessment
@@ -686,16 +1018,16 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   description: It is widely accepted that fibrosis is frequently observed in the gingiva of smokers.
   sourceId: reddit-pmid-25316032
 - title: Source-specific finding from PMID 26239821
-  description: 'OBJECTIVES: Electronic cigarettes (e-cigarettes) are generally acknowledged as a safer alternative to the use of combusted tobacco products.'
+  description: "OBJECTIVES: Electronic cigarettes (e-cigarettes) are generally acknowledged as a safer alternative to the use of combusted tobacco products."
   sourceId: reddit-pmid-26239821
 - title: Source-specific finding from PMID 25929709
-  description: 'OBJECTIVES: Nicotine is considered an etiologic factor for chronic inflammatory phenomena within the periodontal ligament that may result in loss of periodontal attachment.'
+  description: "OBJECTIVES: Nicotine is considered an etiologic factor for chronic inflammatory phenomena within the periodontal ligament that may result in loss of periodontal attachment."
   sourceId: reddit-pmid-25929709
 - title: Source-specific finding from PMID 23748423
   description: Cigarette smoking is a major risk factor for atherosclerosis and cardiovascular disease.
   sourceId: reddit-pmid-23748423
 - title: Source-specific finding from PMID 25914226
-  description: 'PURPOSE: Osteoarthritis (OA) is a degenerative joint pathology characterized by articular cartilage degradation that lacks from efficient therapy.'
+  description: "PURPOSE: Osteoarthritis (OA) is a degenerative joint pathology characterized by articular cartilage degradation that lacks from efficient therapy."
   sourceId: reddit-pmid-25914226
 - title: Source-specific finding from PMID 26633299
   description: Thiamin (vitamin B1), a member of the water-soluble family of vitamins, is essential for normal cellular functions; its deficiency results in oxidative stress and mitochondrial dysfunction.
@@ -727,7 +1059,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   description: The prevalence of electronic cigarette (e-cigarettes) use has rapidly increased worldwide.
   sourceId: reddit-pmid-31214115
 - title: Source-specific finding from PMID 26239821
-  description: 'OBJECTIVES: Electronic cigarettes (e-cigarettes) are generally acknowledged as a safer alternative to the use of combusted tobacco products.'
+  description: "OBJECTIVES: Electronic cigarettes (e-cigarettes) are generally acknowledged as a safer alternative to the use of combusted tobacco products."
   sourceId: reddit-pmid-26239821
 - title: Source-specific finding from PMID 23748423
   description: Cigarette smoking is a major risk factor for atherosclerosis and cardiovascular disease.
@@ -741,29 +1073,29 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine reliably improves attention
   relation: cognitive-enhancement
   participants:
-  - entityId: substance:nicotine
-    role: agent
-  - entityId: tag:attention
-    role: outcome
+    - entityId: substance:nicotine
+      role: agent
+    - entityId: tag:attention
+      role: outcome
   context: Acute patch meta-analysis versus heterogeneous acute randomized review.
   sourceIds:
-  - majdi2021
+    - majdi2021
   conflictingSourceIds:
-  - pasetes2020
+    - pasetes2020
   assessment: not-formally-assessed
   limitation: Small task-dependent effects do not establish general enhancement or benefit in dependent users beyond withdrawal reversal.
 - id: nicotine-antidepressant
   assertion: Nicotine is an antidepressant
   relation: mood-treatment
   participants:
-  - entityId: substance:nicotine
-    role: agent
-  - entityId: tag:anxiety
-    role: affective-outcome
+    - entityId: substance:nicotine
+      role: agent
+    - entityId: tag:anxiety
+      role: affective-outcome
   context: Small pilot studies and smoking-cessation mental-health evidence.
   sourceIds:
-  - mcclernon2006
-  - taylor2021
+    - mcclernon2006
+    - taylor2021
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Cessation improvements do not isolate chronic nicotine effects and pilot mood findings are preliminary.
@@ -771,14 +1103,14 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Medicinal NRT is safer than continued cigarette smoking
   relation: harm-reduction
   participants:
-  - entityId: substance:nicotine
-    role: active-ingredient
-  - entityId: tag:stimulant
-    role: comparator-exposure
+    - entityId: substance:nicotine
+      role: active-ingredient
+    - entityId: tag:stimulant
+      role: comparator-exposure
   context: FDA distinction between nicotine addiction and combustion toxicants.
   sourceIds:
-  - fda-nicotine
-  - fda-cessation
+    - fda-nicotine
+    - fda-cessation
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Safer than smoking does not mean risk-free or appropriate for nicotine-naive people.
@@ -786,14 +1118,14 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine extends lifespan or prevents dementia
   relation: longevity
   participants:
-  - entityId: substance:nicotine
-    role: agent
-  - entityId: tag:attention
-    role: proposed-benefit
+    - entityId: substance:nicotine
+      role: agent
+    - entityId: tag:attention
+      role: proposed-benefit
   context: No qualifying human longevity trial located.
   sourceIds:
-  - newhouse2012
-  - andrews2026
+    - newhouse2012
+    - andrews2026
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Short cognitive studies and a conference top-line report do not establish dementia prevention, biological-age slowing or lifespan extension.
@@ -801,13 +1133,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-28150023
+    - reddit-pmid-28150023
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -815,13 +1147,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported attention finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:attention
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:attention
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-25304866
+    - reddit-pmid-25304866
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -829,13 +1161,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported attention finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:attention
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:attention
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-9860103
+    - reddit-pmid-9860103
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -843,13 +1175,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-12028851
+    - reddit-pmid-12028851
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -857,13 +1189,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported attention finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:attention
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:attention
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-12028851
+    - reddit-pmid-12028851
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -871,13 +1203,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-7675966
+    - reddit-pmid-7675966
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -885,13 +1217,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-7675966
+    - reddit-pmid-7675966
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -899,13 +1231,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-22701817
+    - reddit-pmid-22701817
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -913,13 +1245,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-22701817
+    - reddit-pmid-22701817
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -927,13 +1259,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-8790020
+    - reddit-pmid-8790020
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -941,13 +1273,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-8790020
+    - reddit-pmid-8790020
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -955,13 +1287,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-25799226
+    - reddit-pmid-25799226
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -969,13 +1301,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-25799226
+    - reddit-pmid-25799226
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -983,13 +1315,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-24323338
+    - reddit-pmid-24323338
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -997,13 +1329,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-24323338
+    - reddit-pmid-24323338
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1011,13 +1343,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-22451324
+    - reddit-pmid-22451324
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1025,13 +1357,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-22451324
+    - reddit-pmid-22451324
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1039,13 +1371,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-25925411
+    - reddit-pmid-25925411
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1053,13 +1385,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-25925411
+    - reddit-pmid-25925411
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1067,13 +1399,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-23892062
+    - reddit-pmid-23892062
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1081,13 +1413,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-23892062
+    - reddit-pmid-23892062
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1095,13 +1427,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-19246447
+    - reddit-pmid-19246447
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1109,13 +1441,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-19246447
+    - reddit-pmid-19246447
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1123,13 +1455,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-22923602
+    - reddit-pmid-22923602
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1137,13 +1469,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-22923602
+    - reddit-pmid-22923602
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1151,13 +1483,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-26205096
+    - reddit-pmid-26205096
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1165,13 +1497,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-26205096
+    - reddit-pmid-26205096
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1179,13 +1511,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-24756761
+    - reddit-pmid-24756761
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1193,13 +1525,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-24756761
+    - reddit-pmid-24756761
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1207,13 +1539,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-26184482
+    - reddit-pmid-26184482
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1221,13 +1553,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-26184482
+    - reddit-pmid-26184482
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1235,13 +1567,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-25128927
+    - reddit-pmid-25128927
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1249,13 +1581,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-25128927
+    - reddit-pmid-25128927
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1263,13 +1595,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-31214115
+    - reddit-pmid-31214115
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1277,13 +1609,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-31214115
+    - reddit-pmid-31214115
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1291,13 +1623,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-31092012
+    - reddit-pmid-31092012
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1305,13 +1637,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-31092012
+    - reddit-pmid-31092012
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1319,13 +1651,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-25316032
+    - reddit-pmid-25316032
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1333,13 +1665,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-25316032
+    - reddit-pmid-25316032
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1347,13 +1679,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-26239821
+    - reddit-pmid-26239821
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1361,13 +1693,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-26239821
+    - reddit-pmid-26239821
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1375,13 +1707,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-25929709
+    - reddit-pmid-25929709
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1389,13 +1721,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-25929709
+    - reddit-pmid-25929709
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1403,13 +1735,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-23748423
+    - reddit-pmid-23748423
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1417,13 +1749,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-23748423
+    - reddit-pmid-23748423
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1431,13 +1763,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-25914226
+    - reddit-pmid-25914226
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1445,13 +1777,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-25914226
+    - reddit-pmid-25914226
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1459,13 +1791,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-26633299
+    - reddit-pmid-26633299
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1473,13 +1805,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-26633299
+    - reddit-pmid-26633299
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1487,13 +1819,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-25353061
+    - reddit-pmid-25353061
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1501,13 +1833,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-25353061
+    - reddit-pmid-25353061
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1515,13 +1847,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-24832759
+    - reddit-pmid-24832759
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1529,13 +1861,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-24832759
+    - reddit-pmid-24832759
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1543,13 +1875,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-26345343
+    - reddit-pmid-26345343
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1557,13 +1889,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-26345343
+    - reddit-pmid-26345343
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1571,13 +1903,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-23133419
+    - reddit-pmid-23133419
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1585,13 +1917,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-23133419
+    - reddit-pmid-23133419
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1599,13 +1931,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-7892431
+    - reddit-pmid-7892431
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1613,13 +1945,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-7892431
+    - reddit-pmid-7892431
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1627,13 +1959,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-25353339
+    - reddit-pmid-25353339
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1641,13 +1973,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-25353339
+    - reddit-pmid-25353339
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1655,13 +1987,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-25546366
+    - reddit-pmid-25546366
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1669,13 +2001,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-25546366
+    - reddit-pmid-25546366
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1683,13 +2015,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported alertness finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:alertness
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:alertness
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-25826680
+    - reddit-pmid-25826680
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1697,13 +2029,13 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   assertion: Nicotine is associated with the reported cognitive performance finding in this publication.
   relation: associated-with
   participants:
-  - entityId: substance:nicotine
-    role: intervention or exposure
-  - entityId: tag:cognitive-performance
-    role: reported endpoint
+    - entityId: substance:nicotine
+      role: intervention or exposure
+    - entityId: tag:cognitive-performance
+      role: reported endpoint
   context: Publication abstract; direction and population are retained on the linked observation.
   sourceIds:
-  - reddit-pmid-25826680
+    - reddit-pmid-25826680
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Automated corpus import from an abstract; this record is not an independent meta-analysis.
@@ -1741,17 +2073,6 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
 []
 ```
 
-## External wiki links
-
-```yaml
-- service: Wikipedia
-  url: https://en.wikipedia.org/wiki/Nicotine
-  title: Wikipedia
-- service: Examine
-  url: https://examine.com/supplements/Nicotine
-  title: Examine
-```
-
 ## References
 
 ```yaml
@@ -1763,7 +2084,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: Pharmacology review
   insight: Route-specific pharmacokinetics, CYP2A6, cotinine, half-life and modifiers.
   limitation: Older underlying studies use different products and protocols.
-  pmid: '19184645'
+  pmid: "19184645"
   pmcid: PMC2953858
   doi: 10.1007/978-3-540-69248-5_2
   funding: NIH support is listed in PubMed; complete disclosure was not inspected.
@@ -1778,7 +2099,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: Clinical review
   insight: Receptor signaling, reinforcement, dependence, withdrawal, cardiovascular effects and NRT context.
   limitation: Narrative review, not a trial of enhancement in nonusers.
-  pmid: '20554984'
+  pmid: "20554984"
   pmcid: PMC2928221
   doi: 10.1056/NEJMra0809890
   funding: NIH and government support are listed; complete conflict statement was not inspected.
@@ -1798,14 +2119,14 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   conflictsOfInterest: Not assessed.
   conflictOfInterestStatus: not-assessed
 - id: pasetes2020
-  title: 'Cognitive performance effects of nicotine and industry affiliation: a systematic review'
+  title: "Cognitive performance effects of nicotine and industry affiliation: a systematic review"
   authors: Pasetes SV, Ling PM, Apollonio DE
   year: 2020
   url: https://pubmed.ncbi.nlm.nih.gov/32547048/
   kind: Systematic review
   insight: 32 acute randomized studies showed positive, mixed and null attention findings without a consistent overall cognitive effect.
   limitation: Short heterogeneous studies; included literature had substantial tobacco or pharmaceutical affiliation.
-  pmid: '32547048'
+  pmid: "32547048"
   pmcid: PMC7271274
   doi: 10.1177/1178221820926545
   funding: NIH and UCSF School of Pharmacy grants; included-study funding varied.
@@ -1814,14 +2135,14 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   conflictOfInterestStatus: declared
   disclosureUrl: https://pmc.ncbi.nlm.nih.gov/articles/PMC7271274/
 - id: majdi2021
-  title: 'Effects of transdermal nicotine delivery on cognitive outcomes: A meta-analysis'
+  title: "Effects of transdermal nicotine delivery on cognitive outcomes: A meta-analysis"
   authors: Majdi A, Sadigh-Eteghad S, Gjedde A
   year: 2021
   url: https://pubmed.ncbi.nlm.nih.gov/33899218/
   kind: Meta-analysis
   insight: 31 publications and 978 healthy nonsmokers; small attention benefit and nonsignificant memory estimate.
   limitation: Patch-only, short trials and heterogeneous measures.
-  pmid: '33899218'
+  pmid: "33899218"
   doi: 10.1111/ane.13436
   funding: Tabriz University Neurosciences Research Center, Danish Alzheimer Research Foundation and Aarhus Translational Neuropsychiatry Unit.
   sponsorshipStatus: non-industry-funded
@@ -1829,14 +2150,14 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   conflictOfInterestStatus: none-declared
   disclosureUrl: https://pubmed.ncbi.nlm.nih.gov/33899218/
 - id: mcclernon2006
-  title: 'Transdermal nicotine attenuates depression symptoms in nonsmokers: a double-blind, placebo-controlled trial'
+  title: "Transdermal nicotine attenuates depression symptoms in nonsmokers: a double-blind, placebo-controlled trial"
   authors: McClernon FJ, Hiott FB, Westman EC, Rose JE, Levin ED
   year: 2006
   url: https://pubmed.ncbi.nlm.nih.gov/16977477/
   kind: Randomized trial
   insight: Very small nonsmoker study with transient CES-D change and no acute mood change.
   limitation: 11 participants and short duration.
-  pmid: '16977477'
+  pmid: "16977477"
   doi: 10.1007/s00213-006-0516-y
   funding: Not available in the inspected abstract.
   sponsorshipStatus: not-assessed
@@ -1850,7 +2171,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: Cochrane systematic review
   insight: Smoking cessation was associated with improved anxiety, depression and stress in 102 studies.
   limitation: Serious potential time-varying confounding; depression evidence very low certainty.
-  pmid: '33687070'
+  pmid: "33687070"
   pmcid: PMC8121093
   doi: 10.1002/14651858.CD013522.pub2
   funding: Cancer Research UK and NIHR support reported.
@@ -1866,7 +2187,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: Randomized crossover study
   insight: Overnight 14 mg patch disrupted sleep architecture in healthy nonsmoking men.
   limitation: Small acute male-only study.
-  pmid: '28845178'
+  pmid: "28845178"
   pmcid: PMC5561409
   doi: 10.4306/pi.2017.14.4.499
   funding: Patch supplied by Sam Yang Pharmaceutical.
@@ -1882,7 +2203,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: Crossover cessation study
   insight: A 24-hour patch reduced withdrawal-related sleep disruption in abstinent heavy smokers.
   limitation: Small dependent-smoker study; cannot isolate nicotine from withdrawal relief.
-  pmid: '16458598'
+  pmid: "16458598"
   doi: 10.1016/j.sleep.2005.09.008
   funding: Non-U.S. government support listed in PubMed.
   sponsorshipStatus: not-assessed
@@ -1896,7 +2217,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: Human physiological study
   insight: 4 mg sublingual nicotine increased heart rate, mean blood pressure and muscle sympathetic nerve activity.
   limitation: 16 healthy smokers and one dose.
-  pmid: '16651463'
+  pmid: "16651463"
   doi: 10.1161/01.HYP.0000219284.47970.34
   funding: Non-U.S. government support listed in PubMed.
   sponsorshipStatus: not-assessed
@@ -1910,7 +2231,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: Small human metabolic study
   insight: Insulin sensitivity decreased during six weeks of NRT and increased after nicotine-free follow-up.
   limitation: 11 heavy smokers; old and small study.
-  pmid: '10326169'
+  pmid: "10326169"
   pmcid: PMC6656158
   doi: 10.1002/clc.4960220512
   funding: Full disclosure was not retrievable through the inspected abstract.
@@ -1925,7 +2246,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: Cochrane systematic review
   insight: Any NRT increased long-term abstinence; product-specific relative risks were reported.
   limitation: Cessation context, heterogeneous products and variable adverse-event reporting.
-  pmid: '29852054'
+  pmid: "29852054"
   pmcid: PMC6353172
   doi: 10.1002/14651858.CD000146.pub5
   funding: Cochrane review; study-level disclosures were not fully inspected.
@@ -1940,7 +2261,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: Systematic review of randomized trials
   insight: 42 randomized studies found no statistically significant difference in major cardiovascular events between nicotine and non-nicotine groups.
   limitation: Rare events, short follow-up and heterogeneous products; review externally performed for Reynolds American with industry authors.
-  pmid: '37025687'
+  pmid: "37025687"
   pmcid: PMC10071010
   doi: 10.3389/fcvm.2023.1111673
   funding: Externally performed for Reynolds American.
@@ -1949,14 +2270,14 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   conflictOfInterestStatus: declared
   disclosureUrl: https://pmc.ncbi.nlm.nih.gov/articles/PMC10071010/
 - id: newhouse2012
-  title: 'Nicotine treatment of mild cognitive impairment: A 6-month double-blind pilot clinical trial'
+  title: "Nicotine treatment of mild cognitive impairment: A 6-month double-blind pilot clinical trial"
   authors: Newhouse P, Kellar K, Aisen P, et al.
   year: 2012
   url: https://pubmed.ncbi.nlm.nih.gov/22232050/
   kind: Randomized pilot trial
   insight: 15 mg/day patch improved several cognitive tests in 74 nonsmoking adults with amnestic MCI but not clinician-rated global impression.
   limitation: Pilot, six months, multiple outcomes and no dementia or mortality endpoint.
-  pmid: '22232050'
+  pmid: "22232050"
   pmcid: PMC3466669
   doi: 10.1212/WNL.0b013e31823efcbb
   funding: NIH and public support; Pfizer supplied patches.
@@ -1965,7 +2286,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   conflictOfInterestStatus: declared
   disclosureUrl: https://pmc.ncbi.nlm.nih.gov/articles/PMC3466669/
 - id: andrews2026
-  title: 'Long-term nicotine treatment of mild cognitive impairment: The MIND Trial'
+  title: "Long-term nicotine treatment of mild cognitive impairment: The MIND Trial"
   authors: Andrews P, Reman R, Armenta B, et al.
   year: 2026
   url: https://www.ajgponline.org/article/S1064-7481(26)00126-0/fulltext
@@ -1986,7 +2307,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: Cochrane systematic review
   insight: Eleven trials in 2,412 pregnant smokers found low-certainty overall NRT abstinence benefit and no clear birth-outcome differences.
   limitation: Low adherence, risk of bias, imprecision and sparse child follow-up.
-  pmid: '32129504'
+  pmid: "32129504"
   pmcid: PMC7059898
   doi: 10.1002/14651858.CD010078.pub3
   funding: Cochrane review; full disclosures were not visible in the abstract.
@@ -2056,14 +2377,14 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   conflictsOfInterest: Not assessed.
   conflictOfInterestStatus: not-assessed
 - id: schaffer2009
-  title: 'A review of smoking cessation: potentially risky effects on prescribed medications'
+  title: "A review of smoking cessation: potentially risky effects on prescribed medications"
   authors: Schaffer SD, Yoon S, Zadezensky I
   year: 2009
   url: https://pubmed.ncbi.nlm.nih.gov/19490292/
   kind: Clinical pharmacology review
   insight: Stopping smoke exposure reverses CYP1A2 induction and can raise concentrations of several medicines; NRT does not reproduce this induction.
   limitation: Older literature including case reports.
-  pmid: '19490292'
+  pmid: "19490292"
   doi: 10.1111/j.1365-2702.2008.02724.x
   funding: Not assessed from the inspected abstract.
   sponsorshipStatus: not-assessed
@@ -2101,7 +2422,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: PubMed publication
   insight: Nicotine is a cholinergic agonist with known pro-cognitive effects in the domains of alerting and orienting attention.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '28150023'
+  pmid: "28150023"
   doi: 10.1007/s00213-017-4542-8
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -2113,16 +2434,16 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   year: 2015
   url: https://pubmed.ncbi.nlm.nih.gov/25304866/
   kind: PubMed publication
-  insight: 'RATIONALE: Several studies provide evidence that nicotine alleviates the detrimental effects of distracting sensory stimuli.'
+  insight: "RATIONALE: Several studies provide evidence that nicotine alleviates the detrimental effects of distracting sensory stimuli."
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '25304866'
+  pmid: "25304866"
   doi: 10.1007/s00213-014-3761-5
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
 - id: reddit-link-90060ace9625
-  title: 'Cognitive effects of nicotine in humans: an fMRI study (2003)'
+  title: "Cognitive effects of nicotine in humans: an fMRI study (2003)"
   authors: Not established
   year: 2003
   url: https://www.sciencedirect.com/science/article/pii/S1053811903001101
@@ -2141,7 +2462,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: PubMed publication
   insight: Nicotine has been shown to improve attentiveness in smokers and attenuate attentional deficits in Alzheimer's disease patients, schizophrenics and adults with attention-deficit/hyperactivity disorder (ADHD).
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '9860103'
+  pmid: "9860103"
   doi: 10.1007/s002130050750
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -2155,7 +2476,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: PubMed publication
   insight: Nicotine reportedly improves covert orienting of spatial attention, but enhanced alertness may also play a role.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '12028851'
+  pmid: "12028851"
   doi: 10.1080/14622200210123617
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -2169,7 +2490,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: PubMed publication
   insight: Two experiments investigating the effects of nicotine on performance in the inspection time (IT) procedure are reported.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '7675966'
+  pmid: "7675966"
   doi: 10.1007/BF02246296
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -2207,7 +2528,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: PubMed publication
   insight: Long-term smoking is major risk factor for a variety of cancers, including those of the gastrointestinal (GI) tract.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '22701817'
+  pmid: "22701817"
   pmcid: PMC3371638
   doi: 10.3978/j.issn.2224-4778.2011.12.01
   funding: Not assessed in this corpus pass.
@@ -2220,9 +2541,9 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   year: 1996
   url: https://pubmed.ncbi.nlm.nih.gov/8790020/
   kind: PubMed publication
-  insight: 'BACKGROUND: Insulin sensitivity and cardiovascular risk profile were examined in 20 healthy, nonobese, middle-aged men who were long-term users of nicotine-containing chewing gum and in 20 matched control subjects who did not use nicotine.'
+  insight: "BACKGROUND: Insulin sensitivity and cardiovascular risk profile were examined in 20 healthy, nonobese, middle-aged men who were long-term users of nicotine-containing chewing gum and in 20 matched control subjects who did not use nicotine."
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '8790020'
+  pmid: "8790020"
   doi: 10.1161/01.cir.94.5.878
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -2236,7 +2557,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: PubMed publication
   insight: Cigarette smoking promotes body weight reduction in humans while paradoxically also promoting insulin resistance (IR) and hyperinsulinemia.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '25799226'
+  pmid: "25799226"
   pmcid: PMC4390501
   doi: 10.1038/nm.3826
   funding: Not assessed in this corpus pass.
@@ -2251,21 +2572,21 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: PubMed publication
   insight: Oral contraceptives (OC) and smoking-derived nicotine (N) are known to synergistically increase the risk and severity of cerebral ischemia in women.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '24323338'
+  pmid: "24323338"
   doi: 10.1007/s12975-013-0253-6
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
 - id: reddit-pmid-22451324
-  title: 'New evidence of mitochondria dysfunction in the female Alzheimer''s disease brain: deficiency of estrogen receptor-β.'
+  title: "New evidence of mitochondria dysfunction in the female Alzheimer's disease brain: deficiency of estrogen receptor-β."
   authors: Jiangang Long, Ping He, Yong Shen, Rena Li
   year: 2012
   url: https://pubmed.ncbi.nlm.nih.gov/22451324/
   kind: PubMed publication
   insight: Accumulating evidence suggests that mitochondria are important targets for the actions of estrogens and studies indicated that localization of estrogen receptor β (ERβ) in neuronal mitochondrial (mtERβ) might directly affect neuronal mitochondrial function in vitro.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '22451324'
+  pmid: "22451324"
   pmcid: PMC3506431
   doi: 10.3233/JAD-2012-120283
   funding: Not assessed in this corpus pass.
@@ -2278,9 +2599,9 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   year: 2015
   url: https://pubmed.ncbi.nlm.nih.gov/25925411/
   kind: PubMed publication
-  insight: 'BACKGROUND: With growing electronic cigarette usage in both the smoking and nonsmoking population, rigorous studies are needed to investigate the effects of nicotine on biological systems to determine long-term health consequences.'
+  insight: "BACKGROUND: With growing electronic cigarette usage in both the smoking and nonsmoking population, rigorous studies are needed to investigate the effects of nicotine on biological systems to determine long-term health consequences."
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '25925411'
+  pmid: "25925411"
   pmcid: PMC4425877
   doi: 10.1186/s12987-015-0005-y
   funding: Not assessed in this corpus pass.
@@ -2295,7 +2616,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: PubMed publication
   insight: The deleterious health effects of cigarette smoking are far reaching, and it remains the most important modifiable risk factor for improving overall morbidity and mortality.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '23892062'
+  pmid: "23892062"
   pmcid: PMC3838879
   doi: 10.1016/j.bcp.2013.07.014
   funding: Not assessed in this corpus pass.
@@ -2308,9 +2629,9 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   year: 2009
   url: https://pubmed.ncbi.nlm.nih.gov/19246447/
   kind: PubMed publication
-  insight: 'INTRODUCTION: Nitrosation of nicotine or its metabolites in the human body could lead to formation of the 2 carcinogenic tobacco-specific nitrosamines-N''-nitrosonornicotine (NNN) and 4-(methylnitrosamino)-1-(3-pyridyl)-1-butanone (NNK).'
+  insight: "INTRODUCTION: Nitrosation of nicotine or its metabolites in the human body could lead to formation of the 2 carcinogenic tobacco-specific nitrosamines-N'-nitrosonornicotine (NNN) and 4-(methylnitrosamino)-1-(3-pyridyl)-1-butanone (NNK)."
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '19246447'
+  pmid: "19246447"
   pmcid: PMC2734288
   doi: 10.1093/ntr/ntn004
   funding: Not assessed in this corpus pass.
@@ -2323,9 +2644,9 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   year: 2013
   url: https://pubmed.ncbi.nlm.nih.gov/22923602/
   kind: PubMed publication
-  insight: 'INTRODUCTION: We recently reported that certain amounts of the carcinogen N''-nitrosonornicotine (NNN) can be formed endogenously from nicotine and/or nornicotine in some users of oral nicotine replacement therapy products.'
+  insight: "INTRODUCTION: We recently reported that certain amounts of the carcinogen N'-nitrosonornicotine (NNN) can be formed endogenously from nicotine and/or nornicotine in some users of oral nicotine replacement therapy products."
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '22923602'
+  pmid: "22923602"
   pmcid: PMC3611998
   doi: 10.1093/ntr/nts172
   funding: Not assessed in this corpus pass.
@@ -2340,7 +2661,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: PubMed publication
   insight: Cigarette smoking is the most important risk factor in the development of human lung cancer.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '26205096'
+  pmid: "26205096"
   doi: 10.1016/j.etp.2015.07.001
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -2354,7 +2675,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: PubMed publication
   insight: A consistent positive association between cigarette smoking and the human esophageal cancer has been confirmed all over the world.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '24756761'
+  pmid: "24756761"
   doi: 10.1007/s13277-014-1968-z
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -2368,7 +2689,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: PubMed publication
   insight: Continued smoking is highly associated with not only a higher incidence but also greater risk of tumor recurrence, progression, and acquired chemoresistance of urothelial carcinoma.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '26184482'
+  pmid: "26184482"
   doi: 10.1158/1535-7163.MCT-15-0140
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -2380,9 +2701,9 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   year: 2014
   url: https://pubmed.ncbi.nlm.nih.gov/25128927/
   kind: PubMed publication
-  insight: 'UNLABELLED: Forty adult female rats were randomly divided into four groups: control, nicotine, nicotine+vitamin C and nicotine+selenium group.'
+  insight: "UNLABELLED: Forty adult female rats were randomly divided into four groups: control, nicotine, nicotine+vitamin C and nicotine+selenium group."
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '25128927'
+  pmid: "25128927"
   doi: 10.1016/j.pathophys.2014.07.003
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -2393,7 +2714,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   authors: Not established
   year: 2020
   url: https://pubmed.ncbi.nlm.nih.gov/32373212/
-  pmid: '32373212'
+  pmid: "32373212"
   kind: Reddit index publication link
   insight: The Reddit index links this publication; bibliographic metadata was not returned by the PubMed batch.
   limitation: Full text, publication metadata, funding, and conflicts were not independently verified in this corpus pass.
@@ -2409,7 +2730,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: PubMed publication
   insight: The prevalence of electronic cigarette (e-cigarettes) use has rapidly increased worldwide.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '31214115'
+  pmid: "31214115"
   pmcid: PMC6558099
   doi: 10.3389/fendo.2019.00320
   funding: Not assessed in this corpus pass.
@@ -2424,7 +2745,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: PubMed publication
   insight: Objective- Inhibition of SIRT (sirtuin)-1, a nicotinamide adenine dinucleotide-dependent protein deacetylase, is linked to cigarette smoking-induced arterial stiffness, but the underlying mechanisms remain largely unknown.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '31092012'
+  pmid: "31092012"
   pmcid: PMC6613385
   doi: 10.1161/ATVBAHA.118.312346
   funding: Not assessed in this corpus pass.
@@ -2439,7 +2760,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: PubMed publication
   insight: It is widely accepted that fibrosis is frequently observed in the gingiva of smokers.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '25316032'
+  pmid: "25316032"
   doi: 10.1007/s10266-014-0177-y
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -2451,23 +2772,23 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   year: 2016
   url: https://pubmed.ncbi.nlm.nih.gov/26239821/
   kind: PubMed publication
-  insight: 'OBJECTIVES: Electronic cigarettes (e-cigarettes) are generally acknowledged as a safer alternative to the use of combusted tobacco products.'
+  insight: "OBJECTIVES: Electronic cigarettes (e-cigarettes) are generally acknowledged as a safer alternative to the use of combusted tobacco products."
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '26239821'
+  pmid: "26239821"
   doi: 10.1007/s00784-015-1537-x
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
 - id: reddit-pmid-25929709
-  title: 'Orthodontic forces add to nicotine-induced loss of periodontal bone : An in vivo and in vitro study.'
+  title: "Orthodontic forces add to nicotine-induced loss of periodontal bone : An in vivo and in vitro study."
   authors: Christian Kirschneck, Peter Proff, Michael Maurer, Claudia Reicheneder, Piero Römer
   year: 2015
   url: https://pubmed.ncbi.nlm.nih.gov/25929709/
   kind: PubMed publication
-  insight: 'OBJECTIVES: Nicotine is considered an etiologic factor for chronic inflammatory phenomena within the periodontal ligament that may result in loss of periodontal attachment.'
+  insight: "OBJECTIVES: Nicotine is considered an etiologic factor for chronic inflammatory phenomena within the periodontal ligament that may result in loss of periodontal attachment."
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '25929709'
+  pmid: "25929709"
   doi: 10.1007/s00056-015-0283-7
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -2481,7 +2802,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: PubMed publication
   insight: Cigarette smoking is a major risk factor for atherosclerosis and cardiovascular disease.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '23748423'
+  pmid: "23748423"
   pmcid: PMC3891251
   doi: 10.1152/ajpheart.00042.2013
   funding: Not assessed in this corpus pass.
@@ -2494,9 +2815,9 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   year: 2016
   url: https://pubmed.ncbi.nlm.nih.gov/25914226/
   kind: PubMed publication
-  insight: 'PURPOSE: Osteoarthritis (OA) is a degenerative joint pathology characterized by articular cartilage degradation that lacks from efficient therapy.'
+  insight: "PURPOSE: Osteoarthritis (OA) is a degenerative joint pathology characterized by articular cartilage degradation that lacks from efficient therapy."
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '25914226'
+  pmid: "25914226"
   doi: 10.1002/prca.201400186
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -2510,7 +2831,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: PubMed publication
   insight: Thiamin (vitamin B1), a member of the water-soluble family of vitamins, is essential for normal cellular functions; its deficiency results in oxidative stress and mitochondrial dysfunction.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '26633299'
+  pmid: "26633299"
   pmcid: PMC4669105
   doi: 10.1371/journal.pone.0143575
   funding: Not assessed in this corpus pass.
@@ -2525,7 +2846,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: PubMed publication
   insight: Electronic cigarettes (e-cigarettes) are advertised as being safer than tobacco cigarettes products as the chemical compounds inhaled from e-cigarettes are believed to be fewer and less toxic than those from tobacco cigarettes.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '25353061'
+  pmid: "25353061"
   pmcid: PMC4245608
   doi: 10.3390/ijerph111111192
   funding: Not assessed in this corpus pass.
@@ -2533,14 +2854,14 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
 - id: reddit-pmid-24832759
-  title: 'Carbonyl compounds in electronic cigarette vapors: effects of nicotine solvent and battery output voltage.'
+  title: "Carbonyl compounds in electronic cigarette vapors: effects of nicotine solvent and battery output voltage."
   authors: Leon Kosmider, Andrzej Sobczak, Maciej Fik, Jakub Knysak, Marzena Zaciera, Jolanta Kurek, Maciej Lukasz Goniewicz
   year: 2014
   url: https://pubmed.ncbi.nlm.nih.gov/24832759/
   kind: PubMed publication
-  insight: 'INTRODUCTION: Glycerin (VG) and propylene glycol (PG) are the most common nicotine solvents used in e-cigarettes (ECs).'
+  insight: "INTRODUCTION: Glycerin (VG) and propylene glycol (PG) are the most common nicotine solvents used in e-cigarettes (ECs)."
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '24832759'
+  pmid: "24832759"
   doi: 10.1093/ntr/ntu078
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -2552,9 +2873,9 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   year: 2015
   url: https://pubmed.ncbi.nlm.nih.gov/26345343/
   kind: PubMed publication
-  insight: 'RATIONALE: Global tobacco-related mortality dwarfs that of all other drugs.'
+  insight: "RATIONALE: Global tobacco-related mortality dwarfs that of all other drugs."
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '26345343'
+  pmid: "26345343"
   pmcid: PMC5366981
   doi: 10.1007/s00213-015-4053-4
   funding: Not assessed in this corpus pass.
@@ -2569,7 +2890,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: PubMed publication
   insight: In various studies nicotine has shown to alter cognitive functions in non-smoking subjects.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '23133419'
+  pmid: "23133419"
   pmcid: PMC3490442
   doi: 10.3389/fphar.2012.00186
   funding: Not assessed in this corpus pass.
@@ -2584,7 +2905,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: PubMed publication
   insight: Nicotine has recently been shown to enhance measures of information processing speed including the decision time (DT) component of simple and choice reaction time and the string length measure of evoked potential waveform complexity.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '7892431'
+  pmid: "7892431"
   doi: 10.1007/BF02245346
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -2598,7 +2919,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: PubMed publication
   insight: Successful decision making in our daily lives requires weighing an option's costs against its associated benefits.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '25353339'
+  pmid: "25353339"
   pmcid: PMC4213040
   doi: 10.1371/journal.pone.0111580
   funding: Not assessed in this corpus pass.
@@ -2613,7 +2934,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: PubMed publication
   insight: Nicotine addiction is most likely a result of a combination of factors including the rewarding effects of the drug; these effects, however, might be influenced by genetic background.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '25546366'
+  pmid: "25546366"
   pmcid: PMC4459496
   doi: 10.1037/bne0000029
   funding: Not assessed in this corpus pass.
@@ -2628,7 +2949,7 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   kind: PubMed publication
   insight: Nicotine is the psychoactive agent involved in nicotine dependence.
   limitation: Imported from the PubMed abstract; full-text methods and disclosures were not inspected in this corpus pass.
-  pmid: '25826680'
+  pmid: "25826680"
   pmcid: PMC4894432
   doi: 10.1038/srep09521
   funding: Not assessed in this corpus pass.
@@ -2731,6 +3052,14 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
+- id: psychonautwiki
+  title: "Nicotine: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/Nicotine
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal
@@ -2747,3 +3076,15 @@ PubMed abstracts retrieved for all 49 linked PMIDs. Full-text retrieval was atte
   sourceUrl: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A02014L0040-20231023
   asOf: 2026-10-22
 ```
+
+## External wiki links
+
+```yaml
+- service: Wikipedia
+  url: https://en.wikipedia.org/wiki/Nicotine
+  title: Wikipedia
+- service: Examine
+  url: https://examine.com/supplements/Nicotine
+  title: Examine
+```
+

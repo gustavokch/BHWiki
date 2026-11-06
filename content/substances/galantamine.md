@@ -9,7 +9,7 @@ pubchemCid: null
 smiles: Not established
 category: Identity record
 tags: []
-accent: '#a9b993'
+accent: "#a9b993"
 reviewedAt: 2026-10-27
 editorialStatus: sourced-draft
 halfLife:
@@ -27,37 +27,37 @@ kinetics:
   metabolism: Not established
   sourceId: optihealth-substance-019fe218-440a-78f6-a3a7-64c3dd0a2a9f
 x-shape:
-- slug
-- name
-- subtitle
-- summary
-- description
-- aliases
-- formula
-- molecularWeight
-- pubchemCid
-- smiles
-- category
-- tags
-- accent
-- evidenceNote
-- reviewedAt
-- editorialStatus
-- halfLife
-- pkObservations
-- kinetics
-- modifiers
-- doses
-- effects
-- outcomes
-- claims
-- mechanisms
-- cautions
-- interactions
-- experienceLinks
-- references
-- legal
-- externalWikiLinks
+  - slug
+  - name
+  - subtitle
+  - summary
+  - description
+  - aliases
+  - formula
+  - molecularWeight
+  - pubchemCid
+  - smiles
+  - category
+  - tags
+  - accent
+  - evidenceNote
+  - reviewedAt
+  - editorialStatus
+  - halfLife
+  - pkObservations
+  - kinetics
+  - modifiers
+  - doses
+  - effects
+  - outcomes
+  - claims
+  - mechanisms
+  - cautions
+  - interactions
+  - experienceLinks
+  - references
+  - legal
+  - externalWikiLinks
 x-order: 1118
 ---
 
@@ -104,6 +104,81 @@ The three Reddit-linked PubMed abstracts were reviewed. They support acute, task
   note: Dose extracted from the PubMed abstract; verify the full text for formulation and protocol details.
   sourceId: reddit-pmid-25455867
   population: Population description was not available in the retrieved abstract.
+- label: Threshold dose
+  amount: 1 mg
+  quantity: 1
+  quantityMax: null
+  unit: mg
+  ingredient: Galantamine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 4–8 mg
+  quantity: 4
+  quantityMax: 8
+  unit: mg
+  ingredient: Galantamine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 8–16 mg
+  quantity: 8
+  quantityMax: 16
+  unit: mg
+  ingredient: Galantamine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 16–24 mg
+  quantity: 16
+  quantityMax: 24
+  unit: mg
+  ingredient: Galantamine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (24 mg and above)
+  amount: 24 mg and above
+  quantity: 24
+  quantityMax: null
+  unit: mg
+  ingredient: Galantamine
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -123,6 +198,27 @@ The three Reddit-linked PubMed abstracts were reviewed. They support acute, task
   context: This identity import does not establish a pharmacokinetic observation.
   sourceId: optihealth-substance-019fe218-440a-78f6-a3a7-64c3dd0a2a9f
   modelEligible: false
+```
+
+## Duration
+
+```yaml
+- id: psychonautwiki-oral
+  measurement: subjective
+  route: Oral
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 6
+    max: 12
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 20
+      max: 60
+      unit: minutes
 ```
 
 ## Modifiers
@@ -168,7 +264,7 @@ The three Reddit-linked PubMed abstracts were reviewed. They support acute, task
     id: galantamine-27222217-trial
     design: Within-subject placebo-controlled psychopharmacology study
     populationLabels:
-    - Healthy adults
+      - Healthy adults
     comparator: Placebo
     route: Oral
     formulation: Galantamine
@@ -190,7 +286,7 @@ The three Reddit-linked PubMed abstracts were reviewed. They support acute, task
     design: Placebo-controlled within-subject crossover study
     sampleSize: 16
     populationLabels:
-    - Healthy human subjects
+      - Healthy human subjects
     comparator: Placebo
     route: Oral
     formulation: Galantamine (dose not stated in abstract)
@@ -212,7 +308,7 @@ The three Reddit-linked PubMed abstracts were reviewed. They support acute, task
     design: Single-dose placebo-controlled healthy-adult pharmacology study
     sampleSize: 12
     populationLabels:
-    - Healthy adults
+      - Healthy adults
     comparator: Placebo
     route: Oral
     formulation: Galantamine
@@ -274,13 +370,13 @@ The three Reddit-linked PubMed abstracts were reviewed. They support acute, task
   assertion: An acute 8 mg galantamine challenge impaired working-memory retrieval speed and familiarity-based recognition in healthy adults.
   relation: associated-with
   participants:
-  - entityId: substance:galantamine
-    role: intervention
-  - entityId: tag:working-memory
-    role: reported endpoint
+    - entityId: substance:galantamine
+      role: intervention
+    - entityId: tag:working-memory
+      role: reported endpoint
   context: Within-subject EEG and memory study; not evidence of clinical impairment outside the tested task.
   sourceIds:
-  - reddit-pmid-27222217
+    - reddit-pmid-27222217
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Abstract does not provide sample size or numeric effect estimates.
@@ -288,13 +384,13 @@ The three Reddit-linked PubMed abstracts were reviewed. They support acute, task
   assertion: Galantamine increased modeled belief-updating rate about spatial-cue validity in a 16-person healthy-subject crossover study.
   relation: associated-with
   participants:
-  - entityId: substance:galantamine
-    role: intervention
-  - entityId: tag:attention
-    role: reported endpoint
+    - entityId: substance:galantamine
+      role: intervention
+    - entityId: tag:attention
+      role: reported endpoint
   context: Posner spatial-attention task with hierarchical Bayesian modeling.
   sourceIds:
-  - reddit-pmid-25411501
+    - reddit-pmid-25411501
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Dose was not stated in the PubMed abstract and the finding is task-specific.
@@ -302,13 +398,13 @@ The three Reddit-linked PubMed abstracts were reviewed. They support acute, task
   assertion: Single 4 or 8 mg galantamine doses inhibited circulating AChE without improving neurobehavioral performance in healthy adults.
   relation: produces
   participants:
-  - entityId: substance:galantamine
-    role: intervention
-  - entityId: tag:acetylcholinesterase-inhibition
-    role: biochemical endpoint
+    - entityId: substance:galantamine
+      role: intervention
+    - entityId: tag:acetylcholinesterase-inhibition
+      role: biochemical endpoint
   context: Healthy-adult single-dose pharmacology study.
   sourceIds:
-  - reddit-pmid-25455867
+    - reddit-pmid-25455867
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Acute small sample; clinical populations and longer-term outcomes were not studied.
@@ -324,14 +420,6 @@ The three Reddit-linked PubMed abstracts were reviewed. They support acute, task
 
 ```yaml
 []
-```
-
-## External wiki links
-
-```yaml
-- service: Wikipedia
-  url: https://en.wikipedia.org/wiki/Galantamine
-  title: Wikipedia
 ```
 
 ## References
@@ -353,7 +441,7 @@ The three Reddit-linked PubMed abstracts were reviewed. They support acute, task
   kind: PubMed publication
   insight: In healthy adults given 8 mg galantamine, working-memory retrieval slowed, alpha power decreased, and familiarity-based recognition was impaired.
   limitation: Acute task study; numeric effect estimates and full-text disclosures were not assessed in this pass.
-  pmid: '27222217'
+  pmid: "27222217"
   doi: 10.1016/j.neuroimage.2016.05.049
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
@@ -367,7 +455,7 @@ The three Reddit-linked PubMed abstracts were reviewed. They support acute, task
   kind: PubMed publication
   insight: In 16 healthy subjects, galantamine increased the modeled rate of Bayesian belief updating about cue validity during spatial attention.
   limitation: Acute task-specific crossover study; PMCID PMC4236403 full text was reviewed, but dose and complete disclosures were not established from the abstract.
-  pmid: '25411501'
+  pmid: "25411501"
   pmcid: PMC4236403
   doi: 10.1523/JNEUROSCI.0091-14.2014
   funding: Not assessed in this corpus pass.
@@ -382,12 +470,20 @@ The three Reddit-linked PubMed abstracts were reviewed. They support acute, task
   kind: PubMed publication
   insight: In healthy adults, single 4 or 8 mg galantamine doses inhibited circulating AChE but not BChE and did not improve neurobehavioral performance.
   limitation: Small acute study; no PMC full text was returned and long-term clinical effects were not assessed.
-  pmid: '25455867'
+  pmid: "25455867"
   doi: 10.1016/j.physbeh.2014.09.010
   funding: Not assessed in this corpus pass.
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed in this corpus pass.
   conflictOfInterestStatus: not-assessed
+- id: psychonautwiki
+  title: "Galantamine: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/Galantamine
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal
@@ -395,3 +491,12 @@ The three Reddit-linked PubMed abstracts were reviewed. They support acute, task
 ```yaml
 []
 ```
+
+## External wiki links
+
+```yaml
+- service: Wikipedia
+  url: https://en.wikipedia.org/wiki/Galantamine
+  title: Wikipedia
+```
+

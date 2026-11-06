@@ -13,7 +13,7 @@ category: Actoprotector
 tags:
   - actoprotector
 accent: "#a9b993"
-reviewedAt: "2026-10-15"
+reviewedAt: 2026-10-15
 editorialStatus: sourced-draft
 halfLife:
   label: Not established here
@@ -68,11 +68,13 @@ x-order: 157
 Bromantane — Adamantane small molecule associated with the name Ladasten in fatigue-related research. This is a secondary-source identity lead; clinical effects and exposure protocols remain unassessed.
 
 Bromantane is listed as **bromantan under S6.A, non-specified stimulants, prohibited in competition**, in the 2026 World Anti-Doping Agency list. Sporting prohibition is separate from medicines authorization or criminal-law scheduling. (sourceId: wada-2026)
+
 ## Description
 
 Bromantane is an identity record for PubChem CID 4660557 (C16H20BrN). The structure and molecular weight come from that compound record. Salts, stereoisomers, preparations, and commercial products can differ. It is filed as Nootropic. Effects, doses, pharmacokinetics, interactions, and legal status have not been assessed for this draft.
 
 The Russian Ladasten instruction identifies oral 50 mg and 100 mg tablets containing adamantylbromphenylamine, with starch, microcrystalline cellulose, and magnesium stearate as excipients. No authoritative formulation document for a distinct product specifically named **ADAPTOGEN** was identified in this review; it is not treated as an established bioequivalent product. Oral-tablet findings do not establish equivalence of independently marketed powders, liquids, sublingual preparations, or nasal formulations. (sourceId: ladasten-label-2024; sourceId: literature-search-2026; sourceId: market-2025)
+
 ## Evidence note
 
 Only chemical identity is curated. Effects, doses, pharmacokinetics, interactions, and legal status have not been assessed.
@@ -82,6 +84,7 @@ Targeted searches used bromantane, bromantan, bromontan, Ladasten, adamantilbrom
 ClinicalTrials.gov returned **zero records** for bromantane/bromantan/Ladasten and for an additional synonym search on the review date. This means no matching records were found in that registry—not that no human trials occurred. Published studies and their registered protocols must be distinguished; a prospectively registered primary endpoint was not verified for the principal studies below. (sourceId: ctgov-search-2026)
 
 The 728-patient report appears under both PMID 21322821 and PMID 20559263 with matching study descriptions and results; it is treated as **one study**, not independent replication. Abstract-only findings are identified as such. Missing funding or conflict disclosures are recorded as unknown, not as evidence of independence. (sourceId: voz-2010)
+
 ## Doses
 
 ```yaml
@@ -98,7 +101,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   population: Not established
   purpose: Research exposure; not a dosing recommendation.
   sourceCategory: research
-  note: 'Source-specific research exposure details are preserved in the cited source.'
+  note: Source-specific research exposure details are preserved in the cited source.
   sourceId: dr-bromantane-s1
 - label: bromantane research exposure 2
   amount: Not established
@@ -113,7 +116,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   population: Not established
   purpose: Research exposure; not a dosing recommendation.
   sourceCategory: research
-  note: 'Source-specific research exposure details are preserved in the cited source.'
+  note: Source-specific research exposure details are preserved in the cited source.
   sourceId: dr-bromantane-s1
 - label: bromantane research exposure 3
   amount: Not established
@@ -128,8 +131,83 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   population: Not established
   purpose: Research exposure; not a dosing recommendation.
   sourceCategory: research
-  note: 'Source-specific research exposure details are preserved in the cited source.'
+  note: Source-specific research exposure details are preserved in the cited source.
   sourceId: dr-bromantane-s1
+- label: Threshold dose
+  amount: 10 mg
+  quantity: 10
+  quantityMax: null
+  unit: mg
+  ingredient: Bromantane
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 10–50 mg
+  quantity: 10
+  quantityMax: 50
+  unit: mg
+  ingredient: Bromantane
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 50–100 mg
+  quantity: 50
+  quantityMax: 100
+  unit: mg
+  ingredient: Bromantane
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 100–200 mg
+  quantity: 100
+  quantityMax: 200
+  unit: mg
+  ingredient: Bromantane
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (200 mg and above)
+  amount: 200 mg and above
+  quantity: 200
+  quantityMax: null
+  unit: mg
+  ingredient: Bromantane
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -160,7 +238,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   low: null
   high: null
   unit: hours
-  context: 'Source-specific pharmacokinetic detail is preserved in the cited source.'
+  context: Source-specific pharmacokinetic detail is preserved in the cited source.
   sourceId: dr-bromantane-s1
   modelEligible: false
 - id: dr-bromantane-human-pk-gaps
@@ -174,7 +252,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   low: null
   high: null
   unit: hours
-  context: 'Source-specific pharmacokinetic detail is preserved in the cited source.'
+  context: Source-specific pharmacokinetic detail is preserved in the cited source.
   sourceId: dr-bromantane-s1
   modelEligible: false
 - id: dr-bromantane-species-boundary
@@ -188,7 +266,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   low: null
   high: null
   unit: hours
-  context: 'Source-specific pharmacokinetic detail is preserved in the cited source.'
+  context: Source-specific pharmacokinetic detail is preserved in the cited source.
   sourceId: dr-bromantane-s1
   modelEligible: false
 - id: dr-bromantane-duration-boundary
@@ -202,9 +280,35 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   low: null
   high: null
   unit: hours
-  context: 'Source-specific pharmacokinetic detail is preserved in the cited source.'
+  context: Source-specific pharmacokinetic detail is preserved in the cited source.
   sourceId: dr-bromantane-s1
   modelEligible: false
+```
+
+## Duration
+
+```yaml
+- id: psychonautwiki-oral
+  measurement: subjective
+  route: Oral
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 6
+    max: 10
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 30
+      max: 60
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 2
+      max: 4
+      unit: hours
 ```
 
 ## Modifiers
@@ -464,16 +568,16 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
 
 ```yaml
 - title: Research mechanism
-  description: 'Source-specific mechanism evidence is preserved in the cited source.'
+  description: Source-specific mechanism evidence is preserved in the cited source.
   sourceId: dr-bromantane-s1
 - title: Research mechanism
-  description: 'Source-specific mechanism evidence is preserved in the cited source.'
+  description: Source-specific mechanism evidence is preserved in the cited source.
   sourceId: dr-bromantane-s1
 - title: Research mechanism
-  description: 'Source-specific mechanism evidence is preserved in the cited source.'
+  description: Source-specific mechanism evidence is preserved in the cited source.
   sourceId: dr-bromantane-s1
 - title: Research mechanism
-  description: 'Source-specific mechanism evidence is preserved in the cited source.'
+  description: Source-specific mechanism evidence is preserved in the cited source.
   sourceId: dr-bromantane-s1
 ```
 
@@ -481,28 +585,28 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
 
 ```yaml
 - title: Research caution
-  description: 'Source-specific caution evidence is preserved in the cited source.'
+  description: Source-specific caution evidence is preserved in the cited source.
   sourceId: dr-bromantane-s1
 - title: Research caution
-  description: 'Source-specific caution evidence is preserved in the cited source.'
+  description: Source-specific caution evidence is preserved in the cited source.
   sourceId: dr-bromantane-s1
 - title: Research caution
-  description: 'Source-specific caution evidence is preserved in the cited source.'
+  description: Source-specific caution evidence is preserved in the cited source.
   sourceId: dr-bromantane-s1
 - title: Research caution
-  description: 'Source-specific caution evidence is preserved in the cited source.'
+  description: Source-specific caution evidence is preserved in the cited source.
   sourceId: dr-bromantane-s1
 - title: Research caution
-  description: 'Source-specific caution evidence is preserved in the cited source.'
+  description: Source-specific caution evidence is preserved in the cited source.
   sourceId: dr-bromantane-s1
 - title: Research caution
-  description: 'Source-specific caution evidence is preserved in the cited source.'
+  description: Source-specific caution evidence is preserved in the cited source.
   sourceId: dr-bromantane-s1
 - title: Research caution
-  description: 'Source-specific caution evidence is preserved in the cited source.'
+  description: Source-specific caution evidence is preserved in the cited source.
   sourceId: dr-bromantane-s1
 - title: Research caution
-  description: 'Source-specific caution evidence is preserved in the cited source.'
+  description: Source-specific caution evidence is preserved in the cited source.
   sourceId: dr-bromantane-s1
 ```
 
@@ -607,7 +711,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
 - id: dr-bromantane-thiopental
   name: Documented or hypothesized coexposure
   otherSlug: null
-  summary: "Source-specific interaction evidence is preserved in the cited source."
+  summary: Source-specific interaction evidence is preserved in the cited source.
   sourceId: dr-bromantane-s1
   context: Evidence context preserved from Deep Research
   conflictingSourceIds:
@@ -615,7 +719,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
 - id: dr-bromantane-benzodiazepines
   name: Documented or hypothesized coexposure
   otherSlug: null
-  summary: 'Source-specific interaction evidence is preserved in the cited source.'
+  summary: Source-specific interaction evidence is preserved in the cited source.
   sourceId: dr-bromantane-s1
   context: Evidence context preserved from Deep Research
   conflictingSourceIds:
@@ -623,7 +727,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
 - id: dr-bromantane-uncharacterized-combinations
   name: Documented or hypothesized coexposure
   otherSlug: null
-  summary: 'Source-specific interaction evidence is preserved in the cited source.'
+  summary: Source-specific interaction evidence is preserved in the cited source.
   sourceId: dr-bromantane-s1
   context: Evidence context preserved from Deep Research
   conflictingSourceIds:
@@ -631,7 +735,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
 - id: dr-bromantane-mechanistic-interactions
   name: Documented or hypothesized coexposure
   otherSlug: null
-  summary: 'Source-specific interaction evidence is preserved in the cited source.'
+  summary: Source-specific interaction evidence is preserved in the cited source.
   sourceId: dr-bromantane-s1
   context: Evidence context preserved from Deep Research
   conflictingSourceIds:
@@ -639,7 +743,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
 - id: dr-bromantane-combination-study-boundary
   name: Documented or hypothesized coexposure
   otherSlug: null
-  summary: 'Source-specific interaction evidence is preserved in the cited source.'
+  summary: Source-specific interaction evidence is preserved in the cited source.
   sourceId: dr-bromantane-s1
   context: Evidence context preserved from Deep Research
   conflictingSourceIds:
@@ -658,7 +762,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
 
 ```yaml
 - id: pubchem
-  title: 'Bromantane: compound identity and structure'
+  title: "Bromantane: compound identity and structure"
   authors: NCBI PubChem
   year: 2026
   url: https://pubchem.ncbi.nlm.nih.gov/compound/4660557
@@ -667,7 +771,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   limitation: The parent compound identity is distinct from salts, formulations, and commercial product quality.
   funding: US National Library of Medicine.
 - id: molekul-profile
-  title: 'Bromantane: Molekul research profile'
+  title: "Bromantane: Molekul research profile"
   authors: Molekul
   year: 2026
   url: https://molekul.io/compounds/bromantane
@@ -855,7 +959,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   insight: This URL appeared in the compound profile's source trail. No study finding is asserted by this reference.
   limitation: Publication title, authors, date, methods, findings, source access and relevance require original-document verification. Multiple links may represent the same study or a related preparation.
   funding: Not assessed in this import.
-  pmid: '7793100'
+  pmid: "7793100"
 - id: molekul-link-53
   title: PubMed PMID 9929819 — source link captured 2026; metadata pending
   authors: Bibliographic metadata not independently verified
@@ -992,7 +1096,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   limitation: Publication title, authors, date, methods, findings, source access and relevance require original-document verification. Multiple links may represent the same study or a related preparation.
   funding: Not assessed in this import.
 - id: dr-bromantane-s1
-  title: 'Drugs@FDA: FDA-Approved Drugs'
+  title: "Drugs@FDA: FDA-Approved Drugs"
   authors: US Food and Drug Administration
   year: 2026
   url: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm
@@ -1029,7 +1133,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   conflictOfInterestStatus: not-assessed
 - id: dr-bromantane-s4
   title: ClinicalTrials.gov Noopept/omberacetam/GVS-111 searches, searched October 10, 2026
-  authors: 'URLs:'
+  authors: "URLs:"
   year: 2026
   url: https://clinicaltrials.gov/search?intr=Noopept
   kind: Regulatory or registry source
@@ -1052,7 +1156,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   conflictsOfInterest: Authors affiliated with the Zakusov institute developing Ladasten; formal financial disclosure not located.
   conflictOfInterestStatus: not-assessed
 - id: dr-bromantane-s8
-  title: '[Pilot clinical trial of ladasten].'
+  title: "[Pilot clinical trial of ladasten]."
   authors: S. A. Siuniakov; S. A. Grishin; E. S. Teleshova; G. G. Neznamov; S. B. Seredenin
   year: 2006
   url: https://pubmed.ncbi.nlm.nih.gov/16995430/
@@ -1064,7 +1168,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   conflictsOfInterest: Not reported in retrieved abstract.
   conflictOfInterestStatus: not-assessed
 - id: dr-bromantane-s9
-  title: '[Treatment of asthenic disorders in patients with psychoautonomic syndrome: results of a multicenter study on efficacy and safety of ladasten].'
+  title: "[Treatment of asthenic disorders in patients with psychoautonomic syndrome: results of a multicenter study on efficacy and safety of ladasten]."
   authors: T. G. Voznesenskaia; N. M. Fokina; N. N. Iakhno
   year: 2010
   url: https://pubmed.ncbi.nlm.nih.gov/21322821/
@@ -1076,7 +1180,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   conflictsOfInterest: Not reported in retrieved abstract.
   conflictOfInterestStatus: not-assessed
 - id: dr-bromantane-s10
-  title: '[Ladasten versus placebo effect self-evaluated by neurasthenia patients with different EEG alpha rhythm types].'
+  title: "[Ladasten versus placebo effect self-evaluated by neurasthenia patients with different EEG alpha rhythm types]."
   authors: G. G. Neznamov; V. K. Bochkarev; M. A. Reutova; A. A. Shabanova; S. A. Siuniakov
   year: 2012
   url: https://pubmed.ncbi.nlm.nih.gov/22834121/
@@ -1088,7 +1192,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   conflictsOfInterest: Not reported in retrieved abstract.
   conflictOfInterestStatus: not-assessed
 - id: dr-bromantane-s11
-  title: '[Influence of Adamantilbromphenylamine on Parameters of Immunity and Symptoms of Asthenia in Patients with Non-Psychotic Mental Disorders].'
+  title: "[Influence of Adamantilbromphenylamine on Parameters of Immunity and Symptoms of Asthenia in Patients with Non-Psychotic Mental Disorders]."
   authors: T. P. Vetlugina; V. B. Nikitina; S. A. Sergeeva; M. M. Axenov; O. A. Lobacheva; D. N. Savochkina; E. M. Epanchintseva; N. A. Bokhan
   year: 2015
   url: https://pubmed.ncbi.nlm.nih.gov/26710531/
@@ -1100,7 +1204,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   conflictsOfInterest: Authors declared no reportable conflicts.
   conflictOfInterestStatus: not-assessed
 - id: dr-bromantane-s13
-  title: '[Optimization of pharmacological therapy for weakness syndrome in incurable patients].'
+  title: "[Optimization of pharmacological therapy for weakness syndrome in incurable patients]."
   authors: A. A. Ryazankina; S. A. Rozengard; V. A. Glushchenko; A. P. Karitsky; A. V. Kvashnin
   year: 2015
   url: https://pubmed.ncbi.nlm.nih.gov/26087610/
@@ -1112,7 +1216,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   conflictsOfInterest: Not reported in retrieved abstract.
   conflictOfInterestStatus: not-assessed
 - id: dr-bromantane-s14
-  title: '[Ladasten in the management of non-motor symptoms of Parkinson''s disease].'
+  title: "[Ladasten in the management of non-motor symptoms of Parkinson's disease]."
   authors: T. N. Sarycheva; V. A. Rybak; O. V. Kurushina
   year: 2011
   url: https://pubmed.ncbi.nlm.nih.gov/21434470/
@@ -1124,7 +1228,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   conflictsOfInterest: Not available in retrieved record.
   conflictOfInterestStatus: not-assessed
 - id: dr-bromantane-s15
-  title: '[Prospects for using ladasten preparations in patients with irritable bowel syndrome].'
+  title: "[Prospects for using ladasten preparations in patients with irritable bowel syndrome]."
   authors: Iu. P. Uspenskiĭ; Iu. A. Fominykh
   year: 2010
   url: https://pubmed.ncbi.nlm.nih.gov/21434378/
@@ -1148,7 +1252,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   conflictsOfInterest: Not reported in retrieved abstract.
   conflictOfInterestStatus: not-assessed
 - id: dr-bromantane-s19
-  title: '[Correlated interconnection between pharmacokinetic and dynamic development of the pharmacologic effects of bromantane].'
+  title: "[Correlated interconnection between pharmacokinetic and dynamic development of the pharmacologic effects of bromantane]."
   authors: S. A. Sergeeva; S. V. Krapivin; A. S. Losev; I. S. Morozov
   year: 1995
   url: https://pubmed.ncbi.nlm.nih.gov/7795204/
@@ -1160,7 +1264,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   conflictsOfInterest: Not available in retrieved record.
   conflictOfInterestStatus: not-assessed
 - id: dr-bromantane-s20
-  title: '[Effect of ladasten on antenatal and postnatal development].'
+  title: "[Effect of ladasten on antenatal and postnatal development]."
   authors: L. I. Bugaeva; T. D. Denisova; A. A. Spasov
   year: 2012
   url: https://pubmed.ncbi.nlm.nih.gov/22702107/
@@ -1172,7 +1276,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   conflictsOfInterest: Not reported in retrieved abstract.
   conflictOfInterestStatus: not-assessed
 - id: dr-bromantane-s21
-  title: 'The Occurrence of Illicit Smart Drugs or Nootropics in Europe and Australia and Their Associated Dangers: Results from a Market Surveillance Study by 12 Official Medicines Control Laboratories.'
+  title: "The Occurrence of Illicit Smart Drugs or Nootropics in Europe and Australia and Their Associated Dangers: Results from a Market Surveillance Study by 12 Official Medicines Control Laboratories."
   authors: Celine Vanhee; Eric Deconinck; Mark George; Andrew Hansen; Andreas Hackl; Uwe Wollein; Oliver El-Atma; Nico Beerbaum; Federica Aureli; Anna Borioni; Magdalena Poplawska; Agata Blazewicz; Karin Roschel; Claude Marson; Magnolia Mendoza Barrios; Birgit Hakkarainen; Andreas Blomgren; Ingrid Bakker-'t Hart; Marta Miquel
   year: 2025
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12193813/
@@ -1208,7 +1312,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   conflictsOfInterest: Issued in WADA's anti-doping standard-setting role.
   conflictOfInterestStatus: not-assessed
 - id: dr-bromantane-s25
-  title: 'The Occurrence of Illicit Smart Drugs or Nootropics in Europe and Australia and Their Associated Dangers: Results from a Market Surveillance Study by 12 Official Medicines Control Laboratories.'
+  title: "The Occurrence of Illicit Smart Drugs or Nootropics in Europe and Australia and Their Associated Dangers: Results from a Market Surveillance Study by 12 Official Medicines Control Laboratories."
   authors: Celine Vanhee; Eric Deconinck; Mark George; Andrew Hansen; et al.
   year: 2025
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12193813/"
@@ -1232,7 +1336,7 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   conflictsOfInterest: Not assessed.
   conflictOfInterestStatus: not-assessed
 - id: dr-bromantane-s27
-  title: 'Drugs@FDA: FDA-Approved Drugs'
+  title: "Drugs@FDA: FDA-Approved Drugs"
   authors: US Food and Drug Administration
   year: 2026
   url: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm"
@@ -1255,6 +1359,14 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not assessed.
   conflictOfInterestStatus: not-assessed
+- id: psychonautwiki
+  title: "Bromantane: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/Bromantane
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal
@@ -1291,3 +1403,4 @@ The 728-patient report appears under both PMID 21322821 and PMID 20559263 with m
   sourceUrl: https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm
   asOf: 2026-10-10
 ```
+

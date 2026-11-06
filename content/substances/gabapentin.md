@@ -353,6 +353,81 @@ Evidence is indication-, population-, dose-, and formulation-specific. Establish
   sourceCategory: research
   note: The overall Panic and Agoraphobia Scale analysis was null; a positive severe-subgroup finding was post hoc.
   sourceId: pande-panic-2000
+- label: Threshold dose
+  amount: 200 mg
+  quantity: 200
+  quantityMax: null
+  unit: mg
+  ingredient: Gabapentin
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 200–900 mg
+  quantity: 200
+  quantityMax: 900
+  unit: mg
+  ingredient: Gabapentin
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 900–1500 mg
+  quantity: 900
+  quantityMax: 1500
+  unit: mg
+  ingredient: Gabapentin
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 1500–2400 mg
+  quantity: 1500
+  quantityMax: 2400
+  unit: mg
+  ingredient: Gabapentin
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (2400 mg and above)
+  amount: 2400 mg and above
+  quantity: 2400
+  quantityMax: null
+  unit: mg
+  ingredient: Gabapentin
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -428,6 +503,32 @@ Evidence is indication-, population-, dose-, and formulation-specific. Establish
   context: A standalone age-specific half-life is not assigned. The label reports apparent oral clearance declining from about 225 mL/min in people younger than 30 years to about 125 mL/min in people older than 70 years, largely reflecting age-related renal decline.
   sourceId: neurontin-label-2026
   modelEligible: false
+```
+
+## Duration
+
+```yaml
+- id: psychonautwiki-oral
+  measurement: subjective
+  route: Oral
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 6
+    max: 10
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 30
+      max: 120
+      unit: minutes
+    - name: peak
+      basis: phase-duration
+      min: 120
+      max: 180
+      unit: minutes
 ```
 
 ## Modifiers
@@ -1033,7 +1134,7 @@ Evidence is indication-, population-, dose-, and formulation-specific. Establish
   conflictsOfInterest: Not applicable to a chemical database record; not formally assessed.
   conflictOfInterestStatus: not-assessed
 - id: neurontin-label-2026
-  title: 'These highlights do not include all the information needed to use NEURONTIN safely and effectively. See full prescribing information for NEURONTIN. NEURONTIN® (gabapentin) capsules, for oral use; NEURONTIN® (gabapentin) tablets, for oral use; NEURONTIN® (gabapentin) oral solution. Initial U.S. Approval: 1993'
+  title: "These highlights do not include all the information needed to use NEURONTIN safely and effectively. See full prescribing information for NEURONTIN. NEURONTIN® (gabapentin) capsules, for oral use; NEURONTIN® (gabapentin) tablets, for oral use; NEURONTIN® (gabapentin) oral solution. Initial U.S. Approval: 1993"
   authors: Viatris Specialty LLC
   year: 2026
   url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=97935fd9-1d4a-43b6-a5d9-de994591187b
@@ -1045,7 +1146,7 @@ Evidence is indication-, population-, dose-, and formulation-specific. Establish
   conflictsOfInterest: Not applicable as an author conflict-of-interest disclosure; not assessed.
   conflictOfInterestStatus: not-assessed
 - id: gralise-label-2026
-  title: 'These highlights do not include all the information needed to use GRALISE safely and effectively. See full prescribing information for GRALISE. GRALISE® (gabapentin) tablets, for oral use. Initial U.S. Approval: 1993'
+  title: "These highlights do not include all the information needed to use GRALISE safely and effectively. See full prescribing information for GRALISE. GRALISE® (gabapentin) tablets, for oral use. Initial U.S. Approval: 1993"
   authors: Almatica Pharma LLC
   year: 2026
   url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=466273b1-c9fc-3930-c94b-aa11394d5140
@@ -1057,10 +1158,10 @@ Evidence is indication-, population-, dose-, and formulation-specific. Establish
   conflictsOfInterest: Not applicable as an author conflict-of-interest disclosure; not assessed.
   conflictOfInterestStatus: not-assessed
 - id: rowbotham-1998
-  title: 'Gabapentin for the Treatment of Postherpetic Neuralgia: A Randomized Controlled Trial'
+  title: "Gabapentin for the Treatment of Postherpetic Neuralgia: A Randomized Controlled Trial"
   authors: Michael Rowbotham; Norman Harden; Brett Stacey; Paula Bernstein; Leslie Magnus-Miller; Gabapentin Postherpetic Neuralgia Study Group
   year: 1998
-  pmid: '9846778'
+  pmid: "9846778"
   doi: 10.1001/jama.280.21.1837
   url: https://pubmed.ncbi.nlm.nih.gov/9846778/
   kind: Randomized double-blind placebo-controlled clinical trial
@@ -1072,10 +1173,10 @@ Evidence is indication-, population-, dose-, and formulation-specific. Establish
   conflictOfInterestStatus: declared
   disclosureUrl: https://jamanetwork.com/journals/jama/fullarticle/188226
 - id: rice-maton-2001
-  title: 'Gabapentin in postherpetic neuralgia: a randomised, double blind, placebo controlled study.'
+  title: "Gabapentin in postherpetic neuralgia: a randomised, double blind, placebo controlled study."
   authors: A. S. C. Rice; S. Maton; Postherpetic Neuralgia Study Group
   year: 2001
-  pmid: '11690735'
+  pmid: "11690735"
   doi: 10.1016/S0304-3959(01)00407-9
   url: https://pubmed.ncbi.nlm.nih.gov/11690735/
   kind: Randomized double-blind placebo-controlled clinical trial
@@ -1086,10 +1187,10 @@ Evidence is indication-, population-, dose-, and formulation-specific. Establish
   conflictsOfInterest: Not assessed from an accessible full disclosure.
   conflictOfInterestStatus: not-assessed
 - id: wallace-2010
-  title: 'Gabapentin extended-release tablets for the treatment of patients with postherpetic neuralgia: a randomized, double-blind, placebo-controlled, multicentre study.'
+  title: "Gabapentin extended-release tablets for the treatment of patients with postherpetic neuralgia: a randomized, double-blind, placebo-controlled, multicentre study."
   authors: Mark S. Wallace; Gordon Irving; Verne E. Cowles
   year: 2010
-  pmid: '20818838'
+  pmid: "20818838"
   doi: 10.2165/11539520-000000000-00000
   url: https://pubmed.ncbi.nlm.nih.gov/20818838/
   kind: Randomized double-blind placebo-controlled multicenter trial
@@ -1101,10 +1202,10 @@ Evidence is indication-, population-, dose-, and formulation-specific. Establish
   conflictOfInterestStatus: declared
   disclosureUrl: https://doi.org/10.2165/11539520-000000000-00000
 - id: rauck-2013
-  title: 'Once-daily gastroretentive gabapentin for postherpetic neuralgia: integrated efficacy, time to onset of pain relief and safety analyses of data from two phase 3, multicenter, randomized, double-blind, placebo-controlled studies.'
+  title: "Once-daily gastroretentive gabapentin for postherpetic neuralgia: integrated efficacy, time to onset of pain relief and safety analyses of data from two phase 3, multicenter, randomized, double-blind, placebo-controlled studies."
   authors: Richard L. Rauck; Gordon A. Irving; Mark S. Wallace; Geertrui F. Vanhove; Michael Sweeney
   year: 2013
-  pmid: '23149085'
+  pmid: "23149085"
   doi: 10.1016/j.jpainsymman.2012.07.011
   url: https://pubmed.ncbi.nlm.nih.gov/23149085/
   kind: Integrated analysis of two randomized phase-3 trials
@@ -1116,10 +1217,10 @@ Evidence is indication-, population-, dose-, and formulation-specific. Establish
   conflictOfInterestStatus: declared
   disclosureUrl: https://www.jpsmjournal.com/article/S0885-3924(12)00397-1/fulltext
 - id: bulilete-2019
-  title: 'Efficacy of gabapentin for the prevention of postherpetic neuralgia in patients with acute herpes zoster: A double blind, randomized controlled trial.'
+  title: "Efficacy of gabapentin for the prevention of postherpetic neuralgia in patients with acute herpes zoster: A double blind, randomized controlled trial."
   authors: Oana Bulilete; Alfonso Leiva; Manuel Rullán; Antonia Roca; Joan Llobera; PHN Group
   year: 2019
-  pmid: '31166976'
+  pmid: "31166976"
   doi: 10.1371/journal.pone.0217335
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6550400/
   kind: Randomized double-blind placebo-controlled multicenter trial
@@ -1131,10 +1232,10 @@ Evidence is indication-, population-, dose-, and formulation-specific. Establish
   conflictOfInterestStatus: none-declared
   disclosureUrl: https://pmc.ncbi.nlm.nih.gov/articles/PMC6550400/
 - id: leach-1997
-  title: 'Gabapentin and cognition: a double blind, dose ranging, placebo controlled study in refractory epilepsy.'
+  title: "Gabapentin and cognition: a double blind, dose ranging, placebo controlled study in refractory epilepsy."
   authors: J. P. Leach; J. Girvan; A. Paul; M. J. Brodie
   year: 1997
-  pmid: '9120451'
+  pmid: "9120451"
   doi: 10.1136/jnnp.62.4.372
   url: https://pubmed.ncbi.nlm.nih.gov/9120451/
   kind: Double-blind placebo-controlled dose-ranging crossover trial
@@ -1145,10 +1246,10 @@ Evidence is indication-, population-, dose-, and formulation-specific. Establish
   conflictsOfInterest: Not assessed from an accessible full disclosure.
   conflictOfInterestStatus: not-assessed
 - id: garcia-borreguero-2002
-  title: 'Treatment of restless legs syndrome with gabapentin: a double-blind, cross-over study.'
+  title: "Treatment of restless legs syndrome with gabapentin: a double-blind, cross-over study."
   authors: D. Garcia-Borreguero; O. Larrosa; Y. de la Llave; K. Verger; X. Masramon; G. Hernandez
   year: 2002
-  pmid: '12451200'
+  pmid: "12451200"
   doi: 10.1212/wnl.59.10.1573
   url: https://pubmed.ncbi.nlm.nih.gov/12451200/
   kind: Randomized double-blind placebo-controlled crossover trial
@@ -1162,7 +1263,7 @@ Evidence is indication-, population-, dose-, and formulation-specific. Establish
   title: A crossover study of gabapentin in treatment of restless legs syndrome among hemodialysis patients.
   authors: M. L. Thorp; C. D. Morris; S. P. Bagby
   year: 2001
-  pmid: '11431189'
+  pmid: "11431189"
   doi: 10.1053/ajkd.2001.25202
   url: https://pubmed.ncbi.nlm.nih.gov/11431189/
   kind: Randomized double-blind placebo-controlled crossover trial
@@ -1185,10 +1286,10 @@ Evidence is indication-, population-, dose-, and formulation-specific. Establish
   conflictsOfInterest: Registry record does not provide a complete publication-style conflict disclosure.
   conflictOfInterestStatus: not-assessed
 - id: kay-2016
-  title: 'Next-day residual effects of gabapentin, diphenhydramine, and triazolam on simulated driving performance in healthy volunteers: a phase 3, randomized, double-blind, placebo-controlled, crossover trial.'
+  title: "Next-day residual effects of gabapentin, diphenhydramine, and triazolam on simulated driving performance in healthy volunteers: a phase 3, randomized, double-blind, placebo-controlled, crossover trial."
   authors: Gary G. Kay; Howard I. Schwartz; Mark A. Wingertzahn; Shyamalie Jayawardena; Russell P. Rosenberg
   year: 2016
-  pmid: '27018419'
+  pmid: "27018419"
   doi: 10.1002/hup.2530
   url: https://pubmed.ncbi.nlm.nih.gov/27018419/
   kind: Randomized double-blind placebo- and active-controlled crossover trial
@@ -1199,10 +1300,10 @@ Evidence is indication-, population-, dose-, and formulation-specific. Establish
   conflictsOfInterest: Not assessed from an accessible full disclosure.
   conflictOfInterestStatus: not-assessed
 - id: pande-social-1999
-  title: 'Treatment of social phobia with gabapentin: a placebo-controlled study.'
+  title: "Treatment of social phobia with gabapentin: a placebo-controlled study."
   authors: A. C. Pande; J. R. Davidson; J. W. Jefferson; C. A. Janney; D. J. Katzelnick; R. H. Weisler; J. H. Greist; S. M. Sutherland
   year: 1999
-  pmid: '10440462'
+  pmid: "10440462"
   doi: 10.1097/00004714-199908000-00010
   url: https://pubmed.ncbi.nlm.nih.gov/10440462/
   kind: Randomized double-blind placebo-controlled clinical trial
@@ -1216,7 +1317,7 @@ Evidence is indication-, population-, dose-, and formulation-specific. Establish
   title: Placebo-controlled study of gabapentin treatment of panic disorder.
   authors: A. C. Pande; M. H. Pollack; J. Crockatt; M. Greiner; G. Chouinard; R. B. Lydiard; C. B. Taylor; S. R. Dager; T. Shiovitz
   year: 2000
-  pmid: '10917408'
+  pmid: "10917408"
   doi: 10.1097/00004714-200008000-00011
   url: https://pubmed.ncbi.nlm.nih.gov/10917408/
   kind: Randomized double-blind placebo-controlled clinical trial
@@ -1230,7 +1331,7 @@ Evidence is indication-, population-, dose-, and formulation-specific. Establish
   title: Gabapentin for chronic neuropathic pain in adults.
   authors: Philip J. Wiffen; Sheena Derry; Rae F. Bell; Andrew S. C. Rice; Thomas Rudolf Tölle; Tudor Phillips; R. Andrew Moore
   year: 2017
-  pmid: '28597471'
+  pmid: "28597471"
   doi: 10.1002/14651858.CD007938.pub4
   url: https://pubmed.ncbi.nlm.nih.gov/28597471/
   kind: Cochrane systematic review
@@ -1276,6 +1377,14 @@ Evidence is indication-, population-, dose-, and formulation-specific. Establish
   sponsorshipStatus: not-assessed
   conflictsOfInterest: Not applicable to an official legal notice; not formally assessed.
   conflictOfInterestStatus: not-assessed
+- id: psychonautwiki
+  title: "Gabapentin: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/Gabapentin
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal

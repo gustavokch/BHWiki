@@ -9,7 +9,7 @@ pubchemCid: null
 smiles: Not established
 category: Identity record
 tags: []
-accent: '#a9b993'
+accent: "#a9b993"
 reviewedAt: 2026-10-27
 editorialStatus: sourced-draft
 halfLife:
@@ -27,37 +27,37 @@ kinetics:
   metabolism: Not established
   sourceId: optihealth-substance-019fe218-43eb-72a2-87e9-00e98fa9102f
 x-shape:
-- slug
-- name
-- subtitle
-- summary
-- description
-- aliases
-- formula
-- molecularWeight
-- pubchemCid
-- smiles
-- category
-- tags
-- accent
-- evidenceNote
-- reviewedAt
-- editorialStatus
-- halfLife
-- pkObservations
-- kinetics
-- modifiers
-- doses
-- effects
-- outcomes
-- claims
-- mechanisms
-- cautions
-- interactions
-- experienceLinks
-- references
-- legal
-- externalWikiLinks
+  - slug
+  - name
+  - subtitle
+  - summary
+  - description
+  - aliases
+  - formula
+  - molecularWeight
+  - pubchemCid
+  - smiles
+  - category
+  - tags
+  - accent
+  - evidenceNote
+  - reviewedAt
+  - editorialStatus
+  - halfLife
+  - pkObservations
+  - kinetics
+  - modifiers
+  - doses
+  - effects
+  - outcomes
+  - claims
+  - mechanisms
+  - cautions
+  - interactions
+  - experienceLinks
+  - references
+  - legal
+  - externalWikiLinks
 x-order: 1106
 ---
 
@@ -106,6 +106,156 @@ Reviewed three PubMed abstracts. No linked article had PMC full text available t
   sourceCategory: research
   sourceId: reddit-pmid-7710736
   note: Dose context was not described in the retrieved abstract.
+- label: Threshold dose
+  amount: 1 mg
+  quantity: 1
+  quantityMax: null
+  unit: mg
+  ingredient: Coluracetam
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 2–5 mg
+  quantity: 2
+  quantityMax: 5
+  unit: mg
+  ingredient: Coluracetam
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 5–10 mg
+  quantity: 5
+  quantityMax: 10
+  unit: mg
+  ingredient: Coluracetam
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 10–20 mg
+  quantity: 10
+  quantityMax: 20
+  unit: mg
+  ingredient: Coluracetam
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (20 mg and above)
+  amount: 20 mg and above
+  quantity: 20
+  quantityMax: null
+  unit: mg
+  ingredient: Coluracetam
+  formulation: Not established
+  route: Intranasal (insufflated)
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Threshold dose
+  amount: 1 mg
+  quantity: 1
+  quantityMax: null
+  unit: mg
+  ingredient: Coluracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Light dose band
+  amount: 3–5 mg
+  quantity: 3
+  quantityMax: 5
+  unit: mg
+  ingredient: Coluracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Common dose band
+  amount: 5–10 mg
+  quantity: 5
+  quantityMax: 10
+  unit: mg
+  ingredient: Coluracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Strong dose band
+  amount: 10–20 mg
+  quantity: 10
+  quantityMax: 20
+  unit: mg
+  ingredient: Coluracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
+- label: Heavy dose band (20 mg and above)
+  amount: 20 mg and above
+  quantity: 20
+  quantityMax: null
+  unit: mg
+  ingredient: Coluracetam
+  formulation: Not established
+  route: Oral
+  frequency: Not established
+  duration: Not established
+  population: Not established
+  purpose: PsychonautWiki dosage classification
+  sourceCategory: community
+  note: Band from the PsychonautWiki API snapshot built about 2026-06-23.
+  sourceId: psychonautwiki
 ```
 
 ## Pharmacokinetics
@@ -125,6 +275,43 @@ Reviewed three PubMed abstracts. No linked article had PMC full text available t
   context: This identity record does not establish a pharmacokinetic observation.
   sourceId: optihealth-substance-019fe218-43eb-72a2-87e9-00e98fa9102f
   modelEligible: false
+```
+
+## Duration
+
+```yaml
+- id: psychonautwiki-insufflated
+  measurement: subjective
+  route: Intranasal (insufflated)
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 3
+    max: 6
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 1
+      max: 5
+      unit: minutes
+- id: psychonautwiki-oral
+  measurement: subjective
+  route: Oral
+  population: Ranges compiled by PsychonautWiki contributors
+  sourceId: psychonautwiki
+  note: PsychonautWiki community duration ranges for this route.
+  total:
+    min: 3
+    max: 6
+    unit: hours
+  phases:
+    - name: onset
+      basis: elapsed-since-exposure
+      min: 15
+      max: 30
+      unit: minutes
 ```
 
 ## Modifiers
@@ -223,14 +410,14 @@ Reviewed three PubMed abstracts. No linked article had PMC full text available t
   assertion: Chronic MKC-231 improved disease-model memory outcomes in rodents.
   relation: measured-outcome
   participants:
-  - entityId: substance:coluracetam-019fe218
-    role: intervention label
-  - entityId: tag:working-memory
-    role: reported endpoint
+    - entityId: substance:coluracetam-019fe218
+      role: intervention label
+    - entityId: tag:working-memory
+      role: reported endpoint
   context: AF64A mice and PCP-exposed rats; not a human trial.
   sourceIds:
-  - reddit-pmid-7710736
-  - reddit-pmid-17467960
+    - reddit-pmid-7710736
+    - reddit-pmid-17467960
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: Preclinical models and abstract-level extraction.
@@ -238,13 +425,13 @@ Reviewed three PubMed abstracts. No linked article had PMC full text available t
   assertion: MKC-231 reduced selected glutamate-linked cytotoxicity in cultured rat cortical neurons.
   relation: measured-outcome
   participants:
-  - entityId: substance:coluracetam-019fe218
-    role: intervention label
-  - entityId: tag:neuroprotection
-    role: reported endpoint
+    - entityId: substance:coluracetam-019fe218
+      role: intervention label
+    - entityId: tag:neuroprotection
+      role: reported endpoint
   context: Cell culture experiment; concentration and translational relevance are not established.
   sourceIds:
-  - reddit-pmid-9541286
+    - reddit-pmid-9541286
   conflictingSourceIds: []
   assessment: not-formally-assessed
   limitation: In vitro model.
@@ -288,7 +475,7 @@ Reviewed three PubMed abstracts. No linked article had PMC full text available t
   url: https://pubmed.ncbi.nlm.nih.gov/7710736/
   kind: PubMed publication
   insight: Chronic oral MKC-231 improved AF64A-induced memory deficits and partially restored hippocampal acetylcholine; acute dosing was inactive.
-  pmid: '7710736'
+  pmid: "7710736"
   doi: 10.1007/BF01277590
   limitation: Full-text limitation was not available in the retrieved record; interpretation remains abstract-level.
 - id: reddit-pmid-9541286
@@ -298,7 +485,7 @@ Reviewed three PubMed abstracts. No linked article had PMC full text available t
   url: https://pubmed.ncbi.nlm.nih.gov/9541286/
   kind: PubMed publication
   insight: MKC-231 reduced glutamate and ionomycin cytotoxicity in cultured rat cortical neurons but not NO-donor toxicity.
-  pmid: '9541286'
+  pmid: "9541286"
   doi: 10.1254/jjp.76.219
   limitation: Full-text limitation was not available in the retrieved record; interpretation remains abstract-level.
 - id: reddit-pmid-17467960
@@ -308,9 +495,17 @@ Reviewed three PubMed abstracts. No linked article had PMC full text available t
   url: https://pubmed.ncbi.nlm.nih.gov/17467960/
   kind: PubMed publication
   insight: Subchronic MKC-231 antagonized PCP-induced novel-object-recognition deficits and loss of septal ChAT-positive cells in rats.
-  pmid: '17467960'
+  pmid: "17467960"
   doi: 10.1016/j.euroneuro.2007.02.011
   limitation: Full-text limitation was not available in the retrieved record; interpretation remains abstract-level.
+- id: psychonautwiki
+  title: "Coluracetam: PsychonautWiki dose and duration data"
+  authors: PsychonautWiki contributors
+  year: 2026
+  url: https://psychonautwiki.org/wiki/Coluracetam
+  kind: Community wiki data · CC BY 4.0
+  insight: Source of this page's community dose bands and subjective duration ranges, from the PsychonautWiki API snapshot built about 2026-06-23 and retrieved 2026-11-06. The structured data is used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); BHWiki normalized unit symbols and route names.
+  limitation: "PsychonautWiki states: \"PW's dosage information is gathered from users and resources for educational purposes only. It is not a recommendation and should be verified with other sources for accuracy.\" Its dose and duration values carry no per-value citations."
 ```
 
 ## Legal
@@ -318,3 +513,4 @@ Reviewed three PubMed abstracts. No linked article had PMC full text available t
 ```yaml
 []
 ```
+
