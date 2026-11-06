@@ -64,7 +64,7 @@ The workload benchmark measures article lookup, catalog filtering and bounded gr
 
 Code is [MIT](LICENSE). Original editorial content and explanatory documentation are [CC BY-SA 4.0](CONTENT-LICENSE.md); external publications and assets retain their own terms. See [content provenance](docs/content-sources.md) and [reference research](docs/reference-research.md).
 
-Wikipedia, PsychonautWiki, Effect Index and Examine informed the information architecture. BHWiki's prose is original; linked papers and proprietary or noncommercial source definitions are not licensed for redistribution by this project's code license.
+Wikipedia, PsychonautWiki, Effect Index and Examine informed the information architecture. BHWiki's prose is original. PsychonautWiki's CC BY 4.0 dose and duration ranges appear as attributed community records on matched articles; see [content provenance](docs/content-sources.md#psychonautwiki-community-data--2026-11-06). Linked papers and proprietary or noncommercial source definitions are not licensed for redistribution by this project's code license.
 
 ## Interactive research
 

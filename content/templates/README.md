@@ -12,7 +12,7 @@ Each article is one Markdown file:
 
 Effects go in `content/effects/`. Measured outcomes go in `content/outcomes/`. Other concepts go in `content/concepts/<kind>/`, and the folder must match `kind`. Relationships go in `content/relationships/`. Substances go in `content/substances/`.
 
-Keep `editorialStatus` as `sourced-draft` until a reviewer records the review. Link claims to reference ids. Use original wording. Do not copy Effect Index, PsychonautWiki, or Wikipedia prose.
+Keep `editorialStatus` as `sourced-draft` until a reviewer records the review. Link claims to reference ids. Use original wording. Do not copy Effect Index, PsychonautWiki, or Wikipedia prose. Records with `sourceId: psychonautwiki` come from `bun run content:psychonautwiki`; change the snapshot or crosswalk instead of editing them by hand.
 
 A published substance needs at least one non-identity source reference or a source-linked research, safety, legal, interaction, or identification record. A PubChem identity record alone is not published as an article.
 

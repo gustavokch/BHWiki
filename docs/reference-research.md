@@ -41,7 +41,7 @@ A relationship such as **caffeine + CYP1A2 + tobacco-smoke exposure → clearanc
 
 - BHWiki code is MIT; original editorial prose is CC BY-SA 4.0. See [content licensing](../CONTENT-LICENSE.md) and [source/asset provenance](content-sources.md).
 - [Wikipedia reuse guidance](https://www.mediawiki.org/wiki/Wikimedia_APIs/Content_reuse) requires attention to attribution, modifications and applicable licenses; images may differ. BHWiki does not copy its prose.
-- [PsychonautWiki's copyright page](https://psychonautwiki.org/wiki/Copyrights) describes different licenses for text, semantic data and some exceptions. Its API's software license does not automatically cover returned content. BHWiki authors its own descriptions.
+- [PsychonautWiki's copyright page](https://psychonautwiki.org/wiki/Copyrights) licenses text under CC BY-SA 4.0 and semantic data under CC BY 4.0, with exceptions for files, experience reports and some third-party articles. Its API's MIT software license does not cover returned content. BHWiki authors its own descriptions and imports only attributed dose and duration ranges; see [content provenance](content-sources.md#psychonautwiki-community-data--2026-11-06).
 - [Effect Index](https://effectindex.com/effects) identifies noncommercial share-alike terms. Those terms are not permission to incorporate its expressive definitions or illustrations into BHWiki's separately licensed content. Its ontology is a structural reference.
 - The accessible Examine pages did not establish an open redistribution license for its database. Link to the source and author original summaries from accessible publications.
 
