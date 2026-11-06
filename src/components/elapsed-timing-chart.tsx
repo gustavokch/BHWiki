@@ -141,7 +141,7 @@ export function ElapsedTimingChart({ route }: ElapsedTimingChartProps) {
   if (!phases.length) return null;
 
   return (
-    <figure className="elapsed-timing-chart" aria-label={`Measured elapsed timing for ${route.analyte ?? "the reported analyte"}`}>
+    <figure className="elapsed-timing-chart" aria-label={route.measurement === "subjective" ? "Reported subjective timing since exposure" : `Measured elapsed timing for ${route.analyte ?? "the reported analyte"}`}>
       <figcaption className="elapsed-timing-chart-heading">
         <div>
           <strong>Elapsed timing</strong>

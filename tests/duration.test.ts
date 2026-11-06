@@ -54,6 +54,25 @@ test("the timeline retains cited prose and requires elapsed semantics for a char
   assert.match(timed, /3–6 h/);
   assert.match(timed, /Oral caffeine is rapidly absorbed/);
   assert.doesNotMatch(timed, /Not established as a numeric timeline/);
+  const subjectiveElapsed = renderToStaticMarkup(createElement(DurationTimeline, {
+    accent: caffeine.accent,
+    kinetics: {
+      ...caffeine.kinetics,
+      timeline: [{
+        measurement: "subjective",
+        route: "Oral",
+        population: "Fixture",
+        sourceId: caffeine.kinetics.sourceId,
+        note: "Fixture",
+        total: { min: 4, max: 8, unit: "hours" },
+        phases: [{ name: "onset", basis: "elapsed-since-exposure", min: 30, max: 90, unit: "minutes" }],
+      }],
+    },
+    citationFor: () => createElement("span", null, "source"),
+  }));
+  assert.match(subjectiveElapsed, /4–8 h/);
+  assert.match(subjectiveElapsed, /Reported subjective timing since exposure/);
+  assert.doesNotMatch(subjectiveElapsed, /Measured elapsed timing/);
 });
 
 test("a duration route must cite a reference on the article", () => {

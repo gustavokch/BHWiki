@@ -57,7 +57,12 @@ function RouteTiming({
       </CardHeader>
       <CardContent className="flex flex-col gap-4">
         <p>{route.population}</p>
-        {elapsed.length > 0 ? <ElapsedTimingChart route={route} /> : <TimingSourceSummary values={[
+        {elapsed.length > 0 ? (
+          <>
+            <ElapsedTimingChart route={route} />
+            <TimingSourceSummary values={[{ label: "Reported window", value: formatSpan(route.total) }]} />
+          </>
+        ) : <TimingSourceSummary values={[
           ...route.phases.map((phase) => ({ label: durationPhaseLabels[phase.name], value: formatSpan(phase) })),
           { label: "Reported window", value: formatSpan(route.total) },
         ]} />}

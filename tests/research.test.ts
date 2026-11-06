@@ -90,6 +90,13 @@ test("evidence keys are independent of order and explicit IDs survive correction
   assert.equal(evidence.conflictingSources.length, 1);
   assert.equal(evidence.result?.estimate, -2);
   assert.equal(evidence.context.find(c => c.label === "Reported magnitude")?.value, "-2 points (mean difference); 95% CI -3–-1");
+  const lsd = substances.find((substance) => substance.slug === "lsd")!;
+  const lsdDoseEvidence = articleEvidence(lsd).filter((record) => record.kind === "dose");
+  assert.ok(lsdDoseEvidence.length > 0);
+  assert.equal(
+    lsdDoseEvidence.some((record) => record.context.some((item) => /^not established\.?$/i.test(item.value))),
+    false,
+  );
 });
 test("filters apply before pagination and expose unassessed metadata", () => {
   const { caffeine, observation } = researchFixture();
